@@ -1,0 +1,148 @@
+{
+  "status": "passed",
+  "part_count": 10,
+  "parts": [
+    {
+      "id": "three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth_version_4",
+      "extents_mm": [
+        126.0,
+        70.5,
+        15.0
+      ],
+      "volume_mm3": 29850.267092223385,
+      "expected_volume_mm3": 29850.267108653934,
+      "closed_mesh": true,
+      "consistent_winding": true,
+      "connected_bodies": 1
+    },
+    {
+      "id": "three_d_print_filament_manufacture_cooling_tank_cap_end_solide_6_mm_depth_version_4",
+      "extents_mm": [
+        126.0,
+        70.5,
+        6.0
+      ],
+      "volume_mm3": 25293.35898312743,
+      "expected_volume_mm3": 25293.358987830125,
+      "closed_mesh": true,
+      "consistent_winding": true,
+      "connected_bodies": 1
+    },
+    {
+      "id": "three_d_print_filament_manufacture_cooling_tank_cap_end_open_15_mm_depth_version_6",
+      "extents_mm": [
+        126.0,
+        70.5,
+        15.0
+      ],
+      "volume_mm3": 27710.85164716784,
+      "expected_volume_mm3": 27710.851663925598,
+      "closed_mesh": true,
+      "consistent_winding": true,
+      "connected_bodies": 1
+    },
+    {
+      "id": "three_d_print_filament_manufacture_cooling_tank_cap_end_open_6_mm_depth_version_6",
+      "extents_mm": [
+        126.0,
+        70.5,
+        6.0
+      ],
+      "volume_mm3": 23153.94353807188,
+      "expected_volume_mm3": 23153.943543101785,
+      "closed_mesh": true,
+      "consistent_winding": true,
+      "connected_bodies": 1
+    },
+    {
+      "id": "three_d_print_filament_manufacture_cooling_tank_cap_cover_3_by_3_oobb_3_mm_thickness_version_1",
+      "extents_mm": [
+        44.0,
+        43.98026728428272,
+        3.0
+      ],
+      "volume_mm3": 5065.70360689664,
+      "expected_volume_mm3": 5065.703607223756,
+      "closed_mesh": true,
+      "consistent_winding": true,
+      "connected_bodies": 1
+    },
+    {
+      "id": "three_d_print_filament_manufacture_cooling_tank_gutter_square_114_mm_width_3000_mm_length_version_2",
+      "extents_mm": [
+        114.0,
+        58.5,
+        3000.0
+      ],
+      "volume_mm3": 1354080.0548640369,
+      "expected_volume_mm3": 1354080.0566251886,
+      "closed_mesh": true,
+      "consistent_winding": true,
+      "connected_bodies": 1
+    },
+    {
+      "id": "three_d_print_filament_manufacture_cooling_tank_gutter_square_114_mm_width_1000_mm_length_version_2",
+      "extents_mm": [
+        114.0,
+        58.5,
+        1000.0
+      ],
+      "volume_mm3": 451360.01828801277,
+      "expected_volume_mm3": 451360.0188750629,
+      "closed_mesh": true,
+      "consistent_winding": true,
+      "connected_bodies": 1
+    },
+    {
+      "id": "three_d_print_filament_manufacture_cooling_tank_gutter_square_114_mm_width_500_mm_length_version_2",
+      "extents_mm": [
+        114.0,
+        58.5,
+        500.0
+      ],
+      "volume_mm3": 225680.00914400638,
+      "expected_volume_mm3": 225680.00943753144,
+      "closed_mesh": true,
+      "consistent_winding": true,
+      "connected_bodies": 1
+    },
+    {
+      "id": "three_d_print_filament_manufacture_cooling_tank_gutter_square_114_mm_width_300_mm_length_version_2",
+      "extents_mm": [
+        114.0,
+        58.5,
+        300.0
+      ],
+      "volume_mm3": 135408.0054864038,
+      "expected_volume_mm3": 135408.00566251884,
+      "closed_mesh": true,
+      "consistent_winding": true,
+      "connected_bodies": 1
+    },
+    {
+      "id": "three_d_print_filament_manufacture_cooling_tank_lifter_75_mm_lift_height_9_mm_thickness_30_mm_support_thickness_version_4",
+      "extents_mm": [
+        109.5,
+        90.75,
+        15.0
+      ],
+      "volume_mm3": 55833.386035602634,
+      "expected_volume_mm3": 55833.386035374315,
+      "closed_mesh": true,
+      "consistent_winding": true,
+      "connected_bodies": 1
+    }
+  ],
+  "seal": {
+    "matching_faces_checked_in_assembly": true,
+    "cap_groove_face": "inside",
+    "mating_plane_z_mm": 3.0,
+    "cord_diameter_mm": 2.0,
+    "groove_width_mm": 2.4,
+    "groove_depth_per_face_mm": 0.8,
+    "nominal_compression_percent": 19.999999999999996,
+    "nominal_gland_fill_percent": 81.81230868723421,
+    "cord_length_to_top_mm": 93.16924582022472
+  },
+  "scope": "Digital geometry only; actual gutter fit, lifter load capacity and water sealing are untested."
+}

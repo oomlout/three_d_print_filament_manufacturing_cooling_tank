@@ -1,0 +1,202 @@
+- oobb_type: cap_end_solide
+  taxonomy_4: cap_end_solide
+  taxonomy_5: 15_mm_depth
+  taxonomy_6: version_3
+  depth: 15
+  total_depth_mm: 15
+  front_plate_mm: 3.0
+  ledge_wall_mm: 3.0
+  insertion_depth_mm: 12.0
+  fit_clearance_mm: 0.0
+  ledge_top_setback_mm: 9.5
+  ledge_ignore_clip: true
+  part_role: printed_solid_end_cap
+  description: Solid blank cap, 15 mm total depth; 3 mm face and 12 mm insertion,
+    3 mm U-shaped ledge.
+  print_orientation: Flat exterior face on bed at Z=0; ledge upward; no supports required
+    by geometry.
+  profile_width_mm: 114.0
+  profile_height_mm: 58.5
+  gutter_wall_mm: 2.25
+  shoulder_height_mm: 37.5
+  bottom_virtual_width_mm: 75.0
+  shoulder_radius_mm: 3.0
+  lip_projection_mm: 2.0
+  lip_height_mm: 5.0
+  lip_tip_drop_mm: 4.0
+  curve_step_degrees: 1.0
+  bottom_radius_mm: 7.75
+  inside_bottom_diameter_mm: 11.0
+  fit_revision: 3
+  fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+  width: 114.0
+  height: 58.5
+  width_mm: 114.0
+  height_mm: 58.5
+  taxonomy_1: three_d_print
+  taxonomy_2: filament_manufacture
+  taxonomy_3: cooling_tank
+  oobb_name: cap_end_solide
+  depth_mm: 15
+  run_scad: true
+  run_solidcraft: false
+  profile_status: cap_trial_5_5_mm_inside_bottom_radius_flat_wall_ends_9_5_mm_below_rim
+  profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+  profile_image_local: source_file/floplast/square_gutter_profile.jpg
+  product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+  dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+    supplied by user.
+  fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+    sealing; drawing does not establish a perfect physical match.
+  oobb_details:
+    oobb_type: cap_end_solide
+    taxonomy_4: cap_end_solide
+    taxonomy_5: 15_mm_depth
+    taxonomy_6: version_3
+    depth: 15
+    total_depth_mm: 15
+    front_plate_mm: 3.0
+    ledge_wall_mm: 3.0
+    insertion_depth_mm: 12.0
+    fit_clearance_mm: 0.0
+    ledge_top_setback_mm: 9.5
+    ledge_ignore_clip: true
+    part_role: printed_solid_end_cap
+    description: Solid blank cap, 15 mm total depth; 3 mm face and 12 mm insertion,
+      3 mm U-shaped ledge.
+    print_orientation: Flat exterior face on bed at Z=0; ledge upward; no supports
+      required by geometry.
+    profile_width_mm: 114.0
+    profile_height_mm: 58.5
+    gutter_wall_mm: 2.25
+    shoulder_height_mm: 37.5
+    bottom_virtual_width_mm: 75.0
+    shoulder_radius_mm: 3.0
+    lip_projection_mm: 2.0
+    lip_height_mm: 5.0
+    lip_tip_drop_mm: 4.0
+    curve_step_degrees: 1.0
+    bottom_radius_mm: 7.75
+    inside_bottom_diameter_mm: 11.0
+    fit_revision: 3
+    fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+    width: 114.0
+    height: 58.5
+    width_mm: 114.0
+    height_mm: 58.5
+    taxonomy_1: three_d_print
+    taxonomy_2: filament_manufacture
+    taxonomy_3: cooling_tank
+    oobb_name: cap_end_solide
+    depth_mm: 15
+    run_scad: true
+    run_solidcraft: false
+    profile_status: cap_trial_5_5_mm_inside_bottom_radius_flat_wall_ends_9_5_mm_below_rim
+    profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+    profile_image_local: source_file/floplast/square_gutter_profile.jpg
+    product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+    dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+      supplied by user.
+    fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+      sealing; drawing does not establish a perfect physical match.
+- oobb_type: cap_end_solide
+  taxonomy_4: cap_end_solide
+  taxonomy_5: 6_mm_depth
+  taxonomy_6: version_3
+  depth: 6
+  total_depth_mm: 6
+  front_plate_mm: 3.0
+  ledge_wall_mm: 3.0
+  insertion_depth_mm: 3.0
+  fit_clearance_mm: 0.0
+  ledge_top_setback_mm: 9.5
+  ledge_ignore_clip: true
+  part_role: printed_solid_end_cap
+  description: Solid blank cap, 6 mm total depth; 3 mm face and 3 mm insertion, 3
+    mm U-shaped ledge.
+  print_orientation: Flat exterior face on bed at Z=0; ledge upward; no supports required
+    by geometry.
+  profile_width_mm: 114.0
+  profile_height_mm: 58.5
+  gutter_wall_mm: 2.25
+  shoulder_height_mm: 37.5
+  bottom_virtual_width_mm: 75.0
+  shoulder_radius_mm: 3.0
+  lip_projection_mm: 2.0
+  lip_height_mm: 5.0
+  lip_tip_drop_mm: 4.0
+  curve_step_degrees: 1.0
+  bottom_radius_mm: 7.75
+  inside_bottom_diameter_mm: 11.0
+  fit_revision: 3
+  fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+  width: 114.0
+  height: 58.5
+  width_mm: 114.0
+  height_mm: 58.5
+  taxonomy_1: three_d_print
+  taxonomy_2: filament_manufacture
+  taxonomy_3: cooling_tank
+  oobb_name: cap_end_solide
+  depth_mm: 6
+  run_scad: true
+  run_solidcraft: false
+  profile_status: cap_trial_5_5_mm_inside_bottom_radius_flat_wall_ends_9_5_mm_below_rim
+  profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+  profile_image_local: source_file/floplast/square_gutter_profile.jpg
+  product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+  dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+    supplied by user.
+  fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+    sealing; drawing does not establish a perfect physical match.
+  oobb_details:
+    oobb_type: cap_end_solide
+    taxonomy_4: cap_end_solide
+    taxonomy_5: 6_mm_depth
+    taxonomy_6: version_3
+    depth: 6
+    total_depth_mm: 6
+    front_plate_mm: 3.0
+    ledge_wall_mm: 3.0
+    insertion_depth_mm: 3.0
+    fit_clearance_mm: 0.0
+    ledge_top_setback_mm: 9.5
+    ledge_ignore_clip: true
+    part_role: printed_solid_end_cap
+    description: Solid blank cap, 6 mm total depth; 3 mm face and 3 mm insertion,
+      3 mm U-shaped ledge.
+    print_orientation: Flat exterior face on bed at Z=0; ledge upward; no supports
+      required by geometry.
+    profile_width_mm: 114.0
+    profile_height_mm: 58.5
+    gutter_wall_mm: 2.25
+    shoulder_height_mm: 37.5
+    bottom_virtual_width_mm: 75.0
+    shoulder_radius_mm: 3.0
+    lip_projection_mm: 2.0
+    lip_height_mm: 5.0
+    lip_tip_drop_mm: 4.0
+    curve_step_degrees: 1.0
+    bottom_radius_mm: 7.75
+    inside_bottom_diameter_mm: 11.0
+    fit_revision: 3
+    fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+    width: 114.0
+    height: 58.5
+    width_mm: 114.0
+    height_mm: 58.5
+    taxonomy_1: three_d_print
+    taxonomy_2: filament_manufacture
+    taxonomy_3: cooling_tank
+    oobb_name: cap_end_solide
+    depth_mm: 6
+    run_scad: true
+    run_solidcraft: false
+    profile_status: cap_trial_5_5_mm_inside_bottom_radius_flat_wall_ends_9_5_mm_below_rim
+    profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+    profile_image_local: source_file/floplast/square_gutter_profile.jpg
+    product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+    dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+      supplied by user.
+    fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+      sealing; drawing does not establish a perfect physical match.

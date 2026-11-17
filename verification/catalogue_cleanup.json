@@ -1,0 +1,56 @@
+{
+  "selected_latest": [
+    {
+      "old_id": "three_d_print_filament_manufacture_cooling_tank_cap_cover_3_by_3_oobb_3_mm_thickness_version_1",
+      "new_id": "three_d_print_filament_manufacture_cooling_tank_cap_cover_3_by_3_oobb_3_mm_thickness",
+      "stl_sha256": "00026efd1f5e595b3a97c2925ab4da9e98eec7b8e4ab3314a9b14c5aa5fb363a"
+    },
+    {
+      "old_id": "three_d_print_filament_manufacture_cooling_tank_cap_end_open_15_mm_depth_version_6",
+      "new_id": "three_d_print_filament_manufacture_cooling_tank_cap_end_open_15_mm_depth",
+      "stl_sha256": "a3a2ccb242711778697f4eaa904045dddb0db00b9f446cf5551f56953a1fd2e8"
+    },
+    {
+      "old_id": "three_d_print_filament_manufacture_cooling_tank_cap_end_open_6_mm_depth_version_6",
+      "new_id": "three_d_print_filament_manufacture_cooling_tank_cap_end_open_6_mm_depth",
+      "stl_sha256": "23fe5e91896aa4b2194d2e24830b7a6716502ab70f8d440d709314dffad9a0f6"
+    },
+    {
+      "old_id": "three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth_version_4",
+      "new_id": "three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth",
+      "stl_sha256": "50c08ea7987f156d32fdec80383ed5ded32b231cadc72f0b9d8a35acddd6377b"
+    },
+    {
+      "old_id": "three_d_print_filament_manufacture_cooling_tank_cap_end_solide_6_mm_depth_version_4",
+      "new_id": "three_d_print_filament_manufacture_cooling_tank_cap_end_solide_6_mm_depth",
+      "stl_sha256": "e9ae58421066cf15ce632bf9402bc2675ac04615ba9b0b8b9978a4d867c3949b"
+    },
+    {
+      "old_id": "three_d_print_filament_manufacture_cooling_tank_gutter_square_114_mm_width_1000_mm_length_version_2",
+      "new_id": "three_d_print_filament_manufacture_cooling_tank_gutter_square_114_mm_width_1000_mm_length",
+      "stl_sha256": "2233dfbed125546f1431f0b9add168cbfa62106410bd5a62bbb7471113424f9a"
+    },
+    {
+      "old_id": "three_d_print_filament_manufacture_cooling_tank_gutter_square_114_mm_width_3000_mm_length_version_2",
+      "new_id": "three_d_print_filament_manufacture_cooling_tank_gutter_square_114_mm_width_3000_mm_length",
+      "stl_sha256": "98851324be31f1b1d612d01994b16593b978d2d72ab6aef955151bfd1ac670c2"
+    },
+    {
+      "old_id": "three_d_print_filament_manufacture_cooling_tank_gutter_square_114_mm_width_300_mm_length_version_2",
+      "new_id": "three_d_print_filament_manufacture_cooling_tank_gutter_square_114_mm_width_300_mm_length",
+      "stl_sha256": "1a009ab62f786cafeaa09d9482ff50a116fdcc6bdfc6941b52501c52dc6e3f58"
+    },
+    {
+      "old_id": "three_d_print_filament_manufacture_cooling_tank_gutter_square_114_mm_width_500_mm_length_version_2",
+      "new_id": "three_d_print_filament_manufacture_cooling_tank_gutter_square_114_mm_width_500_mm_length",
+      "stl_sha256": "952f51ff366a767261de4311399a78f4ba9724e98c678dc5520204c053c35b04"
+    },
+    {
+      "old_id": "three_d_print_filament_manufacture_cooling_tank_lifter_75_mm_lift_height_9_mm_thickness_30_mm_support_thickness_version_4",
+      "new_id": "three_d_print_filament_manufacture_cooling_tank_lifter_75_mm_lift_height_9_mm_thickness_30_mm_support_thickness",
+      "stl_sha256": "a741c49bac92da04589c8f5142f49b1662a775d4d206a89dca41765ed2c911e5"
+    }
+  ],
+  "old_part_directories": 27,
+  "new_part_count": 10
+}

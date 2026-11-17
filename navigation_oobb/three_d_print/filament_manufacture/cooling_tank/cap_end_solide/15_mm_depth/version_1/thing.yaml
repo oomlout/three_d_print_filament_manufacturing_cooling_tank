@@ -1,0 +1,3788 @@
+bip_39_2_word_array:
+- cream
+- indoor
+bip_39_2_word_no_space: creamindoor
+bip_39_2_word_space: cream indoor
+bip_39_2_word_underscore: cream_indoor
+bip_39_3_word_array:
+- cream
+- indoor
+- feel
+bip_39_3_word_no_space: creamindoorfeel
+bip_39_3_word_space: cream indoor feel
+bip_39_3_word_underscore: cream_indoor_feel
+bip_39_full_array:
+- cream
+- indoor
+- feel
+- state
+- fade
+- bachelor
+- actor
+- pet
+- good
+- among
+- avocado
+- again
+bip_39_full_no_space: creamindoorfeelstatefadebacheloractorpetgoodamongavocadoagain
+bip_39_full_space: cream indoor feel state fade bachelor actor pet good among avocado
+  again
+bip_39_full_underscore: cream_indoor_feel_state_fade_bachelor_actor_pet_good_among_avocado_again
+bottom_radius_mm: 7.0
+bottom_virtual_width_mm: 75.0
+curve_step_degrees: 1.0
+depth: 15
+depth_mm: 15
+description: Solid blank cap, 15 mm total depth; 3 mm face and 12 mm insertion, 3
+  mm U-shaped ledge.
+dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness supplied
+  by user.
+directory: parts/three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth_version_1
+filter: cap_
+fit_clearance_mm: 0.0
+fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before sealing;
+  drawing does not establish a perfect physical match.
+front_plate_mm: 3.0
+gutter_wall_mm: 2.25
+height: 58.5
+height_mm: 58.5
+id: three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth_version_1
+id_no_class: three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth_version_1
+id_no_size: three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth_version_1
+id_no_type: three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth_version_1
+id_oobb: three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth_version_1
+insertion_depth_mm: 12.0
+kwargs:
+  bottom_radius_mm: 7.0
+  bottom_virtual_width_mm: 75.0
+  curve_step_degrees: 1.0
+  depth: 15
+  depth_mm: 15
+  description: Solid blank cap, 15 mm total depth; 3 mm face and 12 mm insertion,
+    3 mm U-shaped ledge.
+  dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+    supplied by user.
+  filter: cap_
+  fit_clearance_mm: 0.0
+  fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+    sealing; drawing does not establish a perfect physical match.
+  front_plate_mm: 3.0
+  gutter_wall_mm: 2.25
+  height: 58.5
+  height_mm: 58.5
+  insertion_depth_mm: 12.0
+  ledge_wall_mm: 3.0
+  lip_height_mm: 5.0
+  lip_projection_mm: 2.0
+  lip_tip_drop_mm: 4.0
+  modes:
+  - 3dpr
+  navigation: true
+  oobb_name: cap_end_solide
+  oomp_mode: project
+  oomp_run: true
+  overwrite: true
+  part_role: printed_solid_end_cap
+  print_orientation: Flat exterior face on bed at Z=0; ledge upward; no supports required
+    by geometry.
+  product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+  profile_height_mm: 58.5
+  profile_image_local: source_file/floplast/square_gutter_profile.jpg
+  profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+  profile_status: dimensioned_envelope_with_estimated_radii_shoulders_and_lips
+  profile_width_mm: 114.0
+  shoulder_height_mm: 37.5
+  shoulder_radius_mm: 3.0
+  taxonomy_1: three_d_print
+  taxonomy_2: filament_manufacture
+  taxonomy_3: cooling_tank
+  taxonomy_4: cap_end_solide
+  taxonomy_5: 15_mm_depth
+  taxonomy_6: version_1
+  total_depth_mm: 15
+  typ: all
+  wait_for_completion: true
+  width: 114.0
+  width_mm: 114.0
+ledge_wall_mm: 3.0
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth_version_1
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth_version_1
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth_version_1
+lip_height_mm: 5.0
+lip_projection_mm: 2.0
+lip_tip_drop_mm: 4.0
+md5: 32ee61536a651c2240ad1b6460fc3f82
+md5_10: 32ee61536a
+md5_10_upper: 32EE61536A
+md5_5: 32ee6
+md5_5_upper: 32EE6
+md5_6: 32ee61
+md5_6_alpha: 1zjhd
+md5_6_alpha_upper: 1ZJHD
+md5_6_upper: 32EE61
+name: Three D Print Filament Manufacture Cooling Tank Cap End Solide 15 Mm Depth Version
+  1
+name_no_class: Three D Print Filament Manufacture Cooling Tank Cap End Solide 15 Mm
+  Depth Version 1
+name_no_size: Three D Print Filament Manufacture Cooling Tank Cap End Solide 15 Mm
+  Depth Version 1
+name_no_type: Three D Print Filament Manufacture Cooling Tank Cap End Solide 15 Mm
+  Depth Version 1
+name_proper: Three D Print Filament Manufacture Cooling Tank Cap End Solide 15 Mm
+  Depth Version 1
+name_space: three d print filament manufacture cooling tank cap end solide 15 mm depth
+  version 1
+name_upper: THREE D PRINT FILAMENT MANUFACTURE COOLING TANK CAP END SOLIDE 15 MM DEPTH
+  VERSION 1
+oobb_details:
+  bottom_radius_mm: 7.0
+  bottom_virtual_width_mm: 75.0
+  curve_step_degrees: 1.0
+  depth: 15
+  depth_mm: 15
+  description: Solid blank cap, 15 mm total depth; 3 mm face and 12 mm insertion,
+    3 mm U-shaped ledge.
+  dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+    supplied by user.
+  fit_clearance_mm: 0.0
+  fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+    sealing; drawing does not establish a perfect physical match.
+  front_plate_mm: 3.0
+  gutter_wall_mm: 2.25
+  height: 58.5
+  height_mm: 58.5
+  insertion_depth_mm: 12.0
+  ledge_wall_mm: 3.0
+  lip_height_mm: 5.0
+  lip_projection_mm: 2.0
+  lip_tip_drop_mm: 4.0
+  oobb_name: cap_end_solide
+  oobb_type: cap_end_solide
+  part_role: printed_solid_end_cap
+  print_orientation: Flat exterior face on bed at Z=0; ledge upward; no supports required
+    by geometry.
+  product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+  profile_height_mm: 58.5
+  profile_image_local: source_file/floplast/square_gutter_profile.jpg
+  profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+  profile_status: dimensioned_envelope_with_estimated_radii_shoulders_and_lips
+  profile_width_mm: 114.0
+  run_scad: true
+  run_solidcraft: false
+  shoulder_height_mm: 37.5
+  shoulder_radius_mm: 3.0
+  taxonomy_1: three_d_print
+  taxonomy_2: filament_manufacture
+  taxonomy_3: cooling_tank
+  taxonomy_4: cap_end_solide
+  taxonomy_5: 15_mm_depth
+  taxonomy_6: version_1
+  total_depth_mm: 15
+  width: 114.0
+  width_mm: 114.0
+oobb_name: cap_end_solide
+oobb_type: cap_end_solide
+oomlout_ai_roboclick_1:
+  action_name: step_0_jinja_template_label_oomp.svg
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      bottom_radius_mm: 7.0
+      bottom_virtual_width_mm: 75.0
+      curve_step_degrees: 1.0
+      depth: 15
+      depth_mm: 15
+      description: Solid blank cap, 15 mm total depth; 3 mm face and 12 mm insertion,
+        3 mm U-shaped ledge.
+      dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+        supplied by user.
+      directory: parts\three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth_version_1
+      fit_clearance_mm: 0.0
+      fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+        sealing; drawing does not establish a perfect physical match.
+      front_plate_mm: 3.0
+      gutter_wall_mm: 2.25
+      height: 58.5
+      height_mm: 58.5
+      insertion_depth_mm: 12.0
+      ledge_wall_mm: 3.0
+      lip_height_mm: 5.0
+      lip_projection_mm: 2.0
+      lip_tip_drop_mm: 4.0
+      name: three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth_version_1
+      name_proper: Three D Print Filament Manufacture Cooling Tank Cap End Solide
+        15 Mm Depth Version 1
+      name_space: three d print filament manufacture cooling tank cap end solide 15
+        mm depth version 1
+      name_upper: THREE D PRINT FILAMENT MANUFACTURE COOLING TANK CAP END SOLIDE 15
+        MM DEPTH VERSION 1
+      oobb_details:
+        bottom_radius_mm: 7.0
+        bottom_virtual_width_mm: 75.0
+        curve_step_degrees: 1.0
+        depth: 15
+        depth_mm: 15
+        description: Solid blank cap, 15 mm total depth; 3 mm face and 12 mm insertion,
+          3 mm U-shaped ledge.
+        dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+          supplied by user.
+        fit_clearance_mm: 0.0
+        fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit
+          before sealing; drawing does not establish a perfect physical match.
+        front_plate_mm: 3.0
+        gutter_wall_mm: 2.25
+        height: 58.5
+        height_mm: 58.5
+        insertion_depth_mm: 12.0
+        ledge_wall_mm: 3.0
+        lip_height_mm: 5.0
+        lip_projection_mm: 2.0
+        lip_tip_drop_mm: 4.0
+        oobb_name: cap_end_solide
+        oobb_type: cap_end_solide
+        part_role: printed_solid_end_cap
+        print_orientation: Flat exterior face on bed at Z=0; ledge upward; no supports
+          required by geometry.
+        product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+        profile_height_mm: 58.5
+        profile_image_local: source_file/floplast/square_gutter_profile.jpg
+        profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+        profile_status: dimensioned_envelope_with_estimated_radii_shoulders_and_lips
+        profile_width_mm: 114.0
+        run_scad: true
+        run_solidcraft: false
+        shoulder_height_mm: 37.5
+        shoulder_radius_mm: 3.0
+        taxonomy_1: three_d_print
+        taxonomy_2: filament_manufacture
+        taxonomy_3: cooling_tank
+        taxonomy_4: cap_end_solide
+        taxonomy_5: 15_mm_depth
+        taxonomy_6: version_1
+        total_depth_mm: 15
+        width: 114.0
+        width_mm: 114.0
+      oobb_name: cap_end_solide
+      oobb_type: cap_end_solide
+      part_role: printed_solid_end_cap
+      print_orientation: Flat exterior face on bed at Z=0; ledge upward; no supports
+        required by geometry.
+      product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+      profile_height_mm: 58.5
+      profile_image_local: source_file/floplast/square_gutter_profile.jpg
+      profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+      profile_status: dimensioned_envelope_with_estimated_radii_shoulders_and_lips
+      profile_width_mm: 114.0
+      run_scad: true
+      run_solidcraft: false
+      shoulder_height_mm: 37.5
+      shoulder_radius_mm: 3.0
+      taxonomy_1: three_d_print
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: filament_manufacture
+      taxonomy_3: cooling_tank
+      taxonomy_4: cap_end_solide
+      taxonomy_5: 15_mm_depth
+      taxonomy_6: version_1
+      taxonomy_7: ''
+      taxonomy_8: ''
+      taxonomy_9: ''
+      total_depth_mm: 15
+      url_chat: ''
+      width: 114.0
+      width_mm: 114.0
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\gh\three_d_print_filament_manufacturing_cooling_tank\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomp_key: oomp_three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth_version_1
+part_role: printed_solid_end_cap
+print_orientation: Flat exterior face on bed at Z=0; ledge upward; no supports required
+  by geometry.
+product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+profile_height_mm: 58.5
+profile_image_local: source_file/floplast/square_gutter_profile.jpg
+profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+profile_status: dimensioned_envelope_with_estimated_radii_shoulders_and_lips
+profile_width_mm: 114.0
+project_name: C:\gh\three_d_print_filament_manufacturing_cooling_tank
+run_scad: true
+run_solidcraft: false
+shoulder_height_mm: 37.5
+shoulder_radius_mm: 3.0
+taxonomy_1: three_d_print
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Three D Print
+taxonomy_1_first_letter: t
+taxonomy_1_first_letter_upper: T
+taxonomy_1_length_1: t
+taxonomy_1_length_2: th
+taxonomy_1_length_3: thr
+taxonomy_1_length_4: thre
+taxonomy_1_length_5: three
+taxonomy_1_upper: THREE_D_PRINT
+taxonomy_1_upper_length_1: T
+taxonomy_1_upper_length_2: TH
+taxonomy_1_upper_length_3: THR
+taxonomy_1_upper_length_4: THRE
+taxonomy_1_upper_length_5: THREE
+taxonomy_2: filament_manufacture
+taxonomy_2_capital: Filament Manufacture
+taxonomy_2_first_letter: f
+taxonomy_2_first_letter_upper: F
+taxonomy_2_length_1: f
+taxonomy_2_length_2: fi
+taxonomy_2_length_3: fil
+taxonomy_2_length_4: fila
+taxonomy_2_length_5: filam
+taxonomy_2_upper: FILAMENT_MANUFACTURE
+taxonomy_2_upper_length_1: F
+taxonomy_2_upper_length_2: FI
+taxonomy_2_upper_length_3: FIL
+taxonomy_2_upper_length_4: FILA
+taxonomy_2_upper_length_5: FILAM
+taxonomy_3: cooling_tank
+taxonomy_3_capital: Cooling Tank
+taxonomy_3_first_letter: c
+taxonomy_3_first_letter_upper: C
+taxonomy_3_length_1: c
+taxonomy_3_length_2: co
+taxonomy_3_length_3: coo
+taxonomy_3_length_4: cool
+taxonomy_3_length_5: cooli
+taxonomy_3_upper: COOLING_TANK
+taxonomy_3_upper_length_1: C
+taxonomy_3_upper_length_2: CO
+taxonomy_3_upper_length_3: COO
+taxonomy_3_upper_length_4: COOL
+taxonomy_3_upper_length_5: COOLI
+taxonomy_4: cap_end_solide
+taxonomy_4_capital: Cap End Solide
+taxonomy_4_first_letter: c
+taxonomy_4_first_letter_upper: C
+taxonomy_4_length_1: c
+taxonomy_4_length_2: ca
+taxonomy_4_length_3: cap
+taxonomy_4_length_4: cap_
+taxonomy_4_length_5: cap_e
+taxonomy_4_upper: CAP_END_SOLIDE
+taxonomy_4_upper_length_1: C
+taxonomy_4_upper_length_2: CA
+taxonomy_4_upper_length_3: CAP
+taxonomy_4_upper_length_4: CAP_
+taxonomy_4_upper_length_5: CAP_E
+taxonomy_5: 15_mm_depth
+taxonomy_5_capital: 15 mm Depth
+taxonomy_5_first_letter: '1'
+taxonomy_5_first_letter_upper: '1'
+taxonomy_5_length_1: '1'
+taxonomy_5_length_2: '15'
+taxonomy_5_length_3: '15_'
+taxonomy_5_length_4: 15_m
+taxonomy_5_length_5: 15_mm
+taxonomy_5_upper: 15_MM_DEPTH
+taxonomy_5_upper_length_1: '1'
+taxonomy_5_upper_length_2: '15'
+taxonomy_5_upper_length_3: '15_'
+taxonomy_5_upper_length_4: 15_M
+taxonomy_5_upper_length_5: 15_MM
+taxonomy_6: version_1
+taxonomy_6_capital: Version 1
+taxonomy_6_first_letter: v
+taxonomy_6_first_letter_upper: V
+taxonomy_6_length_1: v
+taxonomy_6_length_2: ve
+taxonomy_6_length_3: ver
+taxonomy_6_length_4: vers
+taxonomy_6_length_5: versi
+taxonomy_6_upper: VERSION_1
+taxonomy_6_upper_length_1: V
+taxonomy_6_upper_length_2: VE
+taxonomy_6_upper_length_3: VER
+taxonomy_6_upper_length_4: VERS
+taxonomy_6_upper_length_5: VERSI
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+thing:
+  bip_39_2_word_array:
+  - cream
+  - indoor
+  bip_39_2_word_no_space: creamindoor
+  bip_39_2_word_space: cream indoor
+  bip_39_2_word_underscore: cream_indoor
+  bip_39_3_word_array:
+  - cream
+  - indoor
+  - feel
+  bip_39_3_word_no_space: creamindoorfeel
+  bip_39_3_word_space: cream indoor feel
+  bip_39_3_word_underscore: cream_indoor_feel
+  bip_39_full_array:
+  - cream
+  - indoor
+  - feel
+  - state
+  - fade
+  - bachelor
+  - actor
+  - pet
+  - good
+  - among
+  - avocado
+  - again
+  bip_39_full_no_space: creamindoorfeelstatefadebacheloractorpetgoodamongavocadoagain
+  bip_39_full_space: cream indoor feel state fade bachelor actor pet good among avocado
+    again
+  bip_39_full_underscore: cream_indoor_feel_state_fade_bachelor_actor_pet_good_among_avocado_again
+  bottom_radius_mm: 7.0
+  bottom_virtual_width_mm: 75.0
+  classification: oobb
+  color: ''
+  components:
+  - - depth: 3.0
+      height: 3.0
+      points:
+      - - 57.0
+        - 38.2333859
+      - - 56.9995601
+        - 38.1820114
+      - - 56.9982404
+        - 38.1306519
+      - - 56.9960415
+        - 38.0793225
+      - - 56.9929638
+        - 38.0280383
+      - - 56.9890084
+        - 37.9768144
+      - - 56.9841763
+        - 37.9256657
+      - - 56.978469
+        - 37.8746072
+      - - 56.9718882
+        - 37.823654
+      - - 56.9644358
+        - 37.7728209
+      - - 56.956114
+        - 37.7221229
+      - - 56.9469252
+        - 37.6715749
+      - - 56.9368722
+        - 37.6211916
+      - - 56.9259578
+        - 37.5709879
+      - - 56.9141852
+        - 37.5209784
+      - - 56.901558
+        - 37.4711779
+      - - 56.8880798
+        - 37.4216009
+      - - 56.8737546
+        - 37.372262
+      - - 56.8585866
+        - 37.3231757
+      - - 56.8425802
+        - 37.2743563
+      - - 56.8257401
+        - 37.2258182
+      - - 56.8080713
+        - 37.1775755
+      - - 56.7895789
+        - 37.1296426
+      - - 56.7702684
+        - 37.0820333
+      - - 56.7501454
+        - 37.0347617
+      - - 56.7292159
+        - 36.9878416
+      - - 56.7074859
+        - 36.9412868
+      - - 56.6849619
+        - 36.895111
+      - - 56.6616504
+        - 36.8493277
+      - - 39.460676
+        - 3.7705308
+      - - 39.4038067
+        - 3.663443
+      - - 39.3450911
+        - 3.5573563
+      - - 39.2845467
+        - 3.4523025
+      - - 39.2221918
+        - 3.3483131
+      - - 39.158045
+        - 3.2454194
+      - - 39.0921257
+        - 3.1436522
+      - - 39.0244535
+        - 3.043042
+      - - 38.9550488
+        - 2.9436191
+      - - 38.8839324
+        - 2.8454133
+      - - 38.8111257
+        - 2.748454
+      - - 38.7366505
+        - 2.6527704
+      - - 38.660529
+        - 2.5583911
+      - - 38.5827843
+        - 2.4653444
+      - - 38.5034396
+        - 2.3736583
+      - - 38.4225187
+        - 2.2833604
+      - - 38.3400458
+        - 2.1944775
+      - - 38.2560458
+        - 2.1070366
+      - - 38.1705439
+        - 2.0210637
+      - - 38.0835656
+        - 1.9365846
+      - - 37.9951371
+        - 1.8536249
+      - - 37.905285
+        - 1.7722092
+      - - 37.8140361
+        - 1.692362
+      - - 37.7214179
+        - 1.6141074
+      - - 37.6274581
+        - 1.5374687
+      - - 37.532185
+        - 1.4624691
+      - - 37.435627
+        - 1.3891309
+      - - 37.3378133
+        - 1.3174761
+      - - 37.2387731
+        - 1.2475264
+      - - 37.1385362
+        - 1.1793026
+      - - 37.0371326
+        - 1.1128253
+      - - 36.9345928
+        - 1.0481143
+      - - 36.8309475
+        - 0.9851892
+      - - 36.7262278
+        - 0.9240687
+      - - 36.6204652
+        - 0.8647712
+      - - 36.5136914
+        - 0.8073146
+      - - 36.4059383
+        - 0.751716
+      - - 36.2972384
+        - 0.6979921
+      - - 36.1876243
+        - 0.6461591
+      - - 36.0771288
+        - 0.5962325
+      - - 35.9657851
+        - 0.5482272
+      - - 35.8536266
+        - 0.5021578
+      - - 35.7406869
+        - 0.4580379
+      - - 35.627
+        - 0.4158809
+      - - 35.5126
+        - 0.3756994
+      - - 35.3975211
+        - 0.3375055
+      - - 35.2817979
+        - 0.3013105
+      - - 35.1654652
+        - 0.2671254
+      - - 35.0485578
+        - 0.2349605
+      - - 34.9311108
+        - 0.2048253
+      - - 34.8131595
+        - 0.176729
+      - - 34.6947392
+        - 0.1506799
+      - - 34.5758855
+        - 0.1266858
+      - - 34.456634
+        - 0.104754
+      - - 34.3370205
+        - 0.0848911
+      - - 34.2170809
+        - 0.067103
+      - - 34.0968512
+        - 0.051395
+      - - 33.9763674
+        - 0.0377719
+      - - 33.8556658
+        - 0.0262377
+      - - 33.7347825
+        - 0.0167959
+      - - 33.6137537
+        - 0.0094493
+      - - 33.4926159
+        - 0.0042002
+      - - 33.3714054
+        - 0.0010501
+      - - 33.2501584
+        - 0.0
+      - - -33.2501584
+        - 0.0
+      - - -33.3714054
+        - 0.0010501
+      - - -33.4926159
+        - 0.0042002
+      - - -33.6137537
+        - 0.0094493
+      - - -33.7347825
+        - 0.0167959
+      - - -33.8556658
+        - 0.0262377
+      - - -33.9763674
+        - 0.0377719
+      - - -34.0968512
+        - 0.051395
+      - - -34.2170809
+        - 0.067103
+      - - -34.3370205
+        - 0.0848911
+      - - -34.456634
+        - 0.104754
+      - - -34.5758855
+        - 0.1266858
+      - - -34.6947392
+        - 0.1506799
+      - - -34.8131595
+        - 0.176729
+      - - -34.9311108
+        - 0.2048253
+      - - -35.0485578
+        - 0.2349605
+      - - -35.1654652
+        - 0.2671254
+      - - -35.2817979
+        - 0.3013105
+      - - -35.3975211
+        - 0.3375055
+      - - -35.5126
+        - 0.3756994
+      - - -35.627
+        - 0.4158809
+      - - -35.7406869
+        - 0.4580379
+      - - -35.8536266
+        - 0.5021578
+      - - -35.9657851
+        - 0.5482272
+      - - -36.0771288
+        - 0.5962325
+      - - -36.1876243
+        - 0.6461591
+      - - -36.2972384
+        - 0.6979921
+      - - -36.4059383
+        - 0.751716
+      - - -36.5136914
+        - 0.8073146
+      - - -36.6204652
+        - 0.8647712
+      - - -36.7262278
+        - 0.9240687
+      - - -36.8309475
+        - 0.9851892
+      - - -36.9345928
+        - 1.0481143
+      - - -37.0371326
+        - 1.1128253
+      - - -37.1385362
+        - 1.1793026
+      - - -37.2387731
+        - 1.2475264
+      - - -37.3378133
+        - 1.3174761
+      - - -37.435627
+        - 1.3891309
+      - - -37.532185
+        - 1.4624691
+      - - -37.6274581
+        - 1.5374687
+      - - -37.7214179
+        - 1.6141074
+      - - -37.8140361
+        - 1.692362
+      - - -37.905285
+        - 1.7722092
+      - - -37.9951371
+        - 1.8536249
+      - - -38.0835656
+        - 1.9365846
+      - - -38.1705439
+        - 2.0210637
+      - - -38.2560458
+        - 2.1070366
+      - - -38.3400458
+        - 2.1944775
+      - - -38.4225187
+        - 2.2833604
+      - - -38.5034396
+        - 2.3736583
+      - - -38.5827843
+        - 2.4653444
+      - - -38.660529
+        - 2.5583911
+      - - -38.7366505
+        - 2.6527704
+      - - -38.8111257
+        - 2.748454
+      - - -38.8839324
+        - 2.8454133
+      - - -38.9550488
+        - 2.9436191
+      - - -39.0244535
+        - 3.043042
+      - - -39.0921257
+        - 3.1436522
+      - - -39.158045
+        - 3.2454194
+      - - -39.2221918
+        - 3.3483131
+      - - -39.2845467
+        - 3.4523025
+      - - -39.3450911
+        - 3.5573563
+      - - -39.4038067
+        - 3.663443
+      - - -39.460676
+        - 3.7705308
+      - - -56.6616504
+        - 36.8493277
+      - - -56.6849619
+        - 36.895111
+      - - -56.7074859
+        - 36.9412868
+      - - -56.7292159
+        - 36.9878416
+      - - -56.7501454
+        - 37.0347617
+      - - -56.7702684
+        - 37.0820333
+      - - -56.7895789
+        - 37.1296426
+      - - -56.8080713
+        - 37.1775755
+      - - -56.8257401
+        - 37.2258182
+      - - -56.8425802
+        - 37.2743563
+      - - -56.8585866
+        - 37.3231757
+      - - -56.8737546
+        - 37.372262
+      - - -56.8880798
+        - 37.4216009
+      - - -56.901558
+        - 37.4711779
+      - - -56.9141852
+        - 37.5209784
+      - - -56.9259578
+        - 37.5709879
+      - - -56.9368722
+        - 37.6211916
+      - - -56.9469252
+        - 37.6715749
+      - - -56.956114
+        - 37.7221229
+      - - -56.9644358
+        - 37.7728209
+      - - -56.9718882
+        - 37.823654
+      - - -56.978469
+        - 37.8746072
+      - - -56.9841763
+        - 37.9256657
+      - - -56.9890084
+        - 37.9768144
+      - - -56.9929638
+        - 38.0280383
+      - - -56.9960415
+        - 38.0793225
+      - - -56.9982404
+        - 38.1306519
+      - - -56.9995601
+        - 38.1820114
+      - - -57.0
+        - 38.2333859
+      - - -57.0
+        - 58.5
+      - - 57.0
+        - 58.5
+      pos:
+      - 0
+      - 0
+      - 0
+      shape: polygon
+      type: positive
+      width: 114.0
+  - - depth: 12.01
+      height: 12.01
+      points:
+      - - 54.75
+        - 53.5
+      - - 54.75
+        - 38.2430192
+      - - 54.7498075
+        - 38.2205437
+      - - 54.7494777
+        - 38.2077052
+      - - 54.748928
+        - 38.1948743
+      - - 54.7481587
+        - 38.1820547
+      - - 54.7471699
+        - 38.1692501
+      - - 54.745962
+        - 38.1564643
+      - - 54.7445354
+        - 38.1437011
+      - - 54.7428903
+        - 38.1309642
+      - - 54.7410275
+        - 38.1182573
+      - - 54.7389472
+        - 38.1055842
+      - - 54.7366503
+        - 38.0929486
+      - - 54.7341373
+        - 38.0803542
+      - - 54.731409
+        - 38.0678046
+      - - 54.7284662
+        - 38.0553036
+      - - 54.7253097
+        - 38.0428549
+      - - 54.7219405
+        - 38.030462
+      - - 54.7183596
+        - 38.0181286
+      - - 54.714568
+        - 38.0058584
+      - - 54.7105669
+        - 37.9936549
+      - - 54.7063573
+        - 37.9815217
+      - - 54.7019406
+        - 37.9694623
+      - - 54.697318
+        - 37.9574804
+      - - 54.6924909
+        - 37.9455794
+      - - 54.6874607
+        - 37.9337628
+      - - 54.6822289
+        - 37.9220341
+      - - 54.676797
+        - 37.9103967
+      - - 54.6711666
+        - 37.898854
+      - - 54.6609683
+        - 37.8788246
+      - - 37.4689335
+        - 4.8172192
+      - - 37.4257742
+        - 4.735948
+      - - 37.3859321
+        - 4.6639618
+      - - 37.3448492
+        - 4.5926766
+      - - 37.3025377
+        - 4.5221136
+      - - 37.2590103
+        - 4.4522941
+      - - 37.2142801
+        - 4.383239
+      - - 37.1683605
+        - 4.3149691
+      - - 37.1212653
+        - 4.2475048
+      - - 37.0730086
+        - 4.1808663
+      - - 37.0236049
+        - 4.1150736
+      - - 36.973069
+        - 4.0501466
+      - - 36.9214161
+        - 3.9861046
+      - - 36.8686617
+        - 3.922967
+      - - 36.8148216
+        - 3.8607525
+      - - 36.7599119
+        - 3.79948
+      - - 36.7039492
+        - 3.7391677
+      - - 36.6469503
+        - 3.6798338
+      - - 36.5889321
+        - 3.6214961
+      - - 36.5299122
+        - 3.5641721
+      - - 36.4699082
+        - 3.5078789
+      - - 36.4089382
+        - 3.4526335
+      - - 36.3470204
+        - 3.3984525
+      - - 36.2841734
+        - 3.3453521
+      - - 36.2204161
+        - 3.2933482
+      - - 36.1557677
+        - 3.2424565
+      - - 36.0902474
+        - 3.1926922
+      - - 36.023875
+        - 3.1440702
+      - - 35.9566703
+        - 3.0966051
+      - - 35.8886536
+        - 3.0503112
+      - - 35.8198453
+        - 3.0052024
+      - - 35.7502659
+        - 2.9612922
+      - - 35.6799364
+        - 2.9185937
+      - - 35.6088779
+        - 2.8771199
+      - - 35.5371117
+        - 2.836883
+      - - 35.4646593
+        - 2.7978953
+      - - 35.3915424
+        - 2.7601683
+      - - 35.3177831
+        - 2.7237135
+      - - 35.2434034
+        - 2.6885417
+      - - 35.1684256
+        - 2.6546635
+      - - 35.0928723
+        - 2.6220891
+      - - 35.0167661
+        - 2.5908282
+      - - 34.9401299
+        - 2.5608903
+      - - 34.8629866
+        - 2.5322843
+      - - 34.7853593
+        - 2.5050187
+      - - 34.7072715
+        - 2.4791019
+      - - 34.6287465
+        - 2.4545415
+      - - 34.5498078
+        - 2.4313449
+      - - 34.4704792
+        - 2.409519
+      - - 34.3907844
+        - 2.3890705
+      - - 34.3107475
+        - 2.3700055
+      - - 34.2303922
+        - 2.3523296
+      - - 34.1497429
+        - 2.3360482
+      - - 34.0688237
+        - 2.3211662
+      - - 33.9876589
+        - 2.3076881
+      - - 33.9062727
+        - 2.2956178
+      - - 33.8246897
+        - 2.284959
+      - - 33.7429343
+        - 2.2757148
+      - - 33.6610311
+        - 2.2678882
+      - - 33.5790046
+        - 2.2614814
+      - - 33.4968794
+        - 2.2564963
+      - - 33.4146802
+        - 2.2529345
+      - - 33.3324317
+        - 2.250797
+      - - 33.2404148
+        - 2.25
+      - - -33.2404148
+        - 2.25
+      - - -33.3324317
+        - 2.250797
+      - - -33.4146802
+        - 2.2529345
+      - - -33.4968794
+        - 2.2564963
+      - - -33.5790046
+        - 2.2614814
+      - - -33.6610311
+        - 2.2678882
+      - - -33.7429343
+        - 2.2757148
+      - - -33.8246897
+        - 2.284959
+      - - -33.9062727
+        - 2.2956178
+      - - -33.9876589
+        - 2.3076881
+      - - -34.0688237
+        - 2.3211662
+      - - -34.1497429
+        - 2.3360482
+      - - -34.2303922
+        - 2.3523296
+      - - -34.3107475
+        - 2.3700055
+      - - -34.3907844
+        - 2.3890705
+      - - -34.4704792
+        - 2.409519
+      - - -34.5498078
+        - 2.4313449
+      - - -34.6287465
+        - 2.4545415
+      - - -34.7072715
+        - 2.4791019
+      - - -34.7853593
+        - 2.5050187
+      - - -34.8629866
+        - 2.5322843
+      - - -34.9401299
+        - 2.5608903
+      - - -35.0167661
+        - 2.5908282
+      - - -35.0928723
+        - 2.6220891
+      - - -35.1684256
+        - 2.6546635
+      - - -35.2434034
+        - 2.6885417
+      - - -35.3177831
+        - 2.7237135
+      - - -35.3915424
+        - 2.7601683
+      - - -35.4646593
+        - 2.7978953
+      - - -35.5371117
+        - 2.836883
+      - - -35.6088779
+        - 2.8771199
+      - - -35.6799364
+        - 2.9185937
+      - - -35.7502659
+        - 2.9612922
+      - - -35.8198453
+        - 3.0052024
+      - - -35.8886536
+        - 3.0503112
+      - - -35.9566703
+        - 3.0966051
+      - - -36.023875
+        - 3.1440702
+      - - -36.0902474
+        - 3.1926922
+      - - -36.1557677
+        - 3.2424565
+      - - -36.2204161
+        - 3.2933482
+      - - -36.2841734
+        - 3.3453521
+      - - -36.3470204
+        - 3.3984525
+      - - -36.4089382
+        - 3.4526335
+      - - -36.4699082
+        - 3.5078789
+      - - -36.5299122
+        - 3.5641721
+      - - -36.5889321
+        - 3.6214961
+      - - -36.6469503
+        - 3.6798338
+      - - -36.7039492
+        - 3.7391677
+      - - -36.7599119
+        - 3.79948
+      - - -36.8148216
+        - 3.8607525
+      - - -36.8686617
+        - 3.922967
+      - - -36.9214161
+        - 3.9861046
+      - - -36.973069
+        - 4.0501466
+      - - -37.0236049
+        - 4.1150736
+      - - -37.0730086
+        - 4.1808663
+      - - -37.1212653
+        - 4.2475048
+      - - -37.1683605
+        - 4.3149691
+      - - -37.2142801
+        - 4.383239
+      - - -37.2590103
+        - 4.4522941
+      - - -37.3025377
+        - 4.5221136
+      - - -37.3448492
+        - 4.5926766
+      - - -37.3859321
+        - 4.6639618
+      - - -37.4257742
+        - 4.735948
+      - - -37.4689335
+        - 4.8172192
+      - - -54.6609683
+        - 37.8788246
+      - - -54.6711666
+        - 37.898854
+      - - -54.676797
+        - 37.9103967
+      - - -54.6822289
+        - 37.9220341
+      - - -54.6874607
+        - 37.9337628
+      - - -54.6924909
+        - 37.9455794
+      - - -54.697318
+        - 37.9574804
+      - - -54.7019406
+        - 37.9694623
+      - - -54.7063573
+        - 37.9815217
+      - - -54.7105669
+        - 37.9936549
+      - - -54.714568
+        - 38.0058584
+      - - -54.7183596
+        - 38.0181286
+      - - -54.7219405
+        - 38.030462
+      - - -54.7253097
+        - 38.0428549
+      - - -54.7284662
+        - 38.0553036
+      - - -54.731409
+        - 38.0678046
+      - - -54.7341373
+        - 38.0803542
+      - - -54.7366503
+        - 38.0929486
+      - - -54.7389472
+        - 38.1055842
+      - - -54.7410275
+        - 38.1182573
+      - - -54.7428903
+        - 38.1309642
+      - - -54.7445354
+        - 38.1437011
+      - - -54.745962
+        - 38.1564643
+      - - -54.7471699
+        - 38.1692501
+      - - -54.7481587
+        - 38.1820547
+      - - -54.748928
+        - 38.1948743
+      - - -54.7494777
+        - 38.2077052
+      - - -54.7498075
+        - 38.2205437
+      - - -54.75
+        - 38.2430192
+      - - -54.75
+        - 53.5
+      - - -52.75
+        - 54.5
+      - - -54.75
+        - 58.5
+      - - -51.395898
+        - 58.5
+      - - -50.0667184
+        - 55.8416408
+      - - -50.0437122
+        - 55.7946067
+      - - -50.0215304
+        - 55.7471783
+      - - -50.0001797
+        - 55.69937
+      - - -49.9796666
+        - 55.6511964
+      - - -49.9599974
+        - 55.602672
+      - - -49.9411781
+        - 55.5538118
+      - - -49.9232143
+        - 55.5046306
+      - - -49.9061116
+        - 55.4551434
+      - - -49.8898752
+        - 55.4053652
+      - - -49.87451
+        - 55.3553113
+      - - -49.8600207
+        - 55.3049968
+      - - -49.8464118
+        - 55.2544371
+      - - -49.8336873
+        - 55.2036476
+      - - -49.8218511
+        - 55.1526438
+      - - -49.8109068
+        - 55.1014411
+      - - -49.8008579
+        - 55.0500553
+      - - -49.7917073
+        - 54.9985019
+      - - -49.7834578
+        - 54.9467966
+      - - -49.7761119
+        - 54.8949553
+      - - -49.7696719
+        - 54.8429936
+      - - -49.7641398
+        - 54.7909275
+      - - -49.7595172
+        - 54.7387727
+      - - -49.7558055
+        - 54.6865452
+      - - -49.7530058
+        - 54.6342609
+      - - -49.7511191
+        - 54.5819357
+      - - -49.7501459
+        - 54.5295855
+      - - -49.7500864
+        - 54.4772264
+      - - -49.7509408
+        - 54.4248741
+      - - -49.7527087
+        - 54.3725448
+      - - -49.7553896
+        - 54.3202542
+      - - -49.7589827
+        - 54.2680184
+      - - -49.7634869
+        - 54.2158533
+      - - -49.7689008
+        - 54.1637748
+      - - -49.7752228
+        - 54.1117986
+      - - -49.7824509
+        - 54.0599407
+      - - -49.7905829
+        - 54.0082169
+      - - -49.7996165
+        - 53.9566428
+      - - -49.8095487
+        - 53.9052343
+      - - -49.8203767
+        - 53.8540069
+      - - -49.832097
+        - 53.8029763
+      - - -49.8447061
+        - 53.7521581
+      - - -49.8582003
+        - 53.7015676
+      - - -49.8725753
+        - 53.6512203
+      - - -49.8878268
+        - 53.6011316
+      - - -49.9039501
+        - 53.5513167
+      - - -49.9209404
+        - 53.5017908
+      - - -49.9387924
+        - 53.4525689
+      - - -49.9575008
+        - 53.4036661
+      - - -49.9770597
+        - 53.3550972
+      - - -49.9974634
+        - 53.3068771
+      - - -50.0187055
+        - 53.2590205
+      - - -50.0407795
+        - 53.2115418
+      - - -50.0636789
+        - 53.1644556
+      - - -50.0873965
+        - 53.1177763
+      - - -50.1119251
+        - 53.071518
+      - - -50.1372574
+        - 53.0256948
+      - - -50.1633855
+        - 52.9803207
+      - - -50.1903015
+        - 52.9354095
+      - - -50.2179972
+        - 52.8909749
+      - - -50.2464642
+        - 52.8470304
+      - - -50.2756938
+        - 52.8035894
+      - - -50.3056771
+        - 52.7606652
+      - - -50.336405
+        - 52.7182708
+      - - -50.367868
+        - 52.6764191
+      - - -50.4000567
+        - 52.6351229
+      - - -50.4329612
+        - 52.5943948
+      - - -50.4665715
+        - 52.5542471
+      - - -50.5008774
+        - 52.5146921
+      - - -50.5358683
+        - 52.4757419
+      - - -50.5715337
+        - 52.4374083
+      - - -50.6078627
+        - 52.3997029
+      - - -50.6448442
+        - 52.3626374
+      - - -50.6824669
+        - 52.3262229
+      - - -50.7207195
+        - 52.2904705
+      - - -50.7595901
+        - 52.2553912
+      - - -50.7990671
+        - 52.2209956
+      - - -50.8391384
+        - 52.1872943
+      - - -50.8797917
+        - 52.1542974
+      - - -50.9210147
+        - 52.122015
+      - - -50.9627948
+        - 52.090457
+      - - -51.0051193
+        - 52.0596329
+      - - -51.0479754
+        - 52.0295522
+      - - -51.0913498
+        - 52.0002241
+      - - -51.1352296
+        - 51.9716574
+      - - -51.1796012
+        - 51.9438608
+      - - -51.2244511
+        - 51.9168429
+      - - -51.2697658
+        - 51.8906118
+      - - -51.3155313
+        - 51.8651756
+      - - -51.3617338
+        - 51.840542
+      - - -51.4083592
+        - 51.8167184
+      - - -51.75
+        - 51.645898
+      - - -51.75
+        - 38.7834253
+      - - -34.8132767
+        - 6.2128037
+      - - -34.7883974
+        - 6.1659546
+      - - -34.7737201
+        - 6.1394359
+      - - -34.7585858
+        - 6.1131754
+      - - -34.7429988
+        - 6.087181
+      - - -34.7269639
+        - 6.0614605
+      - - -34.7104859
+        - 6.0360215
+      - - -34.6935698
+        - 6.0108718
+      - - -34.6762205
+        - 5.9860189
+      - - -34.6584435
+        - 5.9614702
+      - - -34.6402438
+        - 5.9372331
+      - - -34.6216271
+        - 5.9133149
+      - - -34.6025989
+        - 5.8897227
+      - - -34.5831649
+        - 5.8664637
+      - - -34.5633309
+        - 5.8435447
+      - - -34.543103
+        - 5.8209728
+      - - -34.5224871
+        - 5.7987546
+      - - -34.5014895
+        - 5.7768968
+      - - -34.4801164
+        - 5.755406
+      - - -34.4583743
+        - 5.7342886
+      - - -34.4362696
+        - 5.713551
+      - - -34.4138091
+        - 5.6931994
+      - - -34.3909995
+        - 5.6732398
+      - - -34.3678475
+        - 5.6536784
+      - - -34.3443602
+        - 5.6345208
+      - - -34.3205446
+        - 5.615773
+      - - -34.2964078
+        - 5.5974405
+      - - -34.2719572
+        - 5.5795289
+      - - -34.2471999
+        - 5.5620434
+      - - -34.2221435
+        - 5.5449894
+      - - -34.1967955
+        - 5.5283719
+      - - -34.1711634
+        - 5.512196
+      - - -34.145255
+        - 5.4964665
+      - - -34.119078
+        - 5.4811881
+      - - -34.0926403
+        - 5.4663654
+      - - -34.0659499
+        - 5.4520028
+      - - -34.0390146
+        - 5.4381048
+      - - -34.0118427
+        - 5.4246753
+      - - -33.9844423
+        - 5.4117185
+      - - -33.9568215
+        - 5.3992383
+      - - -33.9289887
+        - 5.3872383
+      - - -33.9009522
+        - 5.3757222
+      - - -33.8727205
+        - 5.3646935
+      - - -33.844302
+        - 5.3541554
+      - - -33.8157052
+        - 5.3441112
+      - - -33.7869387
+        - 5.3345638
+      - - -33.7580112
+        - 5.3255161
+      - - -33.7289312
+        - 5.3169708
+      - - -33.6997077
+        - 5.3089304
+      - - -33.6703492
+        - 5.3013975
+      - - -33.6408647
+        - 5.2943742
+      - - -33.611263
+        - 5.2878626
+      - - -33.5815529
+        - 5.2818648
+      - - -33.5517434
+        - 5.2763825
+      - - -33.5218434
+        - 5.2714173
+      - - -33.4918618
+        - 5.2669708
+      - - -33.4618078
+        - 5.2630442
+      - - -33.4316902
+        - 5.2596388
+      - - -33.4015182
+        - 5.2567556
+      - - -33.3713008
+        - 5.2543954
+      - - -33.341047
+        - 5.252559
+      - - -33.310766
+        - 5.2512469
+      - - -33.2804668
+        - 5.2504594
+      - - -33.2274233
+        - 5.25
+      - - 33.2274233
+        - 5.25
+      - - 33.2804668
+        - 5.2504594
+      - - 33.310766
+        - 5.2512469
+      - - 33.341047
+        - 5.252559
+      - - 33.3713008
+        - 5.2543954
+      - - 33.4015182
+        - 5.2567556
+      - - 33.4316902
+        - 5.2596388
+      - - 33.4618078
+        - 5.2630442
+      - - 33.4918618
+        - 5.2669708
+      - - 33.5218434
+        - 5.2714173
+      - - 33.5517434
+        - 5.2763825
+      - - 33.5815529
+        - 5.2818648
+      - - 33.611263
+        - 5.2878626
+      - - 33.6408647
+        - 5.2943742
+      - - 33.6703492
+        - 5.3013975
+      - - 33.6997077
+        - 5.3089304
+      - - 33.7289312
+        - 5.3169708
+      - - 33.7580112
+        - 5.3255161
+      - - 33.7869387
+        - 5.3345638
+      - - 33.8157052
+        - 5.3441112
+      - - 33.844302
+        - 5.3541554
+      - - 33.8727205
+        - 5.3646935
+      - - 33.9009522
+        - 5.3757222
+      - - 33.9289887
+        - 5.3872383
+      - - 33.9568215
+        - 5.3992383
+      - - 33.9844423
+        - 5.4117185
+      - - 34.0118427
+        - 5.4246753
+      - - 34.0390146
+        - 5.4381048
+      - - 34.0659499
+        - 5.4520028
+      - - 34.0926403
+        - 5.4663654
+      - - 34.119078
+        - 5.4811881
+      - - 34.145255
+        - 5.4964665
+      - - 34.1711634
+        - 5.512196
+      - - 34.1967955
+        - 5.5283719
+      - - 34.2221435
+        - 5.5449894
+      - - 34.2471999
+        - 5.5620434
+      - - 34.2719572
+        - 5.5795289
+      - - 34.2964078
+        - 5.5974405
+      - - 34.3205446
+        - 5.615773
+      - - 34.3443602
+        - 5.6345208
+      - - 34.3678475
+        - 5.6536784
+      - - 34.3909995
+        - 5.6732398
+      - - 34.4138091
+        - 5.6931994
+      - - 34.4362696
+        - 5.713551
+      - - 34.4583743
+        - 5.7342886
+      - - 34.4801164
+        - 5.755406
+      - - 34.5014895
+        - 5.7768968
+      - - 34.5224871
+        - 5.7987546
+      - - 34.543103
+        - 5.8209728
+      - - 34.5633309
+        - 5.8435447
+      - - 34.5831649
+        - 5.8664637
+      - - 34.6025989
+        - 5.8897227
+      - - 34.6216271
+        - 5.9133149
+      - - 34.6402438
+        - 5.9372331
+      - - 34.6584435
+        - 5.9614702
+      - - 34.6762205
+        - 5.9860189
+      - - 34.6935698
+        - 6.0108718
+      - - 34.7104859
+        - 6.0360215
+      - - 34.7269639
+        - 6.0614605
+      - - 34.7429988
+        - 6.087181
+      - - 34.7585858
+        - 6.1131754
+      - - 34.7737201
+        - 6.1394359
+      - - 34.7883974
+        - 6.1659546
+      - - 34.8132767
+        - 6.2128037
+      - - 51.75
+        - 38.7834253
+      - - 51.75
+        - 51.645898
+      - - 51.4083592
+        - 51.8167184
+      - - 51.3617338
+        - 51.840542
+      - - 51.3155313
+        - 51.8651756
+      - - 51.2697658
+        - 51.8906118
+      - - 51.2244511
+        - 51.9168429
+      - - 51.1796012
+        - 51.9438608
+      - - 51.1352296
+        - 51.9716574
+      - - 51.0913498
+        - 52.0002241
+      - - 51.0479754
+        - 52.0295522
+      - - 51.0051193
+        - 52.0596329
+      - - 50.9627948
+        - 52.090457
+      - - 50.9210147
+        - 52.122015
+      - - 50.8797917
+        - 52.1542974
+      - - 50.8391384
+        - 52.1872943
+      - - 50.7990671
+        - 52.2209956
+      - - 50.7595901
+        - 52.2553912
+      - - 50.7207195
+        - 52.2904705
+      - - 50.6824669
+        - 52.3262229
+      - - 50.6448442
+        - 52.3626374
+      - - 50.6078627
+        - 52.3997029
+      - - 50.5715337
+        - 52.4374083
+      - - 50.5358683
+        - 52.4757419
+      - - 50.5008774
+        - 52.5146921
+      - - 50.4665715
+        - 52.5542471
+      - - 50.4329612
+        - 52.5943948
+      - - 50.4000567
+        - 52.6351229
+      - - 50.367868
+        - 52.6764191
+      - - 50.336405
+        - 52.7182708
+      - - 50.3056771
+        - 52.7606652
+      - - 50.2756938
+        - 52.8035894
+      - - 50.2464642
+        - 52.8470304
+      - - 50.2179972
+        - 52.8909749
+      - - 50.1903015
+        - 52.9354095
+      - - 50.1633855
+        - 52.9803207
+      - - 50.1372574
+        - 53.0256948
+      - - 50.1119251
+        - 53.071518
+      - - 50.0873965
+        - 53.1177763
+      - - 50.0636789
+        - 53.1644556
+      - - 50.0407795
+        - 53.2115418
+      - - 50.0187055
+        - 53.2590205
+      - - 49.9974634
+        - 53.3068771
+      - - 49.9770597
+        - 53.3550972
+      - - 49.9575008
+        - 53.4036661
+      - - 49.9387924
+        - 53.4525689
+      - - 49.9209404
+        - 53.5017908
+      - - 49.9039501
+        - 53.5513167
+      - - 49.8878268
+        - 53.6011316
+      - - 49.8725753
+        - 53.6512203
+      - - 49.8582003
+        - 53.7015676
+      - - 49.8447061
+        - 53.7521581
+      - - 49.832097
+        - 53.8029763
+      - - 49.8203767
+        - 53.8540069
+      - - 49.8095487
+        - 53.9052343
+      - - 49.7996165
+        - 53.9566428
+      - - 49.7905829
+        - 54.0082169
+      - - 49.7824509
+        - 54.0599407
+      - - 49.7752228
+        - 54.1117986
+      - - 49.7689008
+        - 54.1637748
+      - - 49.7634869
+        - 54.2158533
+      - - 49.7589827
+        - 54.2680184
+      - - 49.7553896
+        - 54.3202542
+      - - 49.7527087
+        - 54.3725448
+      - - 49.7509408
+        - 54.4248741
+      - - 49.7500864
+        - 54.4772264
+      - - 49.7501459
+        - 54.5295855
+      - - 49.7511191
+        - 54.5819357
+      - - 49.7530058
+        - 54.6342609
+      - - 49.7558055
+        - 54.6865452
+      - - 49.7595172
+        - 54.7387727
+      - - 49.7641398
+        - 54.7909275
+      - - 49.7696719
+        - 54.8429936
+      - - 49.7761119
+        - 54.8949553
+      - - 49.7834578
+        - 54.9467966
+      - - 49.7917073
+        - 54.9985019
+      - - 49.8008579
+        - 55.0500553
+      - - 49.8109068
+        - 55.1014411
+      - - 49.8218511
+        - 55.1526438
+      - - 49.8336873
+        - 55.2036476
+      - - 49.8464118
+        - 55.2544371
+      - - 49.8600207
+        - 55.3049968
+      - - 49.87451
+        - 55.3553113
+      - - 49.8898752
+        - 55.4053652
+      - - 49.9061116
+        - 55.4551434
+      - - 49.9232143
+        - 55.5046306
+      - - 49.9411781
+        - 55.5538118
+      - - 49.9599974
+        - 55.602672
+      - - 49.9796666
+        - 55.6511964
+      - - 50.0001797
+        - 55.69937
+      - - 50.0215304
+        - 55.7471783
+      - - 50.0437122
+        - 55.7946067
+      - - 50.0667184
+        - 55.8416408
+      - - 51.395898
+        - 58.5
+      - - 54.75
+        - 58.5
+      - - 52.75
+        - 54.5
+      pos:
+      - 0
+      - 0
+      - 2.99
+      shape: polygon
+      type: positive
+      width: 114.0
+  components_objects:
+  - bottom_radius_mm: 7.0
+    bottom_virtual_width_mm: 75.0
+    curve_step_degrees: 1.0
+    depth: 3.0
+    depth_mm: 15
+    description: Solid blank cap, 15 mm total depth; 3 mm face and 12 mm insertion,
+      3 mm U-shaped ledge.
+    dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+      supplied by user.
+    filter: cap_
+    fit_clearance_mm: 0.0
+    fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+      sealing; drawing does not establish a perfect physical match.
+    front_plate_mm: 3.0
+    gutter_wall_mm: 2.25
+    height: 3.0
+    height_mm: 58.5
+    insertion_depth_mm: 12.0
+    ledge_wall_mm: 3.0
+    lip_height_mm: 5.0
+    lip_projection_mm: 2.0
+    lip_tip_drop_mm: 4.0
+    modes:
+    - 3dpr
+    navigation: true
+    oobb_name: cap_end_solide
+    oomp_mode: project
+    oomp_run: true
+    overwrite: true
+    part_role: printed_solid_end_cap
+    points:
+    - - 57.0
+      - 38.2333859
+    - - 56.9995601
+      - 38.1820114
+    - - 56.9982404
+      - 38.1306519
+    - - 56.9960415
+      - 38.0793225
+    - - 56.9929638
+      - 38.0280383
+    - - 56.9890084
+      - 37.9768144
+    - - 56.9841763
+      - 37.9256657
+    - - 56.978469
+      - 37.8746072
+    - - 56.9718882
+      - 37.823654
+    - - 56.9644358
+      - 37.7728209
+    - - 56.956114
+      - 37.7221229
+    - - 56.9469252
+      - 37.6715749
+    - - 56.9368722
+      - 37.6211916
+    - - 56.9259578
+      - 37.5709879
+    - - 56.9141852
+      - 37.5209784
+    - - 56.901558
+      - 37.4711779
+    - - 56.8880798
+      - 37.4216009
+    - - 56.8737546
+      - 37.372262
+    - - 56.8585866
+      - 37.3231757
+    - - 56.8425802
+      - 37.2743563
+    - - 56.8257401
+      - 37.2258182
+    - - 56.8080713
+      - 37.1775755
+    - - 56.7895789
+      - 37.1296426
+    - - 56.7702684
+      - 37.0820333
+    - - 56.7501454
+      - 37.0347617
+    - - 56.7292159
+      - 36.9878416
+    - - 56.7074859
+      - 36.9412868
+    - - 56.6849619
+      - 36.895111
+    - - 56.6616504
+      - 36.8493277
+    - - 39.460676
+      - 3.7705308
+    - - 39.4038067
+      - 3.663443
+    - - 39.3450911
+      - 3.5573563
+    - - 39.2845467
+      - 3.4523025
+    - - 39.2221918
+      - 3.3483131
+    - - 39.158045
+      - 3.2454194
+    - - 39.0921257
+      - 3.1436522
+    - - 39.0244535
+      - 3.043042
+    - - 38.9550488
+      - 2.9436191
+    - - 38.8839324
+      - 2.8454133
+    - - 38.8111257
+      - 2.748454
+    - - 38.7366505
+      - 2.6527704
+    - - 38.660529
+      - 2.5583911
+    - - 38.5827843
+      - 2.4653444
+    - - 38.5034396
+      - 2.3736583
+    - - 38.4225187
+      - 2.2833604
+    - - 38.3400458
+      - 2.1944775
+    - - 38.2560458
+      - 2.1070366
+    - - 38.1705439
+      - 2.0210637
+    - - 38.0835656
+      - 1.9365846
+    - - 37.9951371
+      - 1.8536249
+    - - 37.905285
+      - 1.7722092
+    - - 37.8140361
+      - 1.692362
+    - - 37.7214179
+      - 1.6141074
+    - - 37.6274581
+      - 1.5374687
+    - - 37.532185
+      - 1.4624691
+    - - 37.435627
+      - 1.3891309
+    - - 37.3378133
+      - 1.3174761
+    - - 37.2387731
+      - 1.2475264
+    - - 37.1385362
+      - 1.1793026
+    - - 37.0371326
+      - 1.1128253
+    - - 36.9345928
+      - 1.0481143
+    - - 36.8309475
+      - 0.9851892
+    - - 36.7262278
+      - 0.9240687
+    - - 36.6204652
+      - 0.8647712
+    - - 36.5136914
+      - 0.8073146
+    - - 36.4059383
+      - 0.751716
+    - - 36.2972384
+      - 0.6979921
+    - - 36.1876243
+      - 0.6461591
+    - - 36.0771288
+      - 0.5962325
+    - - 35.9657851
+      - 0.5482272
+    - - 35.8536266
+      - 0.5021578
+    - - 35.7406869
+      - 0.4580379
+    - - 35.627
+      - 0.4158809
+    - - 35.5126
+      - 0.3756994
+    - - 35.3975211
+      - 0.3375055
+    - - 35.2817979
+      - 0.3013105
+    - - 35.1654652
+      - 0.2671254
+    - - 35.0485578
+      - 0.2349605
+    - - 34.9311108
+      - 0.2048253
+    - - 34.8131595
+      - 0.176729
+    - - 34.6947392
+      - 0.1506799
+    - - 34.5758855
+      - 0.1266858
+    - - 34.456634
+      - 0.104754
+    - - 34.3370205
+      - 0.0848911
+    - - 34.2170809
+      - 0.067103
+    - - 34.0968512
+      - 0.051395
+    - - 33.9763674
+      - 0.0377719
+    - - 33.8556658
+      - 0.0262377
+    - - 33.7347825
+      - 0.0167959
+    - - 33.6137537
+      - 0.0094493
+    - - 33.4926159
+      - 0.0042002
+    - - 33.3714054
+      - 0.0010501
+    - - 33.2501584
+      - 0.0
+    - - -33.2501584
+      - 0.0
+    - - -33.3714054
+      - 0.0010501
+    - - -33.4926159
+      - 0.0042002
+    - - -33.6137537
+      - 0.0094493
+    - - -33.7347825
+      - 0.0167959
+    - - -33.8556658
+      - 0.0262377
+    - - -33.9763674
+      - 0.0377719
+    - - -34.0968512
+      - 0.051395
+    - - -34.2170809
+      - 0.067103
+    - - -34.3370205
+      - 0.0848911
+    - - -34.456634
+      - 0.104754
+    - - -34.5758855
+      - 0.1266858
+    - - -34.6947392
+      - 0.1506799
+    - - -34.8131595
+      - 0.176729
+    - - -34.9311108
+      - 0.2048253
+    - - -35.0485578
+      - 0.2349605
+    - - -35.1654652
+      - 0.2671254
+    - - -35.2817979
+      - 0.3013105
+    - - -35.3975211
+      - 0.3375055
+    - - -35.5126
+      - 0.3756994
+    - - -35.627
+      - 0.4158809
+    - - -35.7406869
+      - 0.4580379
+    - - -35.8536266
+      - 0.5021578
+    - - -35.9657851
+      - 0.5482272
+    - - -36.0771288
+      - 0.5962325
+    - - -36.1876243
+      - 0.6461591
+    - - -36.2972384
+      - 0.6979921
+    - - -36.4059383
+      - 0.751716
+    - - -36.5136914
+      - 0.8073146
+    - - -36.6204652
+      - 0.8647712
+    - - -36.7262278
+      - 0.9240687
+    - - -36.8309475
+      - 0.9851892
+    - - -36.9345928
+      - 1.0481143
+    - - -37.0371326
+      - 1.1128253
+    - - -37.1385362
+      - 1.1793026
+    - - -37.2387731
+      - 1.2475264
+    - - -37.3378133
+      - 1.3174761
+    - - -37.435627
+      - 1.3891309
+    - - -37.532185
+      - 1.4624691
+    - - -37.6274581
+      - 1.5374687
+    - - -37.7214179
+      - 1.6141074
+    - - -37.8140361
+      - 1.692362
+    - - -37.905285
+      - 1.7722092
+    - - -37.9951371
+      - 1.8536249
+    - - -38.0835656
+      - 1.9365846
+    - - -38.1705439
+      - 2.0210637
+    - - -38.2560458
+      - 2.1070366
+    - - -38.3400458
+      - 2.1944775
+    - - -38.4225187
+      - 2.2833604
+    - - -38.5034396
+      - 2.3736583
+    - - -38.5827843
+      - 2.4653444
+    - - -38.660529
+      - 2.5583911
+    - - -38.7366505
+      - 2.6527704
+    - - -38.8111257
+      - 2.748454
+    - - -38.8839324
+      - 2.8454133
+    - - -38.9550488
+      - 2.9436191
+    - - -39.0244535
+      - 3.043042
+    - - -39.0921257
+      - 3.1436522
+    - - -39.158045
+      - 3.2454194
+    - - -39.2221918
+      - 3.3483131
+    - - -39.2845467
+      - 3.4523025
+    - - -39.3450911
+      - 3.5573563
+    - - -39.4038067
+      - 3.663443
+    - - -39.460676
+      - 3.7705308
+    - - -56.6616504
+      - 36.8493277
+    - - -56.6849619
+      - 36.895111
+    - - -56.7074859
+      - 36.9412868
+    - - -56.7292159
+      - 36.9878416
+    - - -56.7501454
+      - 37.0347617
+    - - -56.7702684
+      - 37.0820333
+    - - -56.7895789
+      - 37.1296426
+    - - -56.8080713
+      - 37.1775755
+    - - -56.8257401
+      - 37.2258182
+    - - -56.8425802
+      - 37.2743563
+    - - -56.8585866
+      - 37.3231757
+    - - -56.8737546
+      - 37.372262
+    - - -56.8880798
+      - 37.4216009
+    - - -56.901558
+      - 37.4711779
+    - - -56.9141852
+      - 37.5209784
+    - - -56.9259578
+      - 37.5709879
+    - - -56.9368722
+      - 37.6211916
+    - - -56.9469252
+      - 37.6715749
+    - - -56.956114
+      - 37.7221229
+    - - -56.9644358
+      - 37.7728209
+    - - -56.9718882
+      - 37.823654
+    - - -56.978469
+      - 37.8746072
+    - - -56.9841763
+      - 37.9256657
+    - - -56.9890084
+      - 37.9768144
+    - - -56.9929638
+      - 38.0280383
+    - - -56.9960415
+      - 38.0793225
+    - - -56.9982404
+      - 38.1306519
+    - - -56.9995601
+      - 38.1820114
+    - - -57.0
+      - 38.2333859
+    - - -57.0
+      - 58.5
+    - - 57.0
+      - 58.5
+    pos:
+    - 0
+    - 0
+    - 0
+    print_orientation: Flat exterior face on bed at Z=0; ledge upward; no supports
+      required by geometry.
+    product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+    profile_height_mm: 58.5
+    profile_image_local: source_file/floplast/square_gutter_profile.jpg
+    profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+    profile_status: dimensioned_envelope_with_estimated_radii_shoulders_and_lips
+    profile_width_mm: 114.0
+    save_type: all
+    shape: polygon
+    shoulder_height_mm: 37.5
+    shoulder_radius_mm: 3.0
+    taxonomy_1: three_d_print
+    taxonomy_2: filament_manufacture
+    taxonomy_3: cooling_tank
+    taxonomy_4: cap_end_solide
+    taxonomy_5: 15_mm_depth
+    taxonomy_6: version_1
+    total_depth_mm: 15
+    typ: all
+    type: positive
+    wait_for_completion: true
+    width: 114.0
+    width_mm: 114.0
+  - bottom_radius_mm: 7.0
+    bottom_virtual_width_mm: 75.0
+    curve_step_degrees: 1.0
+    depth: 12.01
+    depth_mm: 15
+    description: Solid blank cap, 15 mm total depth; 3 mm face and 12 mm insertion,
+      3 mm U-shaped ledge.
+    dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+      supplied by user.
+    filter: cap_
+    fit_clearance_mm: 0.0
+    fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+      sealing; drawing does not establish a perfect physical match.
+    front_plate_mm: 3.0
+    gutter_wall_mm: 2.25
+    height: 12.01
+    height_mm: 58.5
+    insertion_depth_mm: 12.0
+    ledge_wall_mm: 3.0
+    lip_height_mm: 5.0
+    lip_projection_mm: 2.0
+    lip_tip_drop_mm: 4.0
+    modes:
+    - 3dpr
+    navigation: true
+    oobb_name: cap_end_solide
+    oomp_mode: project
+    oomp_run: true
+    overwrite: true
+    part_role: printed_solid_end_cap
+    points:
+    - - 54.75
+      - 53.5
+    - - 54.75
+      - 38.2430192
+    - - 54.7498075
+      - 38.2205437
+    - - 54.7494777
+      - 38.2077052
+    - - 54.748928
+      - 38.1948743
+    - - 54.7481587
+      - 38.1820547
+    - - 54.7471699
+      - 38.1692501
+    - - 54.745962
+      - 38.1564643
+    - - 54.7445354
+      - 38.1437011
+    - - 54.7428903
+      - 38.1309642
+    - - 54.7410275
+      - 38.1182573
+    - - 54.7389472
+      - 38.1055842
+    - - 54.7366503
+      - 38.0929486
+    - - 54.7341373
+      - 38.0803542
+    - - 54.731409
+      - 38.0678046
+    - - 54.7284662
+      - 38.0553036
+    - - 54.7253097
+      - 38.0428549
+    - - 54.7219405
+      - 38.030462
+    - - 54.7183596
+      - 38.0181286
+    - - 54.714568
+      - 38.0058584
+    - - 54.7105669
+      - 37.9936549
+    - - 54.7063573
+      - 37.9815217
+    - - 54.7019406
+      - 37.9694623
+    - - 54.697318
+      - 37.9574804
+    - - 54.6924909
+      - 37.9455794
+    - - 54.6874607
+      - 37.9337628
+    - - 54.6822289
+      - 37.9220341
+    - - 54.676797
+      - 37.9103967
+    - - 54.6711666
+      - 37.898854
+    - - 54.6609683
+      - 37.8788246
+    - - 37.4689335
+      - 4.8172192
+    - - 37.4257742
+      - 4.735948
+    - - 37.3859321
+      - 4.6639618
+    - - 37.3448492
+      - 4.5926766
+    - - 37.3025377
+      - 4.5221136
+    - - 37.2590103
+      - 4.4522941
+    - - 37.2142801
+      - 4.383239
+    - - 37.1683605
+      - 4.3149691
+    - - 37.1212653
+      - 4.2475048
+    - - 37.0730086
+      - 4.1808663
+    - - 37.0236049
+      - 4.1150736
+    - - 36.973069
+      - 4.0501466
+    - - 36.9214161
+      - 3.9861046
+    - - 36.8686617
+      - 3.922967
+    - - 36.8148216
+      - 3.8607525
+    - - 36.7599119
+      - 3.79948
+    - - 36.7039492
+      - 3.7391677
+    - - 36.6469503
+      - 3.6798338
+    - - 36.5889321
+      - 3.6214961
+    - - 36.5299122
+      - 3.5641721
+    - - 36.4699082
+      - 3.5078789
+    - - 36.4089382
+      - 3.4526335
+    - - 36.3470204
+      - 3.3984525
+    - - 36.2841734
+      - 3.3453521
+    - - 36.2204161
+      - 3.2933482
+    - - 36.1557677
+      - 3.2424565
+    - - 36.0902474
+      - 3.1926922
+    - - 36.023875
+      - 3.1440702
+    - - 35.9566703
+      - 3.0966051
+    - - 35.8886536
+      - 3.0503112
+    - - 35.8198453
+      - 3.0052024
+    - - 35.7502659
+      - 2.9612922
+    - - 35.6799364
+      - 2.9185937
+    - - 35.6088779
+      - 2.8771199
+    - - 35.5371117
+      - 2.836883
+    - - 35.4646593
+      - 2.7978953
+    - - 35.3915424
+      - 2.7601683
+    - - 35.3177831
+      - 2.7237135
+    - - 35.2434034
+      - 2.6885417
+    - - 35.1684256
+      - 2.6546635
+    - - 35.0928723
+      - 2.6220891
+    - - 35.0167661
+      - 2.5908282
+    - - 34.9401299
+      - 2.5608903
+    - - 34.8629866
+      - 2.5322843
+    - - 34.7853593
+      - 2.5050187
+    - - 34.7072715
+      - 2.4791019
+    - - 34.6287465
+      - 2.4545415
+    - - 34.5498078
+      - 2.4313449
+    - - 34.4704792
+      - 2.409519
+    - - 34.3907844
+      - 2.3890705
+    - - 34.3107475
+      - 2.3700055
+    - - 34.2303922
+      - 2.3523296
+    - - 34.1497429
+      - 2.3360482
+    - - 34.0688237
+      - 2.3211662
+    - - 33.9876589
+      - 2.3076881
+    - - 33.9062727
+      - 2.2956178
+    - - 33.8246897
+      - 2.284959
+    - - 33.7429343
+      - 2.2757148
+    - - 33.6610311
+      - 2.2678882
+    - - 33.5790046
+      - 2.2614814
+    - - 33.4968794
+      - 2.2564963
+    - - 33.4146802
+      - 2.2529345
+    - - 33.3324317
+      - 2.250797
+    - - 33.2404148
+      - 2.25
+    - - -33.2404148
+      - 2.25
+    - - -33.3324317
+      - 2.250797
+    - - -33.4146802
+      - 2.2529345
+    - - -33.4968794
+      - 2.2564963
+    - - -33.5790046
+      - 2.2614814
+    - - -33.6610311
+      - 2.2678882
+    - - -33.7429343
+      - 2.2757148
+    - - -33.8246897
+      - 2.284959
+    - - -33.9062727
+      - 2.2956178
+    - - -33.9876589
+      - 2.3076881
+    - - -34.0688237
+      - 2.3211662
+    - - -34.1497429
+      - 2.3360482
+    - - -34.2303922
+      - 2.3523296
+    - - -34.3107475
+      - 2.3700055
+    - - -34.3907844
+      - 2.3890705
+    - - -34.4704792
+      - 2.409519
+    - - -34.5498078
+      - 2.4313449
+    - - -34.6287465
+      - 2.4545415
+    - - -34.7072715
+      - 2.4791019
+    - - -34.7853593
+      - 2.5050187
+    - - -34.8629866
+      - 2.5322843
+    - - -34.9401299
+      - 2.5608903
+    - - -35.0167661
+      - 2.5908282
+    - - -35.0928723
+      - 2.6220891
+    - - -35.1684256
+      - 2.6546635
+    - - -35.2434034
+      - 2.6885417
+    - - -35.3177831
+      - 2.7237135
+    - - -35.3915424
+      - 2.7601683
+    - - -35.4646593
+      - 2.7978953
+    - - -35.5371117
+      - 2.836883
+    - - -35.6088779
+      - 2.8771199
+    - - -35.6799364
+      - 2.9185937
+    - - -35.7502659
+      - 2.9612922
+    - - -35.8198453
+      - 3.0052024
+    - - -35.8886536
+      - 3.0503112
+    - - -35.9566703
+      - 3.0966051
+    - - -36.023875
+      - 3.1440702
+    - - -36.0902474
+      - 3.1926922
+    - - -36.1557677
+      - 3.2424565
+    - - -36.2204161
+      - 3.2933482
+    - - -36.2841734
+      - 3.3453521
+    - - -36.3470204
+      - 3.3984525
+    - - -36.4089382
+      - 3.4526335
+    - - -36.4699082
+      - 3.5078789
+    - - -36.5299122
+      - 3.5641721
+    - - -36.5889321
+      - 3.6214961
+    - - -36.6469503
+      - 3.6798338
+    - - -36.7039492
+      - 3.7391677
+    - - -36.7599119
+      - 3.79948
+    - - -36.8148216
+      - 3.8607525
+    - - -36.8686617
+      - 3.922967
+    - - -36.9214161
+      - 3.9861046
+    - - -36.973069
+      - 4.0501466
+    - - -37.0236049
+      - 4.1150736
+    - - -37.0730086
+      - 4.1808663
+    - - -37.1212653
+      - 4.2475048
+    - - -37.1683605
+      - 4.3149691
+    - - -37.2142801
+      - 4.383239
+    - - -37.2590103
+      - 4.4522941
+    - - -37.3025377
+      - 4.5221136
+    - - -37.3448492
+      - 4.5926766
+    - - -37.3859321
+      - 4.6639618
+    - - -37.4257742
+      - 4.735948
+    - - -37.4689335
+      - 4.8172192
+    - - -54.6609683
+      - 37.8788246
+    - - -54.6711666
+      - 37.898854
+    - - -54.676797
+      - 37.9103967
+    - - -54.6822289
+      - 37.9220341
+    - - -54.6874607
+      - 37.9337628
+    - - -54.6924909
+      - 37.9455794
+    - - -54.697318
+      - 37.9574804
+    - - -54.7019406
+      - 37.9694623
+    - - -54.7063573
+      - 37.9815217
+    - - -54.7105669
+      - 37.9936549
+    - - -54.714568
+      - 38.0058584
+    - - -54.7183596
+      - 38.0181286
+    - - -54.7219405
+      - 38.030462
+    - - -54.7253097
+      - 38.0428549
+    - - -54.7284662
+      - 38.0553036
+    - - -54.731409
+      - 38.0678046
+    - - -54.7341373
+      - 38.0803542
+    - - -54.7366503
+      - 38.0929486
+    - - -54.7389472
+      - 38.1055842
+    - - -54.7410275
+      - 38.1182573
+    - - -54.7428903
+      - 38.1309642
+    - - -54.7445354
+      - 38.1437011
+    - - -54.745962
+      - 38.1564643
+    - - -54.7471699
+      - 38.1692501
+    - - -54.7481587
+      - 38.1820547
+    - - -54.748928
+      - 38.1948743
+    - - -54.7494777
+      - 38.2077052
+    - - -54.7498075
+      - 38.2205437
+    - - -54.75
+      - 38.2430192
+    - - -54.75
+      - 53.5
+    - - -52.75
+      - 54.5
+    - - -54.75
+      - 58.5
+    - - -51.395898
+      - 58.5
+    - - -50.0667184
+      - 55.8416408
+    - - -50.0437122
+      - 55.7946067
+    - - -50.0215304
+      - 55.7471783
+    - - -50.0001797
+      - 55.69937
+    - - -49.9796666
+      - 55.6511964
+    - - -49.9599974
+      - 55.602672
+    - - -49.9411781
+      - 55.5538118
+    - - -49.9232143
+      - 55.5046306
+    - - -49.9061116
+      - 55.4551434
+    - - -49.8898752
+      - 55.4053652
+    - - -49.87451
+      - 55.3553113
+    - - -49.8600207
+      - 55.3049968
+    - - -49.8464118
+      - 55.2544371
+    - - -49.8336873
+      - 55.2036476
+    - - -49.8218511
+      - 55.1526438
+    - - -49.8109068
+      - 55.1014411
+    - - -49.8008579
+      - 55.0500553
+    - - -49.7917073
+      - 54.9985019
+    - - -49.7834578
+      - 54.9467966
+    - - -49.7761119
+      - 54.8949553
+    - - -49.7696719
+      - 54.8429936
+    - - -49.7641398
+      - 54.7909275
+    - - -49.7595172
+      - 54.7387727
+    - - -49.7558055
+      - 54.6865452
+    - - -49.7530058
+      - 54.6342609
+    - - -49.7511191
+      - 54.5819357
+    - - -49.7501459
+      - 54.5295855
+    - - -49.7500864
+      - 54.4772264
+    - - -49.7509408
+      - 54.4248741
+    - - -49.7527087
+      - 54.3725448
+    - - -49.7553896
+      - 54.3202542
+    - - -49.7589827
+      - 54.2680184
+    - - -49.7634869
+      - 54.2158533
+    - - -49.7689008
+      - 54.1637748
+    - - -49.7752228
+      - 54.1117986
+    - - -49.7824509
+      - 54.0599407
+    - - -49.7905829
+      - 54.0082169
+    - - -49.7996165
+      - 53.9566428
+    - - -49.8095487
+      - 53.9052343
+    - - -49.8203767
+      - 53.8540069
+    - - -49.832097
+      - 53.8029763
+    - - -49.8447061
+      - 53.7521581
+    - - -49.8582003
+      - 53.7015676
+    - - -49.8725753
+      - 53.6512203
+    - - -49.8878268
+      - 53.6011316
+    - - -49.9039501
+      - 53.5513167
+    - - -49.9209404
+      - 53.5017908
+    - - -49.9387924
+      - 53.4525689
+    - - -49.9575008
+      - 53.4036661
+    - - -49.9770597
+      - 53.3550972
+    - - -49.9974634
+      - 53.3068771
+    - - -50.0187055
+      - 53.2590205
+    - - -50.0407795
+      - 53.2115418
+    - - -50.0636789
+      - 53.1644556
+    - - -50.0873965
+      - 53.1177763
+    - - -50.1119251
+      - 53.071518
+    - - -50.1372574
+      - 53.0256948
+    - - -50.1633855
+      - 52.9803207
+    - - -50.1903015
+      - 52.9354095
+    - - -50.2179972
+      - 52.8909749
+    - - -50.2464642
+      - 52.8470304
+    - - -50.2756938
+      - 52.8035894
+    - - -50.3056771
+      - 52.7606652
+    - - -50.336405
+      - 52.7182708
+    - - -50.367868
+      - 52.6764191
+    - - -50.4000567
+      - 52.6351229
+    - - -50.4329612
+      - 52.5943948
+    - - -50.4665715
+      - 52.5542471
+    - - -50.5008774
+      - 52.5146921
+    - - -50.5358683
+      - 52.4757419
+    - - -50.5715337
+      - 52.4374083
+    - - -50.6078627
+      - 52.3997029
+    - - -50.6448442
+      - 52.3626374
+    - - -50.6824669
+      - 52.3262229
+    - - -50.7207195
+      - 52.2904705
+    - - -50.7595901
+      - 52.2553912
+    - - -50.7990671
+      - 52.2209956
+    - - -50.8391384
+      - 52.1872943
+    - - -50.8797917
+      - 52.1542974
+    - - -50.9210147
+      - 52.122015
+    - - -50.9627948
+      - 52.090457
+    - - -51.0051193
+      - 52.0596329
+    - - -51.0479754
+      - 52.0295522
+    - - -51.0913498
+      - 52.0002241
+    - - -51.1352296
+      - 51.9716574
+    - - -51.1796012
+      - 51.9438608
+    - - -51.2244511
+      - 51.9168429
+    - - -51.2697658
+      - 51.8906118
+    - - -51.3155313
+      - 51.8651756
+    - - -51.3617338
+      - 51.840542
+    - - -51.4083592
+      - 51.8167184
+    - - -51.75
+      - 51.645898
+    - - -51.75
+      - 38.7834253
+    - - -34.8132767
+      - 6.2128037
+    - - -34.7883974
+      - 6.1659546
+    - - -34.7737201
+      - 6.1394359
+    - - -34.7585858
+      - 6.1131754
+    - - -34.7429988
+      - 6.087181
+    - - -34.7269639
+      - 6.0614605
+    - - -34.7104859
+      - 6.0360215
+    - - -34.6935698
+      - 6.0108718
+    - - -34.6762205
+      - 5.9860189
+    - - -34.6584435
+      - 5.9614702
+    - - -34.6402438
+      - 5.9372331
+    - - -34.6216271
+      - 5.9133149
+    - - -34.6025989
+      - 5.8897227
+    - - -34.5831649
+      - 5.8664637
+    - - -34.5633309
+      - 5.8435447
+    - - -34.543103
+      - 5.8209728
+    - - -34.5224871
+      - 5.7987546
+    - - -34.5014895
+      - 5.7768968
+    - - -34.4801164
+      - 5.755406
+    - - -34.4583743
+      - 5.7342886
+    - - -34.4362696
+      - 5.713551
+    - - -34.4138091
+      - 5.6931994
+    - - -34.3909995
+      - 5.6732398
+    - - -34.3678475
+      - 5.6536784
+    - - -34.3443602
+      - 5.6345208
+    - - -34.3205446
+      - 5.615773
+    - - -34.2964078
+      - 5.5974405
+    - - -34.2719572
+      - 5.5795289
+    - - -34.2471999
+      - 5.5620434
+    - - -34.2221435
+      - 5.5449894
+    - - -34.1967955
+      - 5.5283719
+    - - -34.1711634
+      - 5.512196
+    - - -34.145255
+      - 5.4964665
+    - - -34.119078
+      - 5.4811881
+    - - -34.0926403
+      - 5.4663654
+    - - -34.0659499
+      - 5.4520028
+    - - -34.0390146
+      - 5.4381048
+    - - -34.0118427
+      - 5.4246753
+    - - -33.9844423
+      - 5.4117185
+    - - -33.9568215
+      - 5.3992383
+    - - -33.9289887
+      - 5.3872383
+    - - -33.9009522
+      - 5.3757222
+    - - -33.8727205
+      - 5.3646935
+    - - -33.844302
+      - 5.3541554
+    - - -33.8157052
+      - 5.3441112
+    - - -33.7869387
+      - 5.3345638
+    - - -33.7580112
+      - 5.3255161
+    - - -33.7289312
+      - 5.3169708
+    - - -33.6997077
+      - 5.3089304
+    - - -33.6703492
+      - 5.3013975
+    - - -33.6408647
+      - 5.2943742
+    - - -33.611263
+      - 5.2878626
+    - - -33.5815529
+      - 5.2818648
+    - - -33.5517434
+      - 5.2763825
+    - - -33.5218434
+      - 5.2714173
+    - - -33.4918618
+      - 5.2669708
+    - - -33.4618078
+      - 5.2630442
+    - - -33.4316902
+      - 5.2596388
+    - - -33.4015182
+      - 5.2567556
+    - - -33.3713008
+      - 5.2543954
+    - - -33.341047
+      - 5.252559
+    - - -33.310766
+      - 5.2512469
+    - - -33.2804668
+      - 5.2504594
+    - - -33.2274233
+      - 5.25
+    - - 33.2274233
+      - 5.25
+    - - 33.2804668
+      - 5.2504594
+    - - 33.310766
+      - 5.2512469
+    - - 33.341047
+      - 5.252559
+    - - 33.3713008
+      - 5.2543954
+    - - 33.4015182
+      - 5.2567556
+    - - 33.4316902
+      - 5.2596388
+    - - 33.4618078
+      - 5.2630442
+    - - 33.4918618
+      - 5.2669708
+    - - 33.5218434
+      - 5.2714173
+    - - 33.5517434
+      - 5.2763825
+    - - 33.5815529
+      - 5.2818648
+    - - 33.611263
+      - 5.2878626
+    - - 33.6408647
+      - 5.2943742
+    - - 33.6703492
+      - 5.3013975
+    - - 33.6997077
+      - 5.3089304
+    - - 33.7289312
+      - 5.3169708
+    - - 33.7580112
+      - 5.3255161
+    - - 33.7869387
+      - 5.3345638
+    - - 33.8157052
+      - 5.3441112
+    - - 33.844302
+      - 5.3541554
+    - - 33.8727205
+      - 5.3646935
+    - - 33.9009522
+      - 5.3757222
+    - - 33.9289887
+      - 5.3872383
+    - - 33.9568215
+      - 5.3992383
+    - - 33.9844423
+      - 5.4117185
+    - - 34.0118427
+      - 5.4246753
+    - - 34.0390146
+      - 5.4381048
+    - - 34.0659499
+      - 5.4520028
+    - - 34.0926403
+      - 5.4663654
+    - - 34.119078
+      - 5.4811881
+    - - 34.145255
+      - 5.4964665
+    - - 34.1711634
+      - 5.512196
+    - - 34.1967955
+      - 5.5283719
+    - - 34.2221435
+      - 5.5449894
+    - - 34.2471999
+      - 5.5620434
+    - - 34.2719572
+      - 5.5795289
+    - - 34.2964078
+      - 5.5974405
+    - - 34.3205446
+      - 5.615773
+    - - 34.3443602
+      - 5.6345208
+    - - 34.3678475
+      - 5.6536784
+    - - 34.3909995
+      - 5.6732398
+    - - 34.4138091
+      - 5.6931994
+    - - 34.4362696
+      - 5.713551
+    - - 34.4583743
+      - 5.7342886
+    - - 34.4801164
+      - 5.755406
+    - - 34.5014895
+      - 5.7768968
+    - - 34.5224871
+      - 5.7987546
+    - - 34.543103
+      - 5.8209728
+    - - 34.5633309
+      - 5.8435447
+    - - 34.5831649
+      - 5.8664637
+    - - 34.6025989
+      - 5.8897227
+    - - 34.6216271
+      - 5.9133149
+    - - 34.6402438
+      - 5.9372331
+    - - 34.6584435
+      - 5.9614702
+    - - 34.6762205
+      - 5.9860189
+    - - 34.6935698
+      - 6.0108718
+    - - 34.7104859
+      - 6.0360215
+    - - 34.7269639
+      - 6.0614605
+    - - 34.7429988
+      - 6.087181
+    - - 34.7585858
+      - 6.1131754
+    - - 34.7737201
+      - 6.1394359
+    - - 34.7883974
+      - 6.1659546
+    - - 34.8132767
+      - 6.2128037
+    - - 51.75
+      - 38.7834253
+    - - 51.75
+      - 51.645898
+    - - 51.4083592
+      - 51.8167184
+    - - 51.3617338
+      - 51.840542
+    - - 51.3155313
+      - 51.8651756
+    - - 51.2697658
+      - 51.8906118
+    - - 51.2244511
+      - 51.9168429
+    - - 51.1796012
+      - 51.9438608
+    - - 51.1352296
+      - 51.9716574
+    - - 51.0913498
+      - 52.0002241
+    - - 51.0479754
+      - 52.0295522
+    - - 51.0051193
+      - 52.0596329
+    - - 50.9627948
+      - 52.090457
+    - - 50.9210147
+      - 52.122015
+    - - 50.8797917
+      - 52.1542974
+    - - 50.8391384
+      - 52.1872943
+    - - 50.7990671
+      - 52.2209956
+    - - 50.7595901
+      - 52.2553912
+    - - 50.7207195
+      - 52.2904705
+    - - 50.6824669
+      - 52.3262229
+    - - 50.6448442
+      - 52.3626374
+    - - 50.6078627
+      - 52.3997029
+    - - 50.5715337
+      - 52.4374083
+    - - 50.5358683
+      - 52.4757419
+    - - 50.5008774
+      - 52.5146921
+    - - 50.4665715
+      - 52.5542471
+    - - 50.4329612
+      - 52.5943948
+    - - 50.4000567
+      - 52.6351229
+    - - 50.367868
+      - 52.6764191
+    - - 50.336405
+      - 52.7182708
+    - - 50.3056771
+      - 52.7606652
+    - - 50.2756938
+      - 52.8035894
+    - - 50.2464642
+      - 52.8470304
+    - - 50.2179972
+      - 52.8909749
+    - - 50.1903015
+      - 52.9354095
+    - - 50.1633855
+      - 52.9803207
+    - - 50.1372574
+      - 53.0256948
+    - - 50.1119251
+      - 53.071518
+    - - 50.0873965
+      - 53.1177763
+    - - 50.0636789
+      - 53.1644556
+    - - 50.0407795
+      - 53.2115418
+    - - 50.0187055
+      - 53.2590205
+    - - 49.9974634
+      - 53.3068771
+    - - 49.9770597
+      - 53.3550972
+    - - 49.9575008
+      - 53.4036661
+    - - 49.9387924
+      - 53.4525689
+    - - 49.9209404
+      - 53.5017908
+    - - 49.9039501
+      - 53.5513167
+    - - 49.8878268
+      - 53.6011316
+    - - 49.8725753
+      - 53.6512203
+    - - 49.8582003
+      - 53.7015676
+    - - 49.8447061
+      - 53.7521581
+    - - 49.832097
+      - 53.8029763
+    - - 49.8203767
+      - 53.8540069
+    - - 49.8095487
+      - 53.9052343
+    - - 49.7996165
+      - 53.9566428
+    - - 49.7905829
+      - 54.0082169
+    - - 49.7824509
+      - 54.0599407
+    - - 49.7752228
+      - 54.1117986
+    - - 49.7689008
+      - 54.1637748
+    - - 49.7634869
+      - 54.2158533
+    - - 49.7589827
+      - 54.2680184
+    - - 49.7553896
+      - 54.3202542
+    - - 49.7527087
+      - 54.3725448
+    - - 49.7509408
+      - 54.4248741
+    - - 49.7500864
+      - 54.4772264
+    - - 49.7501459
+      - 54.5295855
+    - - 49.7511191
+      - 54.5819357
+    - - 49.7530058
+      - 54.6342609
+    - - 49.7558055
+      - 54.6865452
+    - - 49.7595172
+      - 54.7387727
+    - - 49.7641398
+      - 54.7909275
+    - - 49.7696719
+      - 54.8429936
+    - - 49.7761119
+      - 54.8949553
+    - - 49.7834578
+      - 54.9467966
+    - - 49.7917073
+      - 54.9985019
+    - - 49.8008579
+      - 55.0500553
+    - - 49.8109068
+      - 55.1014411
+    - - 49.8218511
+      - 55.1526438
+    - - 49.8336873
+      - 55.2036476
+    - - 49.8464118
+      - 55.2544371
+    - - 49.8600207
+      - 55.3049968
+    - - 49.87451
+      - 55.3553113
+    - - 49.8898752
+      - 55.4053652
+    - - 49.9061116
+      - 55.4551434
+    - - 49.9232143
+      - 55.5046306
+    - - 49.9411781
+      - 55.5538118
+    - - 49.9599974
+      - 55.602672
+    - - 49.9796666
+      - 55.6511964
+    - - 50.0001797
+      - 55.69937
+    - - 50.0215304
+      - 55.7471783
+    - - 50.0437122
+      - 55.7946067
+    - - 50.0667184
+      - 55.8416408
+    - - 51.395898
+      - 58.5
+    - - 54.75
+      - 58.5
+    - - 52.75
+      - 54.5
+    pos:
+    - 0
+    - 0
+    - 2.99
+    print_orientation: Flat exterior face on bed at Z=0; ledge upward; no supports
+      required by geometry.
+    product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+    profile_height_mm: 58.5
+    profile_image_local: source_file/floplast/square_gutter_profile.jpg
+    profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+    profile_status: dimensioned_envelope_with_estimated_radii_shoulders_and_lips
+    profile_width_mm: 114.0
+    save_type: all
+    shape: polygon
+    shoulder_height_mm: 37.5
+    shoulder_radius_mm: 3.0
+    taxonomy_1: three_d_print
+    taxonomy_2: filament_manufacture
+    taxonomy_3: cooling_tank
+    taxonomy_4: cap_end_solide
+    taxonomy_5: 15_mm_depth
+    taxonomy_6: version_1
+    total_depth_mm: 15
+    typ: all
+    type: positive
+    wait_for_completion: true
+    width: 114.0
+    width_mm: 114.0
+  components_string:
+  - polygon_shape_positive_type_3.0_depth_cap__filter_true_wait_for_completion_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_7.0_bottom_radius_mm_75.0_bottom_virtual_width_mm_1.0_curve_step_degrees_15_depth_mm_solidblankcap_15mmtotaldepth;3mmfaceand12mminsertion_3mmu-shapedledge._description_114x58.5mmexternalfromdrawing;2.25mmmaterialthicknesssuppliedbyuser._dimension_basis_0.0_fit_clearance_mm_nominalmodelfitonly.measureactualradii/lipsandtrial-fitbeforesealing;drawingdoesnotestablishaperfectphysicalmatch._fit_note_3.0_front_plate_mm_2.25_gutter_wall_mm_3.0_height_58.5_height_mm_12.0_insertion_depth_mm_3.0_ledge_wall_mm_5.0_lip_height_mm_2.0_lip_projection_mm_4.0_lip_tip_drop_mm_cap_end_solide_oobb_name_printed_solid_end_cap_part_role_flatexteriorfaceonbedatz=0;ledgeupward;nosupportsrequiredbygeometry._print_orientation_https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154_product_reference_url_58.5_profile_height_mm_source_file/floplast/square_gutter_profile.jpg_profile_image_local_https://www.floplast.co.uk/uploads/product-images/thumbs/tzthwyeyd4jlruuprya4q3cotofuaovxlqg51iy3.jpg_profile_image_url_dimensioned_envelope_with_estimated_radii_shoulders_and_lips_profile_status_114.0_profile_width_mm_37.5_shoulder_height_mm_3.0_shoulder_radius_mm_three_d_print_taxonomy_1_filament_manufacture_taxonomy_2_cooling_tank_taxonomy_3_cap_end_solide_taxonomy_4_15_mm_depth_taxonomy_5_version_1_taxonomy_6_15_total_depth_mm_114.0_width_114.0_width_mm_57.0_38.2333859_56.9995601_38.1820114_56.9982404_38.1306519_56.9960415_38.0793225_56.9929638_38.0280383_56.9890084_37.9768144_56.9841763_37.9256657_56.978469_37.8746072_56.9718882_37.823654_56.9644358_37.7728209_56.956114_37.7221229_56.9469252_37.6715749_56.9368722_37.6211916_56.9259578_37.5709879_56.9141852_37.5209784_56.901558_37.4711779_56.8880798_37.4216009_56.8737546_37.372262_56.8585866_37.3231757_56.8425802_37.2743563_56.8257401_37.2258182_56.8080713_37.1775755_56.7895789_37.1296426_56.7702684_37.0820333_56.7501454_37.0347617_56.7292159_36.9878416_56.7074859_36.9412868_56.6849619_36.895111_56.6616504_36.8493277_39.460676_3.7705308_39.4038067_3.663443_39.3450911_3.5573563_39.2845467_3.4523025_39.2221918_3.3483131_39.158045_3.2454194_39.0921257_3.1436522_39.0244535_3.043042_38.9550488_2.9436191_38.8839324_2.8454133_38.8111257_2.748454_38.7366505_2.6527704_38.660529_2.5583911_38.5827843_2.4653444_38.5034396_2.3736583_38.4225187_2.2833604_38.3400458_2.1944775_38.2560458_2.1070366_38.1705439_2.0210637_38.0835656_1.9365846_37.9951371_1.8536249_37.905285_1.7722092_37.8140361_1.692362_37.7214179_1.6141074_37.6274581_1.5374687_37.532185_1.4624691_37.435627_1.3891309_37.3378133_1.3174761_37.2387731_1.2475264_37.1385362_1.1793026_37.0371326_1.1128253_36.9345928_1.0481143_36.8309475_0.9851892_36.7262278_0.9240687_36.6204652_0.8647712_36.5136914_0.8073146_36.4059383_0.751716_36.2972384_0.6979921_36.1876243_0.6461591_36.0771288_0.5962325_35.9657851_0.5482272_35.8536266_0.5021578_35.7406869_0.4580379_35.627_0.4158809_35.5126_0.3756994_35.3975211_0.3375055_35.2817979_0.3013105_35.1654652_0.2671254_35.0485578_0.2349605_34.9311108_0.2048253_34.8131595_0.176729_34.6947392_0.1506799_34.5758855_0.1266858_34.456634_0.104754_34.3370205_0.0848911_34.2170809_0.067103_34.0968512_0.051395_33.9763674_0.0377719_33.8556658_0.0262377_33.7347825_0.0167959_33.6137537_0.0094493_33.4926159_0.0042002_33.3714054_0.0010501_33.2501584_0.0_-33.2501584_0.0_-33.3714054_0.0010501_-33.4926159_0.0042002_-33.6137537_0.0094493_-33.7347825_0.0167959_-33.8556658_0.0262377_-33.9763674_0.0377719_-34.0968512_0.051395_-34.2170809_0.067103_-34.3370205_0.0848911_-34.456634_0.104754_-34.5758855_0.1266858_-34.6947392_0.1506799_-34.8131595_0.176729_-34.9311108_0.2048253_-35.0485578_0.2349605_-35.1654652_0.2671254_-35.2817979_0.3013105_-35.3975211_0.3375055_-35.5126_0.3756994_-35.627_0.4158809_-35.7406869_0.4580379_-35.8536266_0.5021578_-35.9657851_0.5482272_-36.0771288_0.5962325_-36.1876243_0.6461591_-36.2972384_0.6979921_-36.4059383_0.751716_-36.5136914_0.8073146_-36.6204652_0.8647712_-36.7262278_0.9240687_-36.8309475_0.9851892_-36.9345928_1.0481143_-37.0371326_1.1128253_-37.1385362_1.1793026_-37.2387731_1.2475264_-37.3378133_1.3174761_-37.435627_1.3891309_-37.532185_1.4624691_-37.6274581_1.5374687_-37.7214179_1.6141074_-37.8140361_1.692362_-37.905285_1.7722092_-37.9951371_1.8536249_-38.0835656_1.9365846_-38.1705439_2.0210637_-38.2560458_2.1070366_-38.3400458_2.1944775_-38.4225187_2.2833604_-38.5034396_2.3736583_-38.5827843_2.4653444_-38.660529_2.5583911_-38.7366505_2.6527704_-38.8111257_2.748454_-38.8839324_2.8454133_-38.9550488_2.9436191_-39.0244535_3.043042_-39.0921257_3.1436522_-39.158045_3.2454194_-39.2221918_3.3483131_-39.2845467_3.4523025_-39.3450911_3.5573563_-39.4038067_3.663443_-39.460676_3.7705308_-56.6616504_36.8493277_-56.6849619_36.895111_-56.7074859_36.9412868_-56.7292159_36.9878416_-56.7501454_37.0347617_-56.7702684_37.0820333_-56.7895789_37.1296426_-56.8080713_37.1775755_-56.8257401_37.2258182_-56.8425802_37.2743563_-56.8585866_37.3231757_-56.8737546_37.372262_-56.8880798_37.4216009_-56.901558_37.4711779_-56.9141852_37.5209784_-56.9259578_37.5709879_-56.9368722_37.6211916_-56.9469252_37.6715749_-56.956114_37.7221229_-56.9644358_37.7728209_-56.9718882_37.823654_-56.978469_37.8746072_-56.9841763_37.9256657_-56.9890084_37.9768144_-56.9929638_38.0280383_-56.9960415_38.0793225_-56.9982404_38.1306519_-56.9995601_38.1820114_-57.0_38.2333859_-57.0_58.5_57.0_58.5_points
+  - polygon_shape_positive_type_12.01_depth_0_0_2.99_pos_cap__filter_true_wait_for_completion_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_7.0_bottom_radius_mm_75.0_bottom_virtual_width_mm_1.0_curve_step_degrees_15_depth_mm_solidblankcap_15mmtotaldepth;3mmfaceand12mminsertion_3mmu-shapedledge._description_114x58.5mmexternalfromdrawing;2.25mmmaterialthicknesssuppliedbyuser._dimension_basis_0.0_fit_clearance_mm_nominalmodelfitonly.measureactualradii/lipsandtrial-fitbeforesealing;drawingdoesnotestablishaperfectphysicalmatch._fit_note_3.0_front_plate_mm_2.25_gutter_wall_mm_12.01_height_58.5_height_mm_12.0_insertion_depth_mm_3.0_ledge_wall_mm_5.0_lip_height_mm_2.0_lip_projection_mm_4.0_lip_tip_drop_mm_cap_end_solide_oobb_name_printed_solid_end_cap_part_role_flatexteriorfaceonbedatz=0;ledgeupward;nosupportsrequiredbygeometry._print_orientation_https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154_product_reference_url_58.5_profile_height_mm_source_file/floplast/square_gutter_profile.jpg_profile_image_local_https://www.floplast.co.uk/uploads/product-images/thumbs/tzthwyeyd4jlruuprya4q3cotofuaovxlqg51iy3.jpg_profile_image_url_dimensioned_envelope_with_estimated_radii_shoulders_and_lips_profile_status_114.0_profile_width_mm_37.5_shoulder_height_mm_3.0_shoulder_radius_mm_three_d_print_taxonomy_1_filament_manufacture_taxonomy_2_cooling_tank_taxonomy_3_cap_end_solide_taxonomy_4_15_mm_depth_taxonomy_5_version_1_taxonomy_6_15_total_depth_mm_114.0_width_114.0_width_mm_54.75_53.5_54.75_38.2430192_54.7498075_38.2205437_54.7494777_38.2077052_54.748928_38.1948743_54.7481587_38.1820547_54.7471699_38.1692501_54.745962_38.1564643_54.7445354_38.1437011_54.7428903_38.1309642_54.7410275_38.1182573_54.7389472_38.1055842_54.7366503_38.0929486_54.7341373_38.0803542_54.731409_38.0678046_54.7284662_38.0553036_54.7253097_38.0428549_54.7219405_38.030462_54.7183596_38.0181286_54.714568_38.0058584_54.7105669_37.9936549_54.7063573_37.9815217_54.7019406_37.9694623_54.697318_37.9574804_54.6924909_37.9455794_54.6874607_37.9337628_54.6822289_37.9220341_54.676797_37.9103967_54.6711666_37.898854_54.6609683_37.8788246_37.4689335_4.8172192_37.4257742_4.735948_37.3859321_4.6639618_37.3448492_4.5926766_37.3025377_4.5221136_37.2590103_4.4522941_37.2142801_4.383239_37.1683605_4.3149691_37.1212653_4.2475048_37.0730086_4.1808663_37.0236049_4.1150736_36.973069_4.0501466_36.9214161_3.9861046_36.8686617_3.922967_36.8148216_3.8607525_36.7599119_3.79948_36.7039492_3.7391677_36.6469503_3.6798338_36.5889321_3.6214961_36.5299122_3.5641721_36.4699082_3.5078789_36.4089382_3.4526335_36.3470204_3.3984525_36.2841734_3.3453521_36.2204161_3.2933482_36.1557677_3.2424565_36.0902474_3.1926922_36.023875_3.1440702_35.9566703_3.0966051_35.8886536_3.0503112_35.8198453_3.0052024_35.7502659_2.9612922_35.6799364_2.9185937_35.6088779_2.8771199_35.5371117_2.836883_35.4646593_2.7978953_35.3915424_2.7601683_35.3177831_2.7237135_35.2434034_2.6885417_35.1684256_2.6546635_35.0928723_2.6220891_35.0167661_2.5908282_34.9401299_2.5608903_34.8629866_2.5322843_34.7853593_2.5050187_34.7072715_2.4791019_34.6287465_2.4545415_34.5498078_2.4313449_34.4704792_2.409519_34.3907844_2.3890705_34.3107475_2.3700055_34.2303922_2.3523296_34.1497429_2.3360482_34.0688237_2.3211662_33.9876589_2.3076881_33.9062727_2.2956178_33.8246897_2.284959_33.7429343_2.2757148_33.6610311_2.2678882_33.5790046_2.2614814_33.4968794_2.2564963_33.4146802_2.2529345_33.3324317_2.250797_33.2404148_2.25_-33.2404148_2.25_-33.3324317_2.250797_-33.4146802_2.2529345_-33.4968794_2.2564963_-33.5790046_2.2614814_-33.6610311_2.2678882_-33.7429343_2.2757148_-33.8246897_2.284959_-33.9062727_2.2956178_-33.9876589_2.3076881_-34.0688237_2.3211662_-34.1497429_2.3360482_-34.2303922_2.3523296_-34.3107475_2.3700055_-34.3907844_2.3890705_-34.4704792_2.409519_-34.5498078_2.4313449_-34.6287465_2.4545415_-34.7072715_2.4791019_-34.7853593_2.5050187_-34.8629866_2.5322843_-34.9401299_2.5608903_-35.0167661_2.5908282_-35.0928723_2.6220891_-35.1684256_2.6546635_-35.2434034_2.6885417_-35.3177831_2.7237135_-35.3915424_2.7601683_-35.4646593_2.7978953_-35.5371117_2.836883_-35.6088779_2.8771199_-35.6799364_2.9185937_-35.7502659_2.9612922_-35.8198453_3.0052024_-35.8886536_3.0503112_-35.9566703_3.0966051_-36.023875_3.1440702_-36.0902474_3.1926922_-36.1557677_3.2424565_-36.2204161_3.2933482_-36.2841734_3.3453521_-36.3470204_3.3984525_-36.4089382_3.4526335_-36.4699082_3.5078789_-36.5299122_3.5641721_-36.5889321_3.6214961_-36.6469503_3.6798338_-36.7039492_3.7391677_-36.7599119_3.79948_-36.8148216_3.8607525_-36.8686617_3.922967_-36.9214161_3.9861046_-36.973069_4.0501466_-37.0236049_4.1150736_-37.0730086_4.1808663_-37.1212653_4.2475048_-37.1683605_4.3149691_-37.2142801_4.383239_-37.2590103_4.4522941_-37.3025377_4.5221136_-37.3448492_4.5926766_-37.3859321_4.6639618_-37.4257742_4.735948_-37.4689335_4.8172192_-54.6609683_37.8788246_-54.6711666_37.898854_-54.676797_37.9103967_-54.6822289_37.9220341_-54.6874607_37.9337628_-54.6924909_37.9455794_-54.697318_37.9574804_-54.7019406_37.9694623_-54.7063573_37.9815217_-54.7105669_37.9936549_-54.714568_38.0058584_-54.7183596_38.0181286_-54.7219405_38.030462_-54.7253097_38.0428549_-54.7284662_38.0553036_-54.731409_38.0678046_-54.7341373_38.0803542_-54.7366503_38.0929486_-54.7389472_38.1055842_-54.7410275_38.1182573_-54.7428903_38.1309642_-54.7445354_38.1437011_-54.745962_38.1564643_-54.7471699_38.1692501_-54.7481587_38.1820547_-54.748928_38.1948743_-54.7494777_38.2077052_-54.7498075_38.2205437_-54.75_38.2430192_-54.75_53.5_-52.75_54.5_-54.75_58.5_-51.395898_58.5_-50.0667184_55.8416408_-50.0437122_55.7946067_-50.0215304_55.7471783_-50.0001797_55.69937_-49.9796666_55.6511964_-49.9599974_55.602672_-49.9411781_55.5538118_-49.9232143_55.5046306_-49.9061116_55.4551434_-49.8898752_55.4053652_-49.87451_55.3553113_-49.8600207_55.3049968_-49.8464118_55.2544371_-49.8336873_55.2036476_-49.8218511_55.1526438_-49.8109068_55.1014411_-49.8008579_55.0500553_-49.7917073_54.9985019_-49.7834578_54.9467966_-49.7761119_54.8949553_-49.7696719_54.8429936_-49.7641398_54.7909275_-49.7595172_54.7387727_-49.7558055_54.6865452_-49.7530058_54.6342609_-49.7511191_54.5819357_-49.7501459_54.5295855_-49.7500864_54.4772264_-49.7509408_54.4248741_-49.7527087_54.3725448_-49.7553896_54.3202542_-49.7589827_54.2680184_-49.7634869_54.2158533_-49.7689008_54.1637748_-49.7752228_54.1117986_-49.7824509_54.0599407_-49.7905829_54.0082169_-49.7996165_53.9566428_-49.8095487_53.9052343_-49.8203767_53.8540069_-49.832097_53.8029763_-49.8447061_53.7521581_-49.8582003_53.7015676_-49.8725753_53.6512203_-49.8878268_53.6011316_-49.9039501_53.5513167_-49.9209404_53.5017908_-49.9387924_53.4525689_-49.9575008_53.4036661_-49.9770597_53.3550972_-49.9974634_53.3068771_-50.0187055_53.2590205_-50.0407795_53.2115418_-50.0636789_53.1644556_-50.0873965_53.1177763_-50.1119251_53.071518_-50.1372574_53.0256948_-50.1633855_52.9803207_-50.1903015_52.9354095_-50.2179972_52.8909749_-50.2464642_52.8470304_-50.2756938_52.8035894_-50.3056771_52.7606652_-50.336405_52.7182708_-50.367868_52.6764191_-50.4000567_52.6351229_-50.4329612_52.5943948_-50.4665715_52.5542471_-50.5008774_52.5146921_-50.5358683_52.4757419_-50.5715337_52.4374083_-50.6078627_52.3997029_-50.6448442_52.3626374_-50.6824669_52.3262229_-50.7207195_52.2904705_-50.7595901_52.2553912_-50.7990671_52.2209956_-50.8391384_52.1872943_-50.8797917_52.1542974_-50.9210147_52.122015_-50.9627948_52.090457_-51.0051193_52.0596329_-51.0479754_52.0295522_-51.0913498_52.0002241_-51.1352296_51.9716574_-51.1796012_51.9438608_-51.2244511_51.9168429_-51.2697658_51.8906118_-51.3155313_51.8651756_-51.3617338_51.840542_-51.4083592_51.8167184_-51.75_51.645898_-51.75_38.7834253_-34.8132767_6.2128037_-34.7883974_6.1659546_-34.7737201_6.1394359_-34.7585858_6.1131754_-34.7429988_6.087181_-34.7269639_6.0614605_-34.7104859_6.0360215_-34.6935698_6.0108718_-34.6762205_5.9860189_-34.6584435_5.9614702_-34.6402438_5.9372331_-34.6216271_5.9133149_-34.6025989_5.8897227_-34.5831649_5.8664637_-34.5633309_5.8435447_-34.543103_5.8209728_-34.5224871_5.7987546_-34.5014895_5.7768968_-34.4801164_5.755406_-34.4583743_5.7342886_-34.4362696_5.713551_-34.4138091_5.6931994_-34.3909995_5.6732398_-34.3678475_5.6536784_-34.3443602_5.6345208_-34.3205446_5.615773_-34.2964078_5.5974405_-34.2719572_5.5795289_-34.2471999_5.5620434_-34.2221435_5.5449894_-34.1967955_5.5283719_-34.1711634_5.512196_-34.145255_5.4964665_-34.119078_5.4811881_-34.0926403_5.4663654_-34.0659499_5.4520028_-34.0390146_5.4381048_-34.0118427_5.4246753_-33.9844423_5.4117185_-33.9568215_5.3992383_-33.9289887_5.3872383_-33.9009522_5.3757222_-33.8727205_5.3646935_-33.844302_5.3541554_-33.8157052_5.3441112_-33.7869387_5.3345638_-33.7580112_5.3255161_-33.7289312_5.3169708_-33.6997077_5.3089304_-33.6703492_5.3013975_-33.6408647_5.2943742_-33.611263_5.2878626_-33.5815529_5.2818648_-33.5517434_5.2763825_-33.5218434_5.2714173_-33.4918618_5.2669708_-33.4618078_5.2630442_-33.4316902_5.2596388_-33.4015182_5.2567556_-33.3713008_5.2543954_-33.341047_5.252559_-33.310766_5.2512469_-33.2804668_5.2504594_-33.2274233_5.25_33.2274233_5.25_33.2804668_5.2504594_33.310766_5.2512469_33.341047_5.252559_33.3713008_5.2543954_33.4015182_5.2567556_33.4316902_5.2596388_33.4618078_5.2630442_33.4918618_5.2669708_33.5218434_5.2714173_33.5517434_5.2763825_33.5815529_5.2818648_33.611263_5.2878626_33.6408647_5.2943742_33.6703492_5.3013975_33.6997077_5.3089304_33.7289312_5.3169708_33.7580112_5.3255161_33.7869387_5.3345638_33.8157052_5.3441112_33.844302_5.3541554_33.8727205_5.3646935_33.9009522_5.3757222_33.9289887_5.3872383_33.9568215_5.3992383_33.9844423_5.4117185_34.0118427_5.4246753_34.0390146_5.4381048_34.0659499_5.4520028_34.0926403_5.4663654_34.119078_5.4811881_34.145255_5.4964665_34.1711634_5.512196_34.1967955_5.5283719_34.2221435_5.5449894_34.2471999_5.5620434_34.2719572_5.5795289_34.2964078_5.5974405_34.3205446_5.615773_34.3443602_5.6345208_34.3678475_5.6536784_34.3909995_5.6732398_34.4138091_5.6931994_34.4362696_5.713551_34.4583743_5.7342886_34.4801164_5.755406_34.5014895_5.7768968_34.5224871_5.7987546_34.543103_5.8209728_34.5633309_5.8435447_34.5831649_5.8664637_34.6025989_5.8897227_34.6216271_5.9133149_34.6402438_5.9372331_34.6584435_5.9614702_34.6762205_5.9860189_34.6935698_6.0108718_34.7104859_6.0360215_34.7269639_6.0614605_34.7429988_6.087181_34.7585858_6.1131754_34.7737201_6.1394359_34.7883974_6.1659546_34.8132767_6.2128037_51.75_38.7834253_51.75_51.645898_51.4083592_51.8167184_51.3617338_51.840542_51.3155313_51.8651756_51.2697658_51.8906118_51.2244511_51.9168429_51.1796012_51.9438608_51.1352296_51.9716574_51.0913498_52.0002241_51.0479754_52.0295522_51.0051193_52.0596329_50.9627948_52.090457_50.9210147_52.122015_50.8797917_52.1542974_50.8391384_52.1872943_50.7990671_52.2209956_50.7595901_52.2553912_50.7207195_52.2904705_50.6824669_52.3262229_50.6448442_52.3626374_50.6078627_52.3997029_50.5715337_52.4374083_50.5358683_52.4757419_50.5008774_52.5146921_50.4665715_52.5542471_50.4329612_52.5943948_50.4000567_52.6351229_50.367868_52.6764191_50.336405_52.7182708_50.3056771_52.7606652_50.2756938_52.8035894_50.2464642_52.8470304_50.2179972_52.8909749_50.1903015_52.9354095_50.1633855_52.9803207_50.1372574_53.0256948_50.1119251_53.071518_50.0873965_53.1177763_50.0636789_53.1644556_50.0407795_53.2115418_50.0187055_53.2590205_49.9974634_53.3068771_49.9770597_53.3550972_49.9575008_53.4036661_49.9387924_53.4525689_49.9209404_53.5017908_49.9039501_53.5513167_49.8878268_53.6011316_49.8725753_53.6512203_49.8582003_53.7015676_49.8447061_53.7521581_49.832097_53.8029763_49.8203767_53.8540069_49.8095487_53.9052343_49.7996165_53.9566428_49.7905829_54.0082169_49.7824509_54.0599407_49.7752228_54.1117986_49.7689008_54.1637748_49.7634869_54.2158533_49.7589827_54.2680184_49.7553896_54.3202542_49.7527087_54.3725448_49.7509408_54.4248741_49.7500864_54.4772264_49.7501459_54.5295855_49.7511191_54.5819357_49.7530058_54.6342609_49.7558055_54.6865452_49.7595172_54.7387727_49.7641398_54.7909275_49.7696719_54.8429936_49.7761119_54.8949553_49.7834578_54.9467966_49.7917073_54.9985019_49.8008579_55.0500553_49.8109068_55.1014411_49.8218511_55.1526438_49.8336873_55.2036476_49.8464118_55.2544371_49.8600207_55.3049968_49.87451_55.3553113_49.8898752_55.4053652_49.9061116_55.4551434_49.9232143_55.5046306_49.9411781_55.5538118_49.9599974_55.602672_49.9796666_55.6511964_50.0001797_55.69937_50.0215304_55.7471783_50.0437122_55.7946067_50.0667184_55.8416408_51.395898_58.5_54.75_58.5_52.75_54.5_points
+  curve_step_degrees: 1.0
+  depth: 15
+  depth_mm: 15
+  description: Solid blank cap, 15 mm total depth; 3 mm face and 12 mm insertion,
+    3 mm U-shaped ledge.
+  description_extra: 15_depth
+  description_main: 114_0_width_58_5_height
+  dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+    supplied by user.
+  directory: parts/three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth_version_1
+  filter: cap_
+  fit_clearance_mm: 0.0
+  fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+    sealing; drawing does not establish a perfect physical match.
+  front_plate_mm: 3.0
+  gutter_wall_mm: 2.25
+  height: 58.5
+  height_mm: 58.5
+  id: three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth_version_1
+  id_no_class: three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth_version_1
+  id_no_size: three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth_version_1
+  id_no_type: three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth_version_1
+  insertion_depth_mm: 12.0
+  kwargs:
+    bottom_radius_mm: 7.0
+    bottom_virtual_width_mm: 75.0
+    curve_step_degrees: 1.0
+    depth: 15
+    depth_mm: 15
+    description: Solid blank cap, 15 mm total depth; 3 mm face and 12 mm insertion,
+      3 mm U-shaped ledge.
+    dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+      supplied by user.
+    filter: cap_
+    fit_clearance_mm: 0.0
+    fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+      sealing; drawing does not establish a perfect physical match.
+    front_plate_mm: 3.0
+    gutter_wall_mm: 2.25
+    height: 58.5
+    height_mm: 58.5
+    insertion_depth_mm: 12.0
+    ledge_wall_mm: 3.0
+    lip_height_mm: 5.0
+    lip_projection_mm: 2.0
+    lip_tip_drop_mm: 4.0
+    modes:
+    - 3dpr
+    navigation: true
+    oobb_name: cap_end_solide
+    oomp_mode: project
+    oomp_run: true
+    overwrite: true
+    part_role: printed_solid_end_cap
+    print_orientation: Flat exterior face on bed at Z=0; ledge upward; no supports
+      required by geometry.
+    product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+    profile_height_mm: 58.5
+    profile_image_local: source_file/floplast/square_gutter_profile.jpg
+    profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+    profile_status: dimensioned_envelope_with_estimated_radii_shoulders_and_lips
+    profile_width_mm: 114.0
+    save_type: all
+    shoulder_height_mm: 37.5
+    shoulder_radius_mm: 3.0
+    taxonomy_1: three_d_print
+    taxonomy_2: filament_manufacture
+    taxonomy_3: cooling_tank
+    taxonomy_4: cap_end_solide
+    taxonomy_5: 15_mm_depth
+    taxonomy_6: version_1
+    total_depth_mm: 15
+    typ: all
+    wait_for_completion: true
+    width: 114.0
+    width_mm: 114.0
+  ledge_wall_mm: 3.0
+  link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth_version_1
+  link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth_version_1
+  link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth_version_1
+  lip_height_mm: 5.0
+  lip_projection_mm: 2.0
+  lip_tip_drop_mm: 4.0
+  manufacturer: ''
+  md5: 32ee61536a651c2240ad1b6460fc3f82
+  md5_10: 32ee61536a
+  md5_10_upper: 32EE61536A
+  md5_5: 32ee6
+  md5_5_upper: 32EE6
+  md5_6: 32ee61
+  md5_6_alpha: 1zjhd
+  md5_6_alpha_upper: 1ZJHD
+  md5_6_upper: 32EE61
+  name: Three D Print Filament Manufacture Cooling Tank Cap End Solide 15 Mm Depth
+    Version 1
+  name_no_class: Three D Print Filament Manufacture Cooling Tank Cap End Solide 15
+    Mm Depth Version 1
+  name_no_size: Three D Print Filament Manufacture Cooling Tank Cap End Solide 15
+    Mm Depth Version 1
+  name_no_type: Three D Print Filament Manufacture Cooling Tank Cap End Solide 15
+    Mm Depth Version 1
+  name_proper: Three D Print Filament Manufacture Cooling Tank Cap End Solide 15 Mm
+    Depth Version 1
+  name_short: Default Cap End Solide 114 0x58 5x15
+  name_space: three d print filament manufacture cooling tank cap end solide 15 mm
+    depth version 1
+  name_text: Oobb Part Default Cap End Solide 114 0 Width 58 5 Height 15 Depth
+  name_upper: THREE D PRINT FILAMENT MANUFACTURE COOLING TANK CAP END SOLIDE 15 MM
+    DEPTH VERSION 1
+  oobb_details:
+    bottom_radius_mm: 7.0
+    bottom_virtual_width_mm: 75.0
+    curve_step_degrees: 1.0
+    depth: 15
+    depth_mm: 15
+    description: Solid blank cap, 15 mm total depth; 3 mm face and 12 mm insertion,
+      3 mm U-shaped ledge.
+    dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+      supplied by user.
+    fit_clearance_mm: 0.0
+    fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+      sealing; drawing does not establish a perfect physical match.
+    front_plate_mm: 3.0
+    gutter_wall_mm: 2.25
+    height: 58.5
+    height_mm: 58.5
+    insertion_depth_mm: 12.0
+    ledge_wall_mm: 3.0
+    lip_height_mm: 5.0
+    lip_projection_mm: 2.0
+    lip_tip_drop_mm: 4.0
+    oobb_name: cap_end_solide
+    oobb_type: cap_end_solide
+    part_role: printed_solid_end_cap
+    print_orientation: Flat exterior face on bed at Z=0; ledge upward; no supports
+      required by geometry.
+    product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+    profile_height_mm: 58.5
+    profile_image_local: source_file/floplast/square_gutter_profile.jpg
+    profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+    profile_status: dimensioned_envelope_with_estimated_radii_shoulders_and_lips
+    profile_width_mm: 114.0
+    run_scad: true
+    run_solidcraft: false
+    shoulder_height_mm: 37.5
+    shoulder_radius_mm: 3.0
+    taxonomy_1: three_d_print
+    taxonomy_2: filament_manufacture
+    taxonomy_3: cooling_tank
+    taxonomy_4: cap_end_solide
+    taxonomy_5: 15_mm_depth
+    taxonomy_6: version_1
+    total_depth_mm: 15
+    width: 114.0
+    width_mm: 114.0
+  oobb_name: cap_end_solide
+  oobb_type: cap_end_solide
+  oomlout_ai_roboclick_1:
+    action_name: step_0_jinja_template_label_oomp.svg
+    actions:
+    - command: text_jinja_template
+      convert_to_pdf: false
+      convert_to_png: false
+      dict_data:
+        bottom_radius_mm: 7.0
+        bottom_virtual_width_mm: 75.0
+        curve_step_degrees: 1.0
+        depth: 15
+        depth_mm: 15
+        description: Solid blank cap, 15 mm total depth; 3 mm face and 12 mm insertion,
+          3 mm U-shaped ledge.
+        dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+          supplied by user.
+        directory: parts\three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth_version_1
+        fit_clearance_mm: 0.0
+        fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit
+          before sealing; drawing does not establish a perfect physical match.
+        front_plate_mm: 3.0
+        gutter_wall_mm: 2.25
+        height: 58.5
+        height_mm: 58.5
+        insertion_depth_mm: 12.0
+        ledge_wall_mm: 3.0
+        lip_height_mm: 5.0
+        lip_projection_mm: 2.0
+        lip_tip_drop_mm: 4.0
+        name: three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth_version_1
+        name_proper: Three D Print Filament Manufacture Cooling Tank Cap End Solide
+          15 Mm Depth Version 1
+        name_space: three d print filament manufacture cooling tank cap end solide
+          15 mm depth version 1
+        name_upper: THREE D PRINT FILAMENT MANUFACTURE COOLING TANK CAP END SOLIDE
+          15 MM DEPTH VERSION 1
+        oobb_details:
+          bottom_radius_mm: 7.0
+          bottom_virtual_width_mm: 75.0
+          curve_step_degrees: 1.0
+          depth: 15
+          depth_mm: 15
+          description: Solid blank cap, 15 mm total depth; 3 mm face and 12 mm insertion,
+            3 mm U-shaped ledge.
+          dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+            supplied by user.
+          fit_clearance_mm: 0.0
+          fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit
+            before sealing; drawing does not establish a perfect physical match.
+          front_plate_mm: 3.0
+          gutter_wall_mm: 2.25
+          height: 58.5
+          height_mm: 58.5
+          insertion_depth_mm: 12.0
+          ledge_wall_mm: 3.0
+          lip_height_mm: 5.0
+          lip_projection_mm: 2.0
+          lip_tip_drop_mm: 4.0
+          oobb_name: cap_end_solide
+          oobb_type: cap_end_solide
+          part_role: printed_solid_end_cap
+          print_orientation: Flat exterior face on bed at Z=0; ledge upward; no supports
+            required by geometry.
+          product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+          profile_height_mm: 58.5
+          profile_image_local: source_file/floplast/square_gutter_profile.jpg
+          profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+          profile_status: dimensioned_envelope_with_estimated_radii_shoulders_and_lips
+          profile_width_mm: 114.0
+          run_scad: true
+          run_solidcraft: false
+          shoulder_height_mm: 37.5
+          shoulder_radius_mm: 3.0
+          taxonomy_1: three_d_print
+          taxonomy_2: filament_manufacture
+          taxonomy_3: cooling_tank
+          taxonomy_4: cap_end_solide
+          taxonomy_5: 15_mm_depth
+          taxonomy_6: version_1
+          total_depth_mm: 15
+          width: 114.0
+          width_mm: 114.0
+        oobb_name: cap_end_solide
+        oobb_type: cap_end_solide
+        part_role: printed_solid_end_cap
+        print_orientation: Flat exterior face on bed at Z=0; ledge upward; no supports
+          required by geometry.
+        product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+        profile_height_mm: 58.5
+        profile_image_local: source_file/floplast/square_gutter_profile.jpg
+        profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+        profile_status: dimensioned_envelope_with_estimated_radii_shoulders_and_lips
+        profile_width_mm: 114.0
+        run_scad: true
+        run_solidcraft: false
+        shoulder_height_mm: 37.5
+        shoulder_radius_mm: 3.0
+        taxonomy_1: three_d_print
+        taxonomy_10: ''
+        taxonomy_11: ''
+        taxonomy_12: ''
+        taxonomy_13: ''
+        taxonomy_14: ''
+        taxonomy_15: ''
+        taxonomy_2: filament_manufacture
+        taxonomy_3: cooling_tank
+        taxonomy_4: cap_end_solide
+        taxonomy_5: 15_mm_depth
+        taxonomy_6: version_1
+        taxonomy_7: ''
+        taxonomy_8: ''
+        taxonomy_9: ''
+        total_depth_mm: 15
+        url_chat: ''
+        width: 114.0
+        width_mm: 114.0
+      dict_data_files: {}
+      dict_data_files_exists: {}
+      file_output: label_oomp.svg
+      file_template: C:\gh\three_d_print_filament_manufacturing_cooling_tank\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+      search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+  oomp_key: oomp_three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth_version_1
+  part_number: ''
+  part_role: printed_solid_end_cap
+  print_orientation: Flat exterior face on bed at Z=0; ledge upward; no supports required
+    by geometry.
+  product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+  profile_height_mm: 58.5
+  profile_image_local: source_file/floplast/square_gutter_profile.jpg
+  profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+  profile_status: dimensioned_envelope_with_estimated_radii_shoulders_and_lips
+  profile_width_mm: 114.0
+  run_scad: true
+  run_solidcraft: false
+  short_name: ''
+  shoulder_height_mm: 37.5
+  shoulder_radius_mm: 3.0
+  size: default_cap_end_solide
+  taxonomy_1: three_d_print
+  taxonomy_10: ''
+  taxonomy_11: ''
+  taxonomy_12: ''
+  taxonomy_13: ''
+  taxonomy_14: ''
+  taxonomy_15: ''
+  taxonomy_1_capital: Three D Print
+  taxonomy_1_first_letter: t
+  taxonomy_1_first_letter_upper: T
+  taxonomy_1_length_1: t
+  taxonomy_1_length_2: th
+  taxonomy_1_length_3: thr
+  taxonomy_1_length_4: thre
+  taxonomy_1_length_5: three
+  taxonomy_1_upper: THREE_D_PRINT
+  taxonomy_1_upper_length_1: T
+  taxonomy_1_upper_length_2: TH
+  taxonomy_1_upper_length_3: THR
+  taxonomy_1_upper_length_4: THRE
+  taxonomy_1_upper_length_5: THREE
+  taxonomy_2: filament_manufacture
+  taxonomy_2_capital: Filament Manufacture
+  taxonomy_2_first_letter: f
+  taxonomy_2_first_letter_upper: F
+  taxonomy_2_length_1: f
+  taxonomy_2_length_2: fi
+  taxonomy_2_length_3: fil
+  taxonomy_2_length_4: fila
+  taxonomy_2_length_5: filam
+  taxonomy_2_upper: FILAMENT_MANUFACTURE
+  taxonomy_2_upper_length_1: F
+  taxonomy_2_upper_length_2: FI
+  taxonomy_2_upper_length_3: FIL
+  taxonomy_2_upper_length_4: FILA
+  taxonomy_2_upper_length_5: FILAM
+  taxonomy_3: cooling_tank
+  taxonomy_3_capital: Cooling Tank
+  taxonomy_3_first_letter: c
+  taxonomy_3_first_letter_upper: C
+  taxonomy_3_length_1: c
+  taxonomy_3_length_2: co
+  taxonomy_3_length_3: coo
+  taxonomy_3_length_4: cool
+  taxonomy_3_length_5: cooli
+  taxonomy_3_upper: COOLING_TANK
+  taxonomy_3_upper_length_1: C
+  taxonomy_3_upper_length_2: CO
+  taxonomy_3_upper_length_3: COO
+  taxonomy_3_upper_length_4: COOL
+  taxonomy_3_upper_length_5: COOLI
+  taxonomy_4: cap_end_solide
+  taxonomy_4_capital: Cap End Solide
+  taxonomy_4_first_letter: c
+  taxonomy_4_first_letter_upper: C
+  taxonomy_4_length_1: c
+  taxonomy_4_length_2: ca
+  taxonomy_4_length_3: cap
+  taxonomy_4_length_4: cap_
+  taxonomy_4_length_5: cap_e
+  taxonomy_4_upper: CAP_END_SOLIDE
+  taxonomy_4_upper_length_1: C
+  taxonomy_4_upper_length_2: CA
+  taxonomy_4_upper_length_3: CAP
+  taxonomy_4_upper_length_4: CAP_
+  taxonomy_4_upper_length_5: CAP_E
+  taxonomy_5: 15_mm_depth
+  taxonomy_5_capital: 15 mm Depth
+  taxonomy_5_first_letter: '1'
+  taxonomy_5_first_letter_upper: '1'
+  taxonomy_5_length_1: '1'
+  taxonomy_5_length_2: '15'
+  taxonomy_5_length_3: '15_'
+  taxonomy_5_length_4: 15_m
+  taxonomy_5_length_5: 15_mm
+  taxonomy_5_upper: 15_MM_DEPTH
+  taxonomy_5_upper_length_1: '1'
+  taxonomy_5_upper_length_2: '15'
+  taxonomy_5_upper_length_3: '15_'
+  taxonomy_5_upper_length_4: 15_M
+  taxonomy_5_upper_length_5: 15_MM
+  taxonomy_6: version_1
+  taxonomy_6_capital: Version 1
+  taxonomy_6_first_letter: v
+  taxonomy_6_first_letter_upper: V
+  taxonomy_6_length_1: v
+  taxonomy_6_length_2: ve
+  taxonomy_6_length_3: ver
+  taxonomy_6_length_4: vers
+  taxonomy_6_length_5: versi
+  taxonomy_6_upper: VERSION_1
+  taxonomy_6_upper_length_1: V
+  taxonomy_6_upper_length_2: VE
+  taxonomy_6_upper_length_3: VER
+  taxonomy_6_upper_length_4: VERS
+  taxonomy_6_upper_length_5: VERSI
+  taxonomy_7: ''
+  taxonomy_8: ''
+  taxonomy_9: ''
+  total_depth_mm: 15
+  type: part
+  url_chat: ''
+  width: 114.0
+  width_mm: 114.0
+total_depth_mm: 15
+url_chat: ''
+width: 114.0
+width_mm: 114.0

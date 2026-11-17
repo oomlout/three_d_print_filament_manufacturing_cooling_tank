@@ -1,0 +1,34 @@
+{
+  "units": "millimetres",
+  "lower_length": 600,
+  "lower_start": -250,
+  "lower_end": 350,
+  "rear_extension": 100,
+  "upper_length": 400,
+  "lift": 75,
+  "lower_water_level": 30.375,
+  "upper_water_level": 128.5,
+  "filament_diameter": 1.75,
+  "filament_axis_height": 117.5,
+  "support_positions": [
+    -125,
+    125
+  ],
+  "cover_inside_mating_plane": 3,
+  "sources": {
+    "solid_cap": "parts/three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth_version_4/3dpr.stl",
+    "open_cap": "parts/three_d_print_filament_manufacture_cooling_tank_cap_end_open_15_mm_depth_version_6/3dpr.stl",
+    "cover": "parts/three_d_print_filament_manufacture_cooling_tank_cap_cover_3_by_3_oobb_3_mm_thickness_version_1/3dpr.stl",
+    "lifter_half": "parts/three_d_print_filament_manufacture_cooling_tank_lifter_75_mm_lift_height_9_mm_thickness_30_mm_support_thickness_version_4/3dpr.stl",
+    "lower_gutter": "parts/three_d_print_filament_manufacture_cooling_tank_gutter_square_114_mm_width_500_mm_length_version_2/3dpr.stl"
+  },
+  "notes": [
+    "Actual current printable CAD meshes, no geometry approximations for printed parts.",
+    "Two identical printed halves per support; two support assemblies.",
+    "Both upper ends have slotted caps and inside covers for a continuous filament path.",
+    "Lower front remains at -250 mm; rear extends to +350 mm for the future pump.",
+    "Lower trough is half the internal depth; upper surface is 5 mm below the rim.",
+    "Water streams and ripples are illustrative, not a fluid simulation.",
+    "A pump or feed needed to maintain the upper level is not shown."
+  ]
+}
