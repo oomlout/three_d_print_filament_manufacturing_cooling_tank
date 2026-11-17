@@ -32,11 +32,15 @@
     -350,
     450
   ],
-  "rear_clear_space_mm": 150.00002086162567,
+  "rear_bay_length_mm": 150.00002086162567,
   "rear_extension_from_previous_layout_mm": 100,
   "gutter_material": "black",
   "lifter_halves": 4,
   "inside_covers": 2,
+  "rear_support": "pump inlet halves A and B",
+  "pump_holder": "JT-500, imported base and top",
+  "hose_id_mm": 12.0,
+  "hose_od_mm": 14.0,
   "render_pixels": [
     2200,
     1600

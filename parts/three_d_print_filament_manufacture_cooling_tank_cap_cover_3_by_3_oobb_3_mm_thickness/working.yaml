@@ -1,7 +1,7 @@
 assembly_instruction: Place one 2 mm rubber cord in the matching U grooves, with both
-  ends exiting the top. Install the cover inside the cap with its groove facing the
-  cap inside face; bring the flat mating faces together. Central M6 hole is an open
-  port.
+    ends exiting the top. Install the cover inside the cap with its groove facing
+    the cap inside face; bring the flat mating faces together. Central M6 hole is
+    an open port.
 bip_39_2_word_array:
 - cabin
 - garlic
@@ -30,7 +30,7 @@ bip_39_full_array:
 - dance
 bip_39_full_no_space: cabingarlicmulepeacebreezeplatepepperfutureturtleemotionminutedance
 bip_39_full_space: cabin garlic mule peace breeze plate pepper future turtle emotion
-  minute dance
+    minute dance
 bip_39_full_underscore: cabin_garlic_mule_peace_breeze_plate_pepper_future_turtle_emotion_minute_dance
 bottom_radius_mm: 7.25
 bottom_virtual_width_mm: 75.0
@@ -43,12 +43,13 @@ curve_step_degrees: 1.0
 depth: 3.0
 depth_mm: 3.0
 description: 44 x 44 x 3 mm cover, R5 outline corners, straight sides; four corner
-  M6 holes and one central M6 hole; matching U seal groove.
+    M6 holes and one central M6 hole; matching U seal groove.
 dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness supplied
-  by user.
+    by user.
 directory: parts/three_d_print_filament_manufacture_cooling_tank_cap_cover_3_by_3_oobb_3_mm_thickness
+filter: lifter_pump_inlet
 fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before sealing;
-  drawing does not establish a perfect physical match.
+    drawing does not establish a perfect physical match.
 fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
 fit_revision: 2
 gutter_wall_mm: 2.25
@@ -62,81 +63,7 @@ id: three_d_print_filament_manufacture_cooling_tank_cap_cover_3_by_3_oobb_3_mm_t
 id_no_class: three_d_print_filament_manufacture_cooling_tank_cap_cover_3_by_3_oobb_3_mm_thickness
 id_no_size: three_d_print_filament_manufacture_cooling_tank_cap_cover_3_by_3_oobb_3_mm_thickness
 id_no_type: three_d_print_filament_manufacture_cooling_tank_cap_cover_3_by_3_oobb_3_mm_thickness
-id_oobb: three_d_print_filament_manufacture_cooling_tank_cap_cover_3_by_3_oobb_3_mm_thickness
 inside_bottom_diameter_mm: 10.0
-kwargs:
-  assembly_instruction: Place one 2 mm rubber cord in the matching U grooves, with
-    both ends exiting the top. Install the cover inside the cap with its groove facing
-    the cap inside face; bring the flat mating faces together. Central M6 hole is
-    an open port.
-  bottom_radius_mm: 7.25
-  bottom_virtual_width_mm: 75.0
-  central_hole_size: m6
-  cover_corner_radius_mm: 5.0
-  cover_height_grid: 3
-  cover_thickness_mm: 3.0
-  cover_width_grid: 3
-  curve_step_degrees: 1.0
-  depth: 3.0
-  depth_mm: 3.0
-  description: 44 x 44 x 3 mm cover, R5 outline corners, straight sides; four corner
-    M6 holes and one central M6 hole; matching U seal groove.
-  dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
-    supplied by user.
-  filter: ''
-  fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
-    sealing; drawing does not establish a perfect physical match.
-  fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
-  fit_revision: 2
-  gutter_wall_mm: 2.25
-  height: 44
-  height_mm: 44
-  hole_grid_pitch_mm: 15.0
-  hole_pattern: 3_by_3_oobb_corner_holes_22_mm_below_front_plate_top
-  hole_pattern_top_offset_mm: 22.0
-  hole_size: m6
-  inside_bottom_diameter_mm: 10.0
-  lip_height_mm: 5.0
-  lip_projection_mm: 2.0
-  lip_tip_drop_mm: 4.0
-  modes:
-  - 3dpr
-  navigation: true
-  oobb_name: cap_cover
-  oomp_mode: project
-  oomp_run: true
-  opening_bottom_corner_radius_mm: 5.0
-  opening_depth_datum: enlarged_front_plate_top_edge
-  opening_depth_mm: 38.0
-  opening_width_mm: 14.0
-  outer_lip_mm: 6.0
-  overwrite: true
-  part_role: printed_grooved_cap_cover
-  print_orientation: Flat ungrooved face at Z=0; U groove facing upward.
-  product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
-  profile_height_mm: 58.5
-  profile_image_local: source_file/floplast/square_gutter_profile.jpg
-  profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
-  profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
-  profile_width_mm: 114.0
-  seal_cord_diameter_mm: 2.0
-  seal_face_gap_mm: 0.0
-  seal_groove_depth_mm: 0.8
-  seal_groove_width_mm: 2.4
-  seal_opening_land_mm: 1.175
-  seal_style: matching_open_top_u_grooves_single_cord
-  shoulder_height_mm: 37.5
-  shoulder_radius_mm: 3.0
-  taxonomy_1: three_d_print
-  taxonomy_2: filament_manufacture
-  taxonomy_3: cooling_tank
-  taxonomy_4: cap_cover
-  taxonomy_5: 3_by_3_oobb
-  taxonomy_6: 3_mm_thickness
-  typ: all
-  wait_for_completion: true
-  width: 44
-  width_mm: 44
 link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/three_d_print_filament_manufacture_cooling_tank_cap_cover_3_by_3_oobb_3_mm_thickness
 link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/three_d_print_filament_manufacture_cooling_tank_cap_cover_3_by_3_oobb_3_mm_thickness
 link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/three_d_print_filament_manufacture_cooling_tank_cap_cover_3_by_3_oobb_3_mm_thickness
@@ -154,251 +81,253 @@ md5_6_alpha_upper: 18NWA
 md5_6_upper: 1FCBFA
 name: Three D Print Filament Manufacture Cooling Tank Cap Cover 3 By 3 Oobb 3 Mm Thickness
 name_no_class: Three D Print Filament Manufacture Cooling Tank Cap Cover 3 By 3 Oobb
-  3 Mm Thickness
+    3 Mm Thickness
 name_no_size: Three D Print Filament Manufacture Cooling Tank Cap Cover 3 By 3 Oobb
-  3 Mm Thickness
+    3 Mm Thickness
 name_no_type: Three D Print Filament Manufacture Cooling Tank Cap Cover 3 By 3 Oobb
-  3 Mm Thickness
+    3 Mm Thickness
 name_proper: Three D Print Filament Manufacture Cooling Tank Cap Cover 3 By 3 Oobb
-  3 Mm Thickness
+    3 Mm Thickness
 name_space: three d print filament manufacture cooling tank cap cover 3 by 3 oobb
-  3 mm thickness
+    3 mm thickness
 name_upper: THREE D PRINT FILAMENT MANUFACTURE COOLING TANK CAP COVER 3 BY 3 OOBB
-  3 MM THICKNESS
+    3 MM THICKNESS
 oobb_details:
-  assembly_instruction: Place one 2 mm rubber cord in the matching U grooves, with
-    both ends exiting the top. Install the cover inside the cap with its groove facing
-    the cap inside face; bring the flat mating faces together. Central M6 hole is
-    an open port.
-  bottom_radius_mm: 7.25
-  bottom_virtual_width_mm: 75.0
-  central_hole_size: m6
-  cover_corner_radius_mm: 5.0
-  cover_height_grid: 3
-  cover_thickness_mm: 3.0
-  cover_width_grid: 3
-  curve_step_degrees: 1.0
-  depth: 3.0
-  depth_mm: 3.0
-  description: 44 x 44 x 3 mm cover, R5 outline corners, straight sides; four corner
-    M6 holes and one central M6 hole; matching U seal groove.
-  dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
-    supplied by user.
-  fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
-    sealing; drawing does not establish a perfect physical match.
-  fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
-  fit_revision: 2
-  gutter_wall_mm: 2.25
-  height: 44
-  height_mm: 44
-  hole_grid_pitch_mm: 15.0
-  hole_pattern: 3_by_3_oobb_corner_holes_22_mm_below_front_plate_top
-  hole_pattern_top_offset_mm: 22.0
-  hole_size: m6
-  inside_bottom_diameter_mm: 10.0
-  lip_height_mm: 5.0
-  lip_projection_mm: 2.0
-  lip_tip_drop_mm: 4.0
-  oobb_name: cap_cover
-  oobb_type: cap_cover
-  opening_bottom_corner_radius_mm: 5.0
-  opening_depth_datum: enlarged_front_plate_top_edge
-  opening_depth_mm: 38.0
-  opening_width_mm: 14.0
-  outer_lip_mm: 6.0
-  part_role: printed_grooved_cap_cover
-  print_orientation: Flat ungrooved face at Z=0; U groove facing upward.
-  product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
-  profile_height_mm: 58.5
-  profile_image_local: source_file/floplast/square_gutter_profile.jpg
-  profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
-  profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
-  profile_width_mm: 114.0
-  run_scad: true
-  run_solidcraft: false
-  seal_cord_diameter_mm: 2.0
-  seal_face_gap_mm: 0.0
-  seal_groove_depth_mm: 0.8
-  seal_groove_width_mm: 2.4
-  seal_opening_land_mm: 1.175
-  seal_style: matching_open_top_u_grooves_single_cord
-  shoulder_height_mm: 37.5
-  shoulder_radius_mm: 3.0
-  taxonomy_1: three_d_print
-  taxonomy_2: filament_manufacture
-  taxonomy_3: cooling_tank
-  taxonomy_4: cap_cover
-  taxonomy_5: 3_by_3_oobb
-  taxonomy_6: 3_mm_thickness
-  width: 44
-  width_mm: 44
+    assembly_instruction: Place one 2 mm rubber cord in the matching U grooves, with
+        both ends exiting the top. Install the cover inside the cap with its groove
+        facing the cap inside face; bring the flat mating faces together. Central
+        M6 hole is an open port.
+    bottom_radius_mm: 7.25
+    bottom_virtual_width_mm: 75.0
+    central_hole_size: m6
+    cover_corner_radius_mm: 5.0
+    cover_height_grid: 3
+    cover_thickness_mm: 3.0
+    cover_width_grid: 3
+    curve_step_degrees: 1.0
+    depth: 3.0
+    depth_mm: 3.0
+    description: 44 x 44 x 3 mm cover, R5 outline corners, straight sides; four corner
+        M6 holes and one central M6 hole; matching U seal groove.
+    dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+        supplied by user.
+    fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+        sealing; drawing does not establish a perfect physical match.
+    fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+    fit_revision: 2
+    gutter_wall_mm: 2.25
+    height: 44
+    height_mm: 44
+    hole_grid_pitch_mm: 15.0
+    hole_pattern: 3_by_3_oobb_corner_holes_22_mm_below_front_plate_top
+    hole_pattern_top_offset_mm: 22.0
+    hole_size: m6
+    inside_bottom_diameter_mm: 10.0
+    lip_height_mm: 5.0
+    lip_projection_mm: 2.0
+    lip_tip_drop_mm: 4.0
+    oobb_name: cap_cover
+    oobb_type: cap_cover
+    opening_bottom_corner_radius_mm: 5.0
+    opening_depth_datum: enlarged_front_plate_top_edge
+    opening_depth_mm: 38.0
+    opening_width_mm: 14.0
+    outer_lip_mm: 6.0
+    part_role: printed_grooved_cap_cover
+    print_orientation: Flat ungrooved face at Z=0; U groove facing upward.
+    product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+    profile_height_mm: 58.5
+    profile_image_local: source_file/floplast/square_gutter_profile.jpg
+    profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+    profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+    profile_width_mm: 114.0
+    run_scad: true
+    run_solidcraft: false
+    seal_cord_diameter_mm: 2.0
+    seal_face_gap_mm: 0.0
+    seal_groove_depth_mm: 0.8
+    seal_groove_width_mm: 2.4
+    seal_opening_land_mm: 1.175
+    seal_style: matching_open_top_u_grooves_single_cord
+    shoulder_height_mm: 37.5
+    shoulder_radius_mm: 3.0
+    taxonomy_1: three_d_print
+    taxonomy_2: filament_manufacture
+    taxonomy_3: cooling_tank
+    taxonomy_4: cap_cover
+    taxonomy_5: 3_by_3_oobb
+    taxonomy_6: 3_mm_thickness
+    width: 44
+    width_mm: 44
 oobb_name: cap_cover
 oobb_type: cap_cover
 oomlout_ai_roboclick_1:
-  action_name: step_0_jinja_template_label_oomp.svg
-  actions:
-  - command: text_jinja_template
-    convert_to_pdf: false
-    convert_to_png: false
-    dict_data:
-      assembly_instruction: Place one 2 mm rubber cord in the matching U grooves,
-        with both ends exiting the top. Install the cover inside the cap with its
-        groove facing the cap inside face; bring the flat mating faces together. Central
-        M6 hole is an open port.
-      bottom_radius_mm: 7.25
-      bottom_virtual_width_mm: 75.0
-      central_hole_size: m6
-      cover_corner_radius_mm: 5.0
-      cover_height_grid: 3
-      cover_thickness_mm: 3.0
-      cover_width_grid: 3
-      curve_step_degrees: 1.0
-      depth: 3.0
-      depth_mm: 3.0
-      description: 44 x 44 x 3 mm cover, R5 outline corners, straight sides; four
-        corner M6 holes and one central M6 hole; matching U seal groove.
-      dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
-        supplied by user.
-      directory: parts\three_d_print_filament_manufacture_cooling_tank_cap_cover_3_by_3_oobb_3_mm_thickness
-      fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
-        sealing; drawing does not establish a perfect physical match.
-      fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
-      fit_revision: 2
-      gutter_wall_mm: 2.25
-      height: 44
-      height_mm: 44
-      hole_grid_pitch_mm: 15.0
-      hole_pattern: 3_by_3_oobb_corner_holes_22_mm_below_front_plate_top
-      hole_pattern_top_offset_mm: 22.0
-      hole_size: m6
-      inside_bottom_diameter_mm: 10.0
-      lip_height_mm: 5.0
-      lip_projection_mm: 2.0
-      lip_tip_drop_mm: 4.0
-      name: three_d_print_filament_manufacture_cooling_tank_cap_cover_3_by_3_oobb_3_mm_thickness
-      name_proper: Three D Print Filament Manufacture Cooling Tank Cap Cover 3 By
-        3 Oobb 3 Mm Thickness
-      name_space: three d print filament manufacture cooling tank cap cover 3 by 3
-        oobb 3 mm thickness
-      name_upper: THREE D PRINT FILAMENT MANUFACTURE COOLING TANK CAP COVER 3 BY 3
-        OOBB 3 MM THICKNESS
-      oobb_details:
-        assembly_instruction: Place one 2 mm rubber cord in the matching U grooves,
-          with both ends exiting the top. Install the cover inside the cap with its
-          groove facing the cap inside face; bring the flat mating faces together.
-          Central M6 hole is an open port.
-        bottom_radius_mm: 7.25
-        bottom_virtual_width_mm: 75.0
-        central_hole_size: m6
-        cover_corner_radius_mm: 5.0
-        cover_height_grid: 3
-        cover_thickness_mm: 3.0
-        cover_width_grid: 3
-        curve_step_degrees: 1.0
-        depth: 3.0
-        depth_mm: 3.0
-        description: 44 x 44 x 3 mm cover, R5 outline corners, straight sides; four
-          corner M6 holes and one central M6 hole; matching U seal groove.
-        dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
-          supplied by user.
-        fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit
-          before sealing; drawing does not establish a perfect physical match.
-        fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
-        fit_revision: 2
-        gutter_wall_mm: 2.25
-        height: 44
-        height_mm: 44
-        hole_grid_pitch_mm: 15.0
-        hole_pattern: 3_by_3_oobb_corner_holes_22_mm_below_front_plate_top
-        hole_pattern_top_offset_mm: 22.0
-        hole_size: m6
-        inside_bottom_diameter_mm: 10.0
-        lip_height_mm: 5.0
-        lip_projection_mm: 2.0
-        lip_tip_drop_mm: 4.0
-        oobb_name: cap_cover
-        oobb_type: cap_cover
-        opening_bottom_corner_radius_mm: 5.0
-        opening_depth_datum: enlarged_front_plate_top_edge
-        opening_depth_mm: 38.0
-        opening_width_mm: 14.0
-        outer_lip_mm: 6.0
-        part_role: printed_grooved_cap_cover
-        print_orientation: Flat ungrooved face at Z=0; U groove facing upward.
-        product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
-        profile_height_mm: 58.5
-        profile_image_local: source_file/floplast/square_gutter_profile.jpg
-        profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
-        profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
-        profile_width_mm: 114.0
-        run_scad: true
-        run_solidcraft: false
-        seal_cord_diameter_mm: 2.0
-        seal_face_gap_mm: 0.0
-        seal_groove_depth_mm: 0.8
-        seal_groove_width_mm: 2.4
-        seal_opening_land_mm: 1.175
-        seal_style: matching_open_top_u_grooves_single_cord
-        shoulder_height_mm: 37.5
-        shoulder_radius_mm: 3.0
-        taxonomy_1: three_d_print
-        taxonomy_2: filament_manufacture
-        taxonomy_3: cooling_tank
-        taxonomy_4: cap_cover
-        taxonomy_5: 3_by_3_oobb
-        taxonomy_6: 3_mm_thickness
-        width: 44
-        width_mm: 44
-      oobb_name: cap_cover
-      oobb_type: cap_cover
-      opening_bottom_corner_radius_mm: 5.0
-      opening_depth_datum: enlarged_front_plate_top_edge
-      opening_depth_mm: 38.0
-      opening_width_mm: 14.0
-      outer_lip_mm: 6.0
-      part_role: printed_grooved_cap_cover
-      print_orientation: Flat ungrooved face at Z=0; U groove facing upward.
-      product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
-      profile_height_mm: 58.5
-      profile_image_local: source_file/floplast/square_gutter_profile.jpg
-      profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
-      profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
-      profile_width_mm: 114.0
-      run_scad: true
-      run_solidcraft: false
-      seal_cord_diameter_mm: 2.0
-      seal_face_gap_mm: 0.0
-      seal_groove_depth_mm: 0.8
-      seal_groove_width_mm: 2.4
-      seal_opening_land_mm: 1.175
-      seal_style: matching_open_top_u_grooves_single_cord
-      shoulder_height_mm: 37.5
-      shoulder_radius_mm: 3.0
-      taxonomy_1: three_d_print
-      taxonomy_10: ''
-      taxonomy_11: ''
-      taxonomy_12: ''
-      taxonomy_13: ''
-      taxonomy_14: ''
-      taxonomy_15: ''
-      taxonomy_2: filament_manufacture
-      taxonomy_3: cooling_tank
-      taxonomy_4: cap_cover
-      taxonomy_5: 3_by_3_oobb
-      taxonomy_6: 3_mm_thickness
-      taxonomy_7: ''
-      taxonomy_8: ''
-      taxonomy_9: ''
-      url_chat: ''
-      width: 44
-      width_mm: 44
-    dict_data_files: {}
-    dict_data_files_exists: {}
-    file_output: label_oomp.svg
-    file_template: C:\gh\three_d_print_filament_manufacturing_cooling_tank\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
-    search_and_replace: []
-  file_test: label_oomp.pdf
-  retries_until_complete: 0
+    action_name: step_0_jinja_template_label_oomp.svg
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            assembly_instruction: Place one 2 mm rubber cord in the matching U grooves,
+                with both ends exiting the top. Install the cover inside the cap with
+                its groove facing the cap inside face; bring the flat mating faces
+                together. Central M6 hole is an open port.
+            bottom_radius_mm: 7.25
+            bottom_virtual_width_mm: 75.0
+            central_hole_size: m6
+            cover_corner_radius_mm: 5.0
+            cover_height_grid: 3
+            cover_thickness_mm: 3.0
+            cover_width_grid: 3
+            curve_step_degrees: 1.0
+            depth: 3.0
+            depth_mm: 3.0
+            description: 44 x 44 x 3 mm cover, R5 outline corners, straight sides;
+                four corner M6 holes and one central M6 hole; matching U seal groove.
+            dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material
+                thickness supplied by user.
+            directory: parts\three_d_print_filament_manufacture_cooling_tank_cap_cover_3_by_3_oobb_3_mm_thickness
+            fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit
+                before sealing; drawing does not establish a perfect physical match.
+            fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+            fit_revision: 2
+            gutter_wall_mm: 2.25
+            height: 44
+            height_mm: 44
+            hole_grid_pitch_mm: 15.0
+            hole_pattern: 3_by_3_oobb_corner_holes_22_mm_below_front_plate_top
+            hole_pattern_top_offset_mm: 22.0
+            hole_size: m6
+            inside_bottom_diameter_mm: 10.0
+            lip_height_mm: 5.0
+            lip_projection_mm: 2.0
+            lip_tip_drop_mm: 4.0
+            name: three_d_print_filament_manufacture_cooling_tank_cap_cover_3_by_3_oobb_3_mm_thickness
+            name_proper: Three D Print Filament Manufacture Cooling Tank Cap Cover
+                3 By 3 Oobb 3 Mm Thickness
+            name_space: three d print filament manufacture cooling tank cap cover
+                3 by 3 oobb 3 mm thickness
+            name_upper: THREE D PRINT FILAMENT MANUFACTURE COOLING TANK CAP COVER
+                3 BY 3 OOBB 3 MM THICKNESS
+            oobb_details:
+                assembly_instruction: Place one 2 mm rubber cord in the matching U
+                    grooves, with both ends exiting the top. Install the cover inside
+                    the cap with its groove facing the cap inside face; bring the
+                    flat mating faces together. Central M6 hole is an open port.
+                bottom_radius_mm: 7.25
+                bottom_virtual_width_mm: 75.0
+                central_hole_size: m6
+                cover_corner_radius_mm: 5.0
+                cover_height_grid: 3
+                cover_thickness_mm: 3.0
+                cover_width_grid: 3
+                curve_step_degrees: 1.0
+                depth: 3.0
+                depth_mm: 3.0
+                description: 44 x 44 x 3 mm cover, R5 outline corners, straight sides;
+                    four corner M6 holes and one central M6 hole; matching U seal
+                    groove.
+                dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material
+                    thickness supplied by user.
+                fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit
+                    before sealing; drawing does not establish a perfect physical
+                    match.
+                fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+                fit_revision: 2
+                gutter_wall_mm: 2.25
+                height: 44
+                height_mm: 44
+                hole_grid_pitch_mm: 15.0
+                hole_pattern: 3_by_3_oobb_corner_holes_22_mm_below_front_plate_top
+                hole_pattern_top_offset_mm: 22.0
+                hole_size: m6
+                inside_bottom_diameter_mm: 10.0
+                lip_height_mm: 5.0
+                lip_projection_mm: 2.0
+                lip_tip_drop_mm: 4.0
+                oobb_name: cap_cover
+                oobb_type: cap_cover
+                opening_bottom_corner_radius_mm: 5.0
+                opening_depth_datum: enlarged_front_plate_top_edge
+                opening_depth_mm: 38.0
+                opening_width_mm: 14.0
+                outer_lip_mm: 6.0
+                part_role: printed_grooved_cap_cover
+                print_orientation: Flat ungrooved face at Z=0; U groove facing upward.
+                product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+                profile_height_mm: 58.5
+                profile_image_local: source_file/floplast/square_gutter_profile.jpg
+                profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+                profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+                profile_width_mm: 114.0
+                run_scad: true
+                run_solidcraft: false
+                seal_cord_diameter_mm: 2.0
+                seal_face_gap_mm: 0.0
+                seal_groove_depth_mm: 0.8
+                seal_groove_width_mm: 2.4
+                seal_opening_land_mm: 1.175
+                seal_style: matching_open_top_u_grooves_single_cord
+                shoulder_height_mm: 37.5
+                shoulder_radius_mm: 3.0
+                taxonomy_1: three_d_print
+                taxonomy_2: filament_manufacture
+                taxonomy_3: cooling_tank
+                taxonomy_4: cap_cover
+                taxonomy_5: 3_by_3_oobb
+                taxonomy_6: 3_mm_thickness
+                width: 44
+                width_mm: 44
+            oobb_name: cap_cover
+            oobb_type: cap_cover
+            opening_bottom_corner_radius_mm: 5.0
+            opening_depth_datum: enlarged_front_plate_top_edge
+            opening_depth_mm: 38.0
+            opening_width_mm: 14.0
+            outer_lip_mm: 6.0
+            part_role: printed_grooved_cap_cover
+            print_orientation: Flat ungrooved face at Z=0; U groove facing upward.
+            product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+            profile_height_mm: 58.5
+            profile_image_local: source_file/floplast/square_gutter_profile.jpg
+            profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+            profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+            profile_width_mm: 114.0
+            run_scad: true
+            run_solidcraft: false
+            seal_cord_diameter_mm: 2.0
+            seal_face_gap_mm: 0.0
+            seal_groove_depth_mm: 0.8
+            seal_groove_width_mm: 2.4
+            seal_opening_land_mm: 1.175
+            seal_style: matching_open_top_u_grooves_single_cord
+            shoulder_height_mm: 37.5
+            shoulder_radius_mm: 3.0
+            taxonomy_1: three_d_print
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: filament_manufacture
+            taxonomy_3: cooling_tank
+            taxonomy_4: cap_cover
+            taxonomy_5: 3_by_3_oobb
+            taxonomy_6: 3_mm_thickness
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: ''
+            width: 44
+            width_mm: 44
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\gh\three_d_print_filament_manufacturing_cooling_tank\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
 oomp_key: oomp_three_d_print_filament_manufacture_cooling_tank_cap_cover_3_by_3_oobb_3_mm_thickness
 opening_bottom_corner_radius_mm: 5.0
 opening_depth_datum: enlarged_front_plate_top_edge
@@ -413,7 +342,6 @@ profile_image_local: source_file/floplast/square_gutter_profile.jpg
 profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
 profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
 profile_width_mm: 114.0
-project_name: C:\gh\three_d_print_filament_manufacturing_cooling_tank
 run_scad: true
 run_solidcraft: false
 seal_cord_diameter_mm: 2.0

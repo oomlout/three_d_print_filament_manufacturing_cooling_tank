@@ -872,5 +872,10 @@ def get_lifter(thing, **kwargs):
                 oobb.append_full(thing, **p3)
 
 
+def get_lifter_pump_inlet(thing, **kwargs):
+    from working_pump_lifter import build
+    build(thing, **kwargs)
+
+
 if __name__ == '__main__':
     main()

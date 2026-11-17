@@ -253,6 +253,9 @@ def make_scad_generic(part):
 
         oobb.opsc_make_object(f'{folder}/{mode}.scad', thing["components"], mode=mode, save_type=save_type, overwrite=overwrite, layers=layers, tilediff=tilediff, start=start)
         cleanup_raw_scad_artifacts(folder)
+        if part.get("oobb_type") == "lifter_pump_inlet":
+            from working_pump_lifter import make_scad_portable
+            make_scad_portable(folder)
         
 
 

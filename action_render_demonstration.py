@@ -128,6 +128,9 @@ water.node_tree.nodes.get('Principled BSDF').inputs['Specular IOR Level'].defaul
 steel = material('Stainless mounting hardware', (0.63, 0.68, 0.70), 0.25, metal=0.85)
 rubber = material('2 mm seal cord', (0.015, 0.02, 0.022), 0.7)
 ground = material('Warm studio ground', (0.64, 0.65, 0.64), 0.85)
+silicone = material('Silicone hose - 12 mm ID 14 mm OD', (0.72, 0.83, 0.82), 0.3, transmission=0.2)
+silicone.node_tree.nodes.get('Principled BSDF').inputs['IOR'].default_value = 1.41
+pump_grey = material('Nominal JT-500 pump housing', (0.18, 0.22, 0.24), 0.45)
 
 mesh_part('Lower gutter - 600 mm with rear pump bay', 'lower_gutter', (-250, 0, 0), gutter_material)
 mesh_part('Lower solid cap - outlet end', 'solid_cap', (-253, 0, 0), teal)
@@ -147,8 +150,17 @@ for x, flip, label in [(-203, False, 'front'), (203, True, 'rear')]:
              [(x + direction * 3, cross_y, 132), (x + direction * 3, cross_y, 135)], 1, rubber)
 
 for x in DATA['support_positions']:
-    mesh_part(f'Lifter at {x} - half A', 'lifter_half', (x, 0, 0), teal)
-    mesh_part(f'Lifter at {x} - half B', 'lifter_half', (x, 0, 0), teal, flip=True)
+    if x == DATA['pump']['rear_riser_position_mm']:
+        mesh_part(f'Lifter at {x} - pump half A', 'pump_lifter_a', (x - 15, 0, 0), teal)
+        mesh_part(f'Lifter at {x} - pump half B', 'pump_lifter_b', (x + 15, 0, 0), teal, flip=True)
+    else:
+        mesh_part(f'Lifter at {x} - half A', 'lifter_half', (x, 0, 0), teal)
+        mesh_part(f'Lifter at {x} - half B', 'lifter_half', (x, 0, 0), teal, flip=True)
+
+mesh_part('JT-500 holder base in rear bay', 'pump_holder_base', (0, 0, 0), gutter_material)
+mesh_part('JT-500 holder top in rear bay', 'pump_holder_top', (0, 0, 0), teal)
+mesh_part('JT-500 nominal pump in holder', 'pump_reference', (0, 0, 0), pump_grey)
+mesh_part('Hose from pump through rear riser - 12 ID 14 OD', 'pump_hose', (0, 0, 0), silicone)
 
 mesh_part('Lower water - half internal depth', 'lower_water', (-250, 0, 0), water)
 mesh_part('Upper water - 5 mm below rim', 'upper_water', (-200, 0, 75), water)
@@ -193,8 +205,21 @@ camera.data.ortho_scale = 0.78
 camera.data.clip_start = 0.001
 aim(camera, (0.035, 0, 0.067))
 scene.camera = camera
+bpy.ops.object.camera_add(location=(0.45, -0.65, 0.50))
+detail_camera = bpy.context.object
+detail_camera.name = 'Rear pump and hose detail camera'
+detail_camera.data.type = 'ORTHO'
+detail_camera.data.ortho_scale = 0.43
+detail_camera.data.clip_start = 0.001
+aim(detail_camera, (0.22, -0.02, 0.075))
 scene.render.filepath = str(DEST / ('cooling_tank_draft.png' if DRAFT else 'cooling_tank_render.png'))
 if not DRAFT:
+    bpy.context.preferences.filepaths.save_version = 0
     bpy.ops.wm.save_as_mainfile(filepath=str(DEST / 'cooling_tank_demonstration.blend'))
 bpy.ops.render.render(write_still=True)
 print('DEMONSTRATION_RENDER_COMPLETE', scene.render.filepath)
+if not DRAFT:
+    scene.camera = detail_camera
+    scene.render.filepath = str(DEST / 'pump_hose_detail.png')
+    bpy.ops.render.render(write_still=True)
+    print('PUMP_DETAIL_RENDER_COMPLETE', scene.render.filepath)

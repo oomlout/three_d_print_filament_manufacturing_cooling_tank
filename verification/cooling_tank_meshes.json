@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "part_count": 10,
+  "part_count": 12,
   "parts": [
     {
       "id": "three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth",
@@ -131,6 +131,32 @@
       "closed_mesh": true,
       "consistent_winding": true,
       "connected_bodies": 1
+    },
+    {
+      "id": "three_d_print_filament_manufacture_cooling_tank_lifter_pump_inlet_75_mm_lift_height_30_mm_thickness_30_mm_support_thickness_14_mm_tube_od_half_a",
+      "extents_mm": [
+        109.5,
+        90.75,
+        15.0
+      ],
+      "volume_mm3": 92538.13663112016,
+      "expected_volume_mm3": null,
+      "closed_mesh": true,
+      "consistent_winding": true,
+      "connected_bodies": 1
+    },
+    {
+      "id": "three_d_print_filament_manufacture_cooling_tank_lifter_pump_inlet_75_mm_lift_height_30_mm_thickness_30_mm_support_thickness_14_mm_tube_od_half_b",
+      "extents_mm": [
+        109.5,
+        90.75,
+        15.0
+      ],
+      "volume_mm3": 92389.16488901847,
+      "expected_volume_mm3": null,
+      "closed_mesh": true,
+      "consistent_winding": true,
+      "connected_bodies": 1
     }
   ],
   "seal": {
@@ -143,6 +169,13 @@
     "nominal_compression_percent": 19.999999999999996,
     "nominal_gland_fill_percent": 81.81230868723421,
     "cord_length_to_top_mm": 93.16924582022472
+  },
+  "pump_inlet": {
+    "assembled_channel_and_joints_aligned": true,
+    "tube_guide_and_grip_probed": true,
+    "scad_modules_self_contained": true,
+    "outlet_above_inside_floor_mm": 15.0,
+    "physical_tube_fit_tested": false
   },
   "scope": "Digital geometry only; actual gutter fit, lifter load capacity and water sealing are untested."
 }

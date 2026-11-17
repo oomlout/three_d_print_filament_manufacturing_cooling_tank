@@ -26,7 +26,7 @@ bip_39_full_array:
 - helmet
 bip_39_full_no_space: glorygruntairhybridlovebodycementcountryvillagehelmetmerryhelmet
 bip_39_full_space: glory grunt air hybrid love body cement country village helmet
-  merry helmet
+    merry helmet
 bip_39_full_underscore: glory_grunt_air_hybrid_love_body_cement_country_village_helmet_merry_helmet
 bottom_radius_mm: 7.75
 bottom_virtual_width_mm: 75.0
@@ -34,13 +34,14 @@ curve_step_degrees: 1.0
 depth: 15
 depth_mm: 15
 description: Solid blank cap, 15 mm total depth; 3 mm face and 12 mm insertion, 3
-  mm U-shaped ledge.
+    mm U-shaped ledge.
 dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness supplied
-  by user.
+    by user.
 directory: parts/three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth
+filter: lifter_pump_inlet
 fit_clearance_mm: 0.0
 fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before sealing;
-  drawing does not establish a perfect physical match.
+    drawing does not establish a perfect physical match.
 fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
 fit_revision: 3
 front_plate_mm: 3.0
@@ -51,66 +52,8 @@ id: three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth
 id_no_class: three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth
 id_no_size: three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth
 id_no_type: three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth
-id_oobb: three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth
 insertion_depth_mm: 12.0
 inside_bottom_diameter_mm: 11.0
-kwargs:
-  bottom_radius_mm: 7.75
-  bottom_virtual_width_mm: 75.0
-  curve_step_degrees: 1.0
-  depth: 15
-  depth_mm: 15
-  description: Solid blank cap, 15 mm total depth; 3 mm face and 12 mm insertion,
-    3 mm U-shaped ledge.
-  dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
-    supplied by user.
-  filter: ''
-  fit_clearance_mm: 0.0
-  fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
-    sealing; drawing does not establish a perfect physical match.
-  fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
-  fit_revision: 3
-  front_plate_mm: 3.0
-  gutter_wall_mm: 2.25
-  height: 70.5
-  height_mm: 70.5
-  insertion_depth_mm: 12.0
-  inside_bottom_diameter_mm: 11.0
-  ledge_ignore_clip: true
-  ledge_top_setback_mm: 9.5
-  ledge_wall_mm: 3.0
-  lip_height_mm: 5.0
-  lip_projection_mm: 2.0
-  lip_tip_drop_mm: 4.0
-  modes:
-  - 3dpr
-  navigation: true
-  oobb_name: cap_end_solide
-  oomp_mode: project
-  oomp_run: true
-  outer_lip_mm: 6.0
-  overwrite: true
-  part_role: printed_solid_end_cap
-  print_orientation: Flat exterior face on bed at Z=0; ledge upward; no supports required
-    by geometry.
-  product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
-  profile_height_mm: 58.5
-  profile_image_local: source_file/floplast/square_gutter_profile.jpg
-  profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
-  profile_status: cap_trial_5_5_mm_inside_bottom_radius_flat_wall_ends_9_5_mm_below_rim
-  profile_width_mm: 114.0
-  shoulder_height_mm: 37.5
-  shoulder_radius_mm: 3.0
-  taxonomy_1: three_d_print
-  taxonomy_2: filament_manufacture
-  taxonomy_3: cooling_tank
-  taxonomy_4: cap_end_solide
-  taxonomy_5: 15_mm_depth
-  total_depth_mm: 15
-  typ: all
-  wait_for_completion: true
-  width: 126.0
-  width_mm: 126.0
 ledge_ignore_clip: true
 ledge_top_setback_mm: 9.5
 ledge_wall_mm: 3.0
@@ -131,214 +74,214 @@ md5_6_alpha_upper: 3VU1W
 md5_6_upper: 638CE4
 name: Three D Print Filament Manufacture Cooling Tank Cap End Solide 15 Mm Depth
 name_no_class: Three D Print Filament Manufacture Cooling Tank Cap End Solide 15 Mm
-  Depth
+    Depth
 name_no_size: Three D Print Filament Manufacture Cooling Tank Cap End Solide 15 Mm
-  Depth
+    Depth
 name_no_type: Three D Print Filament Manufacture Cooling Tank Cap End Solide 15 Mm
-  Depth
+    Depth
 name_proper: Three D Print Filament Manufacture Cooling Tank Cap End Solide 15 Mm
-  Depth
+    Depth
 name_space: three d print filament manufacture cooling tank cap end solide 15 mm depth
 name_upper: THREE D PRINT FILAMENT MANUFACTURE COOLING TANK CAP END SOLIDE 15 MM DEPTH
 oobb_details:
-  bottom_radius_mm: 7.75
-  bottom_virtual_width_mm: 75.0
-  curve_step_degrees: 1.0
-  depth: 15
-  depth_mm: 15
-  description: Solid blank cap, 15 mm total depth; 3 mm face and 12 mm insertion,
-    3 mm U-shaped ledge.
-  dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
-    supplied by user.
-  fit_clearance_mm: 0.0
-  fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
-    sealing; drawing does not establish a perfect physical match.
-  fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
-  fit_revision: 3
-  front_plate_mm: 3.0
-  gutter_wall_mm: 2.25
-  height: 70.5
-  height_mm: 70.5
-  insertion_depth_mm: 12.0
-  inside_bottom_diameter_mm: 11.0
-  ledge_ignore_clip: true
-  ledge_top_setback_mm: 9.5
-  ledge_wall_mm: 3.0
-  lip_height_mm: 5.0
-  lip_projection_mm: 2.0
-  lip_tip_drop_mm: 4.0
-  oobb_name: cap_end_solide
-  oobb_type: cap_end_solide
-  outer_lip_mm: 6.0
-  part_role: printed_solid_end_cap
-  print_orientation: Flat exterior face on bed at Z=0; ledge upward; no supports required
-    by geometry.
-  product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
-  profile_height_mm: 58.5
-  profile_image_local: source_file/floplast/square_gutter_profile.jpg
-  profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
-  profile_status: cap_trial_5_5_mm_inside_bottom_radius_flat_wall_ends_9_5_mm_below_rim
-  profile_width_mm: 114.0
-  run_scad: true
-  run_solidcraft: false
-  shoulder_height_mm: 37.5
-  shoulder_radius_mm: 3.0
-  taxonomy_1: three_d_print
-  taxonomy_2: filament_manufacture
-  taxonomy_3: cooling_tank
-  taxonomy_4: cap_end_solide
-  taxonomy_5: 15_mm_depth
-  total_depth_mm: 15
-  width: 126.0
-  width_mm: 126.0
+    bottom_radius_mm: 7.75
+    bottom_virtual_width_mm: 75.0
+    curve_step_degrees: 1.0
+    depth: 15
+    depth_mm: 15
+    description: Solid blank cap, 15 mm total depth; 3 mm face and 12 mm insertion,
+        3 mm U-shaped ledge.
+    dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+        supplied by user.
+    fit_clearance_mm: 0.0
+    fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+        sealing; drawing does not establish a perfect physical match.
+    fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+    fit_revision: 3
+    front_plate_mm: 3.0
+    gutter_wall_mm: 2.25
+    height: 70.5
+    height_mm: 70.5
+    insertion_depth_mm: 12.0
+    inside_bottom_diameter_mm: 11.0
+    ledge_ignore_clip: true
+    ledge_top_setback_mm: 9.5
+    ledge_wall_mm: 3.0
+    lip_height_mm: 5.0
+    lip_projection_mm: 2.0
+    lip_tip_drop_mm: 4.0
+    oobb_name: cap_end_solide
+    oobb_type: cap_end_solide
+    outer_lip_mm: 6.0
+    part_role: printed_solid_end_cap
+    print_orientation: Flat exterior face on bed at Z=0; ledge upward; no supports
+        required by geometry.
+    product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+    profile_height_mm: 58.5
+    profile_image_local: source_file/floplast/square_gutter_profile.jpg
+    profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+    profile_status: cap_trial_5_5_mm_inside_bottom_radius_flat_wall_ends_9_5_mm_below_rim
+    profile_width_mm: 114.0
+    run_scad: true
+    run_solidcraft: false
+    shoulder_height_mm: 37.5
+    shoulder_radius_mm: 3.0
+    taxonomy_1: three_d_print
+    taxonomy_2: filament_manufacture
+    taxonomy_3: cooling_tank
+    taxonomy_4: cap_end_solide
+    taxonomy_5: 15_mm_depth
+    total_depth_mm: 15
+    width: 126.0
+    width_mm: 126.0
 oobb_name: cap_end_solide
 oobb_type: cap_end_solide
 oomlout_ai_roboclick_1:
-  action_name: step_0_jinja_template_label_oomp.svg
-  actions:
-  - command: text_jinja_template
-    convert_to_pdf: false
-    convert_to_png: false
-    dict_data:
-      bottom_radius_mm: 7.75
-      bottom_virtual_width_mm: 75.0
-      curve_step_degrees: 1.0
-      depth: 15
-      depth_mm: 15
-      description: Solid blank cap, 15 mm total depth; 3 mm face and 12 mm insertion,
-        3 mm U-shaped ledge.
-      dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
-        supplied by user.
-      directory: parts\three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth
-      fit_clearance_mm: 0.0
-      fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
-        sealing; drawing does not establish a perfect physical match.
-      fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
-      fit_revision: 3
-      front_plate_mm: 3.0
-      gutter_wall_mm: 2.25
-      height: 70.5
-      height_mm: 70.5
-      insertion_depth_mm: 12.0
-      inside_bottom_diameter_mm: 11.0
-      ledge_ignore_clip: true
-      ledge_top_setback_mm: 9.5
-      ledge_wall_mm: 3.0
-      lip_height_mm: 5.0
-      lip_projection_mm: 2.0
-      lip_tip_drop_mm: 4.0
-      name: three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth
-      name_proper: Three D Print Filament Manufacture Cooling Tank Cap End Solide
-        15 Mm Depth
-      name_space: three d print filament manufacture cooling tank cap end solide 15
-        mm depth
-      name_upper: THREE D PRINT FILAMENT MANUFACTURE COOLING TANK CAP END SOLIDE 15
-        MM DEPTH
-      oobb_details:
-        bottom_radius_mm: 7.75
-        bottom_virtual_width_mm: 75.0
-        curve_step_degrees: 1.0
-        depth: 15
-        depth_mm: 15
-        description: Solid blank cap, 15 mm total depth; 3 mm face and 12 mm insertion,
-          3 mm U-shaped ledge.
-        dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
-          supplied by user.
-        fit_clearance_mm: 0.0
-        fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit
-          before sealing; drawing does not establish a perfect physical match.
-        fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
-        fit_revision: 3
-        front_plate_mm: 3.0
-        gutter_wall_mm: 2.25
-        height: 70.5
-        height_mm: 70.5
-        insertion_depth_mm: 12.0
-        inside_bottom_diameter_mm: 11.0
-        ledge_ignore_clip: true
-        ledge_top_setback_mm: 9.5
-        ledge_wall_mm: 3.0
-        lip_height_mm: 5.0
-        lip_projection_mm: 2.0
-        lip_tip_drop_mm: 4.0
-        oobb_name: cap_end_solide
-        oobb_type: cap_end_solide
-        outer_lip_mm: 6.0
-        part_role: printed_solid_end_cap
-        print_orientation: Flat exterior face on bed at Z=0; ledge upward; no supports
-          required by geometry.
-        product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
-        profile_height_mm: 58.5
-        profile_image_local: source_file/floplast/square_gutter_profile.jpg
-        profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
-        profile_status: cap_trial_5_5_mm_inside_bottom_radius_flat_wall_ends_9_5_mm_below_rim
-        profile_width_mm: 114.0
-        run_scad: true
-        run_solidcraft: false
-        shoulder_height_mm: 37.5
-        shoulder_radius_mm: 3.0
-        taxonomy_1: three_d_print
-        taxonomy_2: filament_manufacture
-        taxonomy_3: cooling_tank
-        taxonomy_4: cap_end_solide
-        taxonomy_5: 15_mm_depth
-        total_depth_mm: 15
-        width: 126.0
-        width_mm: 126.0
-      oobb_name: cap_end_solide
-      oobb_type: cap_end_solide
-      outer_lip_mm: 6.0
-      part_role: printed_solid_end_cap
-      print_orientation: Flat exterior face on bed at Z=0; ledge upward; no supports
-        required by geometry.
-      product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
-      profile_height_mm: 58.5
-      profile_image_local: source_file/floplast/square_gutter_profile.jpg
-      profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
-      profile_status: cap_trial_5_5_mm_inside_bottom_radius_flat_wall_ends_9_5_mm_below_rim
-      profile_width_mm: 114.0
-      run_scad: true
-      run_solidcraft: false
-      shoulder_height_mm: 37.5
-      shoulder_radius_mm: 3.0
-      taxonomy_1: three_d_print
-      taxonomy_10: ''
-      taxonomy_11: ''
-      taxonomy_12: ''
-      taxonomy_13: ''
-      taxonomy_14: ''
-      taxonomy_15: ''
-      taxonomy_2: filament_manufacture
-      taxonomy_3: cooling_tank
-      taxonomy_4: cap_end_solide
-      taxonomy_5: 15_mm_depth
-      taxonomy_6: ''
-      taxonomy_7: ''
-      taxonomy_8: ''
-      taxonomy_9: ''
-      total_depth_mm: 15
-      url_chat: ''
-      width: 126.0
-      width_mm: 126.0
-    dict_data_files: {}
-    dict_data_files_exists: {}
-    file_output: label_oomp.svg
-    file_template: C:\gh\three_d_print_filament_manufacturing_cooling_tank\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
-    search_and_replace: []
-  file_test: label_oomp.pdf
-  retries_until_complete: 0
+    action_name: step_0_jinja_template_label_oomp.svg
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            bottom_radius_mm: 7.75
+            bottom_virtual_width_mm: 75.0
+            curve_step_degrees: 1.0
+            depth: 15
+            depth_mm: 15
+            description: Solid blank cap, 15 mm total depth; 3 mm face and 12 mm insertion,
+                3 mm U-shaped ledge.
+            dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material
+                thickness supplied by user.
+            directory: parts\three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth
+            fit_clearance_mm: 0.0
+            fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit
+                before sealing; drawing does not establish a perfect physical match.
+            fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+            fit_revision: 3
+            front_plate_mm: 3.0
+            gutter_wall_mm: 2.25
+            height: 70.5
+            height_mm: 70.5
+            insertion_depth_mm: 12.0
+            inside_bottom_diameter_mm: 11.0
+            ledge_ignore_clip: true
+            ledge_top_setback_mm: 9.5
+            ledge_wall_mm: 3.0
+            lip_height_mm: 5.0
+            lip_projection_mm: 2.0
+            lip_tip_drop_mm: 4.0
+            name: three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth
+            name_proper: Three D Print Filament Manufacture Cooling Tank Cap End Solide
+                15 Mm Depth
+            name_space: three d print filament manufacture cooling tank cap end solide
+                15 mm depth
+            name_upper: THREE D PRINT FILAMENT MANUFACTURE COOLING TANK CAP END SOLIDE
+                15 MM DEPTH
+            oobb_details:
+                bottom_radius_mm: 7.75
+                bottom_virtual_width_mm: 75.0
+                curve_step_degrees: 1.0
+                depth: 15
+                depth_mm: 15
+                description: Solid blank cap, 15 mm total depth; 3 mm face and 12
+                    mm insertion, 3 mm U-shaped ledge.
+                dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material
+                    thickness supplied by user.
+                fit_clearance_mm: 0.0
+                fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit
+                    before sealing; drawing does not establish a perfect physical
+                    match.
+                fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+                fit_revision: 3
+                front_plate_mm: 3.0
+                gutter_wall_mm: 2.25
+                height: 70.5
+                height_mm: 70.5
+                insertion_depth_mm: 12.0
+                inside_bottom_diameter_mm: 11.0
+                ledge_ignore_clip: true
+                ledge_top_setback_mm: 9.5
+                ledge_wall_mm: 3.0
+                lip_height_mm: 5.0
+                lip_projection_mm: 2.0
+                lip_tip_drop_mm: 4.0
+                oobb_name: cap_end_solide
+                oobb_type: cap_end_solide
+                outer_lip_mm: 6.0
+                part_role: printed_solid_end_cap
+                print_orientation: Flat exterior face on bed at Z=0; ledge upward;
+                    no supports required by geometry.
+                product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+                profile_height_mm: 58.5
+                profile_image_local: source_file/floplast/square_gutter_profile.jpg
+                profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+                profile_status: cap_trial_5_5_mm_inside_bottom_radius_flat_wall_ends_9_5_mm_below_rim
+                profile_width_mm: 114.0
+                run_scad: true
+                run_solidcraft: false
+                shoulder_height_mm: 37.5
+                shoulder_radius_mm: 3.0
+                taxonomy_1: three_d_print
+                taxonomy_2: filament_manufacture
+                taxonomy_3: cooling_tank
+                taxonomy_4: cap_end_solide
+                taxonomy_5: 15_mm_depth
+                total_depth_mm: 15
+                width: 126.0
+                width_mm: 126.0
+            oobb_name: cap_end_solide
+            oobb_type: cap_end_solide
+            outer_lip_mm: 6.0
+            part_role: printed_solid_end_cap
+            print_orientation: Flat exterior face on bed at Z=0; ledge upward; no
+                supports required by geometry.
+            product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+            profile_height_mm: 58.5
+            profile_image_local: source_file/floplast/square_gutter_profile.jpg
+            profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+            profile_status: cap_trial_5_5_mm_inside_bottom_radius_flat_wall_ends_9_5_mm_below_rim
+            profile_width_mm: 114.0
+            run_scad: true
+            run_solidcraft: false
+            shoulder_height_mm: 37.5
+            shoulder_radius_mm: 3.0
+            taxonomy_1: three_d_print
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: filament_manufacture
+            taxonomy_3: cooling_tank
+            taxonomy_4: cap_end_solide
+            taxonomy_5: 15_mm_depth
+            taxonomy_6: ''
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            total_depth_mm: 15
+            url_chat: ''
+            width: 126.0
+            width_mm: 126.0
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\gh\three_d_print_filament_manufacturing_cooling_tank\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
 oomp_key: oomp_three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth
 outer_lip_mm: 6.0
 part_role: printed_solid_end_cap
 print_orientation: Flat exterior face on bed at Z=0; ledge upward; no supports required
-  by geometry.
+    by geometry.
 product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
 profile_height_mm: 58.5
 profile_image_local: source_file/floplast/square_gutter_profile.jpg
 profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
 profile_status: cap_trial_5_5_mm_inside_bottom_radius_flat_wall_ends_9_5_mm_below_rim
 profile_width_mm: 114.0
-project_name: C:\gh\three_d_print_filament_manufacturing_cooling_tank
 run_scad: true
 run_solidcraft: false
 shoulder_height_mm: 37.5

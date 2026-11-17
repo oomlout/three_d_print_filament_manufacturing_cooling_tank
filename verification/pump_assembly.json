@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "source_hashes_match": true,
+  "holder_and_hose_clear_gutters_and_caps": true,
+  "hose_closed_annular_mesh": true,
+  "hose_centreline_length_mm": 407.01786775333966,
+  "hose_id_mm": 12,
+  "hose_od_mm": 14,
+  "outlet_above_inside_floor_mm": 15,
+  "hose_socket_overlap_mm": 13.2,
+  "hose_overlap_volumes_mm3": {
+    "lower_gutter": 0.0,
+    "upper_gutter": 0.0,
+    "rear_cap": 0.0,
+    "upper_rear_cap": 0.0,
+    "pump_holder_base": 0.0,
+    "pump_holder_top": 0.0,
+    "pump_reference": 0.0,
+    "rear_riser_a": 19.489657762837243,
+    "rear_riser_b": 19.489702690659062
+  },
+  "intentional_overlap": "Only the two riser grip/taper regions compress the nominal tube envelope.",
+  "scope": "Geometric assembly illustration; real hose bend, clamp fit and pump operation remain untested."
+}

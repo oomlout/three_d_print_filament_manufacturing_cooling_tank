@@ -80,6 +80,101 @@ LIFTER_VARIANTS = [
 ]
 
 
+PUMP_LIFTER = {
+    "lift_height_mm": 75.0,
+    "thickness_mm": 30.0,
+    "support_thickness_mm": 30.0,
+    "tube_od_mm": 14.0,
+    "tube_id_mm": 12.0,
+    "tube_guide_diameter_mm": 14.4,
+    "tube_grip_diameter_mm": 13.6,
+    "tube_grip_length_mm": 4.0,
+    "tube_grip_transition_mm": 2.0,
+    "tube_bend_radius_mm": 40.0,
+    "tube_outlet_above_floor_mm": 15.0,
+    "outlet_window_width_mm": 18.0,
+    "pump_fasteners": [
+        {
+            "x": -24.0,
+            "y": 33.0,
+        },
+        {
+            "x": -24.0,
+            "y": 45.0,
+        },
+        {
+            "x": 24.0,
+            "y": 33.0,
+        },
+        {
+            "x": 24.0,
+            "y": 56.0,
+        },
+    ],
+    "pump_flow_holes": [
+        {
+            "x": -24.0,
+            "y": 11.25,
+            "radius": 6.0,
+        },
+        {
+            "x": 24.0,
+            "y": 11.25,
+            "radius": 6.0,
+        },
+        {
+            "x": -40.0,
+            "y": 32.0,
+            "radius": 6.0,
+        },
+        {
+            "x": 40.0,
+            "y": 32.0,
+            "radius": 6.0,
+        },
+        {
+            "x": -40.0,
+            "y": 50.0,
+            "radius": 6.0,
+        },
+        {
+            "x": 40.0,
+            "y": 50.0,
+            "radius": 6.0,
+        },
+    ],
+}
+
+
+def get_pump_lifter_options():
+    options = []
+    for side in ("a", "b"):
+        option = copy.deepcopy(get_lifter_options()[0])
+        option.update(copy.deepcopy(PUMP_LIFTER))
+        option["tube_wall_mm"] = (option["tube_od_mm"] - option["tube_id_mm"]) / 2
+        option["oobb_type"] = "lifter_pump_inlet"
+        option["taxonomy_4"] = "lifter_pump_inlet"
+        option["taxonomy_5"] = f"{option['lift_height_mm']:g}_mm_lift_height"
+        option["taxonomy_6"] = f"{option['thickness_mm']:g}_mm_thickness"
+        option["taxonomy_7"] = f"{option['support_thickness_mm']:g}_mm_support_thickness"
+        option["taxonomy_8"] = f"{option['tube_od_mm']:g}_mm_tube_od"
+        option["taxonomy_9"] = f"half_{side}"
+        option["pump_half"] = side
+        option["depth"] = option["thickness_mm"] / 2
+        option["depth_mm"] = option["depth"]
+        option["height"] = option["lift_height_mm"] + option["upper_cradle_height_mm"] - PROFILE["gutter_wall_mm"]
+        option["height_mm"] = option["height"]
+        option["print_quantity"] = 1
+        option["part_role"] = "printed_pump_inlet_lifter_half"
+        option["tube_outlet_datum"] = "inside_floor_of_lower_gutter"
+        option["tube_fit_status"] = "tube_dimensions_confirmed_physical_fit_pending"
+        option["description"] = f"Pump inlet riser half {side.upper()}; {option['lift_height_mm']:g} mm lift, {option['thickness_mm']:g} mm assembled thickness; side-entry {option['tube_id_mm']:g} mm ID / {option['tube_od_mm']:g} mm OD silicone tube bends down and exits {option['tube_outlet_above_floor_mm']:g} mm above the inside floor."
+        option["print_orientation"] = f"Flat outer face at Z=0; tube channel upward at Z={option['depth']:g}."
+        option["assembly_instruction"] = f"Print one A and one B. Lay the tube in A, turn B 180 degrees about its upright Y axis and translate it {option['thickness_mm']:g} mm along Z to join channel faces at Z={option['depth']:g}. Four M3 countersunk screws enter A and engage the nut pockets in B. Centre the assembled support along the gutter by shifting Z={-option['depth']:g}."
+        options.append(option)
+    return options
+
+
 def get_lifter_options():
     options = []
     for variant in LIFTER_VARIANTS:
@@ -237,6 +332,7 @@ def get_options():
         })
 
     options.extend(get_lifter_options())
+    options.extend(get_pump_lifter_options())
 
     for option in options:
         option.update(copy.deepcopy(PROFILE))

@@ -36,6 +36,17 @@ assert all(abs(p.co.z * 1000 - 117.5) < 0.01 for p in filament_points)
 assert len([o for o in bpy.data.objects if o.name.startswith('Lifter at ')]) == 4
 assert len([o for o in bpy.data.objects if o.name.startswith('Cover INSIDE upper cap')]) == 2
 assert bpy.data.objects['Lower gutter - 600 mm with rear pump bay'].data.materials[0].name == 'Black uPVC gutter'
+data = json.loads((root / 'demonstration/scene_data.json').read_text())
+for name, asset in [('JT-500 holder base in rear bay', 'pump_holder_base'),
+                    ('JT-500 holder top in rear bay', 'pump_holder_top'),
+                    ('JT-500 nominal pump in holder', 'pump_reference'),
+                    ('Hose from pump through rear riser - 12 ID 14 OD', 'pump_hose')]:
+    actual = bounds_mm(name)
+    expected = data['pump']['bounds_world_mm'][asset]
+    assert all(abs(actual[i][j] - expected[i][j]) < 0.01 for i in range(2) for j in range(3)), name
+assert abs(bounds_mm('Lifter at 125 - pump half A')[0][0] - 110) < 0.01
+assert abs(bounds_mm('Lifter at 125 - pump half B')[1][0] - 140) < 0.01
+assert 'Rear pump and hose detail camera' in bpy.data.objects
 report = {
     'status': 'passed',
     'lower_bounds_mm': lower,
@@ -45,11 +56,15 @@ report = {
     'filament_diameter_mm': filament.data.bevel_depth * 2000,
     'filament_colour': 'black',
     'filament_extents_mm': [-350, 450],
-    'rear_clear_space_mm': lower[1][0] - upper[1][0],
+    'rear_bay_length_mm': lower[1][0] - upper[1][0],
     'rear_extension_from_previous_layout_mm': 100,
     'gutter_material': 'black',
     'lifter_halves': 4,
     'inside_covers': 2,
+    'rear_support': 'pump inlet halves A and B',
+    'pump_holder': 'JT-500, imported base and top',
+    'hose_id_mm': data['pump']['tube_id_mm'],
+    'hose_od_mm': data['pump']['tube_od_mm'],
     'render_pixels': [bpy.context.scene.render.resolution_x, bpy.context.scene.render.resolution_y],
 }
 (root / 'verification/demonstration_scene.json').write_text(json.dumps(report, indent=2) + '\n')

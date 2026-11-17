@@ -20,6 +20,8 @@ def main():
         'open_cap': next(o for o in options if o['oobb_type'] == 'cap_end_open' and o['total_depth_mm'] == 15),
         'cover': next(o for o in options if o['oobb_type'] == 'cap_cover'),
         'lifter_half': next(o for o in options if o['oobb_type'] == 'lifter'),
+        'pump_lifter_a': next(o for o in options if o['oobb_type'] == 'lifter_pump_inlet' and o['pump_half'] == 'a'),
+        'pump_lifter_b': next(o for o in options if o['oobb_type'] == 'lifter_pump_inlet' and o['pump_half'] == 'b'),
         'lower_gutter': next(o for o in options if o['oobb_type'] == 'gutter_square' and o['length_mm'] == 500),
     }
     sources = {}
@@ -29,6 +31,8 @@ def main():
         sources[name] = source.relative_to(root).as_posix()
     profile = selected['lower_gutter']
     sections = get_gutter_sections(**profile)
+    from working_demonstration_pump import prepare
+    pump_data = prepare(root, assets, selected['pump_lifter_a'], sections)
     # Cut lengths for this assembly; profile is taken from the catalogue reference.
     trimesh.creation.extrude_polygon(sections['gutter'], 600).export(assets / 'lower_gutter.stl')
     trimesh.creation.extrude_polygon(sections['gutter'], 400).export(assets / 'upper_gutter.stl')
@@ -48,10 +52,14 @@ def main():
         if is_upper:
             volume.apply_translation([0, 0, -3])
         cutters = []
-        for position in (-125, 125):
-            for flip in (False, True):
-                cutters.append(placed('lifter_half', y=-75 if is_upper else 0,
-                                      z=position + (200 if is_upper else 250), flip=flip))
+        shift = 200 if is_upper else 250
+        height_shift = -75 if is_upper else 0
+        for flip in (False, True):
+            cutters.append(placed('lifter_half', y=height_shift, z=-125 + shift, flip=flip))
+        cutters.extend([placed('pump_lifter_a', y=height_shift, z=110 + shift),
+                        placed('pump_lifter_b', y=height_shift, z=140 + shift, flip=True)])
+        for asset in ('pump_holder_base', 'pump_holder_top', 'pump_reference', 'pump_hose'):
+            cutters.append(placed(asset, y=height_shift, z=shift))
         cap_asset = 'open_cap' if is_upper else 'solid_cap'
         cutters.extend([placed(cap_asset, z=-3), placed(cap_asset, z=length + 3, flip=True)])
         if is_upper:
@@ -76,16 +84,17 @@ def main():
         'filament_end': 450,
         'filament_axis_height': 75 + 42.5,
         'support_positions': [-125, 125],
+        'pump': pump_data,
         'cover_inside_mating_plane': 3,
         'sources': sources,
         'notes': [
             'Actual current printable CAD meshes, no geometry approximations for printed parts.',
-            'Two identical printed halves per support; two support assemblies.',
+            'Front support uses identical halves; rear support uses pump-inlet halves A and B.',
             'Both upper ends have slotted caps and inside covers for a continuous filament path.',
-            'Lower front remains at -250 mm; rear extends to +350 mm for the future pump.',
+            'Lower front remains at -250 mm; rear extends to +350 mm with the JT-500 holder in its rear bay.',
             'Lower trough is half the internal depth; upper surface is 5 mm below the rim.',
             'Water streams and ripples are illustrative, not a fluid simulation.',
-            'A pump or feed needed to maintain the upper level is not shown.',
+            'Pump hose feeds the lower trough through the rear riser; an upper-trough feed is not shown.',
         ],
     }
     (destination / 'scene_data.json').write_text(json.dumps(data, indent=2) + '\n', encoding='utf-8')

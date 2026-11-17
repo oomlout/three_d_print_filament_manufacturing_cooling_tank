@@ -1,13 +1,15 @@
 # Filament manufacturing cooling tank
 
 A two-level filament-cooling tank made from 114 mm square uPVC guttering and
-parametric printed caps, covers and identical-half lifters. The upper trough
+parametric printed caps, covers and lifters. The upper trough
 cools a continuous filament; water drains through its end-cover holes into the
-longer lower reservoir. The rear reservoir space is reserved for a future pump.
+longer lower reservoir. The rear bay holds a JT-500 pump in its printed holder,
+with a silicone hose leading to the rear pump-inlet riser.
 
-![Cooling tank demonstration: black guttering, teal printed parts, water and black filament](demonstration/cooling_tank_render.png)
+![Cooling tank with black guttering, rear JT-500 pump holder, silicone hose, pump-inlet riser and continuous black filament](demonstration/cooling_tank_render.png)
 
-[Full-size render](demonstration/cooling_tank_render.png)
+[Full assembly render](demonstration/cooling_tank_render.png) ·
+[Rear pump and hose close-up](demonstration/pump_hose_detail.png)
 
 
 ## AI-created and available to adapt
@@ -28,19 +30,37 @@ source files and instructions.
 | Height | **75 mm** outside-bottom to outside-bottom; 16.5 mm gap between lower rim and upper bottom |
 | Rear extension | **100 mm added only at the rear**; front and upper-trough positions unchanged |
 | Exposed reservoir | 50 mm ahead of the upper trough and **150 mm behind it**, including the additional 100 mm pump space |
-| Supports | Two mid-span lifters, each assembled from two identical prints |
+| Supports | Original identical-half lifter at the front; pump-inlet halves A and B at the rear |
+| Pump and hose | JT-500 holder in the rear bay; 12 mm ID / 14 mm OD silicone hose enters the rear riser from the side |
 | Water | Lower trough half its internal depth; upper water surface 5 mm below its rim |
 | Filament | **1.75 mm diameter, black**, continuous through both central M6 holes and the upper water, extending beyond both ends |
 
 The render uses the actual current CAD meshes. The upper end arrangement is
 repeated at both ends to provide a continuous filament path. Gold covers are
 installed **inside** the teal caps. The water streams and ripples illustrate
-flow; this is not a fluid simulation. A pump, return hose and incoming feed
-needed to maintain the upper water level are not shown. The pump bay is empty.
+flow; this is not a fluid simulation. The illustrated pump hose discharges into
+the **lower trough**, 15 mm above its inside floor. A separate feed to maintain
+the upper water level is not shown. The half-full lower water level remains an
+illustration rather than an operating submersion specification for the pump.
+
+![Rear pump holder and hose connection](demonstration/pump_hose_detail.png)
+
+The close-up shows the **12 mm ID / 14 mm OD hose** on the pump outlet and its
+side entry into the new rear riser. Inside the riser, the hose bends downward
+to the outlet 15 mm above the lower gutter's inside floor.
+
+The holder uses the existing JT-500 project's actual base and top meshes, with
+its nominal pump reference. It sits upright in the rear bay, centred 65 mm
+ahead of the gutter's rear end. The hose fits over the pump's nominal outlet,
+loops around the side and passes continuously through the rear riser.
+The holder's pump fit and the hose connection still need physical checking.
+
+[Pump-holder base STL](source_file/pump_holder/base.stl) ·
+[Pump-holder top STL](source_file/pump_holder/top.stl)
 
 ## Parts and print files
 
-The catalogue contains **ten current parts with unversioned names**. The files
+The catalogue contains **twelve current parts with unversioned names**. The files
 below are the latest designs; older part versions have been removed.
 
 | Printed part | Options | STL |
@@ -51,6 +71,8 @@ below are the latest designs; older part versions have been removed.
 | Slotted end cap, inside seal groove | 6 mm total / 3 mm insertion | [6 mm](parts/three_d_print_filament_manufacture_cooling_tank_cap_end_open_6_mm_depth/3dpr.stl) |
 | Grooved 3 x 3 cover | 44 x 44 x 3 mm | [Cover](parts/three_d_print_filament_manufacture_cooling_tank_cap_cover_3_by_3_oobb_3_mm_thickness/3dpr.stl) |
 | Identical lifter half | 75 mm lift / 9 mm web / 30 mm shoes, assembled | [Half — print two per support](parts/three_d_print_filament_manufacture_cooling_tank_lifter_75_mm_lift_height_9_mm_thickness_30_mm_support_thickness/3dpr.stl) |
+| Pump inlet riser A | 75 mm lift / 30 mm assembled thickness / 14 mm tube | [Half A — print one](parts/three_d_print_filament_manufacture_cooling_tank_lifter_pump_inlet_75_mm_lift_height_30_mm_thickness_30_mm_support_thickness_14_mm_tube_od_half_a/3dpr.stl) |
+| Pump inlet riser B | Matching half with nut pockets | [Half B — print one](parts/three_d_print_filament_manufacture_cooling_tank_lifter_pump_inlet_75_mm_lift_height_30_mm_thickness_30_mm_support_thickness_14_mm_tube_od_half_b/3dpr.stl) |
 
 The other four entries are gutter-reference lengths of 3000, 1000, 500 and
 300 mm. The demonstration cuts the same section to 600 and 400 mm; those lengths
@@ -60,9 +82,12 @@ For the illustrated assembly, use:
 
 - One 600 mm and one 400 mm gutter length.
 - Two 15 mm solid caps and two 15 mm slotted caps.
-- Two cover plates and four identical lifter halves.
+- Two cover plates, two original lifter halves, one pump-inlet half A and one half B.
 - Eight M3 countersunk screws and nuts for the two lifters.
 - Eight M6 corner fasteners with suitable nuts/washers for the upper covers.
+- One JT-500 pump, one holder base and one holder top, with four M3×16 mm
+  countersunk screws and four M3 nuts for the holder.
+- A length of 12 mm ID / 14 mm OD silicone hose, trimmed to suit the final routing.
 - Two lengths of **2 mm OD rubber cord**, approximately 93.2 mm each along the
   U centreline, plus allowance for trimming the ends.
 
@@ -122,6 +147,35 @@ upper saddle has a 3 mm width allowance over the nominal gutter profile.
 The lifter's printed fit has been accepted after trial fitting.
 
 ![Lifter and mid-span assembly](parts/three_d_print_filament_manufacture_cooling_tank_lifter_75_mm_lift_height_9_mm_thickness_30_mm_support_thickness/lifter_overview.png)
+
+## Pump inlet riser variant
+
+![Pump inlet riser halves and tube route](preview/pump_lifter_overview.png)
+
+This additional riser holds a **12 mm ID / 14 mm OD silicone tube (1 mm wall)** entering horizontally
+through a side edge, between the two gutters. The channel turns down through
+90 degrees on a **40 mm centreline radius**. Its outlet is **15 mm above the
+inside floor of the lower gutter**, with an open window below it for water flow.
+Trim the tube end flush with the outlet ledge to set that height.
+
+The lift remains 75 mm. This variant has a **30 mm assembled web and supports**
+to enclose the tube, made from **two different 15 mm halves**. It retains the
+accepted saddle and lower contact profile, including the R5 lower fit and
+7.5 mm rim clearance. Six 12 mm flow holes and the open outlet window let water
+pass the riser. One M3 joint moves clear of the curved tube route.
+
+Print **one A and one B**, plain outer faces on the bed and channels upward.
+Lay the tube in A, turn B over about its upright axis and bring the channel
+faces together. Fit four M3 countersunk screws through A into four M3 nuts in
+B's outer pockets. The complete assembly is 30 mm thick; check screw engagement
+when selecting the fastener length.
+
+The guide is 14.4 mm diameter, narrowing through a 2 mm transition to a
+**13.6 mm diameter, 4 mm long grip** near the outlet. The tube dimensions are
+confirmed; this remains a trial clamp, so grip, bend behaviour and maintained
+water flow need a physical check. The
+40 mm bend radius and inside-floor outlet datum are provisional assumptions.
+The main demonstration uses this variant at the rear and the original lifter at the front.
 
 ## Dimensions and verification
 

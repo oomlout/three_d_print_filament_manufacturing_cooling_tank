@@ -1,0 +1,445 @@
+axial_clearance: 0
+base_support_lip: 1.5
+bip_39_2_word_array:
+- potato
+- siren
+bip_39_2_word_no_space: potatosiren
+bip_39_2_word_space: potato siren
+bip_39_2_word_underscore: potato_siren
+bip_39_3_word_array:
+- potato
+- siren
+- funny
+bip_39_3_word_no_space: potatosirenfunny
+bip_39_3_word_space: potato siren funny
+bip_39_3_word_underscore: potato_siren_funny
+bip_39_full_array:
+- potato
+- siren
+- funny
+- refuse
+- floor
+- warm
+- dash
+- spread
+- fame
+- dream
+- void
+- memory
+bip_39_full_no_space: potatosirenfunnyrefusefloorwarmdashspreadfamedreamvoidmemory
+bip_39_full_space: potato siren funny refuse floor warm dash spread fame dream void
+  memory
+bip_39_full_underscore: potato_siren_funny_refuse_floor_warm_dash_spread_fame_dream_void_memory
+clamp_corner_radius: 5
+depth: 3
+dimension_note: Main envelope and 5.7 mm rear projection are dimensioned. Port centres,
+  fin footprints and body profile are approximate; physically check fit before final
+  printing.
+dimension_source: source_file/pump_dimension_reference.png
+directory: parts/oobb_holder_motor_pump_submersible_jt_500_top
+foot_pitch: 60
+foot_radius: 4
+foot_size: 12
+height: 5
+id: oobb_holder_motor_pump_submersible_jt_500_top
+id_no_class: oobb_holder_motor_pump_submersible_jt_500_top
+id_no_size: oobb_holder_motor_pump_submersible_jt_500_top
+id_no_type: oobb_holder_motor_pump_submersible_jt_500_top
+id_oobb: oobb_holder_motor_pump_submersible_jt_500_top
+kwargs:
+  axial_clearance: 0
+  base_support_lip: 1.5
+  clamp_corner_radius: 5
+  depth: 3
+  dimension_note: Main envelope and 5.7 mm rear projection are dimensioned. Port centres,
+    fin footprints and body profile are approximate; physically check fit before final
+    printing.
+  dimension_source: source_file/pump_dimension_reference.png
+  filter: ''
+  foot_pitch: 60
+  foot_radius: 4
+  foot_size: 12
+  height: 5
+  modes:
+  - 'true'
+  - 3dpr
+  mount_x: 22.5
+  mount_y: 7.5
+  name: JT-500 two-wall holder top
+  navigation: false
+  nut_height_from_foot: 6
+  omit_covered_base_holes: true
+  oobb_name: holder_motor_pump_submersible_jt_500
+  oomp_mode: project
+  oomp_run: false
+  open_width: 28
+  outlet_clearance_diameter: 15.5
+  overhang: true
+  overwrite: true
+  piece: top
+  prepare_print: true
+  pump_body_height: 38.33
+  pump_body_length: 79.0
+  pump_body_width: 33.43
+  pump_fin_projection: 5.7
+  pump_outlet_diameter: 11.9
+  pump_outlet_projection: 21.2
+  pump_outlet_xy:
+  - 0
+  - 9
+  pump_outline_clearance: 3
+  pump_wire_xy:
+  - 0
+  - -9
+  retainer_relief_diameter: 12
+  retainer_span: 40
+  retainer_width: 10
+  screw_length: 16
+  screw_radius_name: m3
+  screw_tip_clearance: 2
+  side_print_relief: true
+  tab_corner_radius: 1
+  tab_height: 14
+  tab_inner_x: 18
+  tab_outer_x: 28.5
+  taxonomy_1: oobb
+  taxonomy_2: holder_motor_pump_submersible_jt_500
+  taxonomy_3: top
+  top_depth: 6
+  top_height: 3
+  top_width: 3
+  width: 5
+  wire_clearance_diameter: 15.5
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_holder_motor_pump_submersible_jt_500_top
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_holder_motor_pump_submersible_jt_500_top
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_holder_motor_pump_submersible_jt_500_top
+md5: a8d92d78da3597ee4dee98526853d645
+md5_10: a8d92d78da
+md5_10_upper: A8D92D78DA
+md5_5: a8d92
+md5_5_upper: A8D92
+md5_6: a8d92d
+md5_6_alpha: 6l6b1
+md5_6_alpha_upper: 6L6B1
+md5_6_upper: A8D92D
+modes:
+- 'true'
+- 3dpr
+mount_x: 22.5
+mount_y: 7.5
+name: Oobb Holder Motor Pump Submersible Jt 500 Top
+name_no_class: Oobb Holder Motor Pump Submersible Jt 500 Top
+name_no_size: Oobb Holder Motor Pump Submersible Jt 500 Top
+name_no_type: Oobb Holder Motor Pump Submersible Jt 500 Top
+name_proper: Oobb Holder Motor Pump Submersible Jt 500 Top
+name_space: oobb holder motor pump submersible jt 500 top
+name_upper: OOBB HOLDER MOTOR PUMP SUBMERSIBLE JT 500 TOP
+navigation: false
+nut_height_from_foot: 6
+omit_covered_base_holes: true
+oobb_details:
+  axial_clearance: 0
+  base_support_lip: 1.5
+  clamp_corner_radius: 5
+  depth: 3
+  dimension_note: Main envelope and 5.7 mm rear projection are dimensioned. Port centres,
+    fin footprints and body profile are approximate; physically check fit before final
+    printing.
+  dimension_source: source_file/pump_dimension_reference.png
+  foot_pitch: 60
+  foot_radius: 4
+  foot_size: 12
+  height: 5
+  mount_x: 22.5
+  mount_y: 7.5
+  name: JT-500 two-wall holder top
+  nut_height_from_foot: 6
+  omit_covered_base_holes: true
+  oobb_name: holder_motor_pump_submersible_jt_500
+  oobb_type: holder_motor_pump_submersible_jt_500
+  open_width: 28
+  outlet_clearance_diameter: 15.5
+  overhang: true
+  piece: top
+  prepare_print: true
+  pump_body_height: 38.33
+  pump_body_length: 79.0
+  pump_body_width: 33.43
+  pump_fin_projection: 5.7
+  pump_outlet_diameter: 11.9
+  pump_outlet_projection: 21.2
+  pump_outlet_xy:
+  - 0
+  - 9
+  pump_outline_clearance: 3
+  pump_wire_xy:
+  - 0
+  - -9
+  retainer_relief_diameter: 12
+  retainer_span: 40
+  retainer_width: 10
+  run_scad: true
+  run_solidcraft: working_scad
+  screw_length: 16
+  screw_radius_name: m3
+  screw_tip_clearance: 2
+  side_print_relief: true
+  tab_corner_radius: 1
+  tab_height: 14
+  tab_inner_x: 18
+  tab_outer_x: 28.5
+  taxonomy_1: oobb
+  taxonomy_2: holder_motor_pump_submersible_jt_500
+  taxonomy_3: top
+  top_depth: 6
+  top_height: 3
+  top_width: 3
+  width: 5
+  wire_clearance_diameter: 15.5
+oobb_name: holder_motor_pump_submersible_jt_500
+oobb_type: holder_motor_pump_submersible_jt_500
+oomlout_ai_roboclick_1:
+  action_name: step_0_jinja_template_label_oomp.svg
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      axial_clearance: 0
+      base_support_lip: 1.5
+      clamp_corner_radius: 5
+      depth: 3
+      dimension_note: Main envelope and 5.7 mm rear projection are dimensioned. Port
+        centres, fin footprints and body profile are approximate; physically check
+        fit before final printing.
+      dimension_source: source_file/pump_dimension_reference.png
+      directory: parts\oobb_holder_motor_pump_submersible_jt_500_top
+      foot_pitch: 60
+      foot_radius: 4
+      foot_size: 12
+      height: 5
+      mount_x: 22.5
+      mount_y: 7.5
+      name: oobb_holder_motor_pump_submersible_jt_500_top
+      name_proper: Oobb Holder Motor Pump Submersible Jt 500 Top
+      name_space: oobb holder motor pump submersible jt 500 top
+      name_upper: OOBB HOLDER MOTOR PUMP SUBMERSIBLE JT 500 TOP
+      nut_height_from_foot: 6
+      omit_covered_base_holes: true
+      oobb_details:
+        axial_clearance: 0
+        base_support_lip: 1.5
+        clamp_corner_radius: 5
+        depth: 3
+        dimension_note: Main envelope and 5.7 mm rear projection are dimensioned.
+          Port centres, fin footprints and body profile are approximate; physically
+          check fit before final printing.
+        dimension_source: source_file/pump_dimension_reference.png
+        foot_pitch: 60
+        foot_radius: 4
+        foot_size: 12
+        height: 5
+        mount_x: 22.5
+        mount_y: 7.5
+        name: JT-500 two-wall holder top
+        nut_height_from_foot: 6
+        omit_covered_base_holes: true
+        oobb_name: holder_motor_pump_submersible_jt_500
+        oobb_type: holder_motor_pump_submersible_jt_500
+        open_width: 28
+        outlet_clearance_diameter: 15.5
+        overhang: true
+        piece: top
+        prepare_print: true
+        pump_body_height: 38.33
+        pump_body_length: 79.0
+        pump_body_width: 33.43
+        pump_fin_projection: 5.7
+        pump_outlet_diameter: 11.9
+        pump_outlet_projection: 21.2
+        pump_outlet_xy:
+        - 0
+        - 9
+        pump_outline_clearance: 3
+        pump_wire_xy:
+        - 0
+        - -9
+        retainer_relief_diameter: 12
+        retainer_span: 40
+        retainer_width: 10
+        run_scad: true
+        run_solidcraft: working_scad
+        screw_length: 16
+        screw_radius_name: m3
+        screw_tip_clearance: 2
+        side_print_relief: true
+        tab_corner_radius: 1
+        tab_height: 14
+        tab_inner_x: 18
+        tab_outer_x: 28.5
+        taxonomy_1: oobb
+        taxonomy_2: holder_motor_pump_submersible_jt_500
+        taxonomy_3: top
+        top_depth: 6
+        top_height: 3
+        top_width: 3
+        width: 5
+        wire_clearance_diameter: 15.5
+      oobb_name: holder_motor_pump_submersible_jt_500
+      oobb_type: holder_motor_pump_submersible_jt_500
+      open_width: 28
+      outlet_clearance_diameter: 15.5
+      overhang: true
+      piece: top
+      prepare_print: true
+      pump_body_height: 38.33
+      pump_body_length: 79.0
+      pump_body_width: 33.43
+      pump_fin_projection: 5.7
+      pump_outlet_diameter: 11.9
+      pump_outlet_projection: 21.2
+      pump_outlet_xy:
+      - 0
+      - 9
+      pump_outline_clearance: 3
+      pump_wire_xy:
+      - 0
+      - -9
+      retainer_relief_diameter: 12
+      retainer_span: 40
+      retainer_width: 10
+      run_scad: true
+      run_solidcraft: working_scad
+      screw_length: 16
+      screw_radius_name: m3
+      screw_tip_clearance: 2
+      side_print_relief: true
+      tab_corner_radius: 1
+      tab_height: 14
+      tab_inner_x: 18
+      tab_outer_x: 28.5
+      taxonomy_1: oobb
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: holder_motor_pump_submersible_jt_500
+      taxonomy_3: top
+      taxonomy_4: ''
+      taxonomy_5: ''
+      taxonomy_6: ''
+      taxonomy_7: ''
+      taxonomy_8: ''
+      taxonomy_9: ''
+      top_depth: 6
+      top_height: 3
+      top_width: 3
+      url_chat: ''
+      width: 5
+      wire_clearance_diameter: 15.5
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\gh\oomlout_oobb_holder_motor_pump_submersible_jt_500\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomp_key: oomp_oobb_holder_motor_pump_submersible_jt_500_top
+open_width: 28
+outlet_clearance_diameter: 15.5
+overhang: true
+piece: top
+prepare_print: true
+project_name: C:\gh\oomlout_oobb_holder_motor_pump_submersible_jt_500
+pump_body_height: 38.33
+pump_body_length: 79.0
+pump_body_width: 33.43
+pump_fin_projection: 5.7
+pump_outlet_diameter: 11.9
+pump_outlet_projection: 21.2
+pump_outlet_xy:
+- 0
+- 9
+pump_outline_clearance: 3
+pump_wire_xy:
+- 0
+- -9
+retainer_relief_diameter: 12
+retainer_span: 40
+retainer_width: 10
+run_scad: true
+run_solidcraft: working_scad
+save_type: none
+screw_length: 16
+screw_radius_name: m3
+screw_tip_clearance: 2
+side_print_relief: true
+tab_corner_radius: 1
+tab_height: 14
+tab_inner_x: 18
+tab_outer_x: 28.5
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Oobb
+taxonomy_1_first_letter: o
+taxonomy_1_first_letter_upper: O
+taxonomy_1_length_1: o
+taxonomy_1_length_2: oo
+taxonomy_1_length_3: oob
+taxonomy_1_length_4: oobb
+taxonomy_1_length_5: oobb
+taxonomy_1_upper: OOBB
+taxonomy_1_upper_length_1: O
+taxonomy_1_upper_length_2: OO
+taxonomy_1_upper_length_3: OOB
+taxonomy_1_upper_length_4: OOBB
+taxonomy_1_upper_length_5: OOBB
+taxonomy_2: holder_motor_pump_submersible_jt_500
+taxonomy_2_capital: Holder Motor Pump Submersible Jt 500
+taxonomy_2_first_letter: h
+taxonomy_2_first_letter_upper: H
+taxonomy_2_length_1: h
+taxonomy_2_length_2: ho
+taxonomy_2_length_3: hol
+taxonomy_2_length_4: hold
+taxonomy_2_length_5: holde
+taxonomy_2_upper: HOLDER_MOTOR_PUMP_SUBMERSIBLE_JT_500
+taxonomy_2_upper_length_1: H
+taxonomy_2_upper_length_2: HO
+taxonomy_2_upper_length_3: HOL
+taxonomy_2_upper_length_4: HOLD
+taxonomy_2_upper_length_5: HOLDE
+taxonomy_3: top
+taxonomy_3_capital: Top
+taxonomy_3_first_letter: t
+taxonomy_3_first_letter_upper: T
+taxonomy_3_length_1: t
+taxonomy_3_length_2: to
+taxonomy_3_length_3: top
+taxonomy_3_length_4: top
+taxonomy_3_length_5: top
+taxonomy_3_upper: TOP
+taxonomy_3_upper_length_1: T
+taxonomy_3_upper_length_2: TO
+taxonomy_3_upper_length_3: TOP
+taxonomy_3_upper_length_4: TOP
+taxonomy_3_upper_length_5: TOP
+taxonomy_4: ''
+taxonomy_5: ''
+taxonomy_6: ''
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+top_depth: 6
+top_height: 3
+top_width: 3
+url_chat: ''
+width: 5
+wire_clearance_diameter: 15.5
