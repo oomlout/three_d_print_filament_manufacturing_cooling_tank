@@ -1,0 +1,175 @@
+assembly_instruction: Rotate the second identical print 180 degrees about its upright
+  Y axis; join the flat faces at Z=0. Four M3 screws alternate direction across X.
+  Position the assembled lifter in the middle of the lower gutter span, with both
+  gutters extending past it in both directions. It is not an end closure. Side contact
+  ends 7.5 mm below the rim; straight relieved sides clear the clips.
+bottom_radius_mm: 7.25
+bottom_virtual_width_mm: 75.0
+clip_side_clearance_mm: 0.5
+contact_top_setback_mm: 7.5
+curve_step_degrees: 1.0
+depth: 15.0
+depth_mm: 15.0
+description: Mid-span lifter half, print two; 75 mm bottom-to-bottom lift, 9 mm assembled
+  web, 30 mm assembled shoes.
+dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness supplied
+  by user.
+fastener_count: 4
+fastener_lower_height_mm: 33.0
+fastener_size: m3
+fastener_upper_seat_offset_mm: 19.0
+fastener_x_mm: 24.0
+fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before sealing;
+  drawing does not establish a perfect physical match.
+fit_photo_local: source_file/fit_trials/2026_11_16/printed_lifter_fit.jpg
+fit_revision: 2
+flow_hole_count: 3
+flow_hole_diameter_mm: 12.0
+flow_hole_floor_mm: 3.0
+flow_hole_pitch_mm: 24.0
+gutter_wall_mm: 2.25
+height: 90.75
+height_mm: 90.75
+inside_bottom_diameter_mm: 10.0
+lift_height_datum: outside_bottom_to_outside_bottom
+lift_height_mm: 75.0
+lip_height_mm: 5.0
+lip_projection_mm: 2.0
+lip_tip_drop_mm: 4.0
+lower_shoe_height_mm: 18.0
+oobb_details:
+  assembly_instruction: Rotate the second identical print 180 degrees about its upright
+    Y axis; join the flat faces at Z=0. Four M3 screws alternate direction across
+    X. Position the assembled lifter in the middle of the lower gutter span, with
+    both gutters extending past it in both directions. It is not an end closure. Side
+    contact ends 7.5 mm below the rim; straight relieved sides clear the clips.
+  bottom_radius_mm: 7.25
+  bottom_virtual_width_mm: 75.0
+  clip_side_clearance_mm: 0.5
+  contact_top_setback_mm: 7.5
+  curve_step_degrees: 1.0
+  depth: 15.0
+  depth_mm: 15.0
+  description: Mid-span lifter half, print two; 75 mm bottom-to-bottom lift, 9 mm
+    assembled web, 30 mm assembled shoes.
+  dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+    supplied by user.
+  fastener_count: 4
+  fastener_lower_height_mm: 33.0
+  fastener_size: m3
+  fastener_upper_seat_offset_mm: 19.0
+  fastener_x_mm: 24.0
+  fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+    sealing; drawing does not establish a perfect physical match.
+  fit_photo_local: source_file/fit_trials/2026_11_16/printed_lifter_fit.jpg
+  fit_revision: 2
+  flow_hole_count: 3
+  flow_hole_diameter_mm: 12.0
+  flow_hole_floor_mm: 3.0
+  flow_hole_pitch_mm: 24.0
+  gutter_wall_mm: 2.25
+  height: 90.75
+  height_mm: 90.75
+  inside_bottom_diameter_mm: 10.0
+  lift_height_datum: outside_bottom_to_outside_bottom
+  lift_height_mm: 75.0
+  lip_height_mm: 5.0
+  lip_projection_mm: 2.0
+  lip_tip_drop_mm: 4.0
+  lower_shoe_height_mm: 18.0
+  oobb_name: lifter
+  oobb_type: lifter
+  part_role: printed_identical_lifter_half
+  placement: mid_span_with_both_gutters_continuing_past_support
+  print_orientation: Flat joining face on bed at Z=0; countersinks and nut pockets
+    face upward.
+  print_quantity: 2
+  product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+  profile_height_mm: 58.5
+  profile_image_local: source_file/floplast/square_gutter_profile.jpg
+  profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+  profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+  profile_width_mm: 114.0
+  run_scad: true
+  run_solidcraft: false
+  shoulder_height_mm: 37.5
+  shoulder_radius_mm: 3.0
+  support_thickness_mm: 30.0
+  taxonomy_1: three_d_print
+  taxonomy_2: filament_manufacture
+  taxonomy_3: cooling_tank
+  taxonomy_4: lifter
+  taxonomy_5: 75_mm_lift_height
+  taxonomy_6: 9_mm_thickness
+  taxonomy_7: 30_mm_support_thickness
+  thickness_mm: 9.0
+  upper_cradle_height_mm: 18.0
+  upper_saddle_width_extra_mm: 3.0
+  upper_shoe_below_seat_mm: 9.0
+  web_flow_hole_rows:
+  - diameter_mm: 12.0
+    height_mm: 32.0
+    x_positions_mm:
+    - -40.0
+    - 0.0
+    - 40.0
+  - diameter_mm: 12.0
+    height_mm: 50.0
+    x_positions_mm:
+    - -40.0
+    - 0.0
+    - 40.0
+  width: 109.5
+  width_mm: 109.5
+oobb_name: lifter
+oobb_type: lifter
+part_role: printed_identical_lifter_half
+placement: mid_span_with_both_gutters_continuing_past_support
+print_orientation: Flat joining face on bed at Z=0; countersinks and nut pockets face
+  upward.
+print_quantity: 2
+product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+profile_height_mm: 58.5
+profile_image_local: source_file/floplast/square_gutter_profile.jpg
+profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+profile_width_mm: 114.0
+run_scad: true
+run_solidcraft: false
+shoulder_height_mm: 37.5
+shoulder_radius_mm: 3.0
+support_thickness_mm: 30.0
+taxonomy_1: three_d_print
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: filament_manufacture
+taxonomy_3: cooling_tank
+taxonomy_4: lifter
+taxonomy_5: 75_mm_lift_height
+taxonomy_6: 9_mm_thickness
+taxonomy_7: 30_mm_support_thickness
+taxonomy_8: ''
+taxonomy_9: ''
+thickness_mm: 9.0
+upper_cradle_height_mm: 18.0
+upper_saddle_width_extra_mm: 3.0
+upper_shoe_below_seat_mm: 9.0
+web_flow_hole_rows:
+- diameter_mm: 12.0
+  height_mm: 32.0
+  x_positions_mm:
+  - -40.0
+  - 0.0
+  - 40.0
+- diameter_mm: 12.0
+  height_mm: 50.0
+  x_positions_mm:
+  - -40.0
+  - 0.0
+  - 40.0
+width: 109.5
+width_mm: 109.5

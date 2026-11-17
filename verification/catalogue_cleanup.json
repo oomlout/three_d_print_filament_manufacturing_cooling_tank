@@ -52,5 +52,11 @@
     }
   ],
   "old_part_directories": 27,
-  "new_part_count": 10
+  "new_part_count": 10,
+  "status": "complete",
+  "retained_meshes_identical": true,
+  "parts_count": 10,
+  "parts_source_count": 10,
+  "old_versions_removed": true,
+  "unversioned_catalogue": true
 }

@@ -9,6 +9,9 @@
   "lower_water_level": 30.375,
   "upper_water_level": 128.5,
   "filament_diameter": 1.75,
+  "filament_colour": "black",
+  "filament_start": -350,
+  "filament_end": 450,
   "filament_axis_height": 117.5,
   "support_positions": [
     -125,
@@ -16,11 +19,11 @@
   ],
   "cover_inside_mating_plane": 3,
   "sources": {
-    "solid_cap": "parts/three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth_version_4/3dpr.stl",
-    "open_cap": "parts/three_d_print_filament_manufacture_cooling_tank_cap_end_open_15_mm_depth_version_6/3dpr.stl",
-    "cover": "parts/three_d_print_filament_manufacture_cooling_tank_cap_cover_3_by_3_oobb_3_mm_thickness_version_1/3dpr.stl",
-    "lifter_half": "parts/three_d_print_filament_manufacture_cooling_tank_lifter_75_mm_lift_height_9_mm_thickness_30_mm_support_thickness_version_4/3dpr.stl",
-    "lower_gutter": "parts/three_d_print_filament_manufacture_cooling_tank_gutter_square_114_mm_width_500_mm_length_version_2/3dpr.stl"
+    "solid_cap": "parts/three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth/3dpr.stl",
+    "open_cap": "parts/three_d_print_filament_manufacture_cooling_tank_cap_end_open_15_mm_depth/3dpr.stl",
+    "cover": "parts/three_d_print_filament_manufacture_cooling_tank_cap_cover_3_by_3_oobb_3_mm_thickness/3dpr.stl",
+    "lifter_half": "parts/three_d_print_filament_manufacture_cooling_tank_lifter_75_mm_lift_height_9_mm_thickness_30_mm_support_thickness/3dpr.stl",
+    "lower_gutter": "parts/three_d_print_filament_manufacture_cooling_tank_gutter_square_114_mm_width_500_mm_length/3dpr.stl"
   },
   "notes": [
     "Actual current printable CAD meshes, no geometry approximations for printed parts.",

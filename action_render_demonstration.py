@@ -122,7 +122,7 @@ scene.view_settings.exposure = -1.5
 gutter_material = material('Black uPVC gutter', (0.009, 0.012, 0.015), 0.28)
 teal = material('Teal printed cap and lifter', (0.018, 0.33, 0.39), 0.3)
 gold = material('Warm gold inside cover', (0.68, 0.35, 0.09), 0.32)
-orange = material('Orange filament - diameter 1.75 mm', (1.0, 0.095, 0.006), 0.25)
+filament_material = material('Black filament - diameter 1.75 mm', (0.004, 0.005, 0.006), 0.25)
 water = material('Clear blue cooling water', (0.12, 0.48, 0.65), 0.035, transmission=0.98)
 water.node_tree.nodes.get('Principled BSDF').inputs['Specular IOR Level'].default_value = 0.15
 steel = material('Stainless mounting hardware', (0.63, 0.68, 0.70), 0.25, metal=0.85)
@@ -153,8 +153,9 @@ for x in DATA['support_positions']:
 mesh_part('Lower water - half internal depth', 'lower_water', (-250, 0, 0), water)
 mesh_part('Upper water - 5 mm below rim', 'upper_water', (-200, 0, 75), water)
 tube('Continuous filament through both central M6 holes',
-     [(-315, 0, DATA['filament_axis_height']), (315, 0, DATA['filament_axis_height'])],
-     DATA['filament_diameter'] / 2, orange)
+     [(DATA['filament_start'], 0, DATA['filament_axis_height']),
+      (DATA['filament_end'], 0, DATA['filament_axis_height'])],
+     DATA['filament_diameter'] / 2, filament_material)
 
 for sign in (-1, 1):
     points = []
@@ -180,8 +181,10 @@ bpy.ops.mesh.primitive_plane_add(size=200, location=(0, 0, -0.0065))
 bpy.context.object.name = 'Studio ground'
 bpy.context.object.data.materials.append(ground)
 area_light('Large softbox', (-0.4, -0.5, 0.85), 100, 0.7, (1.0, 0.95, 0.87))
-area_light('Water rim light', (0.3, 0.45, 0.6), 30, 0.35, (0.78, 0.9, 1.0))
-area_light('Front fill', (-0.55, 0.3, 0.4), 35, 0.45, (1, 1, 1))
+# Keep the fill lights on the camera side of the water's reflection direction.
+# Rear-facing softboxes produced a large white reflection over the filament.
+area_light('Side fill', (0.35, -0.5, 0.55), 30, 0.35, (0.78, 0.9, 1.0))
+area_light('Front fill', (-0.55, -0.3, 0.4), 35, 0.45, (1, 1, 1))
 bpy.ops.object.camera_add(location=(-0.72, -0.9, 0.65))
 camera = bpy.context.object
 camera.name = 'Demonstration camera'
