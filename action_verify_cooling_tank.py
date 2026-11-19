@@ -8,6 +8,7 @@ import trimesh
 import yaml
 
 from working_oomp_populate import build_oomp_id, get_options
+from working_split_parts import halves, offsets, mesh_path
 from working_scad import get_gutter_sections, get_lifter_sections, get_lifter_hole_layout, get_cap_sections, get_cap_opening_layout, get_cap_seal_geometry
 
 
@@ -147,6 +148,14 @@ def verify_lifter_mesh(mesh, option):
             expected_volume -= head_volume - shaft_area * head_depth
         else:
             expected_volume -= (nut_area - shaft_area) * nut_depth
+            # OOBB's two 0.3 mm steps below the nut bearing face. Count
+            # only material outside the faceted shaft already removed.
+            from shapely.geometry import box
+            shaft = Polygon([(shaft_radius * math.cos(2*math.pi*i/facet_count),
+                              shaft_radius * math.sin(2*math.pi*i/facet_count))
+                             for i in range(facet_count)])
+            for height in (6.5, 3.5):
+                expected_volume -= box(-1.75, -height/2, 1.75, height/2).difference(shaft).area * .3
         x, y = fastener['x'], fastener['y']
         assert not mesh.contains([[x, y, 0.25], [x, y, half_web - 0.25]]).any()
         assert mesh.contains([[x + 2.4, y, 0.25]])[0]
@@ -212,15 +221,83 @@ def verify_pump_lifter_mesh(mesh, option):
     }
 
 
+def verify_pump_top_clamp(mesh, option):
+    import oobb
+    from working_pump_top_clamp import get_layout
+    layout = get_layout(**option)
+    depth = option['half_thickness_mm']
+    sign = layout['sign']
+    for x, y in list(layout['path'].coords)[1:-1]:
+        assert not mesh.contains([[x, y, depth - .1]])[0]
+        assert mesh.contains([[x, y, depth - 8.4]])[0]
+    x, y = layout['outlet']
+    assert mesh.contains([[sign*(x-2), y, depth-6.9]])[0]
+    assert not mesh.contains([[sign*(x-2), y, depth-6.7]])[0]
+    for x, y in layout['joints']:
+        recess = layout['joint_recess_mm']
+        assert not mesh.contains([[x, y, z] for z in (.1, depth/2, depth-.1)]).any()
+        assert not mesh.contains([[x+sign*2.4, y, z] for z in (.1, recess-.1)]).any()
+        assert mesh.contains([[x+sign*2.4, y, recess+4]])[0]
+        # Real seat and nut-pocket end depths, plus a solid 2 mm boss wall.
+        if option['clamp_half'] == 'a':
+            assert not mesh.contains([[x+sign*3.5, y, recess-.1]])[0]
+            assert mesh.contains([[x+sign*3.5, y, recess+.3]])[0]
+        else:
+            bearing = recess + oobb.gv('nut_depth_m3', '3dpr')
+            assert not mesh.contains([[x+sign*2.4, y, bearing-.1]])[0]
+            assert mesh.contains([[x+sign*2.4, y, bearing+.7]])[0]
+        assert mesh.contains([[x+sign*4, y, recess/2]])[0]
+    bolt_z = depth - option['mount_hole_axial_mm']
+    bolt_x = sign * option['mount_row_offset_mm']
+    assert not mesh.contains([[bolt_x, y, bolt_z] for y in (.1, 2, 3.9, 8, 12)]).any()
+    assert mesh.contains([[bolt_x+sign*4, 2, bolt_z]])[0]
+    # The pump cable port also stays open in the mounting foot.
+    assert not mesh.contains([[sign*(option['wire_offset_mm']-4), 2, depth-.1]])[0]
+    inlet = sign*option['outlet_offset_mm']
+    assert not mesh.contains([[inlet, 9.2, depth-8.1]])[0]
+    assert mesh.contains([[inlet, 9.2, depth-8.3]])[0]
+    assert not mesh.contains([[bolt_x, 12, bolt_z+7.8]])[0]
+    # Check retained material just beyond the driver opening inside the body.
+    assert mesh.contains([[bolt_x, 12, bolt_z+8.2]])[0]
+    assert mesh.contains([[bolt_x,2,bolt_z+4.5],[bolt_x,2,bolt_z-4.5],
+                          [bolt_x+4.5,2,bolt_z],[bolt_x-4.5,2,bolt_z]]).all()
+    bounds = layout['outline'].bounds
+    return {
+        'expected_volume': None,
+        'expected_minimum': [bounds[0], bounds[1], 0],
+        'expected_extents': [bounds[2]-bounds[0], bounds[3]-bounds[1], depth],
+    }
+
+
 def main():
     results = []
-    for option in get_options():
+    for option in [h for p in get_options() for h in (halves(p) if p.get("print_set") else [p])]:
         part_id = build_oomp_id(option)
         folder = Path('parts') / part_id
-        mesh = trimesh.load_mesh(folder / '3dpr.stl')
+        mesh = trimesh.load_mesh(mesh_path(option))
         sections = get_gutter_sections(**option)
         expected_minimum = [-57, 0, 0]
-        if option['oobb_type'] == 'lifter_pump_inlet':
+        if option['oobb_type'] == 'pump_hose_clamp':
+            evidence = verify_pump_top_clamp(mesh, option)
+            expected_volume = evidence['expected_volume']
+            expected_extents = evidence['expected_extents']
+            expected_minimum = evidence['expected_minimum']
+        elif option['oobb_type'] == 'pump_support_cradle':
+            from working_pump_cradle import get_layout
+            layout = get_layout(**option)
+            section = layout['section']
+            depth = option['support_thickness_mm']
+            pocket = option['foot_pocket_width_mm']
+            facet_area = 50/2*math.sin(2*math.pi/50)*(option['flow_hole_diameter_mm']/2)**2
+            expected_volume = section.area*depth - 2*pocket**2*option['foot_locating_height_mm'] - len(option['flow_hole_x_mm'])*facet_area*depth
+            expected_minimum = [section.bounds[0], section.bounds[1], 0]
+            expected_extents = [section.bounds[2]-section.bounds[0], section.bounds[3]-section.bounds[1], depth]
+            for x in layout['feet']:
+                assert mesh.contains([[x, option['holder_seat_height_mm']-.1, depth/2]])[0]
+                assert not mesh.contains([[x, option['holder_seat_height_mm']+.1, depth/2]])[0]
+            for x in option['flow_hole_x_mm']:
+                assert not mesh.contains([[x, option['flow_hole_height_mm'], depth/2]])[0]
+        elif option['oobb_type'] == 'lifter_pump_inlet':
             evidence = verify_pump_lifter_mesh(mesh, option)
             expected_volume = evidence['expected_volume']
             expected_extents = evidence['expected_extents']
@@ -257,12 +334,24 @@ def main():
             metadata = yaml.safe_load((Path(parent) / part_id / 'working.yaml').read_text(encoding='utf-8'))
             for key in ('gutter_wall_mm', 'profile_width_mm', 'profile_height_mm', 'oobb_type'):
                 assert metadata[key] == option[key], (part_id, key)
-        results.append({'id': part_id, 'extents_mm': mesh.extents.tolist(),
+        results.append({'id': part_id, 'file': mesh_path(option).name, 'extents_mm': mesh.extents.tolist(),
                         'volume_mm3': float(mesh.volume), 'expected_volume_mm3': expected_volume,
                         'closed_mesh': True, 'consistent_winding': True, 'connected_bodies': 1})
-    pump = [o for o in get_options() if o['oobb_type'] == 'lifter_pump_inlet']
+    print_sets = []
+    for part in (p for p in get_options() if p.get('print_set')):
+        combined = trimesh.load_mesh(mesh_path(part))
+        components = sorted(combined.split(), key=lambda m: m.bounds[0,0])
+        assert len(components) == 2 and combined.is_volume
+        assert np.isclose(components[1].bounds[0,0]-components[0].bounds[1,0], part['print_gap_mm'])
+        for actual, half, offset in zip(components, halves(part), offsets(part)):
+            individual = trimesh.load_mesh(mesh_path(half))
+            individual.apply_translation([offset,0,0])
+            assert np.allclose(actual.bounds, individual.bounds, atol=1e-5)
+            assert np.isclose(actual.volume, individual.volume, rtol=1e-6)
+        print_sets.append({'id':build_oomp_id(part), 'bodies':2, 'gap_mm':part['print_gap_mm'], 'half_files_match':True})
+    pump = halves(next(o for o in get_options() if o['oobb_type']=='lifter_pump_inlet'))
     from working_pump_lifter import get_layout
-    a, b = [trimesh.load_mesh(Path('parts') / build_oomp_id(o) / '3dpr.stl') for o in pump]
+    a, b = [trimesh.load_mesh(mesh_path(o)) for o in pump]
     b.apply_transform(np.diag([-1, 1, -1, 1]))
     b.apply_translation([0, 0, pump[0]['thickness_mm']])
     seam = pump[0]['thickness_mm'] / 2
@@ -274,7 +363,7 @@ def main():
         assert not b.contains([[hole['x'], hole['y'], seam + 0.1],
                                [hole['x'], hole['y'], 2 * seam - 0.1]]).any()
     for o in pump:
-        source = (Path('parts') / build_oomp_id(o) / '3dpr.scad').read_text(encoding='utf-8')
+        source = mesh_path(o).with_suffix('.scad').read_text(encoding='utf-8')
         assert 'use <../scad_reference/' not in source
         assert f"module pump_tube_channel_half_{o['pump_half']}()" in source
     cap = next(o for o in get_options() if o['oobb_type'] == 'cap_end_open' and o['total_depth_mm'] == 15)
@@ -308,7 +397,7 @@ def main():
         'nominal_gland_fill_percent': 100 * math.pi * (cap['seal_cord_diameter_mm'] / 2)**2 / (2 * cap['seal_groove_depth_mm'] * cap['seal_groove_width_mm']),
         'cord_length_to_top_mm': seal['cord_length_to_rim_mm'],
     }
-    report = {'status': 'passed', 'part_count': len(results), 'parts': results, 'seal': seal_report,
+    report = {'status': 'passed', 'part_count': len(get_options()), 'individual_mesh_count': len(results), 'print_sets': print_sets, 'parts': results, 'seal': seal_report,
               'pump_inlet': {'assembled_channel_and_joints_aligned': True,
                              'tube_guide_and_grip_probed': True,
                              'scad_modules_self_contained': True,

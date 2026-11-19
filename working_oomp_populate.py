@@ -146,9 +146,110 @@ PUMP_LIFTER = {
 }
 
 
+PUMP_TOP_CLAMP = {
+    "tube_id_mm": 12.0,
+    "tube_od_mm": 14.0,
+    "tube_wall_mm": 1.0,
+    "tube_guide_diameter_mm": 14.4,
+    "tube_grip_diameter_mm": 13.6,
+    "tube_grip_length_mm": 4.0,
+    "tube_grip_transition_mm": 2.0,
+    "tube_bend_radius_mm": 40.0,
+    "bend_start_above_mount_mm": 18.7,
+    "rigid_outlet_above_mount_mm": 9.2,
+    "rigid_clearance_diameter_mm": 16.4,
+    "rigid_clearance_height_mm": 12.7,
+    "outlet_offset_mm": -9.0,
+    "wire_offset_mm": 9.0,
+    "wire_clearance_diameter_mm": 15.5,
+    "outlet_straight_mm": 10.0,
+    "guide_outer_radius_mm": 10.2,
+    "half_thickness_mm": 22.0,
+    "mount_plate_thickness_mm": 4.0,
+    "mount_screw_length_mm": 12.0,
+    "mount_hole_axial_mm": 15.0,
+    "mount_row_offset_mm": -15.0,
+    "mount_tool_radius_mm": 8.0,
+    "mount_foot_inboard_mm": 23.0,
+    "mount_foot_outboard_mm": 22.0,
+    "joint_boss_radius_mm": 6.0,
+    "joint_screw_length_mm": 25.0,
+    "joint_tip_protrusion_mm": 1.0,
+    "joint_radial_offset_mm": 14.0,
+    "joint_angles_degrees": [54.0, 75.0],
+    "lower_joint": {
+        "x": 22.0,
+        "y": 8.0,
+    },
+}
+
+
+PUMP_CRADLE = {
+    "holder_offset_toward_edge_mm": 11.0,
+    "holder_seat_height_mm": 26.0,
+    "support_thickness_mm": 18.0,
+    "foot_pitch_mm": 60.0,
+    "foot_pocket_width_mm": 12.6,
+    "foot_locating_height_mm": 2.0,
+    "gutter_side_clearance_mm": 0.25,
+    "flow_hole_diameter_mm": 10.0,
+    "flow_hole_height_mm": 11.5,
+    "flow_hole_x_mm": [-24.0, -6.0, 12.0, 30.0],
+}
+
+
+def get_pump_cradle_options():
+    option = copy.deepcopy(PUMP_CRADLE)
+    option.update({
+        "oobb_type": "pump_support_cradle",
+        "taxonomy_4": "pump_support_cradle",
+        "taxonomy_5": f"{option['holder_offset_toward_edge_mm']:g}_mm_offset",
+        "taxonomy_6": f"{option['holder_seat_height_mm']:g}_mm_seat_height",
+        "taxonomy_7": f"{option['support_thickness_mm']:g}_mm_thickness",
+        "depth": option["support_thickness_mm"],
+        "width": PROFILE["profile_width_mm"],
+        "height": option["holder_seat_height_mm"] + option["foot_locating_height_mm"],
+        "print_quantity": 2,
+        "part_role": "printed_pump_support_cradle",
+        "description": "Level pump-holder cradle rib; 11 mm toward visible edge, four flow holes and two locating pockets. Print two identical ribs.",
+        "print_orientation": "Broad cross-section flat on bed. Inspect support/bridging for the 12.6 mm locating pockets.",
+        "assembly_instruction": "Fit two ribs 60 mm apart along the gutter under the four holder feet. Offset the foot pockets toward the visible edge. Foot soles sit 26 mm above the gutter outside-bottom datum.",
+    })
+    return [option]
+
+
+def get_pump_top_clamp_options():
+    options = []
+    for side in ("a",):
+        option = copy.deepcopy(PUMP_TOP_CLAMP)
+        option.update({
+            "oobb_type": "pump_hose_clamp",
+            "taxonomy_4": "pump_hose_clamp",
+            "taxonomy_5": f"{option['tube_bend_radius_mm']:g}_mm_bend_radius",
+            "taxonomy_6": f"{option['tube_od_mm']:g}_mm_tube_od",
+            "taxonomy_7": f"half_{side}",
+            "clamp_half": side,
+            "depth": option["half_thickness_mm"],
+            "width": 80.0,
+            "height": 75.0,
+            "print_quantity": 1,
+            "part_role": "printed_pump_top_hose_clamp_half",
+            "description": f"Pump-top hose clamp half {side.upper()}; R40 outward bend for 12 mm ID / 14 mm OD silicone tube; M6 attachment to the offset JT-500 top.",
+            "print_orientation": "Outer flat face on bed; channel upward. Inspect support for transverse M6 bore and tool-access opening.",
+            "assembly_instruction": "Print one A and one B. Capture the hose with three M3 x 25 mm countersunk screws and nuts in the recessed pockets. Mount the two 4 mm feet to the inboard row of captive M6 nuts at 30 mm spacing. The inlet matches the holder's inward-facing outlet; the R40 bend directs the hose toward the visible edge.",
+        })
+        from working_pump_top_clamp import get_layout
+        x0, y0, x1, y1 = get_layout(**option)['outline'].bounds
+        option['width'] = option['width_mm'] = x1 - x0
+        option['height'] = option['height_mm'] = y1 - y0
+        options.append(option)
+    from working_split_parts import consolidate
+    return [consolidate(options[0])]
+
+
 def get_pump_lifter_options():
     options = []
-    for side in ("a", "b"):
+    for side in ("a",):
         option = copy.deepcopy(get_lifter_options()[0])
         option.update(copy.deepcopy(PUMP_LIFTER))
         option["tube_wall_mm"] = (option["tube_od_mm"] - option["tube_id_mm"]) / 2
@@ -172,7 +273,8 @@ def get_pump_lifter_options():
         option["print_orientation"] = f"Flat outer face at Z=0; tube channel upward at Z={option['depth']:g}."
         option["assembly_instruction"] = f"Print one A and one B. Lay the tube in A, turn B 180 degrees about its upright Y axis and translate it {option['thickness_mm']:g} mm along Z to join channel faces at Z={option['depth']:g}. Four M3 countersunk screws enter A and engage the nut pockets in B. Centre the assembled support along the gutter by shifting Z={-option['depth']:g}."
         options.append(option)
-    return options
+    from working_split_parts import consolidate
+    return [consolidate(options[0])]
 
 
 def get_lifter_options():
@@ -333,6 +435,8 @@ def get_options():
 
     options.extend(get_lifter_options())
     options.extend(get_pump_lifter_options())
+    options.extend(get_pump_top_clamp_options())
+    options.extend(get_pump_cradle_options())
 
     for option in options:
         option.update(copy.deepcopy(PROFILE))

@@ -18,7 +18,7 @@ class CoolingTankTests(unittest.TestCase):
 
     def test_catalogue_dimensions_and_identity(self):
         options = get_options()
-        expected_count = 11 + len(LIFTER_VARIANTS)
+        expected_count = 12 + len(LIFTER_VARIANTS)
         self.assertEqual(len(options), expected_count)
         self.assertEqual(len({build_oomp_id(o) for o in options}), expected_count)
         caps = [o for o in options if o['oobb_type'] == 'cap_end_solide']

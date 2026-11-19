@@ -829,8 +829,8 @@ def get_lifter(thing, **kwargs):
             p3["zz"] = "top"
             p3["hole"] = True
             p3["nut_include"] = False
-            p3["overhang"] = False
-            p3["clearance"] = ""
+            p3["overhang"] = True
+            p3["clearance"] = "top"
             p3["pos"] = [
                 pos[0] + fastener["x"],
                 pos[1] + fastener["y"],
@@ -860,19 +860,37 @@ def get_lifter(thing, **kwargs):
                 # reuses its first mode's depth when given an empty depth.
                 p3["mode"] = mode
                 p3["depth"] = oobb.gv("nut_depth_m3", mode)
-                p3["zz"] = "top"
+                p3["zz"] = "bottom"
                 p3["hole"] = False
-                p3["overhang"] = False
-                p3["clearance"] = ""
+                p3["overhang"] = True
+                p3["clearance"] = "top"
                 p3["pos"] = [
                     pos[0] + fastener["x"],
                     pos[1] + fastener["y"],
-                    pos[2] + half_web,
+                    pos[2] + half_web - oobb.gv("nut_depth_m3", mode),
                 ]
                 oobb.append_full(thing, **p3)
 
 
+def get_pump_support_cradle(thing, **kwargs):
+    from working_pump_cradle import build
+    build(thing, **kwargs)
+
+
+def get_pump_hose_clamp(thing, **kwargs):
+    kwargs['oobb_type'] = 'pump_hose_clamp'
+    if kwargs.get('print_set'):
+        from working_split_parts import build
+        return build(thing, **kwargs)
+    from working_pump_top_clamp import build
+    build(thing, **kwargs)
+
+
 def get_lifter_pump_inlet(thing, **kwargs):
+    kwargs['oobb_type'] = 'lifter_pump_inlet'
+    if kwargs.get('print_set'):
+        from working_split_parts import build
+        return build(thing, **kwargs)
     from working_pump_lifter import build
     build(thing, **kwargs)
 

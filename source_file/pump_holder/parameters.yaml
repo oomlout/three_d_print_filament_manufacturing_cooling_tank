@@ -1,56 +1,450 @@
+attachment_nuts:
+- pos:
+  - -15
+  - -15
+  radius_name: m6
+- pos:
+  - -15
+  - 0
+  radius_name: m6
+- pos:
+  - -15
+  - 15
+  radius_name: m6
+- pos:
+  - 15
+  - -15
+  radius_name: m6
+- pos:
+  - 15
+  - 0
+  radius_name: m6
+- pos:
+  - 15
+  - 15
+  radius_name: m6
 axial_clearance: 0
+base_foot_height: 2.7
 base_support_lip: 1.5
 bip_39_2_word_array:
-- potato
-- siren
-bip_39_2_word_no_space: potatosiren
-bip_39_2_word_space: potato siren
-bip_39_2_word_underscore: potato_siren
+- comic
+- siege
+bip_39_2_word_no_space: comicsiege
+bip_39_2_word_space: comic siege
+bip_39_2_word_underscore: comic_siege
 bip_39_3_word_array:
-- potato
-- siren
-- funny
-bip_39_3_word_no_space: potatosirenfunny
-bip_39_3_word_space: potato siren funny
-bip_39_3_word_underscore: potato_siren_funny
+- comic
+- siege
+- will
+bip_39_3_word_no_space: comicsiegewill
+bip_39_3_word_space: comic siege will
+bip_39_3_word_underscore: comic_siege_will
 bip_39_full_array:
-- potato
-- siren
-- funny
-- refuse
-- floor
-- warm
-- dash
-- spread
-- fame
-- dream
-- void
-- memory
-bip_39_full_no_space: potatosirenfunnyrefusefloorwarmdashspreadfamedreamvoidmemory
-bip_39_full_space: potato siren funny refuse floor warm dash spread fame dream void
-  memory
-bip_39_full_underscore: potato_siren_funny_refuse_floor_warm_dash_spread_fame_dream_void_memory
+- comic
+- siege
+- will
+- involve
+- arrest
+- echo
+- pear
+- kick
+- put
+- voice
+- bag
+- struggle
+bip_39_full_no_space: comicsiegewillinvolvearrestechopearkickputvoicebagstruggle
+bip_39_full_space: comic siege will involve arrest echo pear kick put voice bag struggle
+bip_39_full_underscore: comic_siege_will_involve_arrest_echo_pear_kick_put_voice_bag_struggle
 clamp_corner_radius: 5
-depth: 3
+depth: 6
 dimension_note: Main envelope and 5.7 mm rear projection are dimensioned. Port centres,
   fin footprints and body profile are approximate; physically check fit before final
   printing.
 dimension_source: source_file/pump_dimension_reference.png
-directory: parts/oobb_holder_motor_pump_submersible_jt_500_top
+directory: parts/oobb_holder_motor_pump_submersible_jt_500
+documentation:
+  ai_message: This is an entirely AI-generated coding project. The source code is
+    largely unreadable by humans, but usable generated files are included. It is published
+    so others can use their own AI tools to understand, modify and regenerate the
+    design.
+  book:
+    cover_subtitle: 5 x 5 OOBB base / M3 x 16 mm screws
+    cover_title: JT-500 pump holder
+    details:
+    - 'Base: 5 x 5 OOBB units, 74 x 74 mm; 6 mm plate and 2.7 mm corner feet; 3 mm
+      clearance below the fin tips.'
+    - 'Clamp: 3 x 3 OOBB units, 44 x 44 mm above the local nut tabs.'
+    - 'Pump reference body: 33.43 x 38.33 x 79 mm; rear projections 5.7 mm.'
+    - Rear retaining tongues and the top plate capture the pump axially.
+    - 'Fasteners: four M3 x 16 mm countersunk screws driven upward; four side-loaded
+      M3 nuts.'
+    - 'Top cover: two M3 x 16 mm countersunk screws; six M6 attachment nuts plus two
+      M3 fixing nuts.'
+    - 'Top openings: 15.5 mm for the outlet and cable; route the free cable end before
+      lowering the clamp.'
+    - 'One print file: base face down, clamp on its open side, cover flat with countersinks
+      upward.'
+    - Pump turned 180 degrees inside the clamp; outlet inboard and cable nearest the
+      flush base edge.
+    - 'Regenerate CAD, renders and instructions: python action_make_holder.py'
+    - Read ASSEMBLY.md for preparation, tightening and installation instructions.
+    - AI-generated CAD images and instructions. Errors possible. Physical fit and
+      slicing unverified.
+    details_title: Project details
+    hardware_title: Hardware
+    logo_svg: source_file/oomlout_logo_unshaded_original.svg
+    logo_symbol_subpaths: 3
+    project_name: oomlout_oobb_holder_motor_pump_submersible_jt_500
+    project_url: https://github.com/oomlout/oomlout_oobb_holder_motor_pump_submersible_jt_500
+    signature_pages: 4
+    summary_description: Completed edge-aligned JT-500 holder with its captive-nut
+      cover.
+    summary_step: true
+    summary_title: Printed parts
+    summary_view: book_cover
+    viewer_enabled: true
+    viewer_start: step-01
+    viewer_url: ''
+  configuration_title: M3 x 16 mm / JT-500
+  creator_name: Oomlout
+  creator_url: https://github.com/oomlout
+  credit: Documentation follows Oomlout's wave-drive assembly book and OOBB presentation
+    conventions; the pump fit follows the supplied JT-500 dimension drawing.
+  credit_url: https://github.com/oomlout/oomlout_oobb_part_motor_gearbox_wave_drive_version_5
+  description: A 3D-printable JT-500 pump holder with a 5 x 5 OOBB base, two-wall
+    clamp and captive-nut top cover. One print file contains all three pieces. The
+    repository includes editable CAD source and illustrated assembly instructions.
+  installation:
+  - Check that the pump rear face rests on both retaining tongues and that the fins
+    pass into the water openings.
+  - Confirm that the top plate captures the pump, all nuts are seated, and the cable
+    and outlet are free of pinching.
+  - Use the exposed OOBB holes to attach the base to your structure. Choose those
+    attachment fasteners for the mating structure; they are not included in the holder
+    hardware count.
+  - Keep the underside water openings clear when mounting the holder.
+  - The cover presents six accessible M6 captive attachment nuts. Keep M6 screw projection
+    below the cover face to at most 8 mm; the holes pass through the roof, so check
+    that projecting bolts clear the pump. Attachment screws are not included in the
+    inventory.
+  notice: AI-generated CAD images and instructions. Errors possible.
+  part_notes:
+    base: Print one black base, plate face down and four feet up. The two inward tongues
+      support the rear housing. The centre relief and upper/lower windows clear the
+      rear projections and admit water. OOBB holes beneath the clamp and nut tabs
+      are omitted. Four countersinks on the underside take the M3 x 16 mm clamp screws.
+    lid: Print the black nut cover flat, with countersinks upward. It traps six M6
+      attachment nuts in the upper roof pockets. Two M3 fixing nuts slide into lower
+      side slots beneath solid shoulders. Two M3 x 16 mm countersunk screws secure
+      it between the M6 rows within the plate. All top openings are circular.
+    top: Print one teal clamp on the open side in the supplied orientation. The two
+      walls connect the top plate to the local nut tabs. Slide four M3 nuts in from
+      the outside edges. Route the outlet and cable through the two 15.5 mm openings
+      before seating the clamp on the base.
+  parts:
+    base:
+      id: oobb_holder_motor_pump_submersible_jt_500__base
+      name: Retaining base
+      printed: true
+      quantity: 1
+    capscrew:
+      catalogue_url: https://github.com/oomlout/oomp_hardware_screw_version_5/tree/main/parts/hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length
+      detail: Cover fixings; 16 mm including head, driven downward.
+      id: hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length
+      name: M3 x 16 mm countersunk
+      printed: false
+      quantity: 2
+    lid:
+      id: oobb_holder_motor_pump_submersible_jt_500__lid
+      name: Captive nut cover
+      printed: true
+      quantity: 1
+    m3nut:
+      catalogue_url: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m3
+      detail: Cover-fixing nuts in the lower roof side slots.
+      id: hardware_nut_m3
+      name: M3 hex nut
+      printed: false
+      quantity: 2
+    m6nut:
+      catalogue_url: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m6
+      detail: Six accessible top attachment nuts on the 15 mm grid.
+      id: hardware_nut_m6
+      name: M6 hex nut
+      printed: false
+      quantity: 6
+    nut:
+      catalogue_url: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m3
+      detail: Ordinary hex nut, not a nylon-insert locknut.
+      id: hardware_nut_m3
+      name: M3 hex nut
+      printed: false
+      quantity: 4
+    pump:
+      catalogue_url: https://github.com/oomlout/oomp_motor_version_5/tree/main/parts/motor_pump_submersible_jt_500
+      detail: Nominal reference envelope; check your pump against the drawing.
+      id: motor_pump_submersible_jt_500
+      name: JT-500 pump
+      printed: false
+      quantity: 1
+    screw:
+      catalogue_url: https://github.com/oomlout/oomp_hardware_screw_version_5/tree/main/parts/hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length
+      detail: Hex socket; 16 mm overall including the countersunk head. The catalogue
+        black finish is an identity reference, not a corrosion rating.
+      id: hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length
+      name: M3 x 16 mm countersunk
+      printed: false
+      quantity: 4
+    top:
+      id: oobb_holder_motor_pump_submersible_jt_500__top
+      name: Two-wall clamp
+      printed: true
+      quantity: 1
+  physical_status: Physical pump fit, printed strength and slicing have not been verified.
+  preparation:
+  - 'Print the single 3dpr.stl once: it contains the base, clamp and top cover, separated
+    by 10 mm on the bed. Keep all three pieces separate. The assembly.scad file shows
+    their fitted positions.'
+  - 'Keep the supplied STL orientations: base plate face on the bed with feet upward;
+    clamp on its open side with the pump axis horizontal. Inspect the slicer preview
+    before printing.'
+  - Clear the nut slots, screw bores and water openings. Test that each M3 nut slides
+    fully into its pocket.
+  - Use four M3 x 16 mm countersunk screws for the base and two M3 x 16 mm countersunk
+    screws for the cover. Both lengths include the head; the linked hex-socket screws
+    use a 2 mm hex key.
+  - Leave the hose disconnected. Route the free cable end through both clamp and cover
+    before fitting them; check that any fitted connector clears the circular openings.
+    The outlet goes through the inboard opening; the cable opening is closest to the
+    flush edge.
+  steps:
+  - action: Place the base on its four feet, retaining tongues facing upward and the
+      four screw countersinks facing downward.
+    add:
+    - base
+    key: step_01
+    move: {}
+    title: Place the base
+  - action: Lower the pump rear end onto the retaining tongues, outlet and cable upward.
+      Point the outlet inboard, with the cable toward the nearest base edge. Let the
+      rear fins enter the water windows.
+    add:
+    - pump
+    key: step_02
+    move:
+      pump:
+      - 0
+      - 0
+      - 16
+    title: Seat the pump
+  - action: Slide two M3 nuts into each side of the clamp. Pass the cable through
+      its top opening and lower the clamp over the pump, guiding the outlet through
+      the other opening. Seat both nut tabs against the base.
+    add:
+    - top
+    - nut_1
+    - nut_2
+    - nut_3
+    - nut_4
+    key: step_03
+    move:
+      nut_1:
+      - -12
+      - 0
+      - 28
+      nut_2:
+      - -12
+      - 0
+      - 28
+      nut_3:
+      - 12
+      - 0
+      - 28
+      nut_4:
+      - 12
+      - 0
+      - 28
+      top:
+      - 0
+      - 0
+      - 28
+    title: Load the nuts and fit the clamp
+  - action: Hold the pump and clamp seated while accessing the underside. Insert all
+      four M3 x 16 mm countersunk screws upward into the captive nuts. Start each
+      screw before tightening them evenly until the heads seat; stop when the pump
+      is captured without distorting the printed parts.
+    add:
+    - screw_1
+    - screw_2
+    - screw_3
+    - screw_4
+    eye:
+    - 1.2
+    - -1.6
+    - -1.3
+    key: step_04
+    move:
+      screw_1:
+      - 0
+      - 0
+      - -22
+      screw_2:
+      - 0
+      - 0
+      - -22
+      screw_3:
+      - 0
+      - 0
+      - -22
+      screw_4:
+      - 0
+      - 0
+      - -22
+    title: Fasten from underneath
+  - action: Drop six M6 nuts into the upper roof pockets. Slide one M3 nut into each
+      lower side slot beneath the roof shoulders. Seat every nut flat; keep all six
+      M6 bores clear.
+    add:
+    - m6nut_1
+    - m6nut_2
+    - m6nut_3
+    - m6nut_4
+    - m6nut_5
+    - m6nut_6
+    - m3nut_1
+    - m3nut_2
+    eye:
+    - 1.2
+    - -1.6
+    - 2
+    key: step_05
+    move:
+      m3nut_1:
+      - -12
+      - 0
+      - 0
+      m3nut_2:
+      - 12
+      - 0
+      - 0
+      m6nut_1:
+      - 0
+      - 0
+      - 10
+      m6nut_2:
+      - 0
+      - 0
+      - 10
+      m6nut_3:
+      - 0
+      - 0
+      - 10
+      m6nut_4:
+      - 0
+      - 0
+      - 10
+      m6nut_5:
+      - 0
+      - 0
+      - 10
+      m6nut_6:
+      - 0
+      - 0
+      - 10
+    title: Load the top nuts
+  - action: Pass the cable through the cover and lower it over the outlet, with the
+      countersinks upward. Insert two M3 x 16 mm countersunk screws downward through
+      the plate into the lower side-loaded M3 nuts and tighten evenly until the cover
+      seats. Keep all six M6 attachment holes clear.
+    add:
+    - lid
+    - capscrew_1
+    - capscrew_2
+    eye:
+    - 1.2
+    - -1.6
+    - 2
+    key: step_06
+    move:
+      capscrew_1:
+      - 0
+      - 0
+      - 28
+      capscrew_2:
+      - 0
+      - 0
+      - 28
+      lid:
+      - 0
+      - 0
+      - 18
+    title: Encapsulate the nuts
+  style:
+    border: '000000'
+    border_radius_mm: 3
+    border_width_pt: 3
+    columns: 2
+    component_border_width_pt: 1.1
+    explosion_scale: 1.35
+    eye:
+    - 1.2
+    - -1.6
+    - 1.1
+    font_body_pt: 7
+    font_code_pt: 6.4
+    font_url_prefix_pt: 4.8
+    gutter_mm: 4
+    margin_mm: 6
+    page_mm:
+    - 297
+    - 210
+    quantity_pt: 5.8
+    quantity_shift_mm: 1
+    rows: 2
+    thumbnail_height_mm: 8.5
+  title: JT-500 pump holder
+  version_description: Pump turned 180 degrees inside the edge-aligned clamp on a
+    6 mm base; screw-down top cover trapping six M6 attachment nuts.
 foot_pitch: 60
 foot_radius: 4
 foot_size: 12
 height: 5
-id: oobb_holder_motor_pump_submersible_jt_500_top
-id_no_class: oobb_holder_motor_pump_submersible_jt_500_top
-id_no_size: oobb_holder_motor_pump_submersible_jt_500_top
-id_no_type: oobb_holder_motor_pump_submersible_jt_500_top
-id_oobb: oobb_holder_motor_pump_submersible_jt_500_top
+id: oobb_holder_motor_pump_submersible_jt_500
+id_no_class: oobb_holder_motor_pump_submersible_jt_500
+id_no_size: oobb_holder_motor_pump_submersible_jt_500
+id_no_type: oobb_holder_motor_pump_submersible_jt_500
+id_oobb: oobb_holder_motor_pump_submersible_jt_500
 kwargs:
+  attachment_nuts:
+  - pos:
+    - -15
+    - -15
+    radius_name: m6
+  - pos:
+    - -15
+    - 0
+    radius_name: m6
+  - pos:
+    - -15
+    - 15
+    radius_name: m6
+  - pos:
+    - 15
+    - -15
+    radius_name: m6
+  - pos:
+    - 15
+    - 0
+    radius_name: m6
+  - pos:
+    - 15
+    - 15
+    radius_name: m6
   axial_clearance: 0
+  base_foot_height: 2.7
   base_support_lip: 1.5
   clamp_corner_radius: 5
-  depth: 3
+  depth: 6
   dimension_note: Main envelope and 5.7 mm rear projection are dimensioned. Port centres,
     fin footprints and body profile are approximate; physically check fit before final
     printing.
@@ -60,12 +454,20 @@ kwargs:
   foot_radius: 4
   foot_size: 12
   height: 5
+  lid_depth: 3
+  lid_mount_positions:
+  - - -16.5
+    - 7.5
+  - - 16.5
+    - -7.5
+  lid_nut_bottom: 2
+  lid_screw_length: 16
   modes:
   - 'true'
   - 3dpr
   mount_x: 22.5
   mount_y: 7.5
-  name: JT-500 two-wall holder top
+  name: JT-500 two-wall holder - complete print set
   navigation: false
   nut_height_from_foot: 6
   omit_covered_base_holes: true
@@ -76,72 +478,109 @@ kwargs:
   outlet_clearance_diameter: 15.5
   overhang: true
   overwrite: true
-  piece: top
+  piece: all
   prepare_print: true
+  print_gap: 10
   pump_body_height: 38.33
   pump_body_length: 79.0
   pump_body_width: 33.43
   pump_fin_projection: 5.7
+  pump_offset_y: 15
   pump_outlet_diameter: 11.9
   pump_outlet_projection: 21.2
   pump_outlet_xy:
   - 0
-  - 9
+  - -9
   pump_outline_clearance: 3
+  pump_rotation_z: 180
   pump_wire_xy:
   - 0
-  - -9
+  - 9
   retainer_relief_diameter: 12
   retainer_span: 40
   retainer_width: 10
   screw_length: 16
   screw_radius_name: m3
   screw_tip_clearance: 2
-  side_print_relief: true
+  side_print_relief: false
   tab_corner_radius: 1
   tab_height: 14
   tab_inner_x: 18
   tab_outer_x: 28.5
   taxonomy_1: oobb
   taxonomy_2: holder_motor_pump_submersible_jt_500
-  taxonomy_3: top
-  top_depth: 6
+  taxonomy_3: ''
+  top_depth: 13
   top_height: 3
   top_width: 3
   width: 5
   wire_clearance_diameter: 15.5
-link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_holder_motor_pump_submersible_jt_500_top
-link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_holder_motor_pump_submersible_jt_500_top
-link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_holder_motor_pump_submersible_jt_500_top
-md5: a8d92d78da3597ee4dee98526853d645
-md5_10: a8d92d78da
-md5_10_upper: A8D92D78DA
-md5_5: a8d92
-md5_5_upper: A8D92
-md5_6: a8d92d
-md5_6_alpha: 6l6b1
-md5_6_alpha_upper: 6L6B1
-md5_6_upper: A8D92D
+lid_depth: 3
+lid_mount_positions:
+- - -16.5
+  - 7.5
+- - 16.5
+  - -7.5
+lid_nut_bottom: 2
+lid_screw_length: 16
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_holder_motor_pump_submersible_jt_500
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_holder_motor_pump_submersible_jt_500
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_holder_motor_pump_submersible_jt_500
+md5: 2e5903ecbb10c68be883d1aedeac466b
+md5_10: 2e5903ecbb
+md5_10_upper: 2E5903ECBB
+md5_5: 2e590
+md5_5_upper: 2E590
+md5_6: 2e5903
+md5_6_alpha: 1t3pf
+md5_6_alpha_upper: 1T3PF
+md5_6_upper: 2E5903
 modes:
 - 'true'
 - 3dpr
 mount_x: 22.5
 mount_y: 7.5
-name: Oobb Holder Motor Pump Submersible Jt 500 Top
-name_no_class: Oobb Holder Motor Pump Submersible Jt 500 Top
-name_no_size: Oobb Holder Motor Pump Submersible Jt 500 Top
-name_no_type: Oobb Holder Motor Pump Submersible Jt 500 Top
-name_proper: Oobb Holder Motor Pump Submersible Jt 500 Top
-name_space: oobb holder motor pump submersible jt 500 top
-name_upper: OOBB HOLDER MOTOR PUMP SUBMERSIBLE JT 500 TOP
+name: Oobb Holder Motor Pump Submersible Jt 500
+name_no_class: Oobb Holder Motor Pump Submersible Jt 500
+name_no_size: Oobb Holder Motor Pump Submersible Jt 500
+name_no_type: Oobb Holder Motor Pump Submersible Jt 500
+name_proper: Oobb Holder Motor Pump Submersible Jt 500
+name_space: oobb holder motor pump submersible jt 500
+name_upper: OOBB HOLDER MOTOR PUMP SUBMERSIBLE JT 500
 navigation: false
 nut_height_from_foot: 6
 omit_covered_base_holes: true
 oobb_details:
+  attachment_nuts:
+  - pos:
+    - -15
+    - -15
+    radius_name: m6
+  - pos:
+    - -15
+    - 0
+    radius_name: m6
+  - pos:
+    - -15
+    - 15
+    radius_name: m6
+  - pos:
+    - 15
+    - -15
+    radius_name: m6
+  - pos:
+    - 15
+    - 0
+    radius_name: m6
+  - pos:
+    - 15
+    - 15
+    radius_name: m6
   axial_clearance: 0
+  base_foot_height: 2.7
   base_support_lip: 1.5
   clamp_corner_radius: 5
-  depth: 3
+  depth: 6
   dimension_note: Main envelope and 5.7 mm rear projection are dimensioned. Port centres,
     fin footprints and body profile are approximate; physically check fit before final
     printing.
@@ -150,9 +589,17 @@ oobb_details:
   foot_radius: 4
   foot_size: 12
   height: 5
+  lid_depth: 3
+  lid_mount_positions:
+  - - -16.5
+    - 7.5
+  - - 16.5
+    - -7.5
+  lid_nut_bottom: 2
+  lid_screw_length: 16
   mount_x: 22.5
   mount_y: 7.5
-  name: JT-500 two-wall holder top
+  name: JT-500 two-wall holder - complete print set
   nut_height_from_foot: 6
   omit_covered_base_holes: true
   oobb_name: holder_motor_pump_submersible_jt_500
@@ -160,21 +607,24 @@ oobb_details:
   open_width: 28
   outlet_clearance_diameter: 15.5
   overhang: true
-  piece: top
+  piece: all
   prepare_print: true
+  print_gap: 10
   pump_body_height: 38.33
   pump_body_length: 79.0
   pump_body_width: 33.43
   pump_fin_projection: 5.7
+  pump_offset_y: 15
   pump_outlet_diameter: 11.9
   pump_outlet_projection: 21.2
   pump_outlet_xy:
   - 0
-  - 9
+  - -9
   pump_outline_clearance: 3
+  pump_rotation_z: 180
   pump_wire_xy:
   - 0
-  - -9
+  - 9
   retainer_relief_diameter: 12
   retainer_span: 40
   retainer_width: 10
@@ -183,15 +633,15 @@ oobb_details:
   screw_length: 16
   screw_radius_name: m3
   screw_tip_clearance: 2
-  side_print_relief: true
+  side_print_relief: false
   tab_corner_radius: 1
   tab_height: 14
   tab_inner_x: 18
   tab_outer_x: 28.5
   taxonomy_1: oobb
   taxonomy_2: holder_motor_pump_submersible_jt_500
-  taxonomy_3: top
-  top_depth: 6
+  taxonomy_3: ''
+  top_depth: 13
   top_height: 3
   top_width: 3
   width: 5
@@ -205,32 +655,439 @@ oomlout_ai_roboclick_1:
     convert_to_pdf: false
     convert_to_png: false
     dict_data:
+      attachment_nuts:
+      - pos:
+        - -15
+        - -15
+        radius_name: m6
+      - pos:
+        - -15
+        - 0
+        radius_name: m6
+      - pos:
+        - -15
+        - 15
+        radius_name: m6
+      - pos:
+        - 15
+        - -15
+        radius_name: m6
+      - pos:
+        - 15
+        - 0
+        radius_name: m6
+      - pos:
+        - 15
+        - 15
+        radius_name: m6
       axial_clearance: 0
+      base_foot_height: 2.7
       base_support_lip: 1.5
       clamp_corner_radius: 5
-      depth: 3
+      depth: 6
       dimension_note: Main envelope and 5.7 mm rear projection are dimensioned. Port
         centres, fin footprints and body profile are approximate; physically check
         fit before final printing.
       dimension_source: source_file/pump_dimension_reference.png
-      directory: parts\oobb_holder_motor_pump_submersible_jt_500_top
+      directory: parts\oobb_holder_motor_pump_submersible_jt_500
+      documentation:
+        ai_message: This is an entirely AI-generated coding project. The source code
+          is largely unreadable by humans, but usable generated files are included.
+          It is published so others can use their own AI tools to understand, modify
+          and regenerate the design.
+        book:
+          cover_subtitle: 5 x 5 OOBB base / M3 x 16 mm screws
+          cover_title: JT-500 pump holder
+          details:
+          - 'Base: 5 x 5 OOBB units, 74 x 74 mm; 6 mm plate and 2.7 mm corner feet;
+            3 mm clearance below the fin tips.'
+          - 'Clamp: 3 x 3 OOBB units, 44 x 44 mm above the local nut tabs.'
+          - 'Pump reference body: 33.43 x 38.33 x 79 mm; rear projections 5.7 mm.'
+          - Rear retaining tongues and the top plate capture the pump axially.
+          - 'Fasteners: four M3 x 16 mm countersunk screws driven upward; four side-loaded
+            M3 nuts.'
+          - 'Top cover: two M3 x 16 mm countersunk screws; six M6 attachment nuts
+            plus two M3 fixing nuts.'
+          - 'Top openings: 15.5 mm for the outlet and cable; route the free cable
+            end before lowering the clamp.'
+          - 'One print file: base face down, clamp on its open side, cover flat with
+            countersinks upward.'
+          - Pump turned 180 degrees inside the clamp; outlet inboard and cable nearest
+            the flush base edge.
+          - 'Regenerate CAD, renders and instructions: python action_make_holder.py'
+          - Read ASSEMBLY.md for preparation, tightening and installation instructions.
+          - AI-generated CAD images and instructions. Errors possible. Physical fit
+            and slicing unverified.
+          details_title: Project details
+          hardware_title: Hardware
+          logo_svg: source_file/oomlout_logo_unshaded_original.svg
+          logo_symbol_subpaths: 3
+          project_name: oomlout_oobb_holder_motor_pump_submersible_jt_500
+          project_url: https://github.com/oomlout/oomlout_oobb_holder_motor_pump_submersible_jt_500
+          signature_pages: 4
+          summary_description: Completed edge-aligned JT-500 holder with its captive-nut
+            cover.
+          summary_step: true
+          summary_title: Printed parts
+          summary_view: book_cover
+          viewer_enabled: true
+          viewer_start: step-01
+          viewer_url: ''
+        configuration_title: M3 x 16 mm / JT-500
+        creator_name: Oomlout
+        creator_url: https://github.com/oomlout
+        credit: Documentation follows Oomlout's wave-drive assembly book and OOBB
+          presentation conventions; the pump fit follows the supplied JT-500 dimension
+          drawing.
+        credit_url: https://github.com/oomlout/oomlout_oobb_part_motor_gearbox_wave_drive_version_5
+        description: A 3D-printable JT-500 pump holder with a 5 x 5 OOBB base, two-wall
+          clamp and captive-nut top cover. One print file contains all three pieces.
+          The repository includes editable CAD source and illustrated assembly instructions.
+        installation:
+        - Check that the pump rear face rests on both retaining tongues and that the
+          fins pass into the water openings.
+        - Confirm that the top plate captures the pump, all nuts are seated, and the
+          cable and outlet are free of pinching.
+        - Use the exposed OOBB holes to attach the base to your structure. Choose
+          those attachment fasteners for the mating structure; they are not included
+          in the holder hardware count.
+        - Keep the underside water openings clear when mounting the holder.
+        - The cover presents six accessible M6 captive attachment nuts. Keep M6 screw
+          projection below the cover face to at most 8 mm; the holes pass through
+          the roof, so check that projecting bolts clear the pump. Attachment screws
+          are not included in the inventory.
+        notice: AI-generated CAD images and instructions. Errors possible.
+        part_notes:
+          base: Print one black base, plate face down and four feet up. The two inward
+            tongues support the rear housing. The centre relief and upper/lower windows
+            clear the rear projections and admit water. OOBB holes beneath the clamp
+            and nut tabs are omitted. Four countersinks on the underside take the
+            M3 x 16 mm clamp screws.
+          lid: Print the black nut cover flat, with countersinks upward. It traps
+            six M6 attachment nuts in the upper roof pockets. Two M3 fixing nuts slide
+            into lower side slots beneath solid shoulders. Two M3 x 16 mm countersunk
+            screws secure it between the M6 rows within the plate. All top openings
+            are circular.
+          top: Print one teal clamp on the open side in the supplied orientation.
+            The two walls connect the top plate to the local nut tabs. Slide four
+            M3 nuts in from the outside edges. Route the outlet and cable through
+            the two 15.5 mm openings before seating the clamp on the base.
+        parts:
+          base:
+            id: oobb_holder_motor_pump_submersible_jt_500__base
+            name: Retaining base
+            printed: true
+            quantity: 1
+          capscrew:
+            catalogue_url: https://github.com/oomlout/oomp_hardware_screw_version_5/tree/main/parts/hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length
+            detail: Cover fixings; 16 mm including head, driven downward.
+            id: hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length
+            name: M3 x 16 mm countersunk
+            printed: false
+            quantity: 2
+          lid:
+            id: oobb_holder_motor_pump_submersible_jt_500__lid
+            name: Captive nut cover
+            printed: true
+            quantity: 1
+          m3nut:
+            catalogue_url: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m3
+            detail: Cover-fixing nuts in the lower roof side slots.
+            id: hardware_nut_m3
+            name: M3 hex nut
+            printed: false
+            quantity: 2
+          m6nut:
+            catalogue_url: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m6
+            detail: Six accessible top attachment nuts on the 15 mm grid.
+            id: hardware_nut_m6
+            name: M6 hex nut
+            printed: false
+            quantity: 6
+          nut:
+            catalogue_url: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m3
+            detail: Ordinary hex nut, not a nylon-insert locknut.
+            id: hardware_nut_m3
+            name: M3 hex nut
+            printed: false
+            quantity: 4
+          pump:
+            catalogue_url: https://github.com/oomlout/oomp_motor_version_5/tree/main/parts/motor_pump_submersible_jt_500
+            detail: Nominal reference envelope; check your pump against the drawing.
+            id: motor_pump_submersible_jt_500
+            name: JT-500 pump
+            printed: false
+            quantity: 1
+          screw:
+            catalogue_url: https://github.com/oomlout/oomp_hardware_screw_version_5/tree/main/parts/hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length
+            detail: Hex socket; 16 mm overall including the countersunk head. The
+              catalogue black finish is an identity reference, not a corrosion rating.
+            id: hardware_screw_countersunk_hex_head_black_m3_diameter_16_mm_length
+            name: M3 x 16 mm countersunk
+            printed: false
+            quantity: 4
+          top:
+            id: oobb_holder_motor_pump_submersible_jt_500__top
+            name: Two-wall clamp
+            printed: true
+            quantity: 1
+        physical_status: Physical pump fit, printed strength and slicing have not
+          been verified.
+        preparation:
+        - 'Print the single 3dpr.stl once: it contains the base, clamp and top cover,
+          separated by 10 mm on the bed. Keep all three pieces separate. The assembly.scad
+          file shows their fitted positions.'
+        - 'Keep the supplied STL orientations: base plate face on the bed with feet
+          upward; clamp on its open side with the pump axis horizontal. Inspect the
+          slicer preview before printing.'
+        - Clear the nut slots, screw bores and water openings. Test that each M3 nut
+          slides fully into its pocket.
+        - Use four M3 x 16 mm countersunk screws for the base and two M3 x 16 mm countersunk
+          screws for the cover. Both lengths include the head; the linked hex-socket
+          screws use a 2 mm hex key.
+        - Leave the hose disconnected. Route the free cable end through both clamp
+          and cover before fitting them; check that any fitted connector clears the
+          circular openings. The outlet goes through the inboard opening; the cable
+          opening is closest to the flush edge.
+        steps:
+        - action: Place the base on its four feet, retaining tongues facing upward
+            and the four screw countersinks facing downward.
+          add:
+          - base
+          key: step_01
+          move: {}
+          title: Place the base
+        - action: Lower the pump rear end onto the retaining tongues, outlet and cable
+            upward. Point the outlet inboard, with the cable toward the nearest base
+            edge. Let the rear fins enter the water windows.
+          add:
+          - pump
+          key: step_02
+          move:
+            pump:
+            - 0
+            - 0
+            - 16
+          title: Seat the pump
+        - action: Slide two M3 nuts into each side of the clamp. Pass the cable through
+            its top opening and lower the clamp over the pump, guiding the outlet
+            through the other opening. Seat both nut tabs against the base.
+          add:
+          - top
+          - nut_1
+          - nut_2
+          - nut_3
+          - nut_4
+          key: step_03
+          move:
+            nut_1:
+            - -12
+            - 0
+            - 28
+            nut_2:
+            - -12
+            - 0
+            - 28
+            nut_3:
+            - 12
+            - 0
+            - 28
+            nut_4:
+            - 12
+            - 0
+            - 28
+            top:
+            - 0
+            - 0
+            - 28
+          title: Load the nuts and fit the clamp
+        - action: Hold the pump and clamp seated while accessing the underside. Insert
+            all four M3 x 16 mm countersunk screws upward into the captive nuts. Start
+            each screw before tightening them evenly until the heads seat; stop when
+            the pump is captured without distorting the printed parts.
+          add:
+          - screw_1
+          - screw_2
+          - screw_3
+          - screw_4
+          eye:
+          - 1.2
+          - -1.6
+          - -1.3
+          key: step_04
+          move:
+            screw_1:
+            - 0
+            - 0
+            - -22
+            screw_2:
+            - 0
+            - 0
+            - -22
+            screw_3:
+            - 0
+            - 0
+            - -22
+            screw_4:
+            - 0
+            - 0
+            - -22
+          title: Fasten from underneath
+        - action: Drop six M6 nuts into the upper roof pockets. Slide one M3 nut into
+            each lower side slot beneath the roof shoulders. Seat every nut flat;
+            keep all six M6 bores clear.
+          add:
+          - m6nut_1
+          - m6nut_2
+          - m6nut_3
+          - m6nut_4
+          - m6nut_5
+          - m6nut_6
+          - m3nut_1
+          - m3nut_2
+          eye:
+          - 1.2
+          - -1.6
+          - 2
+          key: step_05
+          move:
+            m3nut_1:
+            - -12
+            - 0
+            - 0
+            m3nut_2:
+            - 12
+            - 0
+            - 0
+            m6nut_1:
+            - 0
+            - 0
+            - 10
+            m6nut_2:
+            - 0
+            - 0
+            - 10
+            m6nut_3:
+            - 0
+            - 0
+            - 10
+            m6nut_4:
+            - 0
+            - 0
+            - 10
+            m6nut_5:
+            - 0
+            - 0
+            - 10
+            m6nut_6:
+            - 0
+            - 0
+            - 10
+          title: Load the top nuts
+        - action: Pass the cable through the cover and lower it over the outlet, with
+            the countersinks upward. Insert two M3 x 16 mm countersunk screws downward
+            through the plate into the lower side-loaded M3 nuts and tighten evenly
+            until the cover seats. Keep all six M6 attachment holes clear.
+          add:
+          - lid
+          - capscrew_1
+          - capscrew_2
+          eye:
+          - 1.2
+          - -1.6
+          - 2
+          key: step_06
+          move:
+            capscrew_1:
+            - 0
+            - 0
+            - 28
+            capscrew_2:
+            - 0
+            - 0
+            - 28
+            lid:
+            - 0
+            - 0
+            - 18
+          title: Encapsulate the nuts
+        style:
+          border: '000000'
+          border_radius_mm: 3
+          border_width_pt: 3
+          columns: 2
+          component_border_width_pt: 1.1
+          explosion_scale: 1.35
+          eye:
+          - 1.2
+          - -1.6
+          - 1.1
+          font_body_pt: 7
+          font_code_pt: 6.4
+          font_url_prefix_pt: 4.8
+          gutter_mm: 4
+          margin_mm: 6
+          page_mm:
+          - 297
+          - 210
+          quantity_pt: 5.8
+          quantity_shift_mm: 1
+          rows: 2
+          thumbnail_height_mm: 8.5
+        title: JT-500 pump holder
+        version_description: Pump turned 180 degrees inside the edge-aligned clamp
+          on a 6 mm base; screw-down top cover trapping six M6 attachment nuts.
       foot_pitch: 60
       foot_radius: 4
       foot_size: 12
       height: 5
+      lid_depth: 3
+      lid_mount_positions:
+      - - -16.5
+        - 7.5
+      - - 16.5
+        - -7.5
+      lid_nut_bottom: 2
+      lid_screw_length: 16
       mount_x: 22.5
       mount_y: 7.5
-      name: oobb_holder_motor_pump_submersible_jt_500_top
-      name_proper: Oobb Holder Motor Pump Submersible Jt 500 Top
-      name_space: oobb holder motor pump submersible jt 500 top
-      name_upper: OOBB HOLDER MOTOR PUMP SUBMERSIBLE JT 500 TOP
+      name: oobb_holder_motor_pump_submersible_jt_500
+      name_proper: Oobb Holder Motor Pump Submersible Jt 500
+      name_space: oobb holder motor pump submersible jt 500
+      name_upper: OOBB HOLDER MOTOR PUMP SUBMERSIBLE JT 500
       nut_height_from_foot: 6
       omit_covered_base_holes: true
       oobb_details:
+        attachment_nuts:
+        - pos:
+          - -15
+          - -15
+          radius_name: m6
+        - pos:
+          - -15
+          - 0
+          radius_name: m6
+        - pos:
+          - -15
+          - 15
+          radius_name: m6
+        - pos:
+          - 15
+          - -15
+          radius_name: m6
+        - pos:
+          - 15
+          - 0
+          radius_name: m6
+        - pos:
+          - 15
+          - 15
+          radius_name: m6
         axial_clearance: 0
+        base_foot_height: 2.7
         base_support_lip: 1.5
         clamp_corner_radius: 5
-        depth: 3
+        depth: 6
         dimension_note: Main envelope and 5.7 mm rear projection are dimensioned.
           Port centres, fin footprints and body profile are approximate; physically
           check fit before final printing.
@@ -239,9 +1096,17 @@ oomlout_ai_roboclick_1:
         foot_radius: 4
         foot_size: 12
         height: 5
+        lid_depth: 3
+        lid_mount_positions:
+        - - -16.5
+          - 7.5
+        - - 16.5
+          - -7.5
+        lid_nut_bottom: 2
+        lid_screw_length: 16
         mount_x: 22.5
         mount_y: 7.5
-        name: JT-500 two-wall holder top
+        name: JT-500 two-wall holder - complete print set
         nut_height_from_foot: 6
         omit_covered_base_holes: true
         oobb_name: holder_motor_pump_submersible_jt_500
@@ -249,21 +1114,24 @@ oomlout_ai_roboclick_1:
         open_width: 28
         outlet_clearance_diameter: 15.5
         overhang: true
-        piece: top
+        piece: all
         prepare_print: true
+        print_gap: 10
         pump_body_height: 38.33
         pump_body_length: 79.0
         pump_body_width: 33.43
         pump_fin_projection: 5.7
+        pump_offset_y: 15
         pump_outlet_diameter: 11.9
         pump_outlet_projection: 21.2
         pump_outlet_xy:
         - 0
-        - 9
+        - -9
         pump_outline_clearance: 3
+        pump_rotation_z: 180
         pump_wire_xy:
         - 0
-        - -9
+        - 9
         retainer_relief_diameter: 12
         retainer_span: 40
         retainer_width: 10
@@ -272,15 +1140,15 @@ oomlout_ai_roboclick_1:
         screw_length: 16
         screw_radius_name: m3
         screw_tip_clearance: 2
-        side_print_relief: true
+        side_print_relief: false
         tab_corner_radius: 1
         tab_height: 14
         tab_inner_x: 18
         tab_outer_x: 28.5
         taxonomy_1: oobb
         taxonomy_2: holder_motor_pump_submersible_jt_500
-        taxonomy_3: top
-        top_depth: 6
+        taxonomy_3: ''
+        top_depth: 13
         top_height: 3
         top_width: 3
         width: 5
@@ -290,21 +1158,24 @@ oomlout_ai_roboclick_1:
       open_width: 28
       outlet_clearance_diameter: 15.5
       overhang: true
-      piece: top
+      piece: all
       prepare_print: true
+      print_gap: 10
       pump_body_height: 38.33
       pump_body_length: 79.0
       pump_body_width: 33.43
       pump_fin_projection: 5.7
+      pump_offset_y: 15
       pump_outlet_diameter: 11.9
       pump_outlet_projection: 21.2
       pump_outlet_xy:
       - 0
-      - 9
+      - -9
       pump_outline_clearance: 3
+      pump_rotation_z: 180
       pump_wire_xy:
       - 0
-      - -9
+      - 9
       retainer_relief_diameter: 12
       retainer_span: 40
       retainer_width: 10
@@ -313,7 +1184,7 @@ oomlout_ai_roboclick_1:
       screw_length: 16
       screw_radius_name: m3
       screw_tip_clearance: 2
-      side_print_relief: true
+      side_print_relief: false
       tab_corner_radius: 1
       tab_height: 14
       tab_inner_x: 18
@@ -326,14 +1197,14 @@ oomlout_ai_roboclick_1:
       taxonomy_14: ''
       taxonomy_15: ''
       taxonomy_2: holder_motor_pump_submersible_jt_500
-      taxonomy_3: top
+      taxonomy_3: ''
       taxonomy_4: ''
       taxonomy_5: ''
       taxonomy_6: ''
       taxonomy_7: ''
       taxonomy_8: ''
       taxonomy_9: ''
-      top_depth: 6
+      top_depth: 13
       top_height: 3
       top_width: 3
       url_chat: ''
@@ -346,26 +1217,29 @@ oomlout_ai_roboclick_1:
     search_and_replace: []
   file_test: label_oomp.pdf
   retries_until_complete: 0
-oomp_key: oomp_oobb_holder_motor_pump_submersible_jt_500_top
+oomp_key: oomp_oobb_holder_motor_pump_submersible_jt_500
 open_width: 28
 outlet_clearance_diameter: 15.5
 overhang: true
-piece: top
+piece: all
 prepare_print: true
+print_gap: 10
 project_name: C:\gh\oomlout_oobb_holder_motor_pump_submersible_jt_500
 pump_body_height: 38.33
 pump_body_length: 79.0
 pump_body_width: 33.43
 pump_fin_projection: 5.7
+pump_offset_y: 15
 pump_outlet_diameter: 11.9
 pump_outlet_projection: 21.2
 pump_outlet_xy:
 - 0
-- 9
+- -9
 pump_outline_clearance: 3
+pump_rotation_z: 180
 pump_wire_xy:
 - 0
-- -9
+- 9
 retainer_relief_diameter: 12
 retainer_span: 40
 retainer_width: 10
@@ -375,7 +1249,7 @@ save_type: none
 screw_length: 16
 screw_radius_name: m3
 screw_tip_clearance: 2
-side_print_relief: true
+side_print_relief: false
 tab_corner_radius: 1
 tab_height: 14
 tab_inner_x: 18
@@ -416,28 +1290,14 @@ taxonomy_2_upper_length_2: HO
 taxonomy_2_upper_length_3: HOL
 taxonomy_2_upper_length_4: HOLD
 taxonomy_2_upper_length_5: HOLDE
-taxonomy_3: top
-taxonomy_3_capital: Top
-taxonomy_3_first_letter: t
-taxonomy_3_first_letter_upper: T
-taxonomy_3_length_1: t
-taxonomy_3_length_2: to
-taxonomy_3_length_3: top
-taxonomy_3_length_4: top
-taxonomy_3_length_5: top
-taxonomy_3_upper: TOP
-taxonomy_3_upper_length_1: T
-taxonomy_3_upper_length_2: TO
-taxonomy_3_upper_length_3: TOP
-taxonomy_3_upper_length_4: TOP
-taxonomy_3_upper_length_5: TOP
+taxonomy_3: ''
 taxonomy_4: ''
 taxonomy_5: ''
 taxonomy_6: ''
 taxonomy_7: ''
 taxonomy_8: ''
 taxonomy_9: ''
-top_depth: 6
+top_depth: 13
 top_height: 3
 top_width: 3
 url_chat: ''

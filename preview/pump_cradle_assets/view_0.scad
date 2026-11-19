@@ -1,0 +1,1 @@
+color([0.02,0.55,0.62]) import("rib.stl");

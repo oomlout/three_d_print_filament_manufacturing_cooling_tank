@@ -1,0 +1,163 @@
+assembly_instruction: Print one A and one B. Capture the hose with three M3 countersunk
+  screws and nuts. Mount the two 4 mm feet to the top's captive M6 nuts at 30 mm spacing.
+  The pump outlet faces the visible gutter edge.
+bend_start_above_mount_mm: 10.7
+bottom_radius_mm: 7.25
+bottom_virtual_width_mm: 75.0
+clamp_half: b
+curve_step_degrees: 1.0
+depth: 22.0
+depth_mm: 22.0
+description: Pump-top hose clamp half B; R40 outward bend for 12 mm ID / 14 mm OD
+  silicone tube; M6 attachment to the offset JT-500 top.
+dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness supplied
+  by user.
+fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before sealing;
+  drawing does not establish a perfect physical match.
+fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+fit_revision: 2
+guide_outer_radius_mm: 10.2
+gutter_wall_mm: 2.25
+half_thickness_mm: 22.0
+height: 68.8599946196097
+height_mm: 68.8599946196097
+inside_bottom_diameter_mm: 10.0
+joint_angles_degrees:
+- 45.0
+- 75.0
+joint_boss_radius_mm: 6.0
+joint_radial_offset_mm: 14.0
+lip_height_mm: 5.0
+lip_projection_mm: 2.0
+lip_tip_drop_mm: 4.0
+lower_joint:
+  x: 22.0
+  y: 8.0
+mount_foot_inboard_mm: 7.0
+mount_foot_outboard_mm: 22.0
+mount_hole_axial_mm: 15.0
+mount_plate_thickness_mm: 4.0
+mount_tool_radius_mm: 6.0
+oobb_details:
+  assembly_instruction: Print one A and one B. Capture the hose with three M3 countersunk
+    screws and nuts. Mount the two 4 mm feet to the top's captive M6 nuts at 30 mm
+    spacing. The pump outlet faces the visible gutter edge.
+  bend_start_above_mount_mm: 10.7
+  bottom_radius_mm: 7.25
+  bottom_virtual_width_mm: 75.0
+  clamp_half: b
+  curve_step_degrees: 1.0
+  depth: 22.0
+  depth_mm: 22.0
+  description: Pump-top hose clamp half B; R40 outward bend for 12 mm ID / 14 mm OD
+    silicone tube; M6 attachment to the offset JT-500 top.
+  dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+    supplied by user.
+  fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+    sealing; drawing does not establish a perfect physical match.
+  fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+  fit_revision: 2
+  guide_outer_radius_mm: 10.2
+  gutter_wall_mm: 2.25
+  half_thickness_mm: 22.0
+  height: 68.8599946196097
+  height_mm: 68.8599946196097
+  inside_bottom_diameter_mm: 10.0
+  joint_angles_degrees:
+  - 45.0
+  - 75.0
+  joint_boss_radius_mm: 6.0
+  joint_radial_offset_mm: 14.0
+  lip_height_mm: 5.0
+  lip_projection_mm: 2.0
+  lip_tip_drop_mm: 4.0
+  lower_joint:
+    x: 22.0
+    y: 8.0
+  mount_foot_inboard_mm: 7.0
+  mount_foot_outboard_mm: 22.0
+  mount_hole_axial_mm: 15.0
+  mount_plate_thickness_mm: 4.0
+  mount_tool_radius_mm: 6.0
+  oobb_name: pump_hose_clamp
+  oobb_type: pump_hose_clamp
+  outlet_offset_mm: 9.0
+  outlet_straight_mm: 10.0
+  part_role: printed_pump_top_hose_clamp_half
+  print_orientation: Outer flat face on bed; channel upward. Inspect support for transverse
+    M6 bore and tool-access opening.
+  print_quantity: 1
+  product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+  profile_height_mm: 58.5
+  profile_image_local: source_file/floplast/square_gutter_profile.jpg
+  profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+  profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+  profile_width_mm: 114.0
+  run_scad: true
+  run_solidcraft: false
+  shoulder_height_mm: 37.5
+  shoulder_radius_mm: 3.0
+  taxonomy_1: three_d_print
+  taxonomy_2: filament_manufacture
+  taxonomy_3: cooling_tank
+  taxonomy_4: pump_hose_clamp
+  taxonomy_5: 40_mm_bend_radius
+  taxonomy_6: 14_mm_tube_od
+  taxonomy_7: half_b
+  tube_bend_radius_mm: 40.0
+  tube_grip_diameter_mm: 13.6
+  tube_grip_length_mm: 4.0
+  tube_grip_transition_mm: 2.0
+  tube_guide_diameter_mm: 14.4
+  tube_id_mm: 12.0
+  tube_od_mm: 14.0
+  tube_wall_mm: 1.0
+  width: 66.0
+  width_mm: 66.0
+  wire_clearance_diameter_mm: 15.5
+  wire_offset_mm: -9.0
+oobb_name: pump_hose_clamp
+oobb_type: pump_hose_clamp
+outlet_offset_mm: 9.0
+outlet_straight_mm: 10.0
+part_role: printed_pump_top_hose_clamp_half
+print_orientation: Outer flat face on bed; channel upward. Inspect support for transverse
+  M6 bore and tool-access opening.
+print_quantity: 1
+product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+profile_height_mm: 58.5
+profile_image_local: source_file/floplast/square_gutter_profile.jpg
+profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+profile_width_mm: 114.0
+run_scad: true
+run_solidcraft: false
+shoulder_height_mm: 37.5
+shoulder_radius_mm: 3.0
+taxonomy_1: three_d_print
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: filament_manufacture
+taxonomy_3: cooling_tank
+taxonomy_4: pump_hose_clamp
+taxonomy_5: 40_mm_bend_radius
+taxonomy_6: 14_mm_tube_od
+taxonomy_7: half_b
+taxonomy_8: ''
+taxonomy_9: ''
+tube_bend_radius_mm: 40.0
+tube_grip_diameter_mm: 13.6
+tube_grip_length_mm: 4.0
+tube_grip_transition_mm: 2.0
+tube_guide_diameter_mm: 14.4
+tube_id_mm: 12.0
+tube_od_mm: 14.0
+tube_wall_mm: 1.0
+width: 66.0
+width_mm: 66.0
+wire_clearance_diameter_mm: 15.5
+wire_offset_mm: -9.0

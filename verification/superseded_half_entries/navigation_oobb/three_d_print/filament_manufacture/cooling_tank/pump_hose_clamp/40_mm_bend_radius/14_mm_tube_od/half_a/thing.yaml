@@ -1,0 +1,3727 @@
+assembly_instruction: Print one A and one B. Capture the hose with three M3 countersunk
+  screws and nuts. Mount the two 4 mm feet to the top's captive M6 nuts at 30 mm spacing.
+  The pump outlet faces the visible gutter edge.
+bend_start_above_mount_mm: 10.7
+bip_39_2_word_array:
+- movie
+- galaxy
+bip_39_2_word_no_space: moviegalaxy
+bip_39_2_word_space: movie galaxy
+bip_39_2_word_underscore: movie_galaxy
+bip_39_3_word_array:
+- movie
+- galaxy
+- uncover
+bip_39_3_word_no_space: moviegalaxyuncover
+bip_39_3_word_space: movie galaxy uncover
+bip_39_3_word_underscore: movie_galaxy_uncover
+bip_39_full_array:
+- movie
+- galaxy
+- uncover
+- possible
+- device
+- tuna
+- oven
+- spice
+- nominee
+- volume
+- stay
+- before
+bip_39_full_no_space: moviegalaxyuncoverpossibledevicetunaovenspicenomineevolumestaybefore
+bip_39_full_space: movie galaxy uncover possible device tuna oven spice nominee volume
+  stay before
+bip_39_full_underscore: movie_galaxy_uncover_possible_device_tuna_oven_spice_nominee_volume_stay_before
+bottom_radius_mm: 7.25
+bottom_virtual_width_mm: 75.0
+clamp_half: a
+curve_step_degrees: 1.0
+depth: 22.0
+depth_mm: 22.0
+description: Pump-top hose clamp half A; R40 outward bend for 12 mm ID / 14 mm OD
+  silicone tube; M6 attachment to the offset JT-500 top.
+dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness supplied
+  by user.
+directory: parts/three_d_print_filament_manufacture_cooling_tank_pump_hose_clamp_40_mm_bend_radius_14_mm_tube_od_half_a
+filter: pump_hose_clamp
+fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before sealing;
+  drawing does not establish a perfect physical match.
+fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+fit_revision: 2
+guide_outer_radius_mm: 10.2
+gutter_wall_mm: 2.25
+half_thickness_mm: 22.0
+height: 68.8599946196097
+height_mm: 68.8599946196097
+id: three_d_print_filament_manufacture_cooling_tank_pump_hose_clamp_40_mm_bend_radius_14_mm_tube_od_half_a
+id_no_class: three_d_print_filament_manufacture_cooling_tank_pump_hose_clamp_40_mm_bend_radius_14_mm_tube_od_half_a
+id_no_size: three_d_print_filament_manufacture_cooling_tank_pump_hose_clamp_40_mm_bend_radius_14_mm_tube_od_half_a
+id_no_type: three_d_print_filament_manufacture_cooling_tank_pump_hose_clamp_40_mm_bend_radius_14_mm_tube_od_half_a
+id_oobb: three_d_print_filament_manufacture_cooling_tank_pump_hose_clamp_40_mm_bend_radius_14_mm_tube_od_half_a
+inside_bottom_diameter_mm: 10.0
+joint_angles_degrees:
+- 45.0
+- 75.0
+joint_boss_radius_mm: 6.0
+joint_radial_offset_mm: 14.0
+kwargs:
+  assembly_instruction: Print one A and one B. Capture the hose with three M3 countersunk
+    screws and nuts. Mount the two 4 mm feet to the top's captive M6 nuts at 30 mm
+    spacing. The pump outlet faces the visible gutter edge.
+  bend_start_above_mount_mm: 10.7
+  bottom_radius_mm: 7.25
+  bottom_virtual_width_mm: 75.0
+  clamp_half: a
+  curve_step_degrees: 1.0
+  depth: 22.0
+  depth_mm: 22.0
+  description: Pump-top hose clamp half A; R40 outward bend for 12 mm ID / 14 mm OD
+    silicone tube; M6 attachment to the offset JT-500 top.
+  dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+    supplied by user.
+  filter: pump_hose_clamp
+  fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+    sealing; drawing does not establish a perfect physical match.
+  fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+  fit_revision: 2
+  guide_outer_radius_mm: 10.2
+  gutter_wall_mm: 2.25
+  half_thickness_mm: 22.0
+  height: 68.8599946196097
+  height_mm: 68.8599946196097
+  inside_bottom_diameter_mm: 10.0
+  joint_angles_degrees:
+  - 45.0
+  - 75.0
+  joint_boss_radius_mm: 6.0
+  joint_radial_offset_mm: 14.0
+  lip_height_mm: 5.0
+  lip_projection_mm: 2.0
+  lip_tip_drop_mm: 4.0
+  lower_joint:
+    x: 22.0
+    y: 8.0
+  modes:
+  - 3dpr
+  mount_foot_inboard_mm: 7.0
+  mount_foot_outboard_mm: 22.0
+  mount_hole_axial_mm: 15.0
+  mount_plate_thickness_mm: 4.0
+  mount_tool_radius_mm: 6.0
+  navigation: true
+  oobb_name: pump_hose_clamp
+  oomp_mode: project
+  oomp_run: true
+  outlet_offset_mm: 9.0
+  outlet_straight_mm: 10.0
+  overwrite: true
+  part_role: printed_pump_top_hose_clamp_half
+  print_orientation: Outer flat face on bed; channel upward. Inspect support for transverse
+    M6 bore and tool-access opening.
+  print_quantity: 1
+  product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+  profile_height_mm: 58.5
+  profile_image_local: source_file/floplast/square_gutter_profile.jpg
+  profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+  profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+  profile_width_mm: 114.0
+  shoulder_height_mm: 37.5
+  shoulder_radius_mm: 3.0
+  taxonomy_1: three_d_print
+  taxonomy_2: filament_manufacture
+  taxonomy_3: cooling_tank
+  taxonomy_4: pump_hose_clamp
+  taxonomy_5: 40_mm_bend_radius
+  taxonomy_6: 14_mm_tube_od
+  taxonomy_7: half_a
+  tube_bend_radius_mm: 40.0
+  tube_grip_diameter_mm: 13.6
+  tube_grip_length_mm: 4.0
+  tube_grip_transition_mm: 2.0
+  tube_guide_diameter_mm: 14.4
+  tube_id_mm: 12.0
+  tube_od_mm: 14.0
+  tube_wall_mm: 1.0
+  typ: all
+  wait_for_completion: true
+  width: 66.0
+  width_mm: 66.0
+  wire_clearance_diameter_mm: 15.5
+  wire_offset_mm: -9.0
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/three_d_print_filament_manufacture_cooling_tank_pump_hose_clamp_40_mm_bend_radius_14_mm_tube_od_half_a
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/three_d_print_filament_manufacture_cooling_tank_pump_hose_clamp_40_mm_bend_radius_14_mm_tube_od_half_a
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/three_d_print_filament_manufacture_cooling_tank_pump_hose_clamp_40_mm_bend_radius_14_mm_tube_od_half_a
+lip_height_mm: 5.0
+lip_projection_mm: 2.0
+lip_tip_drop_mm: 4.0
+lower_joint:
+  x: 22.0
+  y: 8.0
+md5: 90ebdfb2d443cbd4e7768c95febb538a
+md5_10: 90ebdfb2d4
+md5_10_upper: 90EBDFB2D4
+md5_5: 90ebd
+md5_5_upper: 90EBD
+md5_6: 90ebdf
+md5_6_alpha: 5nkdb
+md5_6_alpha_upper: 5NKDB
+md5_6_upper: 90EBDF
+mount_foot_inboard_mm: 7.0
+mount_foot_outboard_mm: 22.0
+mount_hole_axial_mm: 15.0
+mount_plate_thickness_mm: 4.0
+mount_tool_radius_mm: 6.0
+name: Three D Print Filament Manufacture Cooling Tank Pump Hose Clamp 40 Mm Bend Radius
+  14 Mm Tube Od Half A
+name_no_class: Three D Print Filament Manufacture Cooling Tank Pump Hose Clamp 40
+  Mm Bend Radius 14 Mm Tube Od Half A
+name_no_size: Three D Print Filament Manufacture Cooling Tank Pump Hose Clamp 40 Mm
+  Bend Radius 14 Mm Tube Od Half A
+name_no_type: Three D Print Filament Manufacture Cooling Tank Pump Hose Clamp 40 Mm
+  Bend Radius 14 Mm Tube Od Half A
+name_proper: Three D Print Filament Manufacture Cooling Tank Pump Hose Clamp 40 Mm
+  Bend Radius 14 Mm Tube Od Half A
+name_space: three d print filament manufacture cooling tank pump hose clamp 40 mm
+  bend radius 14 mm tube od half a
+name_upper: THREE D PRINT FILAMENT MANUFACTURE COOLING TANK PUMP HOSE CLAMP 40 MM
+  BEND RADIUS 14 MM TUBE OD HALF A
+oobb_details:
+  assembly_instruction: Print one A and one B. Capture the hose with three M3 countersunk
+    screws and nuts. Mount the two 4 mm feet to the top's captive M6 nuts at 30 mm
+    spacing. The pump outlet faces the visible gutter edge.
+  bend_start_above_mount_mm: 10.7
+  bottom_radius_mm: 7.25
+  bottom_virtual_width_mm: 75.0
+  clamp_half: a
+  curve_step_degrees: 1.0
+  depth: 22.0
+  depth_mm: 22.0
+  description: Pump-top hose clamp half A; R40 outward bend for 12 mm ID / 14 mm OD
+    silicone tube; M6 attachment to the offset JT-500 top.
+  dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+    supplied by user.
+  fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+    sealing; drawing does not establish a perfect physical match.
+  fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+  fit_revision: 2
+  guide_outer_radius_mm: 10.2
+  gutter_wall_mm: 2.25
+  half_thickness_mm: 22.0
+  height: 68.8599946196097
+  height_mm: 68.8599946196097
+  inside_bottom_diameter_mm: 10.0
+  joint_angles_degrees:
+  - 45.0
+  - 75.0
+  joint_boss_radius_mm: 6.0
+  joint_radial_offset_mm: 14.0
+  lip_height_mm: 5.0
+  lip_projection_mm: 2.0
+  lip_tip_drop_mm: 4.0
+  lower_joint:
+    x: 22.0
+    y: 8.0
+  mount_foot_inboard_mm: 7.0
+  mount_foot_outboard_mm: 22.0
+  mount_hole_axial_mm: 15.0
+  mount_plate_thickness_mm: 4.0
+  mount_tool_radius_mm: 6.0
+  oobb_name: pump_hose_clamp
+  oobb_type: pump_hose_clamp
+  outlet_offset_mm: 9.0
+  outlet_straight_mm: 10.0
+  part_role: printed_pump_top_hose_clamp_half
+  print_orientation: Outer flat face on bed; channel upward. Inspect support for transverse
+    M6 bore and tool-access opening.
+  print_quantity: 1
+  product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+  profile_height_mm: 58.5
+  profile_image_local: source_file/floplast/square_gutter_profile.jpg
+  profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+  profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+  profile_width_mm: 114.0
+  run_scad: true
+  run_solidcraft: false
+  shoulder_height_mm: 37.5
+  shoulder_radius_mm: 3.0
+  taxonomy_1: three_d_print
+  taxonomy_2: filament_manufacture
+  taxonomy_3: cooling_tank
+  taxonomy_4: pump_hose_clamp
+  taxonomy_5: 40_mm_bend_radius
+  taxonomy_6: 14_mm_tube_od
+  taxonomy_7: half_a
+  tube_bend_radius_mm: 40.0
+  tube_grip_diameter_mm: 13.6
+  tube_grip_length_mm: 4.0
+  tube_grip_transition_mm: 2.0
+  tube_guide_diameter_mm: 14.4
+  tube_id_mm: 12.0
+  tube_od_mm: 14.0
+  tube_wall_mm: 1.0
+  width: 66.0
+  width_mm: 66.0
+  wire_clearance_diameter_mm: 15.5
+  wire_offset_mm: -9.0
+oobb_name: pump_hose_clamp
+oobb_type: pump_hose_clamp
+oomlout_ai_roboclick_1:
+  action_name: step_0_jinja_template_label_oomp.svg
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      assembly_instruction: Print one A and one B. Capture the hose with three M3
+        countersunk screws and nuts. Mount the two 4 mm feet to the top's captive
+        M6 nuts at 30 mm spacing. The pump outlet faces the visible gutter edge.
+      bend_start_above_mount_mm: 10.7
+      bottom_radius_mm: 7.25
+      bottom_virtual_width_mm: 75.0
+      clamp_half: a
+      curve_step_degrees: 1.0
+      depth: 22.0
+      depth_mm: 22.0
+      description: Pump-top hose clamp half A; R40 outward bend for 12 mm ID / 14
+        mm OD silicone tube; M6 attachment to the offset JT-500 top.
+      dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+        supplied by user.
+      directory: parts\three_d_print_filament_manufacture_cooling_tank_pump_hose_clamp_40_mm_bend_radius_14_mm_tube_od_half_a
+      fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+        sealing; drawing does not establish a perfect physical match.
+      fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+      fit_revision: 2
+      guide_outer_radius_mm: 10.2
+      gutter_wall_mm: 2.25
+      half_thickness_mm: 22.0
+      height: 68.8599946196097
+      height_mm: 68.8599946196097
+      inside_bottom_diameter_mm: 10.0
+      joint_angles_degrees:
+      - 45.0
+      - 75.0
+      joint_boss_radius_mm: 6.0
+      joint_radial_offset_mm: 14.0
+      lip_height_mm: 5.0
+      lip_projection_mm: 2.0
+      lip_tip_drop_mm: 4.0
+      lower_joint:
+        x: 22.0
+        y: 8.0
+      mount_foot_inboard_mm: 7.0
+      mount_foot_outboard_mm: 22.0
+      mount_hole_axial_mm: 15.0
+      mount_plate_thickness_mm: 4.0
+      mount_tool_radius_mm: 6.0
+      name: three_d_print_filament_manufacture_cooling_tank_pump_hose_clamp_40_mm_bend_radius_14_mm_tube_od_half_a
+      name_proper: Three D Print Filament Manufacture Cooling Tank Pump Hose Clamp
+        40 Mm Bend Radius 14 Mm Tube Od Half A
+      name_space: three d print filament manufacture cooling tank pump hose clamp
+        40 mm bend radius 14 mm tube od half a
+      name_upper: THREE D PRINT FILAMENT MANUFACTURE COOLING TANK PUMP HOSE CLAMP
+        40 MM BEND RADIUS 14 MM TUBE OD HALF A
+      oobb_details:
+        assembly_instruction: Print one A and one B. Capture the hose with three M3
+          countersunk screws and nuts. Mount the two 4 mm feet to the top's captive
+          M6 nuts at 30 mm spacing. The pump outlet faces the visible gutter edge.
+        bend_start_above_mount_mm: 10.7
+        bottom_radius_mm: 7.25
+        bottom_virtual_width_mm: 75.0
+        clamp_half: a
+        curve_step_degrees: 1.0
+        depth: 22.0
+        depth_mm: 22.0
+        description: Pump-top hose clamp half A; R40 outward bend for 12 mm ID / 14
+          mm OD silicone tube; M6 attachment to the offset JT-500 top.
+        dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+          supplied by user.
+        fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit
+          before sealing; drawing does not establish a perfect physical match.
+        fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+        fit_revision: 2
+        guide_outer_radius_mm: 10.2
+        gutter_wall_mm: 2.25
+        half_thickness_mm: 22.0
+        height: 68.8599946196097
+        height_mm: 68.8599946196097
+        inside_bottom_diameter_mm: 10.0
+        joint_angles_degrees:
+        - 45.0
+        - 75.0
+        joint_boss_radius_mm: 6.0
+        joint_radial_offset_mm: 14.0
+        lip_height_mm: 5.0
+        lip_projection_mm: 2.0
+        lip_tip_drop_mm: 4.0
+        lower_joint:
+          x: 22.0
+          y: 8.0
+        mount_foot_inboard_mm: 7.0
+        mount_foot_outboard_mm: 22.0
+        mount_hole_axial_mm: 15.0
+        mount_plate_thickness_mm: 4.0
+        mount_tool_radius_mm: 6.0
+        oobb_name: pump_hose_clamp
+        oobb_type: pump_hose_clamp
+        outlet_offset_mm: 9.0
+        outlet_straight_mm: 10.0
+        part_role: printed_pump_top_hose_clamp_half
+        print_orientation: Outer flat face on bed; channel upward. Inspect support
+          for transverse M6 bore and tool-access opening.
+        print_quantity: 1
+        product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+        profile_height_mm: 58.5
+        profile_image_local: source_file/floplast/square_gutter_profile.jpg
+        profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+        profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+        profile_width_mm: 114.0
+        run_scad: true
+        run_solidcraft: false
+        shoulder_height_mm: 37.5
+        shoulder_radius_mm: 3.0
+        taxonomy_1: three_d_print
+        taxonomy_2: filament_manufacture
+        taxonomy_3: cooling_tank
+        taxonomy_4: pump_hose_clamp
+        taxonomy_5: 40_mm_bend_radius
+        taxonomy_6: 14_mm_tube_od
+        taxonomy_7: half_a
+        tube_bend_radius_mm: 40.0
+        tube_grip_diameter_mm: 13.6
+        tube_grip_length_mm: 4.0
+        tube_grip_transition_mm: 2.0
+        tube_guide_diameter_mm: 14.4
+        tube_id_mm: 12.0
+        tube_od_mm: 14.0
+        tube_wall_mm: 1.0
+        width: 66.0
+        width_mm: 66.0
+        wire_clearance_diameter_mm: 15.5
+        wire_offset_mm: -9.0
+      oobb_name: pump_hose_clamp
+      oobb_type: pump_hose_clamp
+      outlet_offset_mm: 9.0
+      outlet_straight_mm: 10.0
+      part_role: printed_pump_top_hose_clamp_half
+      print_orientation: Outer flat face on bed; channel upward. Inspect support for
+        transverse M6 bore and tool-access opening.
+      print_quantity: 1
+      product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+      profile_height_mm: 58.5
+      profile_image_local: source_file/floplast/square_gutter_profile.jpg
+      profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+      profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+      profile_width_mm: 114.0
+      run_scad: true
+      run_solidcraft: false
+      shoulder_height_mm: 37.5
+      shoulder_radius_mm: 3.0
+      taxonomy_1: three_d_print
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: filament_manufacture
+      taxonomy_3: cooling_tank
+      taxonomy_4: pump_hose_clamp
+      taxonomy_5: 40_mm_bend_radius
+      taxonomy_6: 14_mm_tube_od
+      taxonomy_7: half_a
+      taxonomy_8: ''
+      taxonomy_9: ''
+      tube_bend_radius_mm: 40.0
+      tube_grip_diameter_mm: 13.6
+      tube_grip_length_mm: 4.0
+      tube_grip_transition_mm: 2.0
+      tube_guide_diameter_mm: 14.4
+      tube_id_mm: 12.0
+      tube_od_mm: 14.0
+      tube_wall_mm: 1.0
+      url_chat: ''
+      width: 66.0
+      width_mm: 66.0
+      wire_clearance_diameter_mm: 15.5
+      wire_offset_mm: -9.0
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\gh\three_d_print_filament_manufacturing_cooling_tank\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomp_key: oomp_three_d_print_filament_manufacture_cooling_tank_pump_hose_clamp_40_mm_bend_radius_14_mm_tube_od_half_a
+outlet_offset_mm: 9.0
+outlet_straight_mm: 10.0
+part_role: printed_pump_top_hose_clamp_half
+print_orientation: Outer flat face on bed; channel upward. Inspect support for transverse
+  M6 bore and tool-access opening.
+print_quantity: 1
+product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+profile_height_mm: 58.5
+profile_image_local: source_file/floplast/square_gutter_profile.jpg
+profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+profile_width_mm: 114.0
+project_name: C:\gh\three_d_print_filament_manufacturing_cooling_tank
+run_scad: true
+run_solidcraft: false
+shoulder_height_mm: 37.5
+shoulder_radius_mm: 3.0
+taxonomy_1: three_d_print
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Three D Print
+taxonomy_1_first_letter: t
+taxonomy_1_first_letter_upper: T
+taxonomy_1_length_1: t
+taxonomy_1_length_2: th
+taxonomy_1_length_3: thr
+taxonomy_1_length_4: thre
+taxonomy_1_length_5: three
+taxonomy_1_upper: THREE_D_PRINT
+taxonomy_1_upper_length_1: T
+taxonomy_1_upper_length_2: TH
+taxonomy_1_upper_length_3: THR
+taxonomy_1_upper_length_4: THRE
+taxonomy_1_upper_length_5: THREE
+taxonomy_2: filament_manufacture
+taxonomy_2_capital: Filament Manufacture
+taxonomy_2_first_letter: f
+taxonomy_2_first_letter_upper: F
+taxonomy_2_length_1: f
+taxonomy_2_length_2: fi
+taxonomy_2_length_3: fil
+taxonomy_2_length_4: fila
+taxonomy_2_length_5: filam
+taxonomy_2_upper: FILAMENT_MANUFACTURE
+taxonomy_2_upper_length_1: F
+taxonomy_2_upper_length_2: FI
+taxonomy_2_upper_length_3: FIL
+taxonomy_2_upper_length_4: FILA
+taxonomy_2_upper_length_5: FILAM
+taxonomy_3: cooling_tank
+taxonomy_3_capital: Cooling Tank
+taxonomy_3_first_letter: c
+taxonomy_3_first_letter_upper: C
+taxonomy_3_length_1: c
+taxonomy_3_length_2: co
+taxonomy_3_length_3: coo
+taxonomy_3_length_4: cool
+taxonomy_3_length_5: cooli
+taxonomy_3_upper: COOLING_TANK
+taxonomy_3_upper_length_1: C
+taxonomy_3_upper_length_2: CO
+taxonomy_3_upper_length_3: COO
+taxonomy_3_upper_length_4: COOL
+taxonomy_3_upper_length_5: COOLI
+taxonomy_4: pump_hose_clamp
+taxonomy_4_capital: Pump Hose Clamp
+taxonomy_4_first_letter: p
+taxonomy_4_first_letter_upper: P
+taxonomy_4_length_1: p
+taxonomy_4_length_2: pu
+taxonomy_4_length_3: pum
+taxonomy_4_length_4: pump
+taxonomy_4_length_5: pump_
+taxonomy_4_upper: PUMP_HOSE_CLAMP
+taxonomy_4_upper_length_1: P
+taxonomy_4_upper_length_2: PU
+taxonomy_4_upper_length_3: PUM
+taxonomy_4_upper_length_4: PUMP
+taxonomy_4_upper_length_5: PUMP_
+taxonomy_5: 40_mm_bend_radius
+taxonomy_5_capital: 40 mm Bend Radius
+taxonomy_5_first_letter: '4'
+taxonomy_5_first_letter_upper: '4'
+taxonomy_5_length_1: '4'
+taxonomy_5_length_2: '40'
+taxonomy_5_length_3: '40_'
+taxonomy_5_length_4: 40_m
+taxonomy_5_length_5: 40_mm
+taxonomy_5_upper: 40_MM_BEND_RADIUS
+taxonomy_5_upper_length_1: '4'
+taxonomy_5_upper_length_2: '40'
+taxonomy_5_upper_length_3: '40_'
+taxonomy_5_upper_length_4: 40_M
+taxonomy_5_upper_length_5: 40_MM
+taxonomy_6: 14_mm_tube_od
+taxonomy_6_capital: 14 mm Tube Od
+taxonomy_6_first_letter: '1'
+taxonomy_6_first_letter_upper: '1'
+taxonomy_6_length_1: '1'
+taxonomy_6_length_2: '14'
+taxonomy_6_length_3: '14_'
+taxonomy_6_length_4: 14_m
+taxonomy_6_length_5: 14_mm
+taxonomy_6_upper: 14_MM_TUBE_OD
+taxonomy_6_upper_length_1: '1'
+taxonomy_6_upper_length_2: '14'
+taxonomy_6_upper_length_3: '14_'
+taxonomy_6_upper_length_4: 14_M
+taxonomy_6_upper_length_5: 14_MM
+taxonomy_7: half_a
+taxonomy_7_capital: Half A
+taxonomy_7_first_letter: h
+taxonomy_7_first_letter_upper: H
+taxonomy_7_length_1: h
+taxonomy_7_length_2: ha
+taxonomy_7_length_3: hal
+taxonomy_7_length_4: half
+taxonomy_7_length_5: half_
+taxonomy_7_upper: HALF_A
+taxonomy_7_upper_length_1: H
+taxonomy_7_upper_length_2: HA
+taxonomy_7_upper_length_3: HAL
+taxonomy_7_upper_length_4: HALF
+taxonomy_7_upper_length_5: HALF_
+taxonomy_8: ''
+taxonomy_9: ''
+thing:
+  assembly_instruction: Print one A and one B. Capture the hose with three M3 countersunk
+    screws and nuts. Mount the two 4 mm feet to the top's captive M6 nuts at 30 mm
+    spacing. The pump outlet faces the visible gutter edge.
+  bend_start_above_mount_mm: 10.7
+  bip_39_2_word_array:
+  - movie
+  - galaxy
+  bip_39_2_word_no_space: moviegalaxy
+  bip_39_2_word_space: movie galaxy
+  bip_39_2_word_underscore: movie_galaxy
+  bip_39_3_word_array:
+  - movie
+  - galaxy
+  - uncover
+  bip_39_3_word_no_space: moviegalaxyuncover
+  bip_39_3_word_space: movie galaxy uncover
+  bip_39_3_word_underscore: movie_galaxy_uncover
+  bip_39_full_array:
+  - movie
+  - galaxy
+  - uncover
+  - possible
+  - device
+  - tuna
+  - oven
+  - spice
+  - nominee
+  - volume
+  - stay
+  - before
+  bip_39_full_no_space: moviegalaxyuncoverpossibledevicetunaovenspicenomineevolumestaybefore
+  bip_39_full_space: movie galaxy uncover possible device tuna oven spice nominee
+    volume stay before
+  bip_39_full_underscore: movie_galaxy_uncover_possible_device_tuna_oven_spice_nominee_volume_stay_before
+  bottom_radius_mm: 7.25
+  bottom_virtual_width_mm: 75.0
+  clamp_half: a
+  classification: oobb
+  color: ''
+  components:
+  - - depth: 22.0
+      height: 22.0
+      points:
+      - - 19.2
+        - 0.0
+      - - -1.2
+        - 0.0
+      - - -7.0
+        - 0.0
+      - - -7.0
+        - 4.0
+      - - -1.2
+        - 4.0
+      - - -1.2
+        - 10.7
+      - - -1.1996116
+        - 10.7890107
+      - - -1.1935194
+        - 11.4871069
+      - - -1.1904125
+        - 11.6651011
+      - - -1.1721378
+        - 12.3629847
+      - - -1.1659249
+        - 12.5408976
+      - - -1.1354733
+        - 13.238356
+      - - -1.1261563
+        - 13.4161334
+      - - -1.083537
+        - 14.1129541
+      - - -1.0711188
+        - 14.2905417
+      - - -1.0163447
+        - 14.9865125
+      - - -1.0008291
+        - 15.1638564
+      - - -0.933917
+        - 15.8587652
+      - - -0.9153087
+        - 16.0358113
+      - - -0.836279
+        - 16.7294465
+      - - -0.8145837
+        - 16.9061409
+      - - -0.7234603
+        - 17.5982912
+      - - -0.6986846
+        - 17.77458
+      - - -0.5954954
+        - 18.4650346
+      - - -0.5676468
+        - 18.6408642
+      - - -0.4524233
+        - 19.3294127
+      - - -0.4215102
+        - 19.5047295
+      - - -0.2942874
+        - 20.1911622
+      - - -0.2603193
+        - 20.3659127
+      - - -0.121136
+        - 21.0500206
+      - - -0.0841233
+        - 21.2241517
+      - - 0.0669781
+        - 21.9057262
+      - - 0.1070242
+        - 22.0791849
+      - - 0.2699978
+        - 22.7580185
+      - - 0.313065
+        - 22.9307519
+      - - 0.487861
+        - 23.6066378
+      - - 0.5339363
+        - 23.7785932
+      - - 0.7205015
+        - 24.4513257
+      - - 0.7695709
+        - 24.6224507
+      - - 0.9678485
+        - 25.2918247
+      - - 1.0198969
+        - 25.4620673
+      - - 1.2298265
+        - 26.1278789
+      - - 1.2848381
+        - 26.2971873
+      - - 1.5063557
+        - 26.9592337
+      - - 1.5643138
+        - 27.1275561
+      - - 1.797352
+        - 27.7856357
+      - - 1.8582388
+        - 27.952921
+      - - 2.1027266
+        - 28.6068333
+      - - 2.1665237
+        - 28.7730305
+      - - 2.4223866
+        - 29.4225762
+      - - 2.4890746
+        - 29.5876347
+      - - 2.7562346
+        - 30.2326161
+      - - 2.8257931
+        - 30.3964856
+      - - 3.1041689
+        - 31.0367062
+      - - 3.1765767
+        - 31.1993368
+      - - 3.4660836
+        - 31.8346015
+      - - 3.5413186
+        - 31.9959437
+      - - 3.8418682
+        - 32.6260591
+      - - 3.9199077
+        - 32.7860636
+      - - 4.2314085
+        - 33.4108377
+      - - 4.3122285
+        - 33.5694558
+      - - 4.6345858
+        - 34.1886984
+      - - 4.7181617
+        - 34.3458819
+      - - 5.0512772
+        - 34.9594042
+      - - 5.1375836
+        - 35.1151051
+      - - 5.4813558
+        - 35.7227203
+      - - 5.5703664
+        - 35.8768913
+      - - 5.9246905
+        - 36.4784143
+      - - 6.0163783
+        - 36.6310084
+      - - 6.3811465
+        - 37.2262559
+      - - 6.4754834
+        - 37.3772266
+      - - 6.8505845
+        - 37.9660174
+      - - 6.9475419
+        - 38.1153187
+      - - 7.3328617
+        - 38.6974734
+      - - 7.43241
+        - 38.8450598
+      - - 7.8278311
+        - 39.4204011
+      - - 7.9299399
+        - 39.5662276
+      - - 8.3353419
+        - 40.1345802
+      - - 8.4399802
+        - 40.2786025
+      - - 8.8552396
+        - 40.8397934
+      - - 8.9623755
+        - 40.9819675
+      - - 9.3873658
+        - 41.5358256
+      - - 9.4969667
+        - 41.6761083
+      - - 9.9315583
+        - 42.2224649
+      - - 10.0435908
+        - 42.3608135
+      - - 10.4836547
+        - 42.8946537
+      - - 10.423815
+        - 42.8966126
+      - - 10.0330767
+        - 42.935097
+      - - 9.6456919
+        - 42.9990545
+      - - 9.2633195
+        - 43.0882112
+      - - 8.887597
+        - 43.2021854
+      - - 8.5201332
+        - 43.340489
+      - - 8.1625017
+        - 43.5025297
+      - - 7.8162338
+        - 43.6876138
+      - - 7.4828124
+        - 43.8949485
+      - - 7.1636652
+        - 44.1236461
+      - - 6.8601589
+        - 44.3727273
+      - - 6.5735931
+        - 44.6411255
+      - - 6.305195
+        - 44.9276913
+      - - 6.0561138
+        - 45.2311976
+      - - 5.8274161
+        - 45.5503448
+      - - 5.6200814
+        - 45.8837662
+      - - 5.4349974
+        - 46.230034
+      - - 5.2729566
+        - 46.5876656
+      - - 5.134653
+        - 46.9551294
+      - - 5.0206789
+        - 47.3308519
+      - - 4.9315221
+        - 47.7132243
+      - - 4.8675646
+        - 48.100609
+      - - 4.8290803
+        - 48.4913474
+      - - 4.8162338
+        - 48.8837662
+      - - 4.8290803
+        - 49.276185
+      - - 4.8675646
+        - 49.6669233
+      - - 4.9315221
+        - 50.0543081
+      - - 5.0206789
+        - 50.4366805
+      - - 5.134653
+        - 50.812403
+      - - 5.2729566
+        - 51.1798668
+      - - 5.4349974
+        - 51.5374983
+      - - 5.6200814
+        - 51.8837662
+      - - 5.8274161
+        - 52.2171876
+      - - 6.0561138
+        - 52.5363348
+      - - 6.305195
+        - 52.8398411
+      - - 6.5735931
+        - 53.1264069
+      - - 6.8601589
+        - 53.394805
+      - - 7.1636652
+        - 53.6438862
+      - - 7.4828124
+        - 53.8725839
+      - - 7.8162338
+        - 54.0799186
+      - - 8.1625017
+        - 54.2650026
+      - - 8.5201332
+        - 54.4270434
+      - - 8.887597
+        - 54.565347
+      - - 9.2633195
+        - 54.6793211
+      - - 9.6456919
+        - 54.7684779
+      - - 10.0330767
+        - 54.8324354
+      - - 10.423815
+        - 54.8709197
+      - - 10.8162338
+        - 54.8837662
+      - - 11.2086526
+        - 54.8709197
+      - - 11.599391
+        - 54.8324354
+      - - 11.9867757
+        - 54.7684779
+      - - 12.3691481
+        - 54.6793211
+      - - 12.7448706
+        - 54.565347
+      - - 13.1123344
+        - 54.4270434
+      - - 13.469966
+        - 54.2650026
+      - - 13.8162338
+        - 54.0799186
+      - - 14.1496552
+        - 53.8725839
+      - - 14.4688024
+        - 53.6438862
+      - - 14.7723087
+        - 53.394805
+      - - 15.0588745
+        - 53.1264069
+      - - 15.3272727
+        - 52.8398411
+      - - 15.5763539
+        - 52.5363348
+      - - 15.8050515
+        - 52.2171876
+      - - 16.0123862
+        - 51.8837662
+      - - 16.1974703
+        - 51.5374983
+      - - 16.359511
+        - 51.1798668
+      - - 16.4978146
+        - 50.812403
+      - - 16.6117888
+        - 50.4366805
+      - - 16.7009455
+        - 50.0543081
+      - - 16.764903
+        - 49.6669233
+      - - 16.8033874
+        - 49.276185
+      - - 16.8053463
+        - 49.2163453
+      - - 17.3391865
+        - 49.6564092
+      - - 17.4775351
+        - 49.7684417
+      - - 18.0238917
+        - 50.2030333
+      - - 18.1641744
+        - 50.3126342
+      - - 18.7180325
+        - 50.7376245
+      - - 18.8602066
+        - 50.8447604
+      - - 19.4213975
+        - 51.2600198
+      - - 19.5654198
+        - 51.3646581
+      - - 20.1337724
+        - 51.7700601
+      - - 20.2795989
+        - 51.8721689
+      - - 20.8549402
+        - 52.26759
+      - - 21.0025266
+        - 52.3671383
+      - - 21.5846813
+        - 52.7524581
+      - - 21.7339826
+        - 52.8494155
+      - - 22.3227734
+        - 53.2245166
+      - - 22.4737441
+        - 53.3188535
+      - - 23.0689916
+        - 53.6836217
+      - - 23.2215857
+        - 53.7753095
+      - - 23.8231087
+        - 54.1296336
+      - - 23.9772797
+        - 54.2186442
+      - - 24.5848949
+        - 54.5624164
+      - - 24.7405958
+        - 54.6487228
+      - - 25.3541181
+        - 54.9818383
+      - - 25.5113016
+        - 55.0654142
+      - - 26.1305442
+        - 55.3877715
+      - - 26.2891623
+        - 55.4685915
+      - - 26.9139364
+        - 55.7800923
+      - - 27.0739409
+        - 55.8581318
+      - - 27.7040563
+        - 56.1586814
+      - - 27.8653985
+        - 56.2339164
+      - - 28.5006632
+        - 56.5234233
+      - - 28.6632938
+        - 56.5958311
+      - - 29.3035144
+        - 56.8742069
+      - - 29.4673839
+        - 56.9437654
+      - - 30.1123653
+        - 57.2109254
+      - - 30.2774238
+        - 57.2776134
+      - - 30.9269695
+        - 57.5334763
+      - - 31.0931667
+        - 57.5972734
+      - - 31.7411934
+        - 57.8395606
+      - - 31.6903502
+        - 57.8711769
+      - - 31.371203
+        - 58.0998746
+      - - 31.0676967
+        - 58.3489558
+      - - 30.7811309
+        - 58.6173539
+      - - 30.5127327
+        - 58.9039197
+      - - 30.2636515
+        - 59.207426
+      - - 30.0349539
+        - 59.5265732
+      - - 29.8276191
+        - 59.8599946
+      - - 29.6425351
+        - 60.2062625
+      - - 29.4804944
+        - 60.563894
+      - - 29.3421908
+        - 60.9313578
+      - - 29.2282166
+        - 61.3070803
+      - - 29.1390599
+        - 61.6894527
+      - - 29.0751024
+        - 62.0768375
+      - - 29.036618
+        - 62.4675758
+      - - 29.0237716
+        - 62.8599946
+      - - 29.036618
+        - 63.2524134
+      - - 29.0751024
+        - 63.6431518
+      - - 29.1390599
+        - 64.0305366
+      - - 29.2282166
+        - 64.4129089
+      - - 29.3421908
+        - 64.7886314
+      - - 29.4804944
+        - 65.1560952
+      - - 29.6425351
+        - 65.5137268
+      - - 29.8276191
+        - 65.8599946
+      - - 30.0349539
+        - 66.193416
+      - - 30.2636515
+        - 66.5125632
+      - - 30.5127327
+        - 66.8160695
+      - - 30.7811309
+        - 67.1026353
+      - - 31.0676967
+        - 67.3710335
+      - - 31.371203
+        - 67.6201147
+      - - 31.6903502
+        - 67.8488123
+      - - 32.0237716
+        - 68.056147
+      - - 32.3700394
+        - 68.2412311
+      - - 32.727671
+        - 68.4032718
+      - - 33.0951348
+        - 68.5415754
+      - - 33.4708573
+        - 68.6555496
+      - - 33.8532296
+        - 68.7447063
+      - - 34.2406144
+        - 68.8086638
+      - - 34.6313528
+        - 68.8471482
+      - - 35.0237716
+        - 68.8599946
+      - - 35.4161903
+        - 68.8471482
+      - - 35.8069287
+        - 68.8086638
+      - - 36.1943135
+        - 68.7447063
+      - - 36.5766858
+        - 68.6555496
+      - - 36.9524084
+        - 68.5415754
+      - - 37.3198722
+        - 68.4032718
+      - - 37.6775037
+        - 68.2412311
+      - - 38.0237716
+        - 68.056147
+      - - 38.357193
+        - 67.8488123
+      - - 38.6763401
+        - 67.6201147
+      - - 38.9798465
+        - 67.3710335
+      - - 39.2664123
+        - 67.1026353
+      - - 39.5348104
+        - 66.8160695
+      - - 39.7838916
+        - 66.5125632
+      - - 40.0125892
+        - 66.193416
+      - - 40.219924
+        - 65.8599946
+      - - 40.405008
+        - 65.5137268
+      - - 40.5670488
+        - 65.1560952
+      - - 40.7053523
+        - 64.7886314
+      - - 40.8193265
+        - 64.4129089
+      - - 40.9084832
+        - 64.0305366
+      - - 40.9724407
+        - 63.6431518
+      - - 41.0109251
+        - 63.2524134
+      - - 41.0237716
+        - 62.8599946
+      - - 41.0109251
+        - 62.4675758
+      - - 40.9724407
+        - 62.0768375
+      - - 40.9084832
+        - 61.6894527
+      - - 40.8193265
+        - 61.3070803
+      - - 40.7053523
+        - 60.9313578
+      - - 40.5670488
+        - 60.563894
+      - - 40.405008
+        - 60.2062625
+      - - 40.3767847
+        - 60.1534603
+      - - 41.0591358
+        - 60.2676468
+      - - 41.2349654
+        - 60.2954954
+      - - 41.92542
+        - 60.3986846
+      - - 42.1017088
+        - 60.4234603
+      - - 42.7938591
+        - 60.5145837
+      - - 42.9705535
+        - 60.536279
+      - - 43.6641887
+        - 60.6153087
+      - - 43.8412348
+        - 60.633917
+      - - 44.5361436
+        - 60.7008291
+      - - 44.7134875
+        - 60.7163447
+      - - 45.4094583
+        - 60.7711188
+      - - 45.5870459
+        - 60.783537
+      - - 46.2838666
+        - 60.8261563
+      - - 46.461644
+        - 60.8354733
+      - - 47.1591024
+        - 60.8659249
+      - - 47.3370153
+        - 60.8721378
+      - - 48.0348989
+        - 60.8904125
+      - - 48.2128931
+        - 60.8935194
+      - - 48.9109893
+        - 60.8996116
+      - - 49.0
+        - 60.9
+      - - 59.0
+        - 60.9
+      - - 59.0
+        - 40.5
+      - - 49.0445062
+        - 40.5
+      - - 48.4799251
+        - 40.495073
+      - - 47.9600086
+        - 40.4814585
+      - - 47.4404088
+        - 40.4587723
+      - - 46.9212842
+        - 40.4270212
+      - - 46.4027927
+        - 40.3862151
+      - - 45.8850924
+        - 40.3363662
+      - - 45.3683409
+        - 40.2774898
+      - - 44.8526956
+        - 40.2096038
+      - - 44.3383137
+        - 40.1327289
+      - - 43.8253518
+        - 40.0468885
+      - - 43.313966
+        - 39.9521088
+      - - 42.8043124
+        - 39.8484186
+      - - 42.296546
+        - 39.7358495
+      - - 41.7908215
+        - 39.6144358
+      - - 41.287293
+        - 39.4842145
+      - - 40.7861139
+        - 39.3452252
+      - - 40.2874368
+        - 39.1975103
+      - - 39.7914136
+        - 39.0411148
+      - - 39.2981954
+        - 38.8760863
+      - - 38.8079326
+        - 38.7024751
+      - - 38.3207743
+        - 38.5203341
+      - - 37.836869
+        - 38.3297187
+      - - 37.3563641
+        - 38.1306871
+      - - 36.879406
+        - 37.9232998
+      - - 36.4061399
+        - 37.70762
+      - - 35.9367101
+        - 37.4837135
+      - - 35.4712594
+        - 37.2516484
+      - - 35.0099298
+        - 37.0114953
+      - - 34.5528616
+        - 36.7633276
+      - - 34.1001942
+        - 36.5072207
+      - - 33.6520654
+        - 36.2432526
+      - - 33.2086117
+        - 35.9715039
+      - - 32.7699683
+        - 35.6920572
+      - - 32.3362687
+        - 35.4049977
+      - - 31.907645
+        - 35.1104128
+      - - 31.4842278
+        - 34.8083922
+      - - 31.0661461
+        - 34.499028
+      - - 30.6535272
+        - 34.1824144
+      - - 30.2464968
+        - 33.8586478
+      - - 29.8451789
+        - 33.5278269
+      - - 29.4496957
+        - 33.1900524
+      - - 29.0601678
+        - 32.8454272
+      - - 28.6767138
+        - 32.4940563
+      - - 28.2994504
+        - 32.1360467
+      - - 27.9284926
+        - 31.7715074
+      - - 27.5639533
+        - 31.4005496
+      - - 27.2059437
+        - 31.0232862
+      - - 26.8545728
+        - 30.6398322
+      - - 26.5099476
+        - 30.2503043
+      - - 26.1721731
+        - 29.8548211
+      - - 25.8413522
+        - 29.4535032
+      - - 25.5175856
+        - 29.0464728
+      - - 25.200972
+        - 28.6338539
+      - - 24.8916078
+        - 28.2157722
+      - - 24.5895872
+        - 27.792355
+      - - 24.2950023
+        - 27.3637313
+      - - 24.0079428
+        - 26.9300317
+      - - 23.7284961
+        - 26.4913883
+      - - 23.4567474
+        - 26.0479346
+      - - 23.1927793
+        - 25.5998058
+      - - 22.9366724
+        - 25.1471384
+      - - 22.6885047
+        - 24.6900702
+      - - 22.4483516
+        - 24.2287406
+      - - 22.2162865
+        - 23.7632899
+      - - 21.99238
+        - 23.2938601
+      - - 21.7767002
+        - 22.820594
+      - - 21.5693129
+        - 22.3436359
+      - - 21.3702813
+        - 21.863131
+      - - 21.1796659
+        - 21.3792257
+      - - 20.9975249
+        - 20.8920674
+      - - 20.8239137
+        - 20.4018046
+      - - 20.6588852
+        - 19.9085864
+      - - 20.5024897
+        - 19.4125632
+      - - 20.3547748
+        - 18.9138861
+      - - 20.2157855
+        - 18.412707
+      - - 20.0855642
+        - 17.9091785
+      - - 19.9641505
+        - 17.403454
+      - - 19.8515814
+        - 16.8956876
+      - - 19.7478912
+        - 16.386034
+      - - 19.6531115
+        - 15.8746482
+      - - 19.5672711
+        - 15.3616863
+      - - 19.4903962
+        - 14.8473044
+      - - 19.4225102
+        - 14.3316591
+      - - 19.3636338
+        - 13.8149076
+      - - 19.3205525
+        - 13.3674913
+      - - 19.3462679
+        - 13.3812364
+      - - 19.7038994
+        - 13.5432772
+      - - 20.0713632
+        - 13.6815808
+      - - 20.4470857
+        - 13.795555
+      - - 20.8294581
+        - 13.8847117
+      - - 21.2168428
+        - 13.9486692
+      - - 21.6075812
+        - 13.9871535
+      - - 22.0
+        - 14.0
+      - - 22.3924188
+        - 13.9871535
+      - - 22.7831572
+        - 13.9486692
+      - - 23.1705419
+        - 13.8847117
+      - - 23.5529143
+        - 13.795555
+      - - 23.9286368
+        - 13.6815808
+      - - 24.2961006
+        - 13.5432772
+      - - 24.6537321
+        - 13.3812364
+      - - 25.0
+        - 13.1961524
+      - - 25.3334214
+        - 12.9888177
+      - - 25.6525686
+        - 12.76012
+      - - 25.9560749
+        - 12.5110388
+      - - 26.2426407
+        - 12.2426407
+      - - 26.5110388
+        - 11.9560749
+      - - 26.76012
+        - 11.6525686
+      - - 26.9888177
+        - 11.3334214
+      - - 27.1961524
+        - 11.0
+      - - 27.3812364
+        - 10.6537321
+      - - 27.5432772
+        - 10.2961006
+      - - 27.6815808
+        - 9.9286368
+      - - 27.795555
+        - 9.5529143
+      - - 27.8847117
+        - 9.1705419
+      - - 27.9486692
+        - 8.7831572
+      - - 27.9871535
+        - 8.3924188
+      - - 28.0
+        - 8.0
+      - - 27.9871535
+        - 7.6075812
+      - - 27.9486692
+        - 7.2168428
+      - - 27.8847117
+        - 6.8294581
+      - - 27.795555
+        - 6.4470857
+      - - 27.6815808
+        - 6.0713632
+      - - 27.5432772
+        - 5.7038994
+      - - 27.3812364
+        - 5.3462679
+      - - 27.1961524
+        - 5.0
+      - - 26.9888177
+        - 4.6665786
+      - - 26.76012
+        - 4.3474314
+      - - 26.5110388
+        - 4.0439251
+      - - 26.2426407
+        - 3.7573593
+      - - 25.9560749
+        - 3.4889612
+      - - 25.6525686
+        - 3.23988
+      - - 25.3334214
+        - 3.0111823
+      - - 25.0
+        - 2.8038476
+      - - 24.6537321
+        - 2.6187636
+      - - 24.2961006
+        - 2.4567228
+      - - 23.9286368
+        - 2.3184192
+      - - 23.5529143
+        - 2.204445
+      - - 23.1705419
+        - 2.1152883
+      - - 22.7831572
+        - 2.0513308
+      - - 22.3924188
+        - 2.0128465
+      - - 22.0
+        - 2.0
+      - - 22.0
+        - 0.0
+      pos:
+      - 0
+      - 0
+      - 0
+      shape: polygon
+      type: positive
+      width: 66.0
+  - - module: pump_top_channel_half_a
+      pos:
+      - 0
+      - 0
+      - 0
+      shape: raw_scad
+      source: "module pump_top_channel_half_a() { scale([1,1,1]) union() {\n     \
+        \   translate([9.0,-1,22.0]) rotate([-90,0,0]) cylinder(h=11.709999999999999,r=7.2,$fn=64);\n\
+        \        translate([49.0,10.7,22.0]) rotate([0,0,90]) rotate_extrude(angle=90,$fn=180)\
+        \ translate([40.0,0,0]) circle(r=7.2,$fn=64);\n        translate([48.99,50.7,22.0])\
+        \ rotate([0,90,0]) cylinder(h=4.02,r=7.2,$fn=64);\n        translate([53.0,50.7,22.0])\
+        \ rotate([0,90,0]) cylinder(h=2.0,r1=7.2,r2=6.8,$fn=64);\n        translate([55.0,50.7,22.0])\
+        \ rotate([0,90,0]) cylinder(h=5.0,r=6.8,$fn=64);\n    } }"
+      type: negative
+  - - objects:
+      - - depth: 22.01
+          h: 1.7
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.4
+          shape: cylinder
+          type: positive
+      - - depth: 22.01
+          h: 22.01
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -22.01
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 22.01
+          h: 22.01
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -22.01
+          r: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 22.01
+          h: 22.01
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -22.01
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+      - - depth: 22.01
+          h: 1.9
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -1.9
+          r1: 1.8
+          r2: 3.6
+          shape: cylinder
+          type: positive
+      - - depth: 22.01
+          h: 22.01
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -22.01
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+        - depth: 22.01
+          h: 22.01
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -22.01
+          r: 1.8
+          shape: cylinder
+          type: positive
+        - depth: 22.01
+          h: 22.01
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -22.01
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+      - - depth: 22.01
+          h: 1.7
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.9
+          shape: cylinder
+          type: positive
+      - - depth: 22.01
+          h: 22.01
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -22.01
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 22.01
+          h: 22.01
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -22.01
+          r: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 22.01
+          h: 22.01
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -22.01
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+      pos:
+      - 22.0
+      - 8.0
+      - 0
+      rot:
+      - 180
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - depth: 22.01
+          h: 1.7
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.4
+          shape: cylinder
+          type: positive
+      - - depth: 22.01
+          h: 22.01
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -22.01
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 22.01
+          h: 22.01
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -22.01
+          r: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 22.01
+          h: 22.01
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -22.01
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+      - - depth: 22.01
+          h: 1.9
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -1.9
+          r1: 1.8
+          r2: 3.6
+          shape: cylinder
+          type: positive
+      - - depth: 22.01
+          h: 22.01
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -22.01
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+        - depth: 22.01
+          h: 22.01
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -22.01
+          r: 1.8
+          shape: cylinder
+          type: positive
+        - depth: 22.01
+          h: 22.01
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -22.01
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+      - - depth: 22.01
+          h: 1.7
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.9
+          shape: cylinder
+          type: positive
+      - - depth: 22.01
+          h: 22.01
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -22.01
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 22.01
+          h: 22.01
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -22.01
+          r: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 22.01
+          h: 22.01
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -22.01
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+      pos:
+      - 10.81623381592643
+      - 48.883766184073565
+      - 0
+      rot:
+      - 180
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - objects:
+      - - depth: 22.01
+          h: 1.7
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.4
+          shape: cylinder
+          type: positive
+      - - depth: 22.01
+          h: 22.01
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -22.01
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 22.01
+          h: 22.01
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -22.01
+          r: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 22.01
+          h: 22.01
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -22.01
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+      - - depth: 22.01
+          h: 1.9
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -1.9
+          r1: 1.8
+          r2: 3.6
+          shape: cylinder
+          type: positive
+      - - depth: 22.01
+          h: 22.01
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -22.01
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+        - depth: 22.01
+          h: 22.01
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -22.01
+          r: 1.8
+          shape: cylinder
+          type: positive
+        - depth: 22.01
+          h: 22.01
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -22.01
+          r: 1.8
+          radius: 1.8
+          shape: cylinder
+          type: positive
+      - - depth: 22.01
+          h: 1.7
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -1.7
+          r1: 1.5
+          r2: 2.9
+          shape: cylinder
+          type: positive
+      - - depth: 22.01
+          h: 22.01
+          inclusion: laser
+          pos:
+          - 0
+          - 0
+          - -22.01
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 22.01
+          h: 22.01
+          inclusion: 3dpr
+          pos:
+          - 0
+          - 0
+          - -22.01
+          r: 1.5
+          shape: cylinder
+          type: positive
+        - depth: 22.01
+          h: 22.01
+          inclusion: 'true'
+          pos:
+          - 0
+          - 0
+          - -22.01
+          r: 1.5
+          radius: 1.5
+          shape: cylinder
+          type: positive
+      pos:
+      - 35.02377156446388
+      - 62.859994619609694
+      - 0
+      rot:
+      - 180
+      - 0
+      - 0
+      type: rotation
+      typetype: negative
+  - - depth: 100
+      h: 100
+      inclusion: laser
+      pos:
+      - -9.0
+      - -1
+      - 22.0
+      r: 7.75
+      radius: 7.75
+      rot:
+      - -90
+      - 0
+      - 0
+      shape: cylinder
+      type: negative
+    - depth: 100
+      h: 100
+      inclusion: 3dpr
+      pos:
+      - -9.0
+      - -1
+      - 22.0
+      r: 7.75
+      rot:
+      - -90
+      - 0
+      - 0
+      shape: cylinder
+      type: negative
+    - depth: 100
+      h: 100
+      inclusion: 'true'
+      pos:
+      - -9.0
+      - -1
+      - 22.0
+      r: 7.75
+      radius: 7.75
+      rot:
+      - -90
+      - 0
+      - 0
+      shape: cylinder
+      type: negative
+  - - depth: 4.02
+      h: 4.02
+      inclusion: laser
+      pos:
+      - 0
+      - -0.01
+      - 7.0
+      r: 3.25
+      radius: 3.25
+      rot:
+      - -90
+      - 0
+      - 0
+      shape: cylinder
+      type: negative
+    - depth: 4.02
+      h: 4.02
+      inclusion: 3dpr
+      pos:
+      - 0
+      - -0.01
+      - 7.0
+      r: 3.25
+      rot:
+      - -90
+      - 0
+      - 0
+      shape: cylinder
+      type: negative
+    - depth: 4.02
+      h: 4.02
+      inclusion: 'true'
+      pos:
+      - 0
+      - -0.01
+      - 7.0
+      r: 3.25
+      radius: 3.25
+      rot:
+      - -90
+      - 0
+      - 0
+      shape: cylinder
+      type: negative
+  - - depth: 100
+      h: 100
+      inclusion: laser
+      pos:
+      - 0
+      - 4.0
+      - 7.0
+      r: 6.0
+      radius: 6.0
+      rot:
+      - -90
+      - 0
+      - 0
+      shape: cylinder
+      type: negative
+    - depth: 100
+      h: 100
+      inclusion: 3dpr
+      pos:
+      - 0
+      - 4.0
+      - 7.0
+      r: 6.0
+      rot:
+      - -90
+      - 0
+      - 0
+      shape: cylinder
+      type: negative
+    - depth: 100
+      h: 100
+      inclusion: 'true'
+      pos:
+      - 0
+      - 4.0
+      - 7.0
+      r: 6.0
+      radius: 6.0
+      rot:
+      - -90
+      - 0
+      - 0
+      shape: cylinder
+      type: negative
+  components_objects:
+  - assembly_instruction: Print one A and one B. Capture the hose with three M3 countersunk
+      screws and nuts. Mount the two 4 mm feet to the top's captive M6 nuts at 30
+      mm spacing. The pump outlet faces the visible gutter edge.
+    bend_start_above_mount_mm: 10.7
+    bottom_radius_mm: 7.25
+    bottom_virtual_width_mm: 75.0
+    clamp_half: a
+    curve_step_degrees: 1.0
+    depth: 22.0
+    depth_mm: 22.0
+    description: Pump-top hose clamp half A; R40 outward bend for 12 mm ID / 14 mm
+      OD silicone tube; M6 attachment to the offset JT-500 top.
+    dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+      supplied by user.
+    filter: pump_hose_clamp
+    fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+      sealing; drawing does not establish a perfect physical match.
+    fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+    fit_revision: 2
+    guide_outer_radius_mm: 10.2
+    gutter_wall_mm: 2.25
+    half_thickness_mm: 22.0
+    height: 22.0
+    height_mm: 68.8599946196097
+    inside_bottom_diameter_mm: 10.0
+    joint_angles_degrees:
+    - 45.0
+    - 75.0
+    joint_boss_radius_mm: 6.0
+    joint_radial_offset_mm: 14.0
+    lip_height_mm: 5.0
+    lip_projection_mm: 2.0
+    lip_tip_drop_mm: 4.0
+    lower_joint:
+      x: 22.0
+      y: 8.0
+    modes:
+    - 3dpr
+    mount_foot_inboard_mm: 7.0
+    mount_foot_outboard_mm: 22.0
+    mount_hole_axial_mm: 15.0
+    mount_plate_thickness_mm: 4.0
+    mount_tool_radius_mm: 6.0
+    navigation: true
+    oobb_name: pump_hose_clamp
+    oomp_mode: project
+    oomp_run: true
+    outlet_offset_mm: 9.0
+    outlet_straight_mm: 10.0
+    overwrite: true
+    part_role: printed_pump_top_hose_clamp_half
+    points:
+    - - 19.2
+      - 0.0
+    - - -1.2
+      - 0.0
+    - - -7.0
+      - 0.0
+    - - -7.0
+      - 4.0
+    - - -1.2
+      - 4.0
+    - - -1.2
+      - 10.7
+    - - -1.1996116
+      - 10.7890107
+    - - -1.1935194
+      - 11.4871069
+    - - -1.1904125
+      - 11.6651011
+    - - -1.1721378
+      - 12.3629847
+    - - -1.1659249
+      - 12.5408976
+    - - -1.1354733
+      - 13.238356
+    - - -1.1261563
+      - 13.4161334
+    - - -1.083537
+      - 14.1129541
+    - - -1.0711188
+      - 14.2905417
+    - - -1.0163447
+      - 14.9865125
+    - - -1.0008291
+      - 15.1638564
+    - - -0.933917
+      - 15.8587652
+    - - -0.9153087
+      - 16.0358113
+    - - -0.836279
+      - 16.7294465
+    - - -0.8145837
+      - 16.9061409
+    - - -0.7234603
+      - 17.5982912
+    - - -0.6986846
+      - 17.77458
+    - - -0.5954954
+      - 18.4650346
+    - - -0.5676468
+      - 18.6408642
+    - - -0.4524233
+      - 19.3294127
+    - - -0.4215102
+      - 19.5047295
+    - - -0.2942874
+      - 20.1911622
+    - - -0.2603193
+      - 20.3659127
+    - - -0.121136
+      - 21.0500206
+    - - -0.0841233
+      - 21.2241517
+    - - 0.0669781
+      - 21.9057262
+    - - 0.1070242
+      - 22.0791849
+    - - 0.2699978
+      - 22.7580185
+    - - 0.313065
+      - 22.9307519
+    - - 0.487861
+      - 23.6066378
+    - - 0.5339363
+      - 23.7785932
+    - - 0.7205015
+      - 24.4513257
+    - - 0.7695709
+      - 24.6224507
+    - - 0.9678485
+      - 25.2918247
+    - - 1.0198969
+      - 25.4620673
+    - - 1.2298265
+      - 26.1278789
+    - - 1.2848381
+      - 26.2971873
+    - - 1.5063557
+      - 26.9592337
+    - - 1.5643138
+      - 27.1275561
+    - - 1.797352
+      - 27.7856357
+    - - 1.8582388
+      - 27.952921
+    - - 2.1027266
+      - 28.6068333
+    - - 2.1665237
+      - 28.7730305
+    - - 2.4223866
+      - 29.4225762
+    - - 2.4890746
+      - 29.5876347
+    - - 2.7562346
+      - 30.2326161
+    - - 2.8257931
+      - 30.3964856
+    - - 3.1041689
+      - 31.0367062
+    - - 3.1765767
+      - 31.1993368
+    - - 3.4660836
+      - 31.8346015
+    - - 3.5413186
+      - 31.9959437
+    - - 3.8418682
+      - 32.6260591
+    - - 3.9199077
+      - 32.7860636
+    - - 4.2314085
+      - 33.4108377
+    - - 4.3122285
+      - 33.5694558
+    - - 4.6345858
+      - 34.1886984
+    - - 4.7181617
+      - 34.3458819
+    - - 5.0512772
+      - 34.9594042
+    - - 5.1375836
+      - 35.1151051
+    - - 5.4813558
+      - 35.7227203
+    - - 5.5703664
+      - 35.8768913
+    - - 5.9246905
+      - 36.4784143
+    - - 6.0163783
+      - 36.6310084
+    - - 6.3811465
+      - 37.2262559
+    - - 6.4754834
+      - 37.3772266
+    - - 6.8505845
+      - 37.9660174
+    - - 6.9475419
+      - 38.1153187
+    - - 7.3328617
+      - 38.6974734
+    - - 7.43241
+      - 38.8450598
+    - - 7.8278311
+      - 39.4204011
+    - - 7.9299399
+      - 39.5662276
+    - - 8.3353419
+      - 40.1345802
+    - - 8.4399802
+      - 40.2786025
+    - - 8.8552396
+      - 40.8397934
+    - - 8.9623755
+      - 40.9819675
+    - - 9.3873658
+      - 41.5358256
+    - - 9.4969667
+      - 41.6761083
+    - - 9.9315583
+      - 42.2224649
+    - - 10.0435908
+      - 42.3608135
+    - - 10.4836547
+      - 42.8946537
+    - - 10.423815
+      - 42.8966126
+    - - 10.0330767
+      - 42.935097
+    - - 9.6456919
+      - 42.9990545
+    - - 9.2633195
+      - 43.0882112
+    - - 8.887597
+      - 43.2021854
+    - - 8.5201332
+      - 43.340489
+    - - 8.1625017
+      - 43.5025297
+    - - 7.8162338
+      - 43.6876138
+    - - 7.4828124
+      - 43.8949485
+    - - 7.1636652
+      - 44.1236461
+    - - 6.8601589
+      - 44.3727273
+    - - 6.5735931
+      - 44.6411255
+    - - 6.305195
+      - 44.9276913
+    - - 6.0561138
+      - 45.2311976
+    - - 5.8274161
+      - 45.5503448
+    - - 5.6200814
+      - 45.8837662
+    - - 5.4349974
+      - 46.230034
+    - - 5.2729566
+      - 46.5876656
+    - - 5.134653
+      - 46.9551294
+    - - 5.0206789
+      - 47.3308519
+    - - 4.9315221
+      - 47.7132243
+    - - 4.8675646
+      - 48.100609
+    - - 4.8290803
+      - 48.4913474
+    - - 4.8162338
+      - 48.8837662
+    - - 4.8290803
+      - 49.276185
+    - - 4.8675646
+      - 49.6669233
+    - - 4.9315221
+      - 50.0543081
+    - - 5.0206789
+      - 50.4366805
+    - - 5.134653
+      - 50.812403
+    - - 5.2729566
+      - 51.1798668
+    - - 5.4349974
+      - 51.5374983
+    - - 5.6200814
+      - 51.8837662
+    - - 5.8274161
+      - 52.2171876
+    - - 6.0561138
+      - 52.5363348
+    - - 6.305195
+      - 52.8398411
+    - - 6.5735931
+      - 53.1264069
+    - - 6.8601589
+      - 53.394805
+    - - 7.1636652
+      - 53.6438862
+    - - 7.4828124
+      - 53.8725839
+    - - 7.8162338
+      - 54.0799186
+    - - 8.1625017
+      - 54.2650026
+    - - 8.5201332
+      - 54.4270434
+    - - 8.887597
+      - 54.565347
+    - - 9.2633195
+      - 54.6793211
+    - - 9.6456919
+      - 54.7684779
+    - - 10.0330767
+      - 54.8324354
+    - - 10.423815
+      - 54.8709197
+    - - 10.8162338
+      - 54.8837662
+    - - 11.2086526
+      - 54.8709197
+    - - 11.599391
+      - 54.8324354
+    - - 11.9867757
+      - 54.7684779
+    - - 12.3691481
+      - 54.6793211
+    - - 12.7448706
+      - 54.565347
+    - - 13.1123344
+      - 54.4270434
+    - - 13.469966
+      - 54.2650026
+    - - 13.8162338
+      - 54.0799186
+    - - 14.1496552
+      - 53.8725839
+    - - 14.4688024
+      - 53.6438862
+    - - 14.7723087
+      - 53.394805
+    - - 15.0588745
+      - 53.1264069
+    - - 15.3272727
+      - 52.8398411
+    - - 15.5763539
+      - 52.5363348
+    - - 15.8050515
+      - 52.2171876
+    - - 16.0123862
+      - 51.8837662
+    - - 16.1974703
+      - 51.5374983
+    - - 16.359511
+      - 51.1798668
+    - - 16.4978146
+      - 50.812403
+    - - 16.6117888
+      - 50.4366805
+    - - 16.7009455
+      - 50.0543081
+    - - 16.764903
+      - 49.6669233
+    - - 16.8033874
+      - 49.276185
+    - - 16.8053463
+      - 49.2163453
+    - - 17.3391865
+      - 49.6564092
+    - - 17.4775351
+      - 49.7684417
+    - - 18.0238917
+      - 50.2030333
+    - - 18.1641744
+      - 50.3126342
+    - - 18.7180325
+      - 50.7376245
+    - - 18.8602066
+      - 50.8447604
+    - - 19.4213975
+      - 51.2600198
+    - - 19.5654198
+      - 51.3646581
+    - - 20.1337724
+      - 51.7700601
+    - - 20.2795989
+      - 51.8721689
+    - - 20.8549402
+      - 52.26759
+    - - 21.0025266
+      - 52.3671383
+    - - 21.5846813
+      - 52.7524581
+    - - 21.7339826
+      - 52.8494155
+    - - 22.3227734
+      - 53.2245166
+    - - 22.4737441
+      - 53.3188535
+    - - 23.0689916
+      - 53.6836217
+    - - 23.2215857
+      - 53.7753095
+    - - 23.8231087
+      - 54.1296336
+    - - 23.9772797
+      - 54.2186442
+    - - 24.5848949
+      - 54.5624164
+    - - 24.7405958
+      - 54.6487228
+    - - 25.3541181
+      - 54.9818383
+    - - 25.5113016
+      - 55.0654142
+    - - 26.1305442
+      - 55.3877715
+    - - 26.2891623
+      - 55.4685915
+    - - 26.9139364
+      - 55.7800923
+    - - 27.0739409
+      - 55.8581318
+    - - 27.7040563
+      - 56.1586814
+    - - 27.8653985
+      - 56.2339164
+    - - 28.5006632
+      - 56.5234233
+    - - 28.6632938
+      - 56.5958311
+    - - 29.3035144
+      - 56.8742069
+    - - 29.4673839
+      - 56.9437654
+    - - 30.1123653
+      - 57.2109254
+    - - 30.2774238
+      - 57.2776134
+    - - 30.9269695
+      - 57.5334763
+    - - 31.0931667
+      - 57.5972734
+    - - 31.7411934
+      - 57.8395606
+    - - 31.6903502
+      - 57.8711769
+    - - 31.371203
+      - 58.0998746
+    - - 31.0676967
+      - 58.3489558
+    - - 30.7811309
+      - 58.6173539
+    - - 30.5127327
+      - 58.9039197
+    - - 30.2636515
+      - 59.207426
+    - - 30.0349539
+      - 59.5265732
+    - - 29.8276191
+      - 59.8599946
+    - - 29.6425351
+      - 60.2062625
+    - - 29.4804944
+      - 60.563894
+    - - 29.3421908
+      - 60.9313578
+    - - 29.2282166
+      - 61.3070803
+    - - 29.1390599
+      - 61.6894527
+    - - 29.0751024
+      - 62.0768375
+    - - 29.036618
+      - 62.4675758
+    - - 29.0237716
+      - 62.8599946
+    - - 29.036618
+      - 63.2524134
+    - - 29.0751024
+      - 63.6431518
+    - - 29.1390599
+      - 64.0305366
+    - - 29.2282166
+      - 64.4129089
+    - - 29.3421908
+      - 64.7886314
+    - - 29.4804944
+      - 65.1560952
+    - - 29.6425351
+      - 65.5137268
+    - - 29.8276191
+      - 65.8599946
+    - - 30.0349539
+      - 66.193416
+    - - 30.2636515
+      - 66.5125632
+    - - 30.5127327
+      - 66.8160695
+    - - 30.7811309
+      - 67.1026353
+    - - 31.0676967
+      - 67.3710335
+    - - 31.371203
+      - 67.6201147
+    - - 31.6903502
+      - 67.8488123
+    - - 32.0237716
+      - 68.056147
+    - - 32.3700394
+      - 68.2412311
+    - - 32.727671
+      - 68.4032718
+    - - 33.0951348
+      - 68.5415754
+    - - 33.4708573
+      - 68.6555496
+    - - 33.8532296
+      - 68.7447063
+    - - 34.2406144
+      - 68.8086638
+    - - 34.6313528
+      - 68.8471482
+    - - 35.0237716
+      - 68.8599946
+    - - 35.4161903
+      - 68.8471482
+    - - 35.8069287
+      - 68.8086638
+    - - 36.1943135
+      - 68.7447063
+    - - 36.5766858
+      - 68.6555496
+    - - 36.9524084
+      - 68.5415754
+    - - 37.3198722
+      - 68.4032718
+    - - 37.6775037
+      - 68.2412311
+    - - 38.0237716
+      - 68.056147
+    - - 38.357193
+      - 67.8488123
+    - - 38.6763401
+      - 67.6201147
+    - - 38.9798465
+      - 67.3710335
+    - - 39.2664123
+      - 67.1026353
+    - - 39.5348104
+      - 66.8160695
+    - - 39.7838916
+      - 66.5125632
+    - - 40.0125892
+      - 66.193416
+    - - 40.219924
+      - 65.8599946
+    - - 40.405008
+      - 65.5137268
+    - - 40.5670488
+      - 65.1560952
+    - - 40.7053523
+      - 64.7886314
+    - - 40.8193265
+      - 64.4129089
+    - - 40.9084832
+      - 64.0305366
+    - - 40.9724407
+      - 63.6431518
+    - - 41.0109251
+      - 63.2524134
+    - - 41.0237716
+      - 62.8599946
+    - - 41.0109251
+      - 62.4675758
+    - - 40.9724407
+      - 62.0768375
+    - - 40.9084832
+      - 61.6894527
+    - - 40.8193265
+      - 61.3070803
+    - - 40.7053523
+      - 60.9313578
+    - - 40.5670488
+      - 60.563894
+    - - 40.405008
+      - 60.2062625
+    - - 40.3767847
+      - 60.1534603
+    - - 41.0591358
+      - 60.2676468
+    - - 41.2349654
+      - 60.2954954
+    - - 41.92542
+      - 60.3986846
+    - - 42.1017088
+      - 60.4234603
+    - - 42.7938591
+      - 60.5145837
+    - - 42.9705535
+      - 60.536279
+    - - 43.6641887
+      - 60.6153087
+    - - 43.8412348
+      - 60.633917
+    - - 44.5361436
+      - 60.7008291
+    - - 44.7134875
+      - 60.7163447
+    - - 45.4094583
+      - 60.7711188
+    - - 45.5870459
+      - 60.783537
+    - - 46.2838666
+      - 60.8261563
+    - - 46.461644
+      - 60.8354733
+    - - 47.1591024
+      - 60.8659249
+    - - 47.3370153
+      - 60.8721378
+    - - 48.0348989
+      - 60.8904125
+    - - 48.2128931
+      - 60.8935194
+    - - 48.9109893
+      - 60.8996116
+    - - 49.0
+      - 60.9
+    - - 59.0
+      - 60.9
+    - - 59.0
+      - 40.5
+    - - 49.0445062
+      - 40.5
+    - - 48.4799251
+      - 40.495073
+    - - 47.9600086
+      - 40.4814585
+    - - 47.4404088
+      - 40.4587723
+    - - 46.9212842
+      - 40.4270212
+    - - 46.4027927
+      - 40.3862151
+    - - 45.8850924
+      - 40.3363662
+    - - 45.3683409
+      - 40.2774898
+    - - 44.8526956
+      - 40.2096038
+    - - 44.3383137
+      - 40.1327289
+    - - 43.8253518
+      - 40.0468885
+    - - 43.313966
+      - 39.9521088
+    - - 42.8043124
+      - 39.8484186
+    - - 42.296546
+      - 39.7358495
+    - - 41.7908215
+      - 39.6144358
+    - - 41.287293
+      - 39.4842145
+    - - 40.7861139
+      - 39.3452252
+    - - 40.2874368
+      - 39.1975103
+    - - 39.7914136
+      - 39.0411148
+    - - 39.2981954
+      - 38.8760863
+    - - 38.8079326
+      - 38.7024751
+    - - 38.3207743
+      - 38.5203341
+    - - 37.836869
+      - 38.3297187
+    - - 37.3563641
+      - 38.1306871
+    - - 36.879406
+      - 37.9232998
+    - - 36.4061399
+      - 37.70762
+    - - 35.9367101
+      - 37.4837135
+    - - 35.4712594
+      - 37.2516484
+    - - 35.0099298
+      - 37.0114953
+    - - 34.5528616
+      - 36.7633276
+    - - 34.1001942
+      - 36.5072207
+    - - 33.6520654
+      - 36.2432526
+    - - 33.2086117
+      - 35.9715039
+    - - 32.7699683
+      - 35.6920572
+    - - 32.3362687
+      - 35.4049977
+    - - 31.907645
+      - 35.1104128
+    - - 31.4842278
+      - 34.8083922
+    - - 31.0661461
+      - 34.499028
+    - - 30.6535272
+      - 34.1824144
+    - - 30.2464968
+      - 33.8586478
+    - - 29.8451789
+      - 33.5278269
+    - - 29.4496957
+      - 33.1900524
+    - - 29.0601678
+      - 32.8454272
+    - - 28.6767138
+      - 32.4940563
+    - - 28.2994504
+      - 32.1360467
+    - - 27.9284926
+      - 31.7715074
+    - - 27.5639533
+      - 31.4005496
+    - - 27.2059437
+      - 31.0232862
+    - - 26.8545728
+      - 30.6398322
+    - - 26.5099476
+      - 30.2503043
+    - - 26.1721731
+      - 29.8548211
+    - - 25.8413522
+      - 29.4535032
+    - - 25.5175856
+      - 29.0464728
+    - - 25.200972
+      - 28.6338539
+    - - 24.8916078
+      - 28.2157722
+    - - 24.5895872
+      - 27.792355
+    - - 24.2950023
+      - 27.3637313
+    - - 24.0079428
+      - 26.9300317
+    - - 23.7284961
+      - 26.4913883
+    - - 23.4567474
+      - 26.0479346
+    - - 23.1927793
+      - 25.5998058
+    - - 22.9366724
+      - 25.1471384
+    - - 22.6885047
+      - 24.6900702
+    - - 22.4483516
+      - 24.2287406
+    - - 22.2162865
+      - 23.7632899
+    - - 21.99238
+      - 23.2938601
+    - - 21.7767002
+      - 22.820594
+    - - 21.5693129
+      - 22.3436359
+    - - 21.3702813
+      - 21.863131
+    - - 21.1796659
+      - 21.3792257
+    - - 20.9975249
+      - 20.8920674
+    - - 20.8239137
+      - 20.4018046
+    - - 20.6588852
+      - 19.9085864
+    - - 20.5024897
+      - 19.4125632
+    - - 20.3547748
+      - 18.9138861
+    - - 20.2157855
+      - 18.412707
+    - - 20.0855642
+      - 17.9091785
+    - - 19.9641505
+      - 17.403454
+    - - 19.8515814
+      - 16.8956876
+    - - 19.7478912
+      - 16.386034
+    - - 19.6531115
+      - 15.8746482
+    - - 19.5672711
+      - 15.3616863
+    - - 19.4903962
+      - 14.8473044
+    - - 19.4225102
+      - 14.3316591
+    - - 19.3636338
+      - 13.8149076
+    - - 19.3205525
+      - 13.3674913
+    - - 19.3462679
+      - 13.3812364
+    - - 19.7038994
+      - 13.5432772
+    - - 20.0713632
+      - 13.6815808
+    - - 20.4470857
+      - 13.795555
+    - - 20.8294581
+      - 13.8847117
+    - - 21.2168428
+      - 13.9486692
+    - - 21.6075812
+      - 13.9871535
+    - - 22.0
+      - 14.0
+    - - 22.3924188
+      - 13.9871535
+    - - 22.7831572
+      - 13.9486692
+    - - 23.1705419
+      - 13.8847117
+    - - 23.5529143
+      - 13.795555
+    - - 23.9286368
+      - 13.6815808
+    - - 24.2961006
+      - 13.5432772
+    - - 24.6537321
+      - 13.3812364
+    - - 25.0
+      - 13.1961524
+    - - 25.3334214
+      - 12.9888177
+    - - 25.6525686
+      - 12.76012
+    - - 25.9560749
+      - 12.5110388
+    - - 26.2426407
+      - 12.2426407
+    - - 26.5110388
+      - 11.9560749
+    - - 26.76012
+      - 11.6525686
+    - - 26.9888177
+      - 11.3334214
+    - - 27.1961524
+      - 11.0
+    - - 27.3812364
+      - 10.6537321
+    - - 27.5432772
+      - 10.2961006
+    - - 27.6815808
+      - 9.9286368
+    - - 27.795555
+      - 9.5529143
+    - - 27.8847117
+      - 9.1705419
+    - - 27.9486692
+      - 8.7831572
+    - - 27.9871535
+      - 8.3924188
+    - - 28.0
+      - 8.0
+    - - 27.9871535
+      - 7.6075812
+    - - 27.9486692
+      - 7.2168428
+    - - 27.8847117
+      - 6.8294581
+    - - 27.795555
+      - 6.4470857
+    - - 27.6815808
+      - 6.0713632
+    - - 27.5432772
+      - 5.7038994
+    - - 27.3812364
+      - 5.3462679
+    - - 27.1961524
+      - 5.0
+    - - 26.9888177
+      - 4.6665786
+    - - 26.76012
+      - 4.3474314
+    - - 26.5110388
+      - 4.0439251
+    - - 26.2426407
+      - 3.7573593
+    - - 25.9560749
+      - 3.4889612
+    - - 25.6525686
+      - 3.23988
+    - - 25.3334214
+      - 3.0111823
+    - - 25.0
+      - 2.8038476
+    - - 24.6537321
+      - 2.6187636
+    - - 24.2961006
+      - 2.4567228
+    - - 23.9286368
+      - 2.3184192
+    - - 23.5529143
+      - 2.204445
+    - - 23.1705419
+      - 2.1152883
+    - - 22.7831572
+      - 2.0513308
+    - - 22.3924188
+      - 2.0128465
+    - - 22.0
+      - 2.0
+    - - 22.0
+      - 0.0
+    pos:
+    - 0
+    - 0
+    - 0
+    print_orientation: Outer flat face on bed; channel upward. Inspect support for
+      transverse M6 bore and tool-access opening.
+    print_quantity: 1
+    product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+    profile_height_mm: 58.5
+    profile_image_local: source_file/floplast/square_gutter_profile.jpg
+    profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+    profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+    profile_width_mm: 114.0
+    save_type: all
+    shape: polygon
+    shoulder_height_mm: 37.5
+    shoulder_radius_mm: 3.0
+    taxonomy_1: three_d_print
+    taxonomy_2: filament_manufacture
+    taxonomy_3: cooling_tank
+    taxonomy_4: pump_hose_clamp
+    taxonomy_5: 40_mm_bend_radius
+    taxonomy_6: 14_mm_tube_od
+    taxonomy_7: half_a
+    tube_bend_radius_mm: 40.0
+    tube_grip_diameter_mm: 13.6
+    tube_grip_length_mm: 4.0
+    tube_grip_transition_mm: 2.0
+    tube_guide_diameter_mm: 14.4
+    tube_id_mm: 12.0
+    tube_od_mm: 14.0
+    tube_wall_mm: 1.0
+    typ: all
+    type: positive
+    wait_for_completion: true
+    width: 66.0
+    width_mm: 66.0
+    wire_clearance_diameter_mm: 15.5
+    wire_offset_mm: -9.0
+  - module: pump_top_channel_half_a
+    pos:
+    - 0
+    - 0
+    - 0
+    shape: raw_scad
+    source: "module pump_top_channel_half_a() { scale([1,1,1]) union() {\n       \
+      \ translate([9.0,-1,22.0]) rotate([-90,0,0]) cylinder(h=11.709999999999999,r=7.2,$fn=64);\n\
+      \        translate([49.0,10.7,22.0]) rotate([0,0,90]) rotate_extrude(angle=90,$fn=180)\
+      \ translate([40.0,0,0]) circle(r=7.2,$fn=64);\n        translate([48.99,50.7,22.0])\
+      \ rotate([0,90,0]) cylinder(h=4.02,r=7.2,$fn=64);\n        translate([53.0,50.7,22.0])\
+      \ rotate([0,90,0]) cylinder(h=2.0,r1=7.2,r2=6.8,$fn=64);\n        translate([55.0,50.7,22.0])\
+      \ rotate([0,90,0]) cylinder(h=5.0,r=6.8,$fn=64);\n    } }"
+    type: negative
+  - depth: 22.01
+    nut_include: false
+    overhang: false
+    pos:
+    - 22.0
+    - 8.0
+    - 0
+    radius_name: m3
+    rot:
+    - 180
+    - 0
+    - 0
+    shape: oobb_screw_countersunk
+    type: negative
+    zz: top
+  - depth: 22.01
+    nut_include: false
+    overhang: false
+    pos:
+    - 10.81623381592643
+    - 48.883766184073565
+    - 0
+    radius_name: m3
+    rot:
+    - 180
+    - 0
+    - 0
+    shape: oobb_screw_countersunk
+    type: negative
+    zz: top
+  - depth: 22.01
+    nut_include: false
+    overhang: false
+    pos:
+    - 35.02377156446388
+    - 62.859994619609694
+    - 0
+    radius_name: m3
+    rot:
+    - 180
+    - 0
+    - 0
+    shape: oobb_screw_countersunk
+    type: negative
+    zz: top
+  - depth: 100
+    pos:
+    - -9.0
+    - -1
+    - 22.0
+    radius: 7.75
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: oobb_hole
+    type: negative
+  - depth: 4.02
+    pos:
+    - 0
+    - -0.01
+    - 7.0
+    radius: 3.25
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: oobb_hole
+    type: negative
+  - depth: 100
+    pos:
+    - 0
+    - 4.0
+    - 7.0
+    radius: 6.0
+    rot:
+    - -90
+    - 0
+    - 0
+    shape: oobb_hole
+    type: negative
+  components_string:
+  - polygon_shape_positive_type_22.0_depth_pump_hose_clamp_filter_true_wait_for_completion_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_printoneaandoneb.capturethehosewiththreem3countersunkscrewsandnuts.mountthetwo4mmfeettothetop'scaptivem6nutsat30mmspacing.thepumpoutletfacesthevisiblegutteredge._assembly_instruction_10.7_bend_start_above_mount_mm_7.25_bottom_radius_mm_75.0_bottom_virtual_width_mm_a_clamp_half_1.0_curve_step_degrees_22.0_depth_mm_pump-tophoseclamphalfa;r40outwardbendfor12mmid/14mmodsiliconetube;m6attachmenttotheoffsetjt-500top._description_114x58.5mmexternalfromdrawing;2.25mmmaterialthicknesssuppliedbyuser._dimension_basis_nominalmodelfitonly.measureactualradii/lipsandtrial-fitbeforesealing;drawingdoesnotestablishaperfectphysicalmatch._fit_note_source_file/fit_trials/2026_11_16/printed_fit.jpg_fit_photo_local_2_fit_revision_10.2_guide_outer_radius_mm_2.25_gutter_wall_mm_22.0_half_thickness_mm_22.0_height_68.8599946196097_height_mm_10.0_inside_bottom_diameter_mm_45.0_75.0_joint_angles_degrees_6.0_joint_boss_radius_mm_14.0_joint_radial_offset_mm_5.0_lip_height_mm_2.0_lip_projection_mm_4.0_lip_tip_drop_mm_{'x':22.0_'y':8.0}_lower_joint_7.0_mount_foot_inboard_mm_22.0_mount_foot_outboard_mm_15.0_mount_hole_axial_mm_4.0_mount_plate_thickness_mm_6.0_mount_tool_radius_mm_pump_hose_clamp_oobb_name_9.0_outlet_offset_mm_10.0_outlet_straight_mm_printed_pump_top_hose_clamp_half_part_role_outerflatfaceonbed;channelupward.inspectsupportfortransversem6boreandtool-accessopening._print_orientation_1_print_quantity_https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154_product_reference_url_58.5_profile_height_mm_source_file/floplast/square_gutter_profile.jpg_profile_image_local_https://www.floplast.co.uk/uploads/product-images/thumbs/tzthwyeyd4jlruuprya4q3cotofuaovxlqg51iy3.jpg_profile_image_url_revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated_profile_status_114.0_profile_width_mm_37.5_shoulder_height_mm_3.0_shoulder_radius_mm_three_d_print_taxonomy_1_filament_manufacture_taxonomy_2_cooling_tank_taxonomy_3_pump_hose_clamp_taxonomy_4_40_mm_bend_radius_taxonomy_5_14_mm_tube_od_taxonomy_6_half_a_taxonomy_7_40.0_tube_bend_radius_mm_13.6_tube_grip_diameter_mm_4.0_tube_grip_length_mm_2.0_tube_grip_transition_mm_14.4_tube_guide_diameter_mm_12.0_tube_id_mm_14.0_tube_od_mm_1.0_tube_wall_mm_66.0_width_66.0_width_mm_15.5_wire_clearance_diameter_mm_-9.0_wire_offset_mm_19.2_0.0_-1.2_0.0_-7.0_0.0_-7.0_4.0_-1.2_4.0_-1.2_10.7_-1.1996116_10.7890107_-1.1935194_11.4871069_-1.1904125_11.6651011_-1.1721378_12.3629847_-1.1659249_12.5408976_-1.1354733_13.238356_-1.1261563_13.4161334_-1.083537_14.1129541_-1.0711188_14.2905417_-1.0163447_14.9865125_-1.0008291_15.1638564_-0.933917_15.8587652_-0.9153087_16.0358113_-0.836279_16.7294465_-0.8145837_16.9061409_-0.7234603_17.5982912_-0.6986846_17.77458_-0.5954954_18.4650346_-0.5676468_18.6408642_-0.4524233_19.3294127_-0.4215102_19.5047295_-0.2942874_20.1911622_-0.2603193_20.3659127_-0.121136_21.0500206_-0.0841233_21.2241517_0.0669781_21.9057262_0.1070242_22.0791849_0.2699978_22.7580185_0.313065_22.9307519_0.487861_23.6066378_0.5339363_23.7785932_0.7205015_24.4513257_0.7695709_24.6224507_0.9678485_25.2918247_1.0198969_25.4620673_1.2298265_26.1278789_1.2848381_26.2971873_1.5063557_26.9592337_1.5643138_27.1275561_1.797352_27.7856357_1.8582388_27.952921_2.1027266_28.6068333_2.1665237_28.7730305_2.4223866_29.4225762_2.4890746_29.5876347_2.7562346_30.2326161_2.8257931_30.3964856_3.1041689_31.0367062_3.1765767_31.1993368_3.4660836_31.8346015_3.5413186_31.9959437_3.8418682_32.6260591_3.9199077_32.7860636_4.2314085_33.4108377_4.3122285_33.5694558_4.6345858_34.1886984_4.7181617_34.3458819_5.0512772_34.9594042_5.1375836_35.1151051_5.4813558_35.7227203_5.5703664_35.8768913_5.9246905_36.4784143_6.0163783_36.6310084_6.3811465_37.2262559_6.4754834_37.3772266_6.8505845_37.9660174_6.9475419_38.1153187_7.3328617_38.6974734_7.43241_38.8450598_7.8278311_39.4204011_7.9299399_39.5662276_8.3353419_40.1345802_8.4399802_40.2786025_8.8552396_40.8397934_8.9623755_40.9819675_9.3873658_41.5358256_9.4969667_41.6761083_9.9315583_42.2224649_10.0435908_42.3608135_10.4836547_42.8946537_10.423815_42.8966126_10.0330767_42.935097_9.6456919_42.9990545_9.2633195_43.0882112_8.887597_43.2021854_8.5201332_43.340489_8.1625017_43.5025297_7.8162338_43.6876138_7.4828124_43.8949485_7.1636652_44.1236461_6.8601589_44.3727273_6.5735931_44.6411255_6.305195_44.9276913_6.0561138_45.2311976_5.8274161_45.5503448_5.6200814_45.8837662_5.4349974_46.230034_5.2729566_46.5876656_5.134653_46.9551294_5.0206789_47.3308519_4.9315221_47.7132243_4.8675646_48.100609_4.8290803_48.4913474_4.8162338_48.8837662_4.8290803_49.276185_4.8675646_49.6669233_4.9315221_50.0543081_5.0206789_50.4366805_5.134653_50.812403_5.2729566_51.1798668_5.4349974_51.5374983_5.6200814_51.8837662_5.8274161_52.2171876_6.0561138_52.5363348_6.305195_52.8398411_6.5735931_53.1264069_6.8601589_53.394805_7.1636652_53.6438862_7.4828124_53.8725839_7.8162338_54.0799186_8.1625017_54.2650026_8.5201332_54.4270434_8.887597_54.565347_9.2633195_54.6793211_9.6456919_54.7684779_10.0330767_54.8324354_10.423815_54.8709197_10.8162338_54.8837662_11.2086526_54.8709197_11.599391_54.8324354_11.9867757_54.7684779_12.3691481_54.6793211_12.7448706_54.565347_13.1123344_54.4270434_13.469966_54.2650026_13.8162338_54.0799186_14.1496552_53.8725839_14.4688024_53.6438862_14.7723087_53.394805_15.0588745_53.1264069_15.3272727_52.8398411_15.5763539_52.5363348_15.8050515_52.2171876_16.0123862_51.8837662_16.1974703_51.5374983_16.359511_51.1798668_16.4978146_50.812403_16.6117888_50.4366805_16.7009455_50.0543081_16.764903_49.6669233_16.8033874_49.276185_16.8053463_49.2163453_17.3391865_49.6564092_17.4775351_49.7684417_18.0238917_50.2030333_18.1641744_50.3126342_18.7180325_50.7376245_18.8602066_50.8447604_19.4213975_51.2600198_19.5654198_51.3646581_20.1337724_51.7700601_20.2795989_51.8721689_20.8549402_52.26759_21.0025266_52.3671383_21.5846813_52.7524581_21.7339826_52.8494155_22.3227734_53.2245166_22.4737441_53.3188535_23.0689916_53.6836217_23.2215857_53.7753095_23.8231087_54.1296336_23.9772797_54.2186442_24.5848949_54.5624164_24.7405958_54.6487228_25.3541181_54.9818383_25.5113016_55.0654142_26.1305442_55.3877715_26.2891623_55.4685915_26.9139364_55.7800923_27.0739409_55.8581318_27.7040563_56.1586814_27.8653985_56.2339164_28.5006632_56.5234233_28.6632938_56.5958311_29.3035144_56.8742069_29.4673839_56.9437654_30.1123653_57.2109254_30.2774238_57.2776134_30.9269695_57.5334763_31.0931667_57.5972734_31.7411934_57.8395606_31.6903502_57.8711769_31.371203_58.0998746_31.0676967_58.3489558_30.7811309_58.6173539_30.5127327_58.9039197_30.2636515_59.207426_30.0349539_59.5265732_29.8276191_59.8599946_29.6425351_60.2062625_29.4804944_60.563894_29.3421908_60.9313578_29.2282166_61.3070803_29.1390599_61.6894527_29.0751024_62.0768375_29.036618_62.4675758_29.0237716_62.8599946_29.036618_63.2524134_29.0751024_63.6431518_29.1390599_64.0305366_29.2282166_64.4129089_29.3421908_64.7886314_29.4804944_65.1560952_29.6425351_65.5137268_29.8276191_65.8599946_30.0349539_66.193416_30.2636515_66.5125632_30.5127327_66.8160695_30.7811309_67.1026353_31.0676967_67.3710335_31.371203_67.6201147_31.6903502_67.8488123_32.0237716_68.056147_32.3700394_68.2412311_32.727671_68.4032718_33.0951348_68.5415754_33.4708573_68.6555496_33.8532296_68.7447063_34.2406144_68.8086638_34.6313528_68.8471482_35.0237716_68.8599946_35.4161903_68.8471482_35.8069287_68.8086638_36.1943135_68.7447063_36.5766858_68.6555496_36.9524084_68.5415754_37.3198722_68.4032718_37.6775037_68.2412311_38.0237716_68.056147_38.357193_67.8488123_38.6763401_67.6201147_38.9798465_67.3710335_39.2664123_67.1026353_39.5348104_66.8160695_39.7838916_66.5125632_40.0125892_66.193416_40.219924_65.8599946_40.405008_65.5137268_40.5670488_65.1560952_40.7053523_64.7886314_40.8193265_64.4129089_40.9084832_64.0305366_40.9724407_63.6431518_41.0109251_63.2524134_41.0237716_62.8599946_41.0109251_62.4675758_40.9724407_62.0768375_40.9084832_61.6894527_40.8193265_61.3070803_40.7053523_60.9313578_40.5670488_60.563894_40.405008_60.2062625_40.3767847_60.1534603_41.0591358_60.2676468_41.2349654_60.2954954_41.92542_60.3986846_42.1017088_60.4234603_42.7938591_60.5145837_42.9705535_60.536279_43.6641887_60.6153087_43.8412348_60.633917_44.5361436_60.7008291_44.7134875_60.7163447_45.4094583_60.7711188_45.5870459_60.783537_46.2838666_60.8261563_46.461644_60.8354733_47.1591024_60.8659249_47.3370153_60.8721378_48.0348989_60.8904125_48.2128931_60.8935194_48.9109893_60.8996116_49.0_60.9_59.0_60.9_59.0_40.5_49.0445062_40.5_48.4799251_40.495073_47.9600086_40.4814585_47.4404088_40.4587723_46.9212842_40.4270212_46.4027927_40.3862151_45.8850924_40.3363662_45.3683409_40.2774898_44.8526956_40.2096038_44.3383137_40.1327289_43.8253518_40.0468885_43.313966_39.9521088_42.8043124_39.8484186_42.296546_39.7358495_41.7908215_39.6144358_41.287293_39.4842145_40.7861139_39.3452252_40.2874368_39.1975103_39.7914136_39.0411148_39.2981954_38.8760863_38.8079326_38.7024751_38.3207743_38.5203341_37.836869_38.3297187_37.3563641_38.1306871_36.879406_37.9232998_36.4061399_37.70762_35.9367101_37.4837135_35.4712594_37.2516484_35.0099298_37.0114953_34.5528616_36.7633276_34.1001942_36.5072207_33.6520654_36.2432526_33.2086117_35.9715039_32.7699683_35.6920572_32.3362687_35.4049977_31.907645_35.1104128_31.4842278_34.8083922_31.0661461_34.499028_30.6535272_34.1824144_30.2464968_33.8586478_29.8451789_33.5278269_29.4496957_33.1900524_29.0601678_32.8454272_28.6767138_32.4940563_28.2994504_32.1360467_27.9284926_31.7715074_27.5639533_31.4005496_27.2059437_31.0232862_26.8545728_30.6398322_26.5099476_30.2503043_26.1721731_29.8548211_25.8413522_29.4535032_25.5175856_29.0464728_25.200972_28.6338539_24.8916078_28.2157722_24.5895872_27.792355_24.2950023_27.3637313_24.0079428_26.9300317_23.7284961_26.4913883_23.4567474_26.0479346_23.1927793_25.5998058_22.9366724_25.1471384_22.6885047_24.6900702_22.4483516_24.2287406_22.2162865_23.7632899_21.99238_23.2938601_21.7767002_22.820594_21.5693129_22.3436359_21.3702813_21.863131_21.1796659_21.3792257_20.9975249_20.8920674_20.8239137_20.4018046_20.6588852_19.9085864_20.5024897_19.4125632_20.3547748_18.9138861_20.2157855_18.412707_20.0855642_17.9091785_19.9641505_17.403454_19.8515814_16.8956876_19.7478912_16.386034_19.6531115_15.8746482_19.5672711_15.3616863_19.4903962_14.8473044_19.4225102_14.3316591_19.3636338_13.8149076_19.3205525_13.3674913_19.3462679_13.3812364_19.7038994_13.5432772_20.0713632_13.6815808_20.4470857_13.795555_20.8294581_13.8847117_21.2168428_13.9486692_21.6075812_13.9871535_22.0_14.0_22.3924188_13.9871535_22.7831572_13.9486692_23.1705419_13.8847117_23.5529143_13.795555_23.9286368_13.6815808_24.2961006_13.5432772_24.6537321_13.3812364_25.0_13.1961524_25.3334214_12.9888177_25.6525686_12.76012_25.9560749_12.5110388_26.2426407_12.2426407_26.5110388_11.9560749_26.76012_11.6525686_26.9888177_11.3334214_27.1961524_11.0_27.3812364_10.6537321_27.5432772_10.2961006_27.6815808_9.9286368_27.795555_9.5529143_27.8847117_9.1705419_27.9486692_8.7831572_27.9871535_8.3924188_28.0_8.0_27.9871535_7.6075812_27.9486692_7.2168428_27.8847117_6.8294581_27.795555_6.4470857_27.6815808_6.0713632_27.5432772_5.7038994_27.3812364_5.3462679_27.1961524_5.0_26.9888177_4.6665786_26.76012_4.3474314_26.5110388_4.0439251_26.2426407_3.7573593_25.9560749_3.4889612_25.6525686_3.23988_25.3334214_3.0111823_25.0_2.8038476_24.6537321_2.6187636_24.2961006_2.4567228_23.9286368_2.3184192_23.5529143_2.204445_23.1705419_2.1152883_22.7831572_2.0513308_22.3924188_2.0128465_22.0_2.0_22.0_0.0_points
+  - 'raw_scad_shape_negative_type_pump_top_channel_half_a_module_modulepump_top_channel_half_a(){scale(1_1_1)union(){
+
+    translate(9.0_-1_22.0)rotate(-90_0_0)cylinder(h=11.709999999999999_r=7.2_$fn=64);
+
+    translate(49.0_10.7_22.0)rotate(0_0_90)rotate_extrude(angle=90_$fn=180)translate(40.0_0_0)circle(r=7.2_$fn=64);
+
+    translate(48.99_50.7_22.0)rotate(0_90_0)cylinder(h=4.02_r=7.2_$fn=64);
+
+    translate(53.0_50.7_22.0)rotate(0_90_0)cylinder(h=2.0_r1=7.2_r2=6.8_$fn=64);
+
+    translate(55.0_50.7_22.0)rotate(0_90_0)cylinder(h=5.0_r=6.8_$fn=64);
+
+    }}_source'
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_22.01_depth_22.0_8.0_0_pos_top_zz_false_nut_include_false_overhang_180_0_0_rot
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_22.01_depth_10.81623381592643_48.883766184073565_0_pos_top_zz_false_nut_include_false_overhang_180_0_0_rot
+  - oobb_screw_countersunk_shape_negative_type_m3_radius_name_22.01_depth_35.02377156446388_62.859994619609694_0_pos_top_zz_false_nut_include_false_overhang_180_0_0_rot
+  - oobb_hole_shape_negative_type_100_depth_-9.0_-1_22.0_pos_7.75_radius_-90_0_0_rot
+  - oobb_hole_shape_negative_type_4.02_depth_0_-0.01_7.0_pos_3.25_radius_-90_0_0_rot
+  - oobb_hole_shape_negative_type_100_depth_0_4.0_7.0_pos_6.0_radius_-90_0_0_rot
+  curve_step_degrees: 1.0
+  depth: 22.0
+  depth_mm: 22.0
+  description: Pump-top hose clamp half A; R40 outward bend for 12 mm ID / 14 mm OD
+    silicone tube; M6 attachment to the offset JT-500 top.
+  description_extra: 22.0_depth
+  description_main: 66_0_width_68_8599946196097_height
+  dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+    supplied by user.
+  directory: parts/three_d_print_filament_manufacture_cooling_tank_pump_hose_clamp_40_mm_bend_radius_14_mm_tube_od_half_a
+  filter: pump_hose_clamp
+  fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+    sealing; drawing does not establish a perfect physical match.
+  fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+  fit_revision: 2
+  guide_outer_radius_mm: 10.2
+  gutter_wall_mm: 2.25
+  half_thickness_mm: 22.0
+  height: 68.8599946196097
+  height_mm: 68.8599946196097
+  id: three_d_print_filament_manufacture_cooling_tank_pump_hose_clamp_40_mm_bend_radius_14_mm_tube_od_half_a
+  id_no_class: three_d_print_filament_manufacture_cooling_tank_pump_hose_clamp_40_mm_bend_radius_14_mm_tube_od_half_a
+  id_no_size: three_d_print_filament_manufacture_cooling_tank_pump_hose_clamp_40_mm_bend_radius_14_mm_tube_od_half_a
+  id_no_type: three_d_print_filament_manufacture_cooling_tank_pump_hose_clamp_40_mm_bend_radius_14_mm_tube_od_half_a
+  inside_bottom_diameter_mm: 10.0
+  joint_angles_degrees:
+  - 45.0
+  - 75.0
+  joint_boss_radius_mm: 6.0
+  joint_radial_offset_mm: 14.0
+  kwargs:
+    assembly_instruction: Print one A and one B. Capture the hose with three M3 countersunk
+      screws and nuts. Mount the two 4 mm feet to the top's captive M6 nuts at 30
+      mm spacing. The pump outlet faces the visible gutter edge.
+    bend_start_above_mount_mm: 10.7
+    bottom_radius_mm: 7.25
+    bottom_virtual_width_mm: 75.0
+    clamp_half: a
+    curve_step_degrees: 1.0
+    depth: 22.0
+    depth_mm: 22.0
+    description: Pump-top hose clamp half A; R40 outward bend for 12 mm ID / 14 mm
+      OD silicone tube; M6 attachment to the offset JT-500 top.
+    dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+      supplied by user.
+    filter: pump_hose_clamp
+    fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+      sealing; drawing does not establish a perfect physical match.
+    fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+    fit_revision: 2
+    guide_outer_radius_mm: 10.2
+    gutter_wall_mm: 2.25
+    half_thickness_mm: 22.0
+    height: 68.8599946196097
+    height_mm: 68.8599946196097
+    inside_bottom_diameter_mm: 10.0
+    joint_angles_degrees:
+    - 45.0
+    - 75.0
+    joint_boss_radius_mm: 6.0
+    joint_radial_offset_mm: 14.0
+    lip_height_mm: 5.0
+    lip_projection_mm: 2.0
+    lip_tip_drop_mm: 4.0
+    lower_joint:
+      x: 22.0
+      y: 8.0
+    modes:
+    - 3dpr
+    mount_foot_inboard_mm: 7.0
+    mount_foot_outboard_mm: 22.0
+    mount_hole_axial_mm: 15.0
+    mount_plate_thickness_mm: 4.0
+    mount_tool_radius_mm: 6.0
+    navigation: true
+    oobb_name: pump_hose_clamp
+    oomp_mode: project
+    oomp_run: true
+    outlet_offset_mm: 9.0
+    outlet_straight_mm: 10.0
+    overwrite: true
+    part_role: printed_pump_top_hose_clamp_half
+    print_orientation: Outer flat face on bed; channel upward. Inspect support for
+      transverse M6 bore and tool-access opening.
+    print_quantity: 1
+    product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+    profile_height_mm: 58.5
+    profile_image_local: source_file/floplast/square_gutter_profile.jpg
+    profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+    profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+    profile_width_mm: 114.0
+    save_type: all
+    shoulder_height_mm: 37.5
+    shoulder_radius_mm: 3.0
+    taxonomy_1: three_d_print
+    taxonomy_2: filament_manufacture
+    taxonomy_3: cooling_tank
+    taxonomy_4: pump_hose_clamp
+    taxonomy_5: 40_mm_bend_radius
+    taxonomy_6: 14_mm_tube_od
+    taxonomy_7: half_a
+    tube_bend_radius_mm: 40.0
+    tube_grip_diameter_mm: 13.6
+    tube_grip_length_mm: 4.0
+    tube_grip_transition_mm: 2.0
+    tube_guide_diameter_mm: 14.4
+    tube_id_mm: 12.0
+    tube_od_mm: 14.0
+    tube_wall_mm: 1.0
+    typ: all
+    wait_for_completion: true
+    width: 66.0
+    width_mm: 66.0
+    wire_clearance_diameter_mm: 15.5
+    wire_offset_mm: -9.0
+  link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/three_d_print_filament_manufacture_cooling_tank_pump_hose_clamp_40_mm_bend_radius_14_mm_tube_od_half_a
+  link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/three_d_print_filament_manufacture_cooling_tank_pump_hose_clamp_40_mm_bend_radius_14_mm_tube_od_half_a
+  link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/three_d_print_filament_manufacture_cooling_tank_pump_hose_clamp_40_mm_bend_radius_14_mm_tube_od_half_a
+  lip_height_mm: 5.0
+  lip_projection_mm: 2.0
+  lip_tip_drop_mm: 4.0
+  lower_joint:
+    x: 22.0
+    y: 8.0
+  manufacturer: ''
+  md5: 90ebdfb2d443cbd4e7768c95febb538a
+  md5_10: 90ebdfb2d4
+  md5_10_upper: 90EBDFB2D4
+  md5_5: 90ebd
+  md5_5_upper: 90EBD
+  md5_6: 90ebdf
+  md5_6_alpha: 5nkdb
+  md5_6_alpha_upper: 5NKDB
+  md5_6_upper: 90EBDF
+  mount_foot_inboard_mm: 7.0
+  mount_foot_outboard_mm: 22.0
+  mount_hole_axial_mm: 15.0
+  mount_plate_thickness_mm: 4.0
+  mount_tool_radius_mm: 6.0
+  name: Three D Print Filament Manufacture Cooling Tank Pump Hose Clamp 40 Mm Bend
+    Radius 14 Mm Tube Od Half A
+  name_no_class: Three D Print Filament Manufacture Cooling Tank Pump Hose Clamp 40
+    Mm Bend Radius 14 Mm Tube Od Half A
+  name_no_size: Three D Print Filament Manufacture Cooling Tank Pump Hose Clamp 40
+    Mm Bend Radius 14 Mm Tube Od Half A
+  name_no_type: Three D Print Filament Manufacture Cooling Tank Pump Hose Clamp 40
+    Mm Bend Radius 14 Mm Tube Od Half A
+  name_proper: Three D Print Filament Manufacture Cooling Tank Pump Hose Clamp 40
+    Mm Bend Radius 14 Mm Tube Od Half A
+  name_short: Default Pump Hose Clamp 66 0x68
+  name_space: three d print filament manufacture cooling tank pump hose clamp 40 mm
+    bend radius 14 mm tube od half a
+  name_text: Oobb Part Default Pump Hose Clamp 66 0 Width 68 8599946196097 Height
+    22 Depth
+  name_upper: THREE D PRINT FILAMENT MANUFACTURE COOLING TANK PUMP HOSE CLAMP 40 MM
+    BEND RADIUS 14 MM TUBE OD HALF A
+  oobb_details:
+    assembly_instruction: Print one A and one B. Capture the hose with three M3 countersunk
+      screws and nuts. Mount the two 4 mm feet to the top's captive M6 nuts at 30
+      mm spacing. The pump outlet faces the visible gutter edge.
+    bend_start_above_mount_mm: 10.7
+    bottom_radius_mm: 7.25
+    bottom_virtual_width_mm: 75.0
+    clamp_half: a
+    curve_step_degrees: 1.0
+    depth: 22.0
+    depth_mm: 22.0
+    description: Pump-top hose clamp half A; R40 outward bend for 12 mm ID / 14 mm
+      OD silicone tube; M6 attachment to the offset JT-500 top.
+    dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+      supplied by user.
+    fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+      sealing; drawing does not establish a perfect physical match.
+    fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+    fit_revision: 2
+    guide_outer_radius_mm: 10.2
+    gutter_wall_mm: 2.25
+    half_thickness_mm: 22.0
+    height: 68.8599946196097
+    height_mm: 68.8599946196097
+    inside_bottom_diameter_mm: 10.0
+    joint_angles_degrees:
+    - 45.0
+    - 75.0
+    joint_boss_radius_mm: 6.0
+    joint_radial_offset_mm: 14.0
+    lip_height_mm: 5.0
+    lip_projection_mm: 2.0
+    lip_tip_drop_mm: 4.0
+    lower_joint:
+      x: 22.0
+      y: 8.0
+    mount_foot_inboard_mm: 7.0
+    mount_foot_outboard_mm: 22.0
+    mount_hole_axial_mm: 15.0
+    mount_plate_thickness_mm: 4.0
+    mount_tool_radius_mm: 6.0
+    oobb_name: pump_hose_clamp
+    oobb_type: pump_hose_clamp
+    outlet_offset_mm: 9.0
+    outlet_straight_mm: 10.0
+    part_role: printed_pump_top_hose_clamp_half
+    print_orientation: Outer flat face on bed; channel upward. Inspect support for
+      transverse M6 bore and tool-access opening.
+    print_quantity: 1
+    product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+    profile_height_mm: 58.5
+    profile_image_local: source_file/floplast/square_gutter_profile.jpg
+    profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+    profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+    profile_width_mm: 114.0
+    run_scad: true
+    run_solidcraft: false
+    shoulder_height_mm: 37.5
+    shoulder_radius_mm: 3.0
+    taxonomy_1: three_d_print
+    taxonomy_2: filament_manufacture
+    taxonomy_3: cooling_tank
+    taxonomy_4: pump_hose_clamp
+    taxonomy_5: 40_mm_bend_radius
+    taxonomy_6: 14_mm_tube_od
+    taxonomy_7: half_a
+    tube_bend_radius_mm: 40.0
+    tube_grip_diameter_mm: 13.6
+    tube_grip_length_mm: 4.0
+    tube_grip_transition_mm: 2.0
+    tube_guide_diameter_mm: 14.4
+    tube_id_mm: 12.0
+    tube_od_mm: 14.0
+    tube_wall_mm: 1.0
+    width: 66.0
+    width_mm: 66.0
+    wire_clearance_diameter_mm: 15.5
+    wire_offset_mm: -9.0
+  oobb_name: pump_hose_clamp
+  oobb_type: pump_hose_clamp
+  oomlout_ai_roboclick_1:
+    action_name: step_0_jinja_template_label_oomp.svg
+    actions:
+    - command: text_jinja_template
+      convert_to_pdf: false
+      convert_to_png: false
+      dict_data:
+        assembly_instruction: Print one A and one B. Capture the hose with three M3
+          countersunk screws and nuts. Mount the two 4 mm feet to the top's captive
+          M6 nuts at 30 mm spacing. The pump outlet faces the visible gutter edge.
+        bend_start_above_mount_mm: 10.7
+        bottom_radius_mm: 7.25
+        bottom_virtual_width_mm: 75.0
+        clamp_half: a
+        curve_step_degrees: 1.0
+        depth: 22.0
+        depth_mm: 22.0
+        description: Pump-top hose clamp half A; R40 outward bend for 12 mm ID / 14
+          mm OD silicone tube; M6 attachment to the offset JT-500 top.
+        dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+          supplied by user.
+        directory: parts\three_d_print_filament_manufacture_cooling_tank_pump_hose_clamp_40_mm_bend_radius_14_mm_tube_od_half_a
+        fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit
+          before sealing; drawing does not establish a perfect physical match.
+        fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+        fit_revision: 2
+        guide_outer_radius_mm: 10.2
+        gutter_wall_mm: 2.25
+        half_thickness_mm: 22.0
+        height: 68.8599946196097
+        height_mm: 68.8599946196097
+        inside_bottom_diameter_mm: 10.0
+        joint_angles_degrees:
+        - 45.0
+        - 75.0
+        joint_boss_radius_mm: 6.0
+        joint_radial_offset_mm: 14.0
+        lip_height_mm: 5.0
+        lip_projection_mm: 2.0
+        lip_tip_drop_mm: 4.0
+        lower_joint:
+          x: 22.0
+          y: 8.0
+        mount_foot_inboard_mm: 7.0
+        mount_foot_outboard_mm: 22.0
+        mount_hole_axial_mm: 15.0
+        mount_plate_thickness_mm: 4.0
+        mount_tool_radius_mm: 6.0
+        name: three_d_print_filament_manufacture_cooling_tank_pump_hose_clamp_40_mm_bend_radius_14_mm_tube_od_half_a
+        name_proper: Three D Print Filament Manufacture Cooling Tank Pump Hose Clamp
+          40 Mm Bend Radius 14 Mm Tube Od Half A
+        name_space: three d print filament manufacture cooling tank pump hose clamp
+          40 mm bend radius 14 mm tube od half a
+        name_upper: THREE D PRINT FILAMENT MANUFACTURE COOLING TANK PUMP HOSE CLAMP
+          40 MM BEND RADIUS 14 MM TUBE OD HALF A
+        oobb_details:
+          assembly_instruction: Print one A and one B. Capture the hose with three
+            M3 countersunk screws and nuts. Mount the two 4 mm feet to the top's captive
+            M6 nuts at 30 mm spacing. The pump outlet faces the visible gutter edge.
+          bend_start_above_mount_mm: 10.7
+          bottom_radius_mm: 7.25
+          bottom_virtual_width_mm: 75.0
+          clamp_half: a
+          curve_step_degrees: 1.0
+          depth: 22.0
+          depth_mm: 22.0
+          description: Pump-top hose clamp half A; R40 outward bend for 12 mm ID /
+            14 mm OD silicone tube; M6 attachment to the offset JT-500 top.
+          dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+            supplied by user.
+          fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit
+            before sealing; drawing does not establish a perfect physical match.
+          fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+          fit_revision: 2
+          guide_outer_radius_mm: 10.2
+          gutter_wall_mm: 2.25
+          half_thickness_mm: 22.0
+          height: 68.8599946196097
+          height_mm: 68.8599946196097
+          inside_bottom_diameter_mm: 10.0
+          joint_angles_degrees:
+          - 45.0
+          - 75.0
+          joint_boss_radius_mm: 6.0
+          joint_radial_offset_mm: 14.0
+          lip_height_mm: 5.0
+          lip_projection_mm: 2.0
+          lip_tip_drop_mm: 4.0
+          lower_joint:
+            x: 22.0
+            y: 8.0
+          mount_foot_inboard_mm: 7.0
+          mount_foot_outboard_mm: 22.0
+          mount_hole_axial_mm: 15.0
+          mount_plate_thickness_mm: 4.0
+          mount_tool_radius_mm: 6.0
+          oobb_name: pump_hose_clamp
+          oobb_type: pump_hose_clamp
+          outlet_offset_mm: 9.0
+          outlet_straight_mm: 10.0
+          part_role: printed_pump_top_hose_clamp_half
+          print_orientation: Outer flat face on bed; channel upward. Inspect support
+            for transverse M6 bore and tool-access opening.
+          print_quantity: 1
+          product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+          profile_height_mm: 58.5
+          profile_image_local: source_file/floplast/square_gutter_profile.jpg
+          profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+          profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+          profile_width_mm: 114.0
+          run_scad: true
+          run_solidcraft: false
+          shoulder_height_mm: 37.5
+          shoulder_radius_mm: 3.0
+          taxonomy_1: three_d_print
+          taxonomy_2: filament_manufacture
+          taxonomy_3: cooling_tank
+          taxonomy_4: pump_hose_clamp
+          taxonomy_5: 40_mm_bend_radius
+          taxonomy_6: 14_mm_tube_od
+          taxonomy_7: half_a
+          tube_bend_radius_mm: 40.0
+          tube_grip_diameter_mm: 13.6
+          tube_grip_length_mm: 4.0
+          tube_grip_transition_mm: 2.0
+          tube_guide_diameter_mm: 14.4
+          tube_id_mm: 12.0
+          tube_od_mm: 14.0
+          tube_wall_mm: 1.0
+          width: 66.0
+          width_mm: 66.0
+          wire_clearance_diameter_mm: 15.5
+          wire_offset_mm: -9.0
+        oobb_name: pump_hose_clamp
+        oobb_type: pump_hose_clamp
+        outlet_offset_mm: 9.0
+        outlet_straight_mm: 10.0
+        part_role: printed_pump_top_hose_clamp_half
+        print_orientation: Outer flat face on bed; channel upward. Inspect support
+          for transverse M6 bore and tool-access opening.
+        print_quantity: 1
+        product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+        profile_height_mm: 58.5
+        profile_image_local: source_file/floplast/square_gutter_profile.jpg
+        profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+        profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+        profile_width_mm: 114.0
+        run_scad: true
+        run_solidcraft: false
+        shoulder_height_mm: 37.5
+        shoulder_radius_mm: 3.0
+        taxonomy_1: three_d_print
+        taxonomy_10: ''
+        taxonomy_11: ''
+        taxonomy_12: ''
+        taxonomy_13: ''
+        taxonomy_14: ''
+        taxonomy_15: ''
+        taxonomy_2: filament_manufacture
+        taxonomy_3: cooling_tank
+        taxonomy_4: pump_hose_clamp
+        taxonomy_5: 40_mm_bend_radius
+        taxonomy_6: 14_mm_tube_od
+        taxonomy_7: half_a
+        taxonomy_8: ''
+        taxonomy_9: ''
+        tube_bend_radius_mm: 40.0
+        tube_grip_diameter_mm: 13.6
+        tube_grip_length_mm: 4.0
+        tube_grip_transition_mm: 2.0
+        tube_guide_diameter_mm: 14.4
+        tube_id_mm: 12.0
+        tube_od_mm: 14.0
+        tube_wall_mm: 1.0
+        url_chat: ''
+        width: 66.0
+        width_mm: 66.0
+        wire_clearance_diameter_mm: 15.5
+        wire_offset_mm: -9.0
+      dict_data_files: {}
+      dict_data_files_exists: {}
+      file_output: label_oomp.svg
+      file_template: C:\gh\three_d_print_filament_manufacturing_cooling_tank\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+      search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+  oomp_key: oomp_three_d_print_filament_manufacture_cooling_tank_pump_hose_clamp_40_mm_bend_radius_14_mm_tube_od_half_a
+  outlet_offset_mm: 9.0
+  outlet_straight_mm: 10.0
+  part_number: ''
+  part_role: printed_pump_top_hose_clamp_half
+  print_orientation: Outer flat face on bed; channel upward. Inspect support for transverse
+    M6 bore and tool-access opening.
+  print_quantity: 1
+  product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+  profile_height_mm: 58.5
+  profile_image_local: source_file/floplast/square_gutter_profile.jpg
+  profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+  profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+  profile_width_mm: 114.0
+  run_scad: true
+  run_solidcraft: false
+  short_name: ''
+  shoulder_height_mm: 37.5
+  shoulder_radius_mm: 3.0
+  size: default_pump_hose_clamp
+  taxonomy_1: three_d_print
+  taxonomy_10: ''
+  taxonomy_11: ''
+  taxonomy_12: ''
+  taxonomy_13: ''
+  taxonomy_14: ''
+  taxonomy_15: ''
+  taxonomy_1_capital: Three D Print
+  taxonomy_1_first_letter: t
+  taxonomy_1_first_letter_upper: T
+  taxonomy_1_length_1: t
+  taxonomy_1_length_2: th
+  taxonomy_1_length_3: thr
+  taxonomy_1_length_4: thre
+  taxonomy_1_length_5: three
+  taxonomy_1_upper: THREE_D_PRINT
+  taxonomy_1_upper_length_1: T
+  taxonomy_1_upper_length_2: TH
+  taxonomy_1_upper_length_3: THR
+  taxonomy_1_upper_length_4: THRE
+  taxonomy_1_upper_length_5: THREE
+  taxonomy_2: filament_manufacture
+  taxonomy_2_capital: Filament Manufacture
+  taxonomy_2_first_letter: f
+  taxonomy_2_first_letter_upper: F
+  taxonomy_2_length_1: f
+  taxonomy_2_length_2: fi
+  taxonomy_2_length_3: fil
+  taxonomy_2_length_4: fila
+  taxonomy_2_length_5: filam
+  taxonomy_2_upper: FILAMENT_MANUFACTURE
+  taxonomy_2_upper_length_1: F
+  taxonomy_2_upper_length_2: FI
+  taxonomy_2_upper_length_3: FIL
+  taxonomy_2_upper_length_4: FILA
+  taxonomy_2_upper_length_5: FILAM
+  taxonomy_3: cooling_tank
+  taxonomy_3_capital: Cooling Tank
+  taxonomy_3_first_letter: c
+  taxonomy_3_first_letter_upper: C
+  taxonomy_3_length_1: c
+  taxonomy_3_length_2: co
+  taxonomy_3_length_3: coo
+  taxonomy_3_length_4: cool
+  taxonomy_3_length_5: cooli
+  taxonomy_3_upper: COOLING_TANK
+  taxonomy_3_upper_length_1: C
+  taxonomy_3_upper_length_2: CO
+  taxonomy_3_upper_length_3: COO
+  taxonomy_3_upper_length_4: COOL
+  taxonomy_3_upper_length_5: COOLI
+  taxonomy_4: pump_hose_clamp
+  taxonomy_4_capital: Pump Hose Clamp
+  taxonomy_4_first_letter: p
+  taxonomy_4_first_letter_upper: P
+  taxonomy_4_length_1: p
+  taxonomy_4_length_2: pu
+  taxonomy_4_length_3: pum
+  taxonomy_4_length_4: pump
+  taxonomy_4_length_5: pump_
+  taxonomy_4_upper: PUMP_HOSE_CLAMP
+  taxonomy_4_upper_length_1: P
+  taxonomy_4_upper_length_2: PU
+  taxonomy_4_upper_length_3: PUM
+  taxonomy_4_upper_length_4: PUMP
+  taxonomy_4_upper_length_5: PUMP_
+  taxonomy_5: 40_mm_bend_radius
+  taxonomy_5_capital: 40 mm Bend Radius
+  taxonomy_5_first_letter: '4'
+  taxonomy_5_first_letter_upper: '4'
+  taxonomy_5_length_1: '4'
+  taxonomy_5_length_2: '40'
+  taxonomy_5_length_3: '40_'
+  taxonomy_5_length_4: 40_m
+  taxonomy_5_length_5: 40_mm
+  taxonomy_5_upper: 40_MM_BEND_RADIUS
+  taxonomy_5_upper_length_1: '4'
+  taxonomy_5_upper_length_2: '40'
+  taxonomy_5_upper_length_3: '40_'
+  taxonomy_5_upper_length_4: 40_M
+  taxonomy_5_upper_length_5: 40_MM
+  taxonomy_6: 14_mm_tube_od
+  taxonomy_6_capital: 14 mm Tube Od
+  taxonomy_6_first_letter: '1'
+  taxonomy_6_first_letter_upper: '1'
+  taxonomy_6_length_1: '1'
+  taxonomy_6_length_2: '14'
+  taxonomy_6_length_3: '14_'
+  taxonomy_6_length_4: 14_m
+  taxonomy_6_length_5: 14_mm
+  taxonomy_6_upper: 14_MM_TUBE_OD
+  taxonomy_6_upper_length_1: '1'
+  taxonomy_6_upper_length_2: '14'
+  taxonomy_6_upper_length_3: '14_'
+  taxonomy_6_upper_length_4: 14_M
+  taxonomy_6_upper_length_5: 14_MM
+  taxonomy_7: half_a
+  taxonomy_7_capital: Half A
+  taxonomy_7_first_letter: h
+  taxonomy_7_first_letter_upper: H
+  taxonomy_7_length_1: h
+  taxonomy_7_length_2: ha
+  taxonomy_7_length_3: hal
+  taxonomy_7_length_4: half
+  taxonomy_7_length_5: half_
+  taxonomy_7_upper: HALF_A
+  taxonomy_7_upper_length_1: H
+  taxonomy_7_upper_length_2: HA
+  taxonomy_7_upper_length_3: HAL
+  taxonomy_7_upper_length_4: HALF
+  taxonomy_7_upper_length_5: HALF_
+  taxonomy_8: ''
+  taxonomy_9: ''
+  tube_bend_radius_mm: 40.0
+  tube_grip_diameter_mm: 13.6
+  tube_grip_length_mm: 4.0
+  tube_grip_transition_mm: 2.0
+  tube_guide_diameter_mm: 14.4
+  tube_id_mm: 12.0
+  tube_od_mm: 14.0
+  tube_wall_mm: 1.0
+  type: part
+  url_chat: ''
+  width: 66.0
+  width_mm: 66.0
+  wire_clearance_diameter_mm: 15.5
+  wire_offset_mm: -9.0
+tube_bend_radius_mm: 40.0
+tube_grip_diameter_mm: 13.6
+tube_grip_length_mm: 4.0
+tube_grip_transition_mm: 2.0
+tube_guide_diameter_mm: 14.4
+tube_id_mm: 12.0
+tube_od_mm: 14.0
+tube_wall_mm: 1.0
+url_chat: ''
+width: 66.0
+width_mm: 66.0
+wire_clearance_diameter_mm: 15.5
+wire_offset_mm: -9.0

@@ -1,0 +1,133 @@
+assembly_instruction: Fit two ribs 60 mm apart along the gutter under the four holder
+  feet. Offset the foot pockets toward the visible edge. Foot soles sit 22 mm above
+  the gutter outside-bottom datum.
+bottom_radius_mm: 7.25
+bottom_virtual_width_mm: 75.0
+curve_step_degrees: 1.0
+depth: 18.0
+depth_mm: 18.0
+description: Level pump-holder cradle rib; 9 mm toward visible edge, four flow holes
+  and two locating pockets. Print two identical ribs.
+dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness supplied
+  by user.
+fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before sealing;
+  drawing does not establish a perfect physical match.
+fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+fit_revision: 2
+flow_hole_diameter_mm: 10.0
+flow_hole_height_mm: 11.5
+flow_hole_x_mm:
+- -24.0
+- -6.0
+- 12.0
+- 30.0
+foot_locating_height_mm: 2.0
+foot_pitch_mm: 60.0
+foot_pocket_width_mm: 12.6
+gutter_side_clearance_mm: 0.25
+gutter_wall_mm: 2.25
+height: 24.0
+height_mm: 58.5
+holder_offset_toward_edge_mm: 9.0
+holder_seat_height_mm: 22.0
+inside_bottom_diameter_mm: 10.0
+lip_height_mm: 5.0
+lip_projection_mm: 2.0
+lip_tip_drop_mm: 4.0
+oobb_details:
+  assembly_instruction: Fit two ribs 60 mm apart along the gutter under the four holder
+    feet. Offset the foot pockets toward the visible edge. Foot soles sit 22 mm above
+    the gutter outside-bottom datum.
+  bottom_radius_mm: 7.25
+  bottom_virtual_width_mm: 75.0
+  curve_step_degrees: 1.0
+  depth: 18.0
+  depth_mm: 18.0
+  description: Level pump-holder cradle rib; 9 mm toward visible edge, four flow holes
+    and two locating pockets. Print two identical ribs.
+  dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+    supplied by user.
+  fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+    sealing; drawing does not establish a perfect physical match.
+  fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+  fit_revision: 2
+  flow_hole_diameter_mm: 10.0
+  flow_hole_height_mm: 11.5
+  flow_hole_x_mm:
+  - -24.0
+  - -6.0
+  - 12.0
+  - 30.0
+  foot_locating_height_mm: 2.0
+  foot_pitch_mm: 60.0
+  foot_pocket_width_mm: 12.6
+  gutter_side_clearance_mm: 0.25
+  gutter_wall_mm: 2.25
+  height: 24.0
+  height_mm: 58.5
+  holder_offset_toward_edge_mm: 9.0
+  holder_seat_height_mm: 22.0
+  inside_bottom_diameter_mm: 10.0
+  lip_height_mm: 5.0
+  lip_projection_mm: 2.0
+  lip_tip_drop_mm: 4.0
+  oobb_name: pump_support_cradle
+  oobb_type: pump_support_cradle
+  part_role: printed_pump_support_cradle
+  print_orientation: Broad cross-section flat on bed. Inspect support/bridging for
+    the 12.6 mm locating pockets.
+  print_quantity: 2
+  product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+  profile_height_mm: 58.5
+  profile_image_local: source_file/floplast/square_gutter_profile.jpg
+  profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+  profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+  profile_width_mm: 114.0
+  run_scad: true
+  run_solidcraft: false
+  shoulder_height_mm: 37.5
+  shoulder_radius_mm: 3.0
+  support_thickness_mm: 18.0
+  taxonomy_1: three_d_print
+  taxonomy_2: filament_manufacture
+  taxonomy_3: cooling_tank
+  taxonomy_4: pump_support_cradle
+  taxonomy_5: 9_mm_offset
+  taxonomy_6: 22_mm_seat_height
+  taxonomy_7: 18_mm_thickness
+  width: 114.0
+  width_mm: 114.0
+oobb_name: pump_support_cradle
+oobb_type: pump_support_cradle
+part_role: printed_pump_support_cradle
+print_orientation: Broad cross-section flat on bed. Inspect support/bridging for the
+  12.6 mm locating pockets.
+print_quantity: 2
+product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+profile_height_mm: 58.5
+profile_image_local: source_file/floplast/square_gutter_profile.jpg
+profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+profile_width_mm: 114.0
+run_scad: true
+run_solidcraft: false
+shoulder_height_mm: 37.5
+shoulder_radius_mm: 3.0
+support_thickness_mm: 18.0
+taxonomy_1: three_d_print
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: filament_manufacture
+taxonomy_3: cooling_tank
+taxonomy_4: pump_support_cradle
+taxonomy_5: 9_mm_offset
+taxonomy_6: 22_mm_seat_height
+taxonomy_7: 18_mm_thickness
+taxonomy_8: ''
+taxonomy_9: ''
+width: 114.0
+width_mm: 114.0

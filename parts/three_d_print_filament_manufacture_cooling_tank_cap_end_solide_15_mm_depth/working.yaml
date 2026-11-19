@@ -38,7 +38,7 @@ description: Solid blank cap, 15 mm total depth; 3 mm face and 12 mm insertion, 
 dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness supplied
     by user.
 directory: parts/three_d_print_filament_manufacture_cooling_tank_cap_end_solide_15_mm_depth
-filter: lifter_pump_inlet
+filter: pump_support_cradle
 fit_clearance_mm: 0.0
 fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before sealing;
     drawing does not establish a perfect physical match.

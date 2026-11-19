@@ -50,6 +50,7 @@ fastener_lower_height_mm: 33.0
 fastener_size: m3
 fastener_upper_seat_offset_mm: 19.0
 fastener_x_mm: 24.0
+filter: lifter
 fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before sealing;
   drawing does not establish a perfect physical match.
 fit_photo_local: source_file/fit_trials/2026_11_16/printed_lifter_fit.jpg
@@ -89,7 +90,7 @@ kwargs:
   fastener_size: m3
   fastener_upper_seat_offset_mm: 19.0
   fastener_x_mm: 24.0
-  filter: ''
+  filter: lifter
   fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
     sealing; drawing does not establish a perfect physical match.
   fit_photo_local: source_file/fit_trials/2026_11_16/printed_lifter_fit.jpg

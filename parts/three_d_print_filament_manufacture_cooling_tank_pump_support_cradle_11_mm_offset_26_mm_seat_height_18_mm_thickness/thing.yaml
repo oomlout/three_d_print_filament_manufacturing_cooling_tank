@@ -1,0 +1,1871 @@
+assembly_instruction: Fit two ribs 60 mm apart along the gutter under the four holder
+  feet. Offset the foot pockets toward the visible edge. Foot soles sit 26 mm above
+  the gutter outside-bottom datum.
+bip_39_2_word_array:
+- only
+- legal
+bip_39_2_word_no_space: onlylegal
+bip_39_2_word_space: only legal
+bip_39_2_word_underscore: only_legal
+bip_39_3_word_array:
+- only
+- legal
+- actor
+bip_39_3_word_no_space: onlylegalactor
+bip_39_3_word_space: only legal actor
+bip_39_3_word_underscore: only_legal_actor
+bip_39_full_array:
+- only
+- legal
+- actor
+- mom
+- sweet
+- guard
+- toward
+- snake
+- pear
+- picture
+- urban
+- video
+bip_39_full_no_space: onlylegalactormomsweetguardtowardsnakepearpictureurbanvideo
+bip_39_full_space: only legal actor mom sweet guard toward snake pear picture urban
+  video
+bip_39_full_underscore: only_legal_actor_mom_sweet_guard_toward_snake_pear_picture_urban_video
+bottom_radius_mm: 7.25
+bottom_virtual_width_mm: 75.0
+curve_step_degrees: 1.0
+depth: 18.0
+depth_mm: 18.0
+description: Level pump-holder cradle rib; 11 mm toward visible edge, four flow holes
+  and two locating pockets. Print two identical ribs.
+dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness supplied
+  by user.
+directory: parts/three_d_print_filament_manufacture_cooling_tank_pump_support_cradle_11_mm_offset_26_mm_seat_height_18_mm_thickness
+filter: pump_support_cradle
+fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before sealing;
+  drawing does not establish a perfect physical match.
+fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+fit_revision: 2
+flow_hole_diameter_mm: 10.0
+flow_hole_height_mm: 11.5
+flow_hole_x_mm:
+- -24.0
+- -6.0
+- 12.0
+- 30.0
+foot_locating_height_mm: 2.0
+foot_pitch_mm: 60.0
+foot_pocket_width_mm: 12.6
+gutter_side_clearance_mm: 0.25
+gutter_wall_mm: 2.25
+height: 28.0
+height_mm: 58.5
+holder_offset_toward_edge_mm: 11.0
+holder_seat_height_mm: 26.0
+id: three_d_print_filament_manufacture_cooling_tank_pump_support_cradle_11_mm_offset_26_mm_seat_height_18_mm_thickness
+id_no_class: three_d_print_filament_manufacture_cooling_tank_pump_support_cradle_11_mm_offset_26_mm_seat_height_18_mm_thickness
+id_no_size: three_d_print_filament_manufacture_cooling_tank_pump_support_cradle_11_mm_offset_26_mm_seat_height_18_mm_thickness
+id_no_type: three_d_print_filament_manufacture_cooling_tank_pump_support_cradle_11_mm_offset_26_mm_seat_height_18_mm_thickness
+id_oobb: three_d_print_filament_manufacture_cooling_tank_pump_support_cradle_11_mm_offset_26_mm_seat_height_18_mm_thickness
+inside_bottom_diameter_mm: 10.0
+kwargs:
+  assembly_instruction: Fit two ribs 60 mm apart along the gutter under the four holder
+    feet. Offset the foot pockets toward the visible edge. Foot soles sit 26 mm above
+    the gutter outside-bottom datum.
+  bottom_radius_mm: 7.25
+  bottom_virtual_width_mm: 75.0
+  curve_step_degrees: 1.0
+  depth: 18.0
+  depth_mm: 18.0
+  description: Level pump-holder cradle rib; 11 mm toward visible edge, four flow
+    holes and two locating pockets. Print two identical ribs.
+  dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+    supplied by user.
+  filter: pump_support_cradle
+  fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+    sealing; drawing does not establish a perfect physical match.
+  fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+  fit_revision: 2
+  flow_hole_diameter_mm: 10.0
+  flow_hole_height_mm: 11.5
+  flow_hole_x_mm:
+  - -24.0
+  - -6.0
+  - 12.0
+  - 30.0
+  foot_locating_height_mm: 2.0
+  foot_pitch_mm: 60.0
+  foot_pocket_width_mm: 12.6
+  gutter_side_clearance_mm: 0.25
+  gutter_wall_mm: 2.25
+  height: 28.0
+  height_mm: 58.5
+  holder_offset_toward_edge_mm: 11.0
+  holder_seat_height_mm: 26.0
+  inside_bottom_diameter_mm: 10.0
+  lip_height_mm: 5.0
+  lip_projection_mm: 2.0
+  lip_tip_drop_mm: 4.0
+  modes:
+  - 3dpr
+  navigation: true
+  oobb_name: pump_support_cradle
+  oomp_mode: project
+  oomp_run: true
+  overwrite: true
+  part_role: printed_pump_support_cradle
+  print_orientation: Broad cross-section flat on bed. Inspect support/bridging for
+    the 12.6 mm locating pockets.
+  print_quantity: 2
+  product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+  profile_height_mm: 58.5
+  profile_image_local: source_file/floplast/square_gutter_profile.jpg
+  profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+  profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+  profile_width_mm: 114.0
+  shoulder_height_mm: 37.5
+  shoulder_radius_mm: 3.0
+  support_thickness_mm: 18.0
+  taxonomy_1: three_d_print
+  taxonomy_2: filament_manufacture
+  taxonomy_3: cooling_tank
+  taxonomy_4: pump_support_cradle
+  taxonomy_5: 11_mm_offset
+  taxonomy_6: 26_mm_seat_height
+  taxonomy_7: 18_mm_thickness
+  typ: all
+  wait_for_completion: true
+  width: 114.0
+  width_mm: 114.0
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/three_d_print_filament_manufacture_cooling_tank_pump_support_cradle_11_mm_offset_26_mm_seat_height_18_mm_thickness
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/three_d_print_filament_manufacture_cooling_tank_pump_support_cradle_11_mm_offset_26_mm_seat_height_18_mm_thickness
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/three_d_print_filament_manufacture_cooling_tank_pump_support_cradle_11_mm_offset_26_mm_seat_height_18_mm_thickness
+lip_height_mm: 5.0
+lip_projection_mm: 2.0
+lip_tip_drop_mm: 4.0
+md5: 9b0fec0ac76dbaceb98669a2148bbd79
+md5_10: 9b0fec0ac7
+md5_10_upper: 9B0FEC0AC7
+md5_5: 9b0fe
+md5_5_upper: 9B0FE
+md5_6: 9b0fec
+md5_6_alpha: 61t64
+md5_6_alpha_upper: 61T64
+md5_6_upper: 9B0FEC
+name: Three D Print Filament Manufacture Cooling Tank Pump Support Cradle 11 Mm Offset
+  26 Mm Seat Height 18 Mm Thickness
+name_no_class: Three D Print Filament Manufacture Cooling Tank Pump Support Cradle
+  11 Mm Offset 26 Mm Seat Height 18 Mm Thickness
+name_no_size: Three D Print Filament Manufacture Cooling Tank Pump Support Cradle
+  11 Mm Offset 26 Mm Seat Height 18 Mm Thickness
+name_no_type: Three D Print Filament Manufacture Cooling Tank Pump Support Cradle
+  11 Mm Offset 26 Mm Seat Height 18 Mm Thickness
+name_proper: Three D Print Filament Manufacture Cooling Tank Pump Support Cradle 11
+  Mm Offset 26 Mm Seat Height 18 Mm Thickness
+name_space: three d print filament manufacture cooling tank pump support cradle 11
+  mm offset 26 mm seat height 18 mm thickness
+name_upper: THREE D PRINT FILAMENT MANUFACTURE COOLING TANK PUMP SUPPORT CRADLE 11
+  MM OFFSET 26 MM SEAT HEIGHT 18 MM THICKNESS
+oobb_details:
+  assembly_instruction: Fit two ribs 60 mm apart along the gutter under the four holder
+    feet. Offset the foot pockets toward the visible edge. Foot soles sit 26 mm above
+    the gutter outside-bottom datum.
+  bottom_radius_mm: 7.25
+  bottom_virtual_width_mm: 75.0
+  curve_step_degrees: 1.0
+  depth: 18.0
+  depth_mm: 18.0
+  description: Level pump-holder cradle rib; 11 mm toward visible edge, four flow
+    holes and two locating pockets. Print two identical ribs.
+  dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+    supplied by user.
+  fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+    sealing; drawing does not establish a perfect physical match.
+  fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+  fit_revision: 2
+  flow_hole_diameter_mm: 10.0
+  flow_hole_height_mm: 11.5
+  flow_hole_x_mm:
+  - -24.0
+  - -6.0
+  - 12.0
+  - 30.0
+  foot_locating_height_mm: 2.0
+  foot_pitch_mm: 60.0
+  foot_pocket_width_mm: 12.6
+  gutter_side_clearance_mm: 0.25
+  gutter_wall_mm: 2.25
+  height: 28.0
+  height_mm: 58.5
+  holder_offset_toward_edge_mm: 11.0
+  holder_seat_height_mm: 26.0
+  inside_bottom_diameter_mm: 10.0
+  lip_height_mm: 5.0
+  lip_projection_mm: 2.0
+  lip_tip_drop_mm: 4.0
+  oobb_name: pump_support_cradle
+  oobb_type: pump_support_cradle
+  part_role: printed_pump_support_cradle
+  print_orientation: Broad cross-section flat on bed. Inspect support/bridging for
+    the 12.6 mm locating pockets.
+  print_quantity: 2
+  product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+  profile_height_mm: 58.5
+  profile_image_local: source_file/floplast/square_gutter_profile.jpg
+  profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+  profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+  profile_width_mm: 114.0
+  run_scad: true
+  run_solidcraft: false
+  shoulder_height_mm: 37.5
+  shoulder_radius_mm: 3.0
+  support_thickness_mm: 18.0
+  taxonomy_1: three_d_print
+  taxonomy_2: filament_manufacture
+  taxonomy_3: cooling_tank
+  taxonomy_4: pump_support_cradle
+  taxonomy_5: 11_mm_offset
+  taxonomy_6: 26_mm_seat_height
+  taxonomy_7: 18_mm_thickness
+  width: 114.0
+  width_mm: 114.0
+oobb_name: pump_support_cradle
+oobb_type: pump_support_cradle
+oomlout_ai_roboclick_1:
+  action_name: step_0_jinja_template_label_oomp.svg
+  actions:
+  - command: text_jinja_template
+    convert_to_pdf: false
+    convert_to_png: false
+    dict_data:
+      assembly_instruction: Fit two ribs 60 mm apart along the gutter under the four
+        holder feet. Offset the foot pockets toward the visible edge. Foot soles sit
+        26 mm above the gutter outside-bottom datum.
+      bottom_radius_mm: 7.25
+      bottom_virtual_width_mm: 75.0
+      curve_step_degrees: 1.0
+      depth: 18.0
+      depth_mm: 18.0
+      description: Level pump-holder cradle rib; 11 mm toward visible edge, four flow
+        holes and two locating pockets. Print two identical ribs.
+      dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+        supplied by user.
+      directory: parts\three_d_print_filament_manufacture_cooling_tank_pump_support_cradle_11_mm_offset_26_mm_seat_height_18_mm_thickness
+      fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+        sealing; drawing does not establish a perfect physical match.
+      fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+      fit_revision: 2
+      flow_hole_diameter_mm: 10.0
+      flow_hole_height_mm: 11.5
+      flow_hole_x_mm:
+      - -24.0
+      - -6.0
+      - 12.0
+      - 30.0
+      foot_locating_height_mm: 2.0
+      foot_pitch_mm: 60.0
+      foot_pocket_width_mm: 12.6
+      gutter_side_clearance_mm: 0.25
+      gutter_wall_mm: 2.25
+      height: 28.0
+      height_mm: 58.5
+      holder_offset_toward_edge_mm: 11.0
+      holder_seat_height_mm: 26.0
+      inside_bottom_diameter_mm: 10.0
+      lip_height_mm: 5.0
+      lip_projection_mm: 2.0
+      lip_tip_drop_mm: 4.0
+      name: three_d_print_filament_manufacture_cooling_tank_pump_support_cradle_11_mm_offset_26_mm_seat_height_18_mm_thickness
+      name_proper: Three D Print Filament Manufacture Cooling Tank Pump Support Cradle
+        11 Mm Offset 26 Mm Seat Height 18 Mm Thickness
+      name_space: three d print filament manufacture cooling tank pump support cradle
+        11 mm offset 26 mm seat height 18 mm thickness
+      name_upper: THREE D PRINT FILAMENT MANUFACTURE COOLING TANK PUMP SUPPORT CRADLE
+        11 MM OFFSET 26 MM SEAT HEIGHT 18 MM THICKNESS
+      oobb_details:
+        assembly_instruction: Fit two ribs 60 mm apart along the gutter under the
+          four holder feet. Offset the foot pockets toward the visible edge. Foot
+          soles sit 26 mm above the gutter outside-bottom datum.
+        bottom_radius_mm: 7.25
+        bottom_virtual_width_mm: 75.0
+        curve_step_degrees: 1.0
+        depth: 18.0
+        depth_mm: 18.0
+        description: Level pump-holder cradle rib; 11 mm toward visible edge, four
+          flow holes and two locating pockets. Print two identical ribs.
+        dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+          supplied by user.
+        fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit
+          before sealing; drawing does not establish a perfect physical match.
+        fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+        fit_revision: 2
+        flow_hole_diameter_mm: 10.0
+        flow_hole_height_mm: 11.5
+        flow_hole_x_mm:
+        - -24.0
+        - -6.0
+        - 12.0
+        - 30.0
+        foot_locating_height_mm: 2.0
+        foot_pitch_mm: 60.0
+        foot_pocket_width_mm: 12.6
+        gutter_side_clearance_mm: 0.25
+        gutter_wall_mm: 2.25
+        height: 28.0
+        height_mm: 58.5
+        holder_offset_toward_edge_mm: 11.0
+        holder_seat_height_mm: 26.0
+        inside_bottom_diameter_mm: 10.0
+        lip_height_mm: 5.0
+        lip_projection_mm: 2.0
+        lip_tip_drop_mm: 4.0
+        oobb_name: pump_support_cradle
+        oobb_type: pump_support_cradle
+        part_role: printed_pump_support_cradle
+        print_orientation: Broad cross-section flat on bed. Inspect support/bridging
+          for the 12.6 mm locating pockets.
+        print_quantity: 2
+        product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+        profile_height_mm: 58.5
+        profile_image_local: source_file/floplast/square_gutter_profile.jpg
+        profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+        profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+        profile_width_mm: 114.0
+        run_scad: true
+        run_solidcraft: false
+        shoulder_height_mm: 37.5
+        shoulder_radius_mm: 3.0
+        support_thickness_mm: 18.0
+        taxonomy_1: three_d_print
+        taxonomy_2: filament_manufacture
+        taxonomy_3: cooling_tank
+        taxonomy_4: pump_support_cradle
+        taxonomy_5: 11_mm_offset
+        taxonomy_6: 26_mm_seat_height
+        taxonomy_7: 18_mm_thickness
+        width: 114.0
+        width_mm: 114.0
+      oobb_name: pump_support_cradle
+      oobb_type: pump_support_cradle
+      part_role: printed_pump_support_cradle
+      print_orientation: Broad cross-section flat on bed. Inspect support/bridging
+        for the 12.6 mm locating pockets.
+      print_quantity: 2
+      product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+      profile_height_mm: 58.5
+      profile_image_local: source_file/floplast/square_gutter_profile.jpg
+      profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+      profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+      profile_width_mm: 114.0
+      run_scad: true
+      run_solidcraft: false
+      shoulder_height_mm: 37.5
+      shoulder_radius_mm: 3.0
+      support_thickness_mm: 18.0
+      taxonomy_1: three_d_print
+      taxonomy_10: ''
+      taxonomy_11: ''
+      taxonomy_12: ''
+      taxonomy_13: ''
+      taxonomy_14: ''
+      taxonomy_15: ''
+      taxonomy_2: filament_manufacture
+      taxonomy_3: cooling_tank
+      taxonomy_4: pump_support_cradle
+      taxonomy_5: 11_mm_offset
+      taxonomy_6: 26_mm_seat_height
+      taxonomy_7: 18_mm_thickness
+      taxonomy_8: ''
+      taxonomy_9: ''
+      url_chat: ''
+      width: 114.0
+      width_mm: 114.0
+    dict_data_files: {}
+    dict_data_files_exists: {}
+    file_output: label_oomp.svg
+    file_template: C:\gh\three_d_print_filament_manufacturing_cooling_tank\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+    search_and_replace: []
+  file_test: label_oomp.pdf
+  retries_until_complete: 0
+oomp_key: oomp_three_d_print_filament_manufacture_cooling_tank_pump_support_cradle_11_mm_offset_26_mm_seat_height_18_mm_thickness
+part_role: printed_pump_support_cradle
+print_orientation: Broad cross-section flat on bed. Inspect support/bridging for the
+  12.6 mm locating pockets.
+print_quantity: 2
+product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+profile_height_mm: 58.5
+profile_image_local: source_file/floplast/square_gutter_profile.jpg
+profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+profile_width_mm: 114.0
+project_name: C:\gh\three_d_print_filament_manufacturing_cooling_tank
+run_scad: true
+run_solidcraft: false
+shoulder_height_mm: 37.5
+shoulder_radius_mm: 3.0
+support_thickness_mm: 18.0
+taxonomy_1: three_d_print
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Three D Print
+taxonomy_1_first_letter: t
+taxonomy_1_first_letter_upper: T
+taxonomy_1_length_1: t
+taxonomy_1_length_2: th
+taxonomy_1_length_3: thr
+taxonomy_1_length_4: thre
+taxonomy_1_length_5: three
+taxonomy_1_upper: THREE_D_PRINT
+taxonomy_1_upper_length_1: T
+taxonomy_1_upper_length_2: TH
+taxonomy_1_upper_length_3: THR
+taxonomy_1_upper_length_4: THRE
+taxonomy_1_upper_length_5: THREE
+taxonomy_2: filament_manufacture
+taxonomy_2_capital: Filament Manufacture
+taxonomy_2_first_letter: f
+taxonomy_2_first_letter_upper: F
+taxonomy_2_length_1: f
+taxonomy_2_length_2: fi
+taxonomy_2_length_3: fil
+taxonomy_2_length_4: fila
+taxonomy_2_length_5: filam
+taxonomy_2_upper: FILAMENT_MANUFACTURE
+taxonomy_2_upper_length_1: F
+taxonomy_2_upper_length_2: FI
+taxonomy_2_upper_length_3: FIL
+taxonomy_2_upper_length_4: FILA
+taxonomy_2_upper_length_5: FILAM
+taxonomy_3: cooling_tank
+taxonomy_3_capital: Cooling Tank
+taxonomy_3_first_letter: c
+taxonomy_3_first_letter_upper: C
+taxonomy_3_length_1: c
+taxonomy_3_length_2: co
+taxonomy_3_length_3: coo
+taxonomy_3_length_4: cool
+taxonomy_3_length_5: cooli
+taxonomy_3_upper: COOLING_TANK
+taxonomy_3_upper_length_1: C
+taxonomy_3_upper_length_2: CO
+taxonomy_3_upper_length_3: COO
+taxonomy_3_upper_length_4: COOL
+taxonomy_3_upper_length_5: COOLI
+taxonomy_4: pump_support_cradle
+taxonomy_4_capital: Pump Support Cradle
+taxonomy_4_first_letter: p
+taxonomy_4_first_letter_upper: P
+taxonomy_4_length_1: p
+taxonomy_4_length_2: pu
+taxonomy_4_length_3: pum
+taxonomy_4_length_4: pump
+taxonomy_4_length_5: pump_
+taxonomy_4_upper: PUMP_SUPPORT_CRADLE
+taxonomy_4_upper_length_1: P
+taxonomy_4_upper_length_2: PU
+taxonomy_4_upper_length_3: PUM
+taxonomy_4_upper_length_4: PUMP
+taxonomy_4_upper_length_5: PUMP_
+taxonomy_5: 11_mm_offset
+taxonomy_5_capital: 11 mm Offset
+taxonomy_5_first_letter: '1'
+taxonomy_5_first_letter_upper: '1'
+taxonomy_5_length_1: '1'
+taxonomy_5_length_2: '11'
+taxonomy_5_length_3: '11_'
+taxonomy_5_length_4: 11_m
+taxonomy_5_length_5: 11_mm
+taxonomy_5_upper: 11_MM_OFFSET
+taxonomy_5_upper_length_1: '1'
+taxonomy_5_upper_length_2: '11'
+taxonomy_5_upper_length_3: '11_'
+taxonomy_5_upper_length_4: 11_M
+taxonomy_5_upper_length_5: 11_MM
+taxonomy_6: 26_mm_seat_height
+taxonomy_6_capital: 26 mm Seat Height
+taxonomy_6_first_letter: '2'
+taxonomy_6_first_letter_upper: '2'
+taxonomy_6_length_1: '2'
+taxonomy_6_length_2: '26'
+taxonomy_6_length_3: '26_'
+taxonomy_6_length_4: 26_m
+taxonomy_6_length_5: 26_mm
+taxonomy_6_upper: 26_MM_SEAT_HEIGHT
+taxonomy_6_upper_length_1: '2'
+taxonomy_6_upper_length_2: '26'
+taxonomy_6_upper_length_3: '26_'
+taxonomy_6_upper_length_4: 26_M
+taxonomy_6_upper_length_5: 26_MM
+taxonomy_7: 18_mm_thickness
+taxonomy_7_capital: 18 mm Thickness
+taxonomy_7_first_letter: '1'
+taxonomy_7_first_letter_upper: '1'
+taxonomy_7_length_1: '1'
+taxonomy_7_length_2: '18'
+taxonomy_7_length_3: '18_'
+taxonomy_7_length_4: 18_m
+taxonomy_7_length_5: 18_mm
+taxonomy_7_upper: 18_MM_THICKNESS
+taxonomy_7_upper_length_1: '1'
+taxonomy_7_upper_length_2: '18'
+taxonomy_7_upper_length_3: '18_'
+taxonomy_7_upper_length_4: 18_M
+taxonomy_7_upper_length_5: 18_MM
+taxonomy_8: ''
+taxonomy_9: ''
+thing:
+  assembly_instruction: Fit two ribs 60 mm apart along the gutter under the four holder
+    feet. Offset the foot pockets toward the visible edge. Foot soles sit 26 mm above
+    the gutter outside-bottom datum.
+  bip_39_2_word_array:
+  - only
+  - legal
+  bip_39_2_word_no_space: onlylegal
+  bip_39_2_word_space: only legal
+  bip_39_2_word_underscore: only_legal
+  bip_39_3_word_array:
+  - only
+  - legal
+  - actor
+  bip_39_3_word_no_space: onlylegalactor
+  bip_39_3_word_space: only legal actor
+  bip_39_3_word_underscore: only_legal_actor
+  bip_39_full_array:
+  - only
+  - legal
+  - actor
+  - mom
+  - sweet
+  - guard
+  - toward
+  - snake
+  - pear
+  - picture
+  - urban
+  - video
+  bip_39_full_no_space: onlylegalactormomsweetguardtowardsnakepearpictureurbanvideo
+  bip_39_full_space: only legal actor mom sweet guard toward snake pear picture urban
+    video
+  bip_39_full_underscore: only_legal_actor_mom_sweet_guard_toward_snake_pear_picture_urban_video
+  bottom_radius_mm: 7.25
+  bottom_virtual_width_mm: 75.0
+  classification: oobb
+  color: ''
+  components:
+  - - depth: 18.0
+      height: 18.0
+      points:
+      - - 37.3176529
+        - 4.8181797
+      - - 37.2739859
+        - 4.7359524
+      - - 37.2341439
+        - 4.6639664
+      - - 37.193061
+        - 4.5926813
+      - - 37.1507496
+        - 4.5221185
+      - - 37.1072223
+        - 4.4522992
+      - - 37.0624922
+        - 4.3832442
+      - - 37.0165727
+        - 4.3149744
+      - - 36.9694776
+        - 4.2475102
+      - - 36.921221
+        - 4.1808718
+      - - 36.8718174
+        - 4.1150793
+      - - 36.8212816
+        - 4.0501524
+      - - 36.7696288
+        - 3.9861106
+      - - 36.7168745
+        - 3.922973
+      - - 36.6630345
+        - 3.8607587
+      - - 36.608125
+        - 3.7994863
+      - - 36.5521624
+        - 3.7391741
+      - - 36.4951635
+        - 3.6798403
+      - - 36.4371454
+        - 3.6215028
+      - - 36.3781256
+        - 3.5641788
+      - - 36.3181218
+        - 3.5078858
+      - - 36.2571519
+        - 3.4526405
+      - - 36.1952342
+        - 3.3984596
+      - - 36.1323874
+        - 3.3453593
+      - - 36.0686302
+        - 3.2933555
+      - - 36.0039819
+        - 3.2424639
+      - - 35.9384617
+        - 3.1926997
+      - - 35.8720894
+        - 3.1440778
+      - - 35.8048849
+        - 3.0966128
+      - - 35.7368684
+        - 3.050319
+      - - 35.6680601
+        - 3.0052103
+      - - 35.5984809
+        - 2.9613002
+      - - 35.5281516
+        - 2.9186018
+      - - 35.4570932
+        - 2.877128
+      - - 35.3853271
+        - 2.8368912
+      - - 35.3128749
+        - 2.7979036
+      - - 35.2397582
+        - 2.7601767
+      - - 35.165999
+        - 2.7237219
+      - - 35.0916194
+        - 2.6885502
+      - - 35.0166418
+        - 2.6546721
+      - - 34.9410886
+        - 2.6220977
+      - - 34.8649826
+        - 2.590837
+      - - 34.7883465
+        - 2.5608991
+      - - 34.7112033
+        - 2.5322931
+      - - 34.6335763
+        - 2.5050276
+      - - 34.5554886
+        - 2.4791108
+      - - 34.4769637
+        - 2.4545504
+      - - 34.3980252
+        - 2.4313539
+      - - 34.3186967
+        - 2.4095281
+      - - 34.2390021
+        - 2.3890796
+      - - 34.1589653
+        - 2.3700146
+      - - 34.0786103
+        - 2.3523388
+      - - 33.9979611
+        - 2.3360574
+      - - 33.917042
+        - 2.3211755
+      - - 33.8358773
+        - 2.3076973
+      - - 33.7544914
+        - 2.295627
+      - - 33.6729085
+        - 2.2849683
+      - - 33.5911533
+        - 2.2757242
+      - - 33.5092503
+        - 2.2678976
+      - - 33.4272239
+        - 2.2614908
+      - - 33.3450989
+        - 2.2565057
+      - - 33.2628999
+        - 2.2529439
+      - - 33.1806515
+        - 2.2508063
+      - - 33.0875521
+        - 2.25
+      - - -33.0875521
+        - 2.25
+      - - -33.1806515
+        - 2.2508063
+      - - -33.2628999
+        - 2.2529439
+      - - -33.3450989
+        - 2.2565057
+      - - -33.4272239
+        - 2.2614908
+      - - -33.5092503
+        - 2.2678976
+      - - -33.5911533
+        - 2.2757242
+      - - -33.6729085
+        - 2.2849683
+      - - -33.7544914
+        - 2.295627
+      - - -33.8358773
+        - 2.3076973
+      - - -33.917042
+        - 2.3211755
+      - - -33.9979611
+        - 2.3360574
+      - - -34.0786103
+        - 2.3523388
+      - - -34.1589653
+        - 2.3700146
+      - - -34.2390021
+        - 2.3890796
+      - - -34.3186967
+        - 2.4095281
+      - - -34.3980252
+        - 2.4313539
+      - - -34.4769637
+        - 2.4545504
+      - - -34.5554886
+        - 2.4791108
+      - - -34.6335763
+        - 2.5050276
+      - - -34.7112033
+        - 2.5322931
+      - - -34.7883465
+        - 2.5608991
+      - - -34.8649826
+        - 2.590837
+      - - -34.9410886
+        - 2.6220977
+      - - -35.0166418
+        - 2.6546721
+      - - -35.0916194
+        - 2.6885502
+      - - -35.165999
+        - 2.7237219
+      - - -35.2397582
+        - 2.7601767
+      - - -35.3128749
+        - 2.7979036
+      - - -35.3853271
+        - 2.8368912
+      - - -35.4570932
+        - 2.877128
+      - - -35.5281516
+        - 2.9186018
+      - - -35.5984809
+        - 2.9613002
+      - - -35.6680601
+        - 3.0052103
+      - - -35.7368684
+        - 3.050319
+      - - -35.8048849
+        - 3.0966128
+      - - -35.8720894
+        - 3.1440778
+      - - -35.9384617
+        - 3.1926997
+      - - -36.0039819
+        - 3.2424639
+      - - -36.0686302
+        - 3.2933555
+      - - -36.1323874
+        - 3.3453593
+      - - -36.1952342
+        - 3.3984596
+      - - -36.2571519
+        - 3.4526405
+      - - -36.3181218
+        - 3.5078858
+      - - -36.3781256
+        - 3.5641788
+      - - -36.4371454
+        - 3.6215028
+      - - -36.4951635
+        - 3.6798403
+      - - -36.5521624
+        - 3.7391741
+      - - -36.608125
+        - 3.7994863
+      - - -36.6630345
+        - 3.8607587
+      - - -36.7168745
+        - 3.922973
+      - - -36.7696288
+        - 3.9861106
+      - - -36.8212816
+        - 4.0501524
+      - - -36.8718174
+        - 4.1150793
+      - - -36.921221
+        - 4.1808718
+      - - -36.9694776
+        - 4.2475102
+      - - -37.0165727
+        - 4.3149744
+      - - -37.0624922
+        - 4.3832442
+      - - -37.1072223
+        - 4.4522992
+      - - -37.1507496
+        - 4.5221185
+      - - -37.193061
+        - 4.5926813
+      - - -37.2341439
+        - 4.6639664
+      - - -37.2739859
+        - 4.7359524
+      - - -37.3176529
+        - 4.8181797
+      - - -49.3721994
+        - 28.0
+      - - 49.3721994
+        - 28.0
+      pos:
+      - 0
+      - 0
+      - 0
+      shape: polygon
+      type: positive
+      width: 114.0
+  - - - pos:
+        - -47.3
+        - 26.0
+        - 2.7
+        shape: cube
+        size:
+        - 12.6
+        - 4.0
+        - 12.6
+        type: negative
+  - - - pos:
+        - 12.7
+        - 26.0
+        - 2.7
+        shape: cube
+        size:
+        - 12.6
+        - 4.0
+        - 12.6
+        type: negative
+  - - depth: 18.02
+      h: 18.02
+      inclusion: laser
+      pos:
+      - -24.0
+      - 11.5
+      - -0.01
+      r: 5.0
+      radius: 5.0
+      shape: cylinder
+      type: negative
+    - depth: 18.02
+      h: 18.02
+      inclusion: 3dpr
+      pos:
+      - -24.0
+      - 11.5
+      - -0.01
+      r: 5.0
+      shape: cylinder
+      type: negative
+    - depth: 18.02
+      h: 18.02
+      inclusion: 'true'
+      pos:
+      - -24.0
+      - 11.5
+      - -0.01
+      r: 5.0
+      radius: 5.0
+      shape: cylinder
+      type: negative
+  - - depth: 18.02
+      h: 18.02
+      inclusion: laser
+      pos:
+      - -6.0
+      - 11.5
+      - -0.01
+      r: 5.0
+      radius: 5.0
+      shape: cylinder
+      type: negative
+    - depth: 18.02
+      h: 18.02
+      inclusion: 3dpr
+      pos:
+      - -6.0
+      - 11.5
+      - -0.01
+      r: 5.0
+      shape: cylinder
+      type: negative
+    - depth: 18.02
+      h: 18.02
+      inclusion: 'true'
+      pos:
+      - -6.0
+      - 11.5
+      - -0.01
+      r: 5.0
+      radius: 5.0
+      shape: cylinder
+      type: negative
+  - - depth: 18.02
+      h: 18.02
+      inclusion: laser
+      pos:
+      - 12.0
+      - 11.5
+      - -0.01
+      r: 5.0
+      radius: 5.0
+      shape: cylinder
+      type: negative
+    - depth: 18.02
+      h: 18.02
+      inclusion: 3dpr
+      pos:
+      - 12.0
+      - 11.5
+      - -0.01
+      r: 5.0
+      shape: cylinder
+      type: negative
+    - depth: 18.02
+      h: 18.02
+      inclusion: 'true'
+      pos:
+      - 12.0
+      - 11.5
+      - -0.01
+      r: 5.0
+      radius: 5.0
+      shape: cylinder
+      type: negative
+  - - depth: 18.02
+      h: 18.02
+      inclusion: laser
+      pos:
+      - 30.0
+      - 11.5
+      - -0.01
+      r: 5.0
+      radius: 5.0
+      shape: cylinder
+      type: negative
+    - depth: 18.02
+      h: 18.02
+      inclusion: 3dpr
+      pos:
+      - 30.0
+      - 11.5
+      - -0.01
+      r: 5.0
+      shape: cylinder
+      type: negative
+    - depth: 18.02
+      h: 18.02
+      inclusion: 'true'
+      pos:
+      - 30.0
+      - 11.5
+      - -0.01
+      r: 5.0
+      radius: 5.0
+      shape: cylinder
+      type: negative
+  components_objects:
+  - assembly_instruction: Fit two ribs 60 mm apart along the gutter under the four
+      holder feet. Offset the foot pockets toward the visible edge. Foot soles sit
+      26 mm above the gutter outside-bottom datum.
+    bottom_radius_mm: 7.25
+    bottom_virtual_width_mm: 75.0
+    curve_step_degrees: 1.0
+    depth: 18.0
+    depth_mm: 18.0
+    description: Level pump-holder cradle rib; 11 mm toward visible edge, four flow
+      holes and two locating pockets. Print two identical ribs.
+    dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+      supplied by user.
+    filter: pump_support_cradle
+    fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+      sealing; drawing does not establish a perfect physical match.
+    fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+    fit_revision: 2
+    flow_hole_diameter_mm: 10.0
+    flow_hole_height_mm: 11.5
+    flow_hole_x_mm:
+    - -24.0
+    - -6.0
+    - 12.0
+    - 30.0
+    foot_locating_height_mm: 2.0
+    foot_pitch_mm: 60.0
+    foot_pocket_width_mm: 12.6
+    gutter_side_clearance_mm: 0.25
+    gutter_wall_mm: 2.25
+    height: 18.0
+    height_mm: 58.5
+    holder_offset_toward_edge_mm: 11.0
+    holder_seat_height_mm: 26.0
+    inside_bottom_diameter_mm: 10.0
+    lip_height_mm: 5.0
+    lip_projection_mm: 2.0
+    lip_tip_drop_mm: 4.0
+    modes:
+    - 3dpr
+    navigation: true
+    oobb_name: pump_support_cradle
+    oomp_mode: project
+    oomp_run: true
+    overwrite: true
+    part_role: printed_pump_support_cradle
+    points:
+    - - 37.3176529
+      - 4.8181797
+    - - 37.2739859
+      - 4.7359524
+    - - 37.2341439
+      - 4.6639664
+    - - 37.193061
+      - 4.5926813
+    - - 37.1507496
+      - 4.5221185
+    - - 37.1072223
+      - 4.4522992
+    - - 37.0624922
+      - 4.3832442
+    - - 37.0165727
+      - 4.3149744
+    - - 36.9694776
+      - 4.2475102
+    - - 36.921221
+      - 4.1808718
+    - - 36.8718174
+      - 4.1150793
+    - - 36.8212816
+      - 4.0501524
+    - - 36.7696288
+      - 3.9861106
+    - - 36.7168745
+      - 3.922973
+    - - 36.6630345
+      - 3.8607587
+    - - 36.608125
+      - 3.7994863
+    - - 36.5521624
+      - 3.7391741
+    - - 36.4951635
+      - 3.6798403
+    - - 36.4371454
+      - 3.6215028
+    - - 36.3781256
+      - 3.5641788
+    - - 36.3181218
+      - 3.5078858
+    - - 36.2571519
+      - 3.4526405
+    - - 36.1952342
+      - 3.3984596
+    - - 36.1323874
+      - 3.3453593
+    - - 36.0686302
+      - 3.2933555
+    - - 36.0039819
+      - 3.2424639
+    - - 35.9384617
+      - 3.1926997
+    - - 35.8720894
+      - 3.1440778
+    - - 35.8048849
+      - 3.0966128
+    - - 35.7368684
+      - 3.050319
+    - - 35.6680601
+      - 3.0052103
+    - - 35.5984809
+      - 2.9613002
+    - - 35.5281516
+      - 2.9186018
+    - - 35.4570932
+      - 2.877128
+    - - 35.3853271
+      - 2.8368912
+    - - 35.3128749
+      - 2.7979036
+    - - 35.2397582
+      - 2.7601767
+    - - 35.165999
+      - 2.7237219
+    - - 35.0916194
+      - 2.6885502
+    - - 35.0166418
+      - 2.6546721
+    - - 34.9410886
+      - 2.6220977
+    - - 34.8649826
+      - 2.590837
+    - - 34.7883465
+      - 2.5608991
+    - - 34.7112033
+      - 2.5322931
+    - - 34.6335763
+      - 2.5050276
+    - - 34.5554886
+      - 2.4791108
+    - - 34.4769637
+      - 2.4545504
+    - - 34.3980252
+      - 2.4313539
+    - - 34.3186967
+      - 2.4095281
+    - - 34.2390021
+      - 2.3890796
+    - - 34.1589653
+      - 2.3700146
+    - - 34.0786103
+      - 2.3523388
+    - - 33.9979611
+      - 2.3360574
+    - - 33.917042
+      - 2.3211755
+    - - 33.8358773
+      - 2.3076973
+    - - 33.7544914
+      - 2.295627
+    - - 33.6729085
+      - 2.2849683
+    - - 33.5911533
+      - 2.2757242
+    - - 33.5092503
+      - 2.2678976
+    - - 33.4272239
+      - 2.2614908
+    - - 33.3450989
+      - 2.2565057
+    - - 33.2628999
+      - 2.2529439
+    - - 33.1806515
+      - 2.2508063
+    - - 33.0875521
+      - 2.25
+    - - -33.0875521
+      - 2.25
+    - - -33.1806515
+      - 2.2508063
+    - - -33.2628999
+      - 2.2529439
+    - - -33.3450989
+      - 2.2565057
+    - - -33.4272239
+      - 2.2614908
+    - - -33.5092503
+      - 2.2678976
+    - - -33.5911533
+      - 2.2757242
+    - - -33.6729085
+      - 2.2849683
+    - - -33.7544914
+      - 2.295627
+    - - -33.8358773
+      - 2.3076973
+    - - -33.917042
+      - 2.3211755
+    - - -33.9979611
+      - 2.3360574
+    - - -34.0786103
+      - 2.3523388
+    - - -34.1589653
+      - 2.3700146
+    - - -34.2390021
+      - 2.3890796
+    - - -34.3186967
+      - 2.4095281
+    - - -34.3980252
+      - 2.4313539
+    - - -34.4769637
+      - 2.4545504
+    - - -34.5554886
+      - 2.4791108
+    - - -34.6335763
+      - 2.5050276
+    - - -34.7112033
+      - 2.5322931
+    - - -34.7883465
+      - 2.5608991
+    - - -34.8649826
+      - 2.590837
+    - - -34.9410886
+      - 2.6220977
+    - - -35.0166418
+      - 2.6546721
+    - - -35.0916194
+      - 2.6885502
+    - - -35.165999
+      - 2.7237219
+    - - -35.2397582
+      - 2.7601767
+    - - -35.3128749
+      - 2.7979036
+    - - -35.3853271
+      - 2.8368912
+    - - -35.4570932
+      - 2.877128
+    - - -35.5281516
+      - 2.9186018
+    - - -35.5984809
+      - 2.9613002
+    - - -35.6680601
+      - 3.0052103
+    - - -35.7368684
+      - 3.050319
+    - - -35.8048849
+      - 3.0966128
+    - - -35.8720894
+      - 3.1440778
+    - - -35.9384617
+      - 3.1926997
+    - - -36.0039819
+      - 3.2424639
+    - - -36.0686302
+      - 3.2933555
+    - - -36.1323874
+      - 3.3453593
+    - - -36.1952342
+      - 3.3984596
+    - - -36.2571519
+      - 3.4526405
+    - - -36.3181218
+      - 3.5078858
+    - - -36.3781256
+      - 3.5641788
+    - - -36.4371454
+      - 3.6215028
+    - - -36.4951635
+      - 3.6798403
+    - - -36.5521624
+      - 3.7391741
+    - - -36.608125
+      - 3.7994863
+    - - -36.6630345
+      - 3.8607587
+    - - -36.7168745
+      - 3.922973
+    - - -36.7696288
+      - 3.9861106
+    - - -36.8212816
+      - 4.0501524
+    - - -36.8718174
+      - 4.1150793
+    - - -36.921221
+      - 4.1808718
+    - - -36.9694776
+      - 4.2475102
+    - - -37.0165727
+      - 4.3149744
+    - - -37.0624922
+      - 4.3832442
+    - - -37.1072223
+      - 4.4522992
+    - - -37.1507496
+      - 4.5221185
+    - - -37.193061
+      - 4.5926813
+    - - -37.2341439
+      - 4.6639664
+    - - -37.2739859
+      - 4.7359524
+    - - -37.3176529
+      - 4.8181797
+    - - -49.3721994
+      - 28.0
+    - - 49.3721994
+      - 28.0
+    pos:
+    - 0
+    - 0
+    - 0
+    print_orientation: Broad cross-section flat on bed. Inspect support/bridging for
+      the 12.6 mm locating pockets.
+    print_quantity: 2
+    product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+    profile_height_mm: 58.5
+    profile_image_local: source_file/floplast/square_gutter_profile.jpg
+    profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+    profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+    profile_width_mm: 114.0
+    save_type: all
+    shape: polygon
+    shoulder_height_mm: 37.5
+    shoulder_radius_mm: 3.0
+    support_thickness_mm: 18.0
+    taxonomy_1: three_d_print
+    taxonomy_2: filament_manufacture
+    taxonomy_3: cooling_tank
+    taxonomy_4: pump_support_cradle
+    taxonomy_5: 11_mm_offset
+    taxonomy_6: 26_mm_seat_height
+    taxonomy_7: 18_mm_thickness
+    typ: all
+    type: positive
+    wait_for_completion: true
+    width: 114.0
+    width_mm: 114.0
+  - pos:
+    - -41.0
+    - 28.0
+    - 2.7
+    shape: oobb_cube_center
+    size:
+    - 12.6
+    - 4.0
+    - 12.6
+    type: negative
+  - pos:
+    - 19.0
+    - 28.0
+    - 2.7
+    shape: oobb_cube_center
+    size:
+    - 12.6
+    - 4.0
+    - 12.6
+    type: negative
+  - depth: 18.02
+    pos:
+    - -24.0
+    - 11.5
+    - -0.01
+    radius: 5.0
+    shape: oobb_hole
+    type: negative
+  - depth: 18.02
+    pos:
+    - -6.0
+    - 11.5
+    - -0.01
+    radius: 5.0
+    shape: oobb_hole
+    type: negative
+  - depth: 18.02
+    pos:
+    - 12.0
+    - 11.5
+    - -0.01
+    radius: 5.0
+    shape: oobb_hole
+    type: negative
+  - depth: 18.02
+    pos:
+    - 30.0
+    - 11.5
+    - -0.01
+    radius: 5.0
+    shape: oobb_hole
+    type: negative
+  components_string:
+  - polygon_shape_positive_type_18.0_depth_pump_support_cradle_filter_true_wait_for_completion_all_typ_all_save_type_true_navigation_true_overwrite_'3dpr'_modes_project_oomp_mode_true_oomp_run_fittworibs60mmapartalongthegutterunderthefourholderfeet.offsetthefootpocketstowardthevisibleedge.footsolessit26mmabovethegutteroutside-bottomdatum._assembly_instruction_7.25_bottom_radius_mm_75.0_bottom_virtual_width_mm_1.0_curve_step_degrees_18.0_depth_mm_levelpump-holdercradlerib;11mmtowardvisibleedge_fourflowholesandtwolocatingpockets.printtwoidenticalribs._description_114x58.5mmexternalfromdrawing;2.25mmmaterialthicknesssuppliedbyuser._dimension_basis_nominalmodelfitonly.measureactualradii/lipsandtrial-fitbeforesealing;drawingdoesnotestablishaperfectphysicalmatch._fit_note_source_file/fit_trials/2026_11_16/printed_fit.jpg_fit_photo_local_2_fit_revision_10.0_flow_hole_diameter_mm_11.5_flow_hole_height_mm_-24.0_-6.0_12.0_30.0_flow_hole_x_mm_2.0_foot_locating_height_mm_60.0_foot_pitch_mm_12.6_foot_pocket_width_mm_0.25_gutter_side_clearance_mm_2.25_gutter_wall_mm_18.0_height_58.5_height_mm_11.0_holder_offset_toward_edge_mm_26.0_holder_seat_height_mm_10.0_inside_bottom_diameter_mm_5.0_lip_height_mm_2.0_lip_projection_mm_4.0_lip_tip_drop_mm_pump_support_cradle_oobb_name_printed_pump_support_cradle_part_role_broadcross-sectionflatonbed.inspectsupport/bridgingforthe12.6mmlocatingpockets._print_orientation_2_print_quantity_https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154_product_reference_url_58.5_profile_height_mm_source_file/floplast/square_gutter_profile.jpg_profile_image_local_https://www.floplast.co.uk/uploads/product-images/thumbs/tzthwyeyd4jlruuprya4q3cotofuaovxlqg51iy3.jpg_profile_image_url_revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated_profile_status_114.0_profile_width_mm_37.5_shoulder_height_mm_3.0_shoulder_radius_mm_18.0_support_thickness_mm_three_d_print_taxonomy_1_filament_manufacture_taxonomy_2_cooling_tank_taxonomy_3_pump_support_cradle_taxonomy_4_11_mm_offset_taxonomy_5_26_mm_seat_height_taxonomy_6_18_mm_thickness_taxonomy_7_114.0_width_114.0_width_mm_37.3176529_4.8181797_37.2739859_4.7359524_37.2341439_4.6639664_37.193061_4.5926813_37.1507496_4.5221185_37.1072223_4.4522992_37.0624922_4.3832442_37.0165727_4.3149744_36.9694776_4.2475102_36.921221_4.1808718_36.8718174_4.1150793_36.8212816_4.0501524_36.7696288_3.9861106_36.7168745_3.922973_36.6630345_3.8607587_36.608125_3.7994863_36.5521624_3.7391741_36.4951635_3.6798403_36.4371454_3.6215028_36.3781256_3.5641788_36.3181218_3.5078858_36.2571519_3.4526405_36.1952342_3.3984596_36.1323874_3.3453593_36.0686302_3.2933555_36.0039819_3.2424639_35.9384617_3.1926997_35.8720894_3.1440778_35.8048849_3.0966128_35.7368684_3.050319_35.6680601_3.0052103_35.5984809_2.9613002_35.5281516_2.9186018_35.4570932_2.877128_35.3853271_2.8368912_35.3128749_2.7979036_35.2397582_2.7601767_35.165999_2.7237219_35.0916194_2.6885502_35.0166418_2.6546721_34.9410886_2.6220977_34.8649826_2.590837_34.7883465_2.5608991_34.7112033_2.5322931_34.6335763_2.5050276_34.5554886_2.4791108_34.4769637_2.4545504_34.3980252_2.4313539_34.3186967_2.4095281_34.2390021_2.3890796_34.1589653_2.3700146_34.0786103_2.3523388_33.9979611_2.3360574_33.917042_2.3211755_33.8358773_2.3076973_33.7544914_2.295627_33.6729085_2.2849683_33.5911533_2.2757242_33.5092503_2.2678976_33.4272239_2.2614908_33.3450989_2.2565057_33.2628999_2.2529439_33.1806515_2.2508063_33.0875521_2.25_-33.0875521_2.25_-33.1806515_2.2508063_-33.2628999_2.2529439_-33.3450989_2.2565057_-33.4272239_2.2614908_-33.5092503_2.2678976_-33.5911533_2.2757242_-33.6729085_2.2849683_-33.7544914_2.295627_-33.8358773_2.3076973_-33.917042_2.3211755_-33.9979611_2.3360574_-34.0786103_2.3523388_-34.1589653_2.3700146_-34.2390021_2.3890796_-34.3186967_2.4095281_-34.3980252_2.4313539_-34.4769637_2.4545504_-34.5554886_2.4791108_-34.6335763_2.5050276_-34.7112033_2.5322931_-34.7883465_2.5608991_-34.8649826_2.590837_-34.9410886_2.6220977_-35.0166418_2.6546721_-35.0916194_2.6885502_-35.165999_2.7237219_-35.2397582_2.7601767_-35.3128749_2.7979036_-35.3853271_2.8368912_-35.4570932_2.877128_-35.5281516_2.9186018_-35.5984809_2.9613002_-35.6680601_3.0052103_-35.7368684_3.050319_-35.8048849_3.0966128_-35.8720894_3.1440778_-35.9384617_3.1926997_-36.0039819_3.2424639_-36.0686302_3.2933555_-36.1323874_3.3453593_-36.1952342_3.3984596_-36.2571519_3.4526405_-36.3181218_3.5078858_-36.3781256_3.5641788_-36.4371454_3.6215028_-36.4951635_3.6798403_-36.5521624_3.7391741_-36.608125_3.7994863_-36.6630345_3.8607587_-36.7168745_3.922973_-36.7696288_3.9861106_-36.8212816_4.0501524_-36.8718174_4.1150793_-36.921221_4.1808718_-36.9694776_4.2475102_-37.0165727_4.3149744_-37.0624922_4.3832442_-37.1072223_4.4522992_-37.1507496_4.5221185_-37.193061_4.5926813_-37.2341439_4.6639664_-37.2739859_4.7359524_-37.3176529_4.8181797_-49.3721994_28.0_49.3721994_28.0_points
+  - oobb_cube_center_shape_negative_type_-41.0_28.0_2.7_pos_12.6_4.0_12.6_size
+  - oobb_cube_center_shape_negative_type_19.0_28.0_2.7_pos_12.6_4.0_12.6_size
+  - oobb_hole_shape_negative_type_18.02_depth_-24.0_11.5_-0.01_pos_5.0_radius
+  - oobb_hole_shape_negative_type_18.02_depth_-6.0_11.5_-0.01_pos_5.0_radius
+  - oobb_hole_shape_negative_type_18.02_depth_12.0_11.5_-0.01_pos_5.0_radius
+  - oobb_hole_shape_negative_type_18.02_depth_30.0_11.5_-0.01_pos_5.0_radius
+  curve_step_degrees: 1.0
+  depth: 18.0
+  depth_mm: 18.0
+  description: Level pump-holder cradle rib; 11 mm toward visible edge, four flow
+    holes and two locating pockets. Print two identical ribs.
+  description_extra: 18.0_depth
+  description_main: 114_0_width_28_0_height
+  dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+    supplied by user.
+  directory: parts/three_d_print_filament_manufacture_cooling_tank_pump_support_cradle_11_mm_offset_26_mm_seat_height_18_mm_thickness
+  filter: pump_support_cradle
+  fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+    sealing; drawing does not establish a perfect physical match.
+  fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+  fit_revision: 2
+  flow_hole_diameter_mm: 10.0
+  flow_hole_height_mm: 11.5
+  flow_hole_x_mm:
+  - -24.0
+  - -6.0
+  - 12.0
+  - 30.0
+  foot_locating_height_mm: 2.0
+  foot_pitch_mm: 60.0
+  foot_pocket_width_mm: 12.6
+  gutter_side_clearance_mm: 0.25
+  gutter_wall_mm: 2.25
+  height: 28.0
+  height_mm: 58.5
+  holder_offset_toward_edge_mm: 11.0
+  holder_seat_height_mm: 26.0
+  id: three_d_print_filament_manufacture_cooling_tank_pump_support_cradle_11_mm_offset_26_mm_seat_height_18_mm_thickness
+  id_no_class: three_d_print_filament_manufacture_cooling_tank_pump_support_cradle_11_mm_offset_26_mm_seat_height_18_mm_thickness
+  id_no_size: three_d_print_filament_manufacture_cooling_tank_pump_support_cradle_11_mm_offset_26_mm_seat_height_18_mm_thickness
+  id_no_type: three_d_print_filament_manufacture_cooling_tank_pump_support_cradle_11_mm_offset_26_mm_seat_height_18_mm_thickness
+  inside_bottom_diameter_mm: 10.0
+  kwargs:
+    assembly_instruction: Fit two ribs 60 mm apart along the gutter under the four
+      holder feet. Offset the foot pockets toward the visible edge. Foot soles sit
+      26 mm above the gutter outside-bottom datum.
+    bottom_radius_mm: 7.25
+    bottom_virtual_width_mm: 75.0
+    curve_step_degrees: 1.0
+    depth: 18.0
+    depth_mm: 18.0
+    description: Level pump-holder cradle rib; 11 mm toward visible edge, four flow
+      holes and two locating pockets. Print two identical ribs.
+    dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+      supplied by user.
+    filter: pump_support_cradle
+    fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+      sealing; drawing does not establish a perfect physical match.
+    fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+    fit_revision: 2
+    flow_hole_diameter_mm: 10.0
+    flow_hole_height_mm: 11.5
+    flow_hole_x_mm:
+    - -24.0
+    - -6.0
+    - 12.0
+    - 30.0
+    foot_locating_height_mm: 2.0
+    foot_pitch_mm: 60.0
+    foot_pocket_width_mm: 12.6
+    gutter_side_clearance_mm: 0.25
+    gutter_wall_mm: 2.25
+    height: 28.0
+    height_mm: 58.5
+    holder_offset_toward_edge_mm: 11.0
+    holder_seat_height_mm: 26.0
+    inside_bottom_diameter_mm: 10.0
+    lip_height_mm: 5.0
+    lip_projection_mm: 2.0
+    lip_tip_drop_mm: 4.0
+    modes:
+    - 3dpr
+    navigation: true
+    oobb_name: pump_support_cradle
+    oomp_mode: project
+    oomp_run: true
+    overwrite: true
+    part_role: printed_pump_support_cradle
+    print_orientation: Broad cross-section flat on bed. Inspect support/bridging for
+      the 12.6 mm locating pockets.
+    print_quantity: 2
+    product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+    profile_height_mm: 58.5
+    profile_image_local: source_file/floplast/square_gutter_profile.jpg
+    profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+    profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+    profile_width_mm: 114.0
+    save_type: all
+    shoulder_height_mm: 37.5
+    shoulder_radius_mm: 3.0
+    support_thickness_mm: 18.0
+    taxonomy_1: three_d_print
+    taxonomy_2: filament_manufacture
+    taxonomy_3: cooling_tank
+    taxonomy_4: pump_support_cradle
+    taxonomy_5: 11_mm_offset
+    taxonomy_6: 26_mm_seat_height
+    taxonomy_7: 18_mm_thickness
+    typ: all
+    wait_for_completion: true
+    width: 114.0
+    width_mm: 114.0
+  link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/three_d_print_filament_manufacture_cooling_tank_pump_support_cradle_11_mm_offset_26_mm_seat_height_18_mm_thickness
+  link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/three_d_print_filament_manufacture_cooling_tank_pump_support_cradle_11_mm_offset_26_mm_seat_height_18_mm_thickness
+  link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/three_d_print_filament_manufacture_cooling_tank_pump_support_cradle_11_mm_offset_26_mm_seat_height_18_mm_thickness
+  lip_height_mm: 5.0
+  lip_projection_mm: 2.0
+  lip_tip_drop_mm: 4.0
+  manufacturer: ''
+  md5: 9b0fec0ac76dbaceb98669a2148bbd79
+  md5_10: 9b0fec0ac7
+  md5_10_upper: 9B0FEC0AC7
+  md5_5: 9b0fe
+  md5_5_upper: 9B0FE
+  md5_6: 9b0fec
+  md5_6_alpha: 61t64
+  md5_6_alpha_upper: 61T64
+  md5_6_upper: 9B0FEC
+  name: Three D Print Filament Manufacture Cooling Tank Pump Support Cradle 11 Mm
+    Offset 26 Mm Seat Height 18 Mm Thickness
+  name_no_class: Three D Print Filament Manufacture Cooling Tank Pump Support Cradle
+    11 Mm Offset 26 Mm Seat Height 18 Mm Thickness
+  name_no_size: Three D Print Filament Manufacture Cooling Tank Pump Support Cradle
+    11 Mm Offset 26 Mm Seat Height 18 Mm Thickness
+  name_no_type: Three D Print Filament Manufacture Cooling Tank Pump Support Cradle
+    11 Mm Offset 26 Mm Seat Height 18 Mm Thickness
+  name_proper: Three D Print Filament Manufacture Cooling Tank Pump Support Cradle
+    11 Mm Offset 26 Mm Seat Height 18 Mm Thickness
+  name_short: Default Pump Support Cradle 114 0x28
+  name_space: three d print filament manufacture cooling tank pump support cradle
+    11 mm offset 26 mm seat height 18 mm thickness
+  name_text: Oobb Part Default Pump Support Cradle 114 0 Width 28 0 Height 18 Depth
+  name_upper: THREE D PRINT FILAMENT MANUFACTURE COOLING TANK PUMP SUPPORT CRADLE
+    11 MM OFFSET 26 MM SEAT HEIGHT 18 MM THICKNESS
+  oobb_details:
+    assembly_instruction: Fit two ribs 60 mm apart along the gutter under the four
+      holder feet. Offset the foot pockets toward the visible edge. Foot soles sit
+      26 mm above the gutter outside-bottom datum.
+    bottom_radius_mm: 7.25
+    bottom_virtual_width_mm: 75.0
+    curve_step_degrees: 1.0
+    depth: 18.0
+    depth_mm: 18.0
+    description: Level pump-holder cradle rib; 11 mm toward visible edge, four flow
+      holes and two locating pockets. Print two identical ribs.
+    dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+      supplied by user.
+    fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before
+      sealing; drawing does not establish a perfect physical match.
+    fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+    fit_revision: 2
+    flow_hole_diameter_mm: 10.0
+    flow_hole_height_mm: 11.5
+    flow_hole_x_mm:
+    - -24.0
+    - -6.0
+    - 12.0
+    - 30.0
+    foot_locating_height_mm: 2.0
+    foot_pitch_mm: 60.0
+    foot_pocket_width_mm: 12.6
+    gutter_side_clearance_mm: 0.25
+    gutter_wall_mm: 2.25
+    height: 28.0
+    height_mm: 58.5
+    holder_offset_toward_edge_mm: 11.0
+    holder_seat_height_mm: 26.0
+    inside_bottom_diameter_mm: 10.0
+    lip_height_mm: 5.0
+    lip_projection_mm: 2.0
+    lip_tip_drop_mm: 4.0
+    oobb_name: pump_support_cradle
+    oobb_type: pump_support_cradle
+    part_role: printed_pump_support_cradle
+    print_orientation: Broad cross-section flat on bed. Inspect support/bridging for
+      the 12.6 mm locating pockets.
+    print_quantity: 2
+    product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+    profile_height_mm: 58.5
+    profile_image_local: source_file/floplast/square_gutter_profile.jpg
+    profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+    profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+    profile_width_mm: 114.0
+    run_scad: true
+    run_solidcraft: false
+    shoulder_height_mm: 37.5
+    shoulder_radius_mm: 3.0
+    support_thickness_mm: 18.0
+    taxonomy_1: three_d_print
+    taxonomy_2: filament_manufacture
+    taxonomy_3: cooling_tank
+    taxonomy_4: pump_support_cradle
+    taxonomy_5: 11_mm_offset
+    taxonomy_6: 26_mm_seat_height
+    taxonomy_7: 18_mm_thickness
+    width: 114.0
+    width_mm: 114.0
+  oobb_name: pump_support_cradle
+  oobb_type: pump_support_cradle
+  oomlout_ai_roboclick_1:
+    action_name: step_0_jinja_template_label_oomp.svg
+    actions:
+    - command: text_jinja_template
+      convert_to_pdf: false
+      convert_to_png: false
+      dict_data:
+        assembly_instruction: Fit two ribs 60 mm apart along the gutter under the
+          four holder feet. Offset the foot pockets toward the visible edge. Foot
+          soles sit 26 mm above the gutter outside-bottom datum.
+        bottom_radius_mm: 7.25
+        bottom_virtual_width_mm: 75.0
+        curve_step_degrees: 1.0
+        depth: 18.0
+        depth_mm: 18.0
+        description: Level pump-holder cradle rib; 11 mm toward visible edge, four
+          flow holes and two locating pockets. Print two identical ribs.
+        dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+          supplied by user.
+        directory: parts\three_d_print_filament_manufacture_cooling_tank_pump_support_cradle_11_mm_offset_26_mm_seat_height_18_mm_thickness
+        fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit
+          before sealing; drawing does not establish a perfect physical match.
+        fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+        fit_revision: 2
+        flow_hole_diameter_mm: 10.0
+        flow_hole_height_mm: 11.5
+        flow_hole_x_mm:
+        - -24.0
+        - -6.0
+        - 12.0
+        - 30.0
+        foot_locating_height_mm: 2.0
+        foot_pitch_mm: 60.0
+        foot_pocket_width_mm: 12.6
+        gutter_side_clearance_mm: 0.25
+        gutter_wall_mm: 2.25
+        height: 28.0
+        height_mm: 58.5
+        holder_offset_toward_edge_mm: 11.0
+        holder_seat_height_mm: 26.0
+        inside_bottom_diameter_mm: 10.0
+        lip_height_mm: 5.0
+        lip_projection_mm: 2.0
+        lip_tip_drop_mm: 4.0
+        name: three_d_print_filament_manufacture_cooling_tank_pump_support_cradle_11_mm_offset_26_mm_seat_height_18_mm_thickness
+        name_proper: Three D Print Filament Manufacture Cooling Tank Pump Support
+          Cradle 11 Mm Offset 26 Mm Seat Height 18 Mm Thickness
+        name_space: three d print filament manufacture cooling tank pump support cradle
+          11 mm offset 26 mm seat height 18 mm thickness
+        name_upper: THREE D PRINT FILAMENT MANUFACTURE COOLING TANK PUMP SUPPORT CRADLE
+          11 MM OFFSET 26 MM SEAT HEIGHT 18 MM THICKNESS
+        oobb_details:
+          assembly_instruction: Fit two ribs 60 mm apart along the gutter under the
+            four holder feet. Offset the foot pockets toward the visible edge. Foot
+            soles sit 26 mm above the gutter outside-bottom datum.
+          bottom_radius_mm: 7.25
+          bottom_virtual_width_mm: 75.0
+          curve_step_degrees: 1.0
+          depth: 18.0
+          depth_mm: 18.0
+          description: Level pump-holder cradle rib; 11 mm toward visible edge, four
+            flow holes and two locating pockets. Print two identical ribs.
+          dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness
+            supplied by user.
+          fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit
+            before sealing; drawing does not establish a perfect physical match.
+          fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg
+          fit_revision: 2
+          flow_hole_diameter_mm: 10.0
+          flow_hole_height_mm: 11.5
+          flow_hole_x_mm:
+          - -24.0
+          - -6.0
+          - 12.0
+          - 30.0
+          foot_locating_height_mm: 2.0
+          foot_pitch_mm: 60.0
+          foot_pocket_width_mm: 12.6
+          gutter_side_clearance_mm: 0.25
+          gutter_wall_mm: 2.25
+          height: 28.0
+          height_mm: 58.5
+          holder_offset_toward_edge_mm: 11.0
+          holder_seat_height_mm: 26.0
+          inside_bottom_diameter_mm: 10.0
+          lip_height_mm: 5.0
+          lip_projection_mm: 2.0
+          lip_tip_drop_mm: 4.0
+          oobb_name: pump_support_cradle
+          oobb_type: pump_support_cradle
+          part_role: printed_pump_support_cradle
+          print_orientation: Broad cross-section flat on bed. Inspect support/bridging
+            for the 12.6 mm locating pockets.
+          print_quantity: 2
+          product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+          profile_height_mm: 58.5
+          profile_image_local: source_file/floplast/square_gutter_profile.jpg
+          profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+          profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+          profile_width_mm: 114.0
+          run_scad: true
+          run_solidcraft: false
+          shoulder_height_mm: 37.5
+          shoulder_radius_mm: 3.0
+          support_thickness_mm: 18.0
+          taxonomy_1: three_d_print
+          taxonomy_2: filament_manufacture
+          taxonomy_3: cooling_tank
+          taxonomy_4: pump_support_cradle
+          taxonomy_5: 11_mm_offset
+          taxonomy_6: 26_mm_seat_height
+          taxonomy_7: 18_mm_thickness
+          width: 114.0
+          width_mm: 114.0
+        oobb_name: pump_support_cradle
+        oobb_type: pump_support_cradle
+        part_role: printed_pump_support_cradle
+        print_orientation: Broad cross-section flat on bed. Inspect support/bridging
+          for the 12.6 mm locating pockets.
+        print_quantity: 2
+        product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+        profile_height_mm: 58.5
+        profile_image_local: source_file/floplast/square_gutter_profile.jpg
+        profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+        profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+        profile_width_mm: 114.0
+        run_scad: true
+        run_solidcraft: false
+        shoulder_height_mm: 37.5
+        shoulder_radius_mm: 3.0
+        support_thickness_mm: 18.0
+        taxonomy_1: three_d_print
+        taxonomy_10: ''
+        taxonomy_11: ''
+        taxonomy_12: ''
+        taxonomy_13: ''
+        taxonomy_14: ''
+        taxonomy_15: ''
+        taxonomy_2: filament_manufacture
+        taxonomy_3: cooling_tank
+        taxonomy_4: pump_support_cradle
+        taxonomy_5: 11_mm_offset
+        taxonomy_6: 26_mm_seat_height
+        taxonomy_7: 18_mm_thickness
+        taxonomy_8: ''
+        taxonomy_9: ''
+        url_chat: ''
+        width: 114.0
+        width_mm: 114.0
+      dict_data_files: {}
+      dict_data_files_exists: {}
+      file_output: label_oomp.svg
+      file_template: C:\gh\three_d_print_filament_manufacturing_cooling_tank\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+      search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+  oomp_key: oomp_three_d_print_filament_manufacture_cooling_tank_pump_support_cradle_11_mm_offset_26_mm_seat_height_18_mm_thickness
+  part_number: ''
+  part_role: printed_pump_support_cradle
+  print_orientation: Broad cross-section flat on bed. Inspect support/bridging for
+    the 12.6 mm locating pockets.
+  print_quantity: 2
+  product_reference_url: https://www.screwfix.com/p/floplast-rgs3w-upvc-square-gutter-white-114mm-x-3m/28154
+  profile_height_mm: 58.5
+  profile_image_local: source_file/floplast/square_gutter_profile.jpg
+  profile_image_url: https://www.floplast.co.uk/uploads/product-images/thumbs/TzthwyEyd4jlruupRya4q3cotOfUAovxlqG51iY3.jpg
+  profile_status: revision_2_user_selected_10_mm_inside_bottom_diameter_other_undimensioned_features_estimated
+  profile_width_mm: 114.0
+  run_scad: true
+  run_solidcraft: false
+  short_name: ''
+  shoulder_height_mm: 37.5
+  shoulder_radius_mm: 3.0
+  size: default_pump_support_cradle
+  support_thickness_mm: 18.0
+  taxonomy_1: three_d_print
+  taxonomy_10: ''
+  taxonomy_11: ''
+  taxonomy_12: ''
+  taxonomy_13: ''
+  taxonomy_14: ''
+  taxonomy_15: ''
+  taxonomy_1_capital: Three D Print
+  taxonomy_1_first_letter: t
+  taxonomy_1_first_letter_upper: T
+  taxonomy_1_length_1: t
+  taxonomy_1_length_2: th
+  taxonomy_1_length_3: thr
+  taxonomy_1_length_4: thre
+  taxonomy_1_length_5: three
+  taxonomy_1_upper: THREE_D_PRINT
+  taxonomy_1_upper_length_1: T
+  taxonomy_1_upper_length_2: TH
+  taxonomy_1_upper_length_3: THR
+  taxonomy_1_upper_length_4: THRE
+  taxonomy_1_upper_length_5: THREE
+  taxonomy_2: filament_manufacture
+  taxonomy_2_capital: Filament Manufacture
+  taxonomy_2_first_letter: f
+  taxonomy_2_first_letter_upper: F
+  taxonomy_2_length_1: f
+  taxonomy_2_length_2: fi
+  taxonomy_2_length_3: fil
+  taxonomy_2_length_4: fila
+  taxonomy_2_length_5: filam
+  taxonomy_2_upper: FILAMENT_MANUFACTURE
+  taxonomy_2_upper_length_1: F
+  taxonomy_2_upper_length_2: FI
+  taxonomy_2_upper_length_3: FIL
+  taxonomy_2_upper_length_4: FILA
+  taxonomy_2_upper_length_5: FILAM
+  taxonomy_3: cooling_tank
+  taxonomy_3_capital: Cooling Tank
+  taxonomy_3_first_letter: c
+  taxonomy_3_first_letter_upper: C
+  taxonomy_3_length_1: c
+  taxonomy_3_length_2: co
+  taxonomy_3_length_3: coo
+  taxonomy_3_length_4: cool
+  taxonomy_3_length_5: cooli
+  taxonomy_3_upper: COOLING_TANK
+  taxonomy_3_upper_length_1: C
+  taxonomy_3_upper_length_2: CO
+  taxonomy_3_upper_length_3: COO
+  taxonomy_3_upper_length_4: COOL
+  taxonomy_3_upper_length_5: COOLI
+  taxonomy_4: pump_support_cradle
+  taxonomy_4_capital: Pump Support Cradle
+  taxonomy_4_first_letter: p
+  taxonomy_4_first_letter_upper: P
+  taxonomy_4_length_1: p
+  taxonomy_4_length_2: pu
+  taxonomy_4_length_3: pum
+  taxonomy_4_length_4: pump
+  taxonomy_4_length_5: pump_
+  taxonomy_4_upper: PUMP_SUPPORT_CRADLE
+  taxonomy_4_upper_length_1: P
+  taxonomy_4_upper_length_2: PU
+  taxonomy_4_upper_length_3: PUM
+  taxonomy_4_upper_length_4: PUMP
+  taxonomy_4_upper_length_5: PUMP_
+  taxonomy_5: 11_mm_offset
+  taxonomy_5_capital: 11 mm Offset
+  taxonomy_5_first_letter: '1'
+  taxonomy_5_first_letter_upper: '1'
+  taxonomy_5_length_1: '1'
+  taxonomy_5_length_2: '11'
+  taxonomy_5_length_3: '11_'
+  taxonomy_5_length_4: 11_m
+  taxonomy_5_length_5: 11_mm
+  taxonomy_5_upper: 11_MM_OFFSET
+  taxonomy_5_upper_length_1: '1'
+  taxonomy_5_upper_length_2: '11'
+  taxonomy_5_upper_length_3: '11_'
+  taxonomy_5_upper_length_4: 11_M
+  taxonomy_5_upper_length_5: 11_MM
+  taxonomy_6: 26_mm_seat_height
+  taxonomy_6_capital: 26 mm Seat Height
+  taxonomy_6_first_letter: '2'
+  taxonomy_6_first_letter_upper: '2'
+  taxonomy_6_length_1: '2'
+  taxonomy_6_length_2: '26'
+  taxonomy_6_length_3: '26_'
+  taxonomy_6_length_4: 26_m
+  taxonomy_6_length_5: 26_mm
+  taxonomy_6_upper: 26_MM_SEAT_HEIGHT
+  taxonomy_6_upper_length_1: '2'
+  taxonomy_6_upper_length_2: '26'
+  taxonomy_6_upper_length_3: '26_'
+  taxonomy_6_upper_length_4: 26_M
+  taxonomy_6_upper_length_5: 26_MM
+  taxonomy_7: 18_mm_thickness
+  taxonomy_7_capital: 18 mm Thickness
+  taxonomy_7_first_letter: '1'
+  taxonomy_7_first_letter_upper: '1'
+  taxonomy_7_length_1: '1'
+  taxonomy_7_length_2: '18'
+  taxonomy_7_length_3: '18_'
+  taxonomy_7_length_4: 18_m
+  taxonomy_7_length_5: 18_mm
+  taxonomy_7_upper: 18_MM_THICKNESS
+  taxonomy_7_upper_length_1: '1'
+  taxonomy_7_upper_length_2: '18'
+  taxonomy_7_upper_length_3: '18_'
+  taxonomy_7_upper_length_4: 18_M
+  taxonomy_7_upper_length_5: 18_MM
+  taxonomy_8: ''
+  taxonomy_9: ''
+  type: part
+  url_chat: ''
+  width: 114.0
+  width_mm: 114.0
+url_chat: ''
+width: 114.0
+width_mm: 114.0

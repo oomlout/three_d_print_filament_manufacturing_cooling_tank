@@ -109,6 +109,15 @@ scene.unit_settings.length_unit = 'MILLIMETERS'
 scene.render.engine = 'CYCLES'
 scene.cycles.samples = 24 if DRAFT else 96
 scene.cycles.use_denoising = True
+if '--gpu' in sys.argv:
+    preferences = bpy.context.preferences.addons['cycles'].preferences
+    preferences.compute_device_type = 'OPTIX'
+    preferences.get_devices()
+    for device in preferences.devices:
+        device.use = device.type == 'OPTIX'
+    if not any(device.use for device in preferences.devices):
+        raise RuntimeError('No OptiX device available; rerun without --gpu for CPU rendering')
+    scene.cycles.device = 'GPU'
 scene.cycles.max_bounces = 12
 scene.cycles.transmission_bounces = 8
 scene.render.resolution_x = 1100 if DRAFT else 2200
@@ -158,7 +167,15 @@ for x in DATA['support_positions']:
         mesh_part(f'Lifter at {x} - half B', 'lifter_half', (x, 0, 0), teal, flip=True)
 
 mesh_part('JT-500 holder base in rear bay', 'pump_holder_base', (0, 0, 0), gutter_material)
+mesh_part('Pump support cradle front', 'pump_cradle_front', (0, 0, 0), teal)
+mesh_part('Pump support cradle rear', 'pump_cradle_rear', (0, 0, 0), teal)
 mesh_part('JT-500 holder top in rear bay', 'pump_holder_top', (0, 0, 0), teal)
+mesh_part('JT-500 captive-nut lid', 'pump_holder_lid', (0, 0, 0), teal)
+mesh_part('Pump-top R40 hose clamp half A', 'pump_top_clamp_a', (0, 0, 0), gold)
+mesh_part('Pump-top R40 hose clamp half B', 'pump_top_clamp_b', (0, 0, 0), gold)
+for x, y, z in DATA['pump']['top_clamp_mount_holes_world_mm']:
+    tube(f'Pump-top M6 attachment screw {x}', [(x,y,z-8), (x,y,z+4)], 3, steel)
+    tube(f'Pump-top M6 attachment head {x}', [(x,y,z+4), (x,y,z+10)], 5, steel)
 mesh_part('JT-500 nominal pump in holder', 'pump_reference', (0, 0, 0), pump_grey)
 mesh_part('Hose from pump through rear riser - 12 ID 14 OD', 'pump_hose', (0, 0, 0), silicone)
 

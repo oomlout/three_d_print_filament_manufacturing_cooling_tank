@@ -3,11 +3,28 @@
   "source_hashes_match": true,
   "holder_and_hose_clear_gutters_and_caps": true,
   "hose_closed_annular_mesh": true,
-  "hose_centreline_length_mm": 407.01786775333966,
+  "hose_centreline_length_mm": 488.8497130928966,
   "hose_id_mm": 12,
   "hose_od_mm": 14,
   "outlet_above_inside_floor_mm": 15,
   "hose_socket_overlap_mm": 13.2,
+  "top_clamp_filament_surface_clearance_mm": {
+    "pump_top_clamp_a": 11.688436056155922,
+    "pump_top_clamp_b": 11.688436056155922,
+    "pump_hose": 9.971196308625604,
+    "pump_reference": 6.945309180467914,
+    "pump_holder_base": 81.92499923706055,
+    "pump_holder_top": 3.134866237640381,
+    "pump_holder_lid": 9.160883599320814
+  },
+  "m6_head_filament_surface_clearance_mm": 16.400416058665552,
+  "top_clamp_m6_axes_match_existing_lid": true,
+  "pump_shift_toward_visible_edge_mm": 26.0,
+  "pump_orientation_matches_current_holder": true,
+  "four_feet_supported_at_equal_height_mm": 26.0,
+  "cradle_rib_count": 2,
+  "holder_shift_toward_edge_mm": 11.0,
+  "bend_straight_above_rigid_tip_mm": 13.499999999999972,
   "hose_overlap_volumes_mm3": {
     "lower_gutter": 0.0,
     "upper_gutter": 0.0,
@@ -15,10 +32,15 @@
     "upper_rear_cap": 0.0,
     "pump_holder_base": 0.0,
     "pump_holder_top": 0.0,
+    "pump_holder_lid": 0.0,
+    "pump_cradle_front": 0.0,
+    "pump_cradle_rear": 0.0,
+    "pump_top_clamp_a": 19.488145671099705,
+    "pump_top_clamp_b": 19.488022111230407,
     "pump_reference": 0.0,
-    "rear_riser_a": 19.489657762837243,
-    "rear_riser_b": 19.489702690659062
+    "rear_riser_a": 19.489106246809268,
+    "rear_riser_b": 19.489089669681714
   },
-  "intentional_overlap": "Only the two riser grip/taper regions compress the nominal tube envelope.",
+  "intentional_overlap": "Only the riser and pump-top clamp outlet grip/taper regions compress the nominal tube envelope.",
   "scope": "Geometric assembly illustration; real hose bend, clamp fit and pump operation remain untested."
 }

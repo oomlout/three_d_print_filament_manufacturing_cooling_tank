@@ -1,0 +1,16 @@
+{
+  "status": "resolved",
+  "holder_outlet_offset_from_filament_mm": 6.0,
+  "hose_outer_radius_mm": 7.0,
+  "filament_radius_mm": 0.875,
+  "hose_to_filament_surface_gap_mm": -1.875,
+  "existing_mount_height_mm": 106.9,
+  "filament_axis_height_mm": 117.5,
+  "bend_start_height_mm": 125.60000000000001,
+  "note": "The existing straight hose segment crosses the filament elevation. New holder outlet orientation requires a pump-placement or filament-path change.",
+  "resolution": "Offset holder on two level cradle ribs; bender matches current inward-facing outlet.",
+  "holder_offset_mm": 11,
+  "foot_seat_height_mm": 26,
+  "minimum_assembly_filament_surface_clearance_mm": 3.134866237640381,
+  "verification": "verification/pump_assembly.json"
+}

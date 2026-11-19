@@ -31,7 +31,7 @@ source files and instructions.
 | Rear extension | **100 mm added only at the rear**; front and upper-trough positions unchanged |
 | Exposed reservoir | 50 mm ahead of the upper trough and **150 mm behind it**, including the additional 100 mm pump space |
 | Supports | Original identical-half lifter at the front; pump-inlet halves A and B at the rear |
-| Pump and hose | JT-500 holder in the rear bay; 12 mm ID / 14 mm OD silicone hose enters the rear riser from the side |
+| Pump and hose | JT-500 holder shifted 11 mm on two level cradle ribs; pump centre 26 mm toward the visible edge; an M6-mounted R40 clamp turns the 12 mm ID / 14 mm OD hose outward into the rear riser |
 | Water | Lower trough half its internal depth; upper water surface 5 mm below its rim |
 | Filament | **1.75 mm diameter, black**, continuous through both central M6 holes and the upper water, extending beyond both ends |
 
@@ -45,22 +45,25 @@ illustration rather than an operating submersion specification for the pump.
 
 ![Rear pump holder and hose connection](demonstration/pump_hose_detail.png)
 
-The close-up shows the **12 mm ID / 14 mm OD hose** on the pump outlet and its
-side entry into the new rear riser. Inside the riser, the hose bends downward
+The close-up shows the **12 mm ID / 14 mm OD hose** captured by the gold R40
+clamp on the pump top and its side entry into the rear riser. Inside the riser, the hose bends downward
 to the outlet 15 mm above the lower gutter's inside floor.
 
-The holder uses the existing JT-500 project's actual base and top meshes, with
+The holder uses the existing JT-500 project's actual base, top and retaining lid meshes, with
 its nominal pump reference. It sits upright in the rear bay, centred 65 mm
 ahead of the gutter's rear end. The hose fits over the pump's nominal outlet,
-loops around the side and passes continuously through the rear riser.
+turns toward the visible edge and passes continuously through the rear riser.
+The pump sits 15 mm off the base centre, making the top flush with the edge
+of the 5×5 base. The pump follows the holder’s current inward-facing outlet orientation. The bender turns the hose back toward the visible edge, while the cradle shifts the complete holder another 11 mm outward.
 The holder's pump fit and the hose connection still need physical checking.
 
 [Pump-holder base STL](source_file/pump_holder/base.stl) ·
-[Pump-holder top STL](source_file/pump_holder/top.stl)
+[Pump-holder top STL](source_file/pump_holder/top.stl) ·
+[Pump-holder lid STL](source_file/pump_holder/lid.stl)
 
 ## Parts and print files
 
-The catalogue contains **twelve current parts with unversioned names**. The files
+The catalogue contains **thirteen current parts with unversioned names**. The files
 below are the latest designs; older part versions have been removed.
 
 | Printed part | Options | STL |
@@ -71,8 +74,9 @@ below are the latest designs; older part versions have been removed.
 | Slotted end cap, inside seal groove | 6 mm total / 3 mm insertion | [6 mm](parts/three_d_print_filament_manufacture_cooling_tank_cap_end_open_6_mm_depth/3dpr.stl) |
 | Grooved 3 x 3 cover | 44 x 44 x 3 mm | [Cover](parts/three_d_print_filament_manufacture_cooling_tank_cap_cover_3_by_3_oobb_3_mm_thickness/3dpr.stl) |
 | Identical lifter half | 75 mm lift / 9 mm web / 30 mm shoes, assembled | [Half — print two per support](parts/three_d_print_filament_manufacture_cooling_tank_lifter_75_mm_lift_height_9_mm_thickness_30_mm_support_thickness/3dpr.stl) |
-| Pump inlet riser A | 75 mm lift / 30 mm assembled thickness / 14 mm tube | [Half A — print one](parts/three_d_print_filament_manufacture_cooling_tank_lifter_pump_inlet_75_mm_lift_height_30_mm_thickness_30_mm_support_thickness_14_mm_tube_od_half_a/3dpr.stl) |
-| Pump inlet riser B | Matching half with nut pockets | [Half B — print one](parts/three_d_print_filament_manufacture_cooling_tank_lifter_pump_inlet_75_mm_lift_height_30_mm_thickness_30_mm_support_thickness_14_mm_tube_od_half_b/3dpr.stl) |
+| Pump inlet riser, complete A/B set | 75 mm lift / 30 mm assembled thickness / 14 mm tube | [Both halves](parts/three_d_print_filament_manufacture_cooling_tank_lifter_pump_inlet_75_mm_lift_height_30_mm_thickness_30_mm_support_thickness_14_mm_tube_od/3dpr.stl) · [A](parts/three_d_print_filament_manufacture_cooling_tank_lifter_pump_inlet_75_mm_lift_height_30_mm_thickness_30_mm_support_thickness_14_mm_tube_od/half_a.stl) · [B](parts/three_d_print_filament_manufacture_cooling_tank_lifter_pump_inlet_75_mm_lift_height_30_mm_thickness_30_mm_support_thickness_14_mm_tube_od/half_b.stl) |
+| Pump-top R40 hose clamp, complete A/B set | Raised inlet / 16.4 mm rigid-section relief / M6 mounting | [Both halves](parts/three_d_print_filament_manufacture_cooling_tank_pump_hose_clamp_40_mm_bend_radius_14_mm_tube_od/3dpr.stl) · [A](parts/three_d_print_filament_manufacture_cooling_tank_pump_hose_clamp_40_mm_bend_radius_14_mm_tube_od/half_a.stl) · [B](parts/three_d_print_filament_manufacture_cooling_tank_pump_hose_clamp_40_mm_bend_radius_14_mm_tube_od/half_b.stl) |
+| Pump support cradle rib | 11 mm offset / 26 mm foot-seat height / 18 mm thick | [Rib — print two](parts/three_d_print_filament_manufacture_cooling_tank_pump_support_cradle_11_mm_offset_26_mm_seat_height_18_mm_thickness/3dpr.stl) |
 
 The other four entries are gutter-reference lengths of 3000, 1000, 500 and
 300 mm. The demonstration cuts the same section to 600 and 400 mm; those lengths
@@ -84,9 +88,14 @@ For the illustrated assembly, use:
 - Two 15 mm solid caps and two 15 mm slotted caps.
 - Two cover plates, two original lifter halves, one pump-inlet half A and one half B.
 - Eight M3 countersunk screws and nuts for the two lifters.
+- Two identical pump-support cradle ribs, placed 60 mm apart beneath the holder feet.
 - Eight M6 corner fasteners with suitable nuts/washers for the upper covers.
-- One JT-500 pump, one holder base and one holder top, with four M3×16 mm
+- One JT-500 pump, one holder base, one holder top and its retaining lid, with four M3×16 mm
   countersunk screws and four M3 nuts for the holder.
+- Two M3×16 mm countersunk screws and nuts for the current holder lid; two captive M6 nuts
+  for the hose-clamp attachment.
+- Pump-top clamp halves A and B, two M6×12 mm socket-head screws, and three
+  M3×25 mm countersunk screws with nuts. Check engagement on the printed parts.
 - A length of 12 mm ID / 14 mm OD silicone hose, trimmed to suit the final routing.
 - Two lengths of **2 mm OD rubber cord**, approximately 93.2 mm each along the
   U centreline, plus allowance for trimming the ends.
@@ -176,6 +185,67 @@ confirmed; this remains a trial clamp, so grip, bend behaviour and maintained
 water flow need a physical check. The
 40 mm bend radius and inside-floor outlet datum are provisional assumptions.
 The main demonstration uses this variant at the rear and the original lifter at the front.
+
+## Pump-top R40 hose clamp
+
+![Two printable pump-top hose-clamp halves](preview/pump_top_clamp_overview.png)
+
+The hose leaves the pump vertically, then the clamp guides it through a true
+**40 mm centreline-radius quarter bend toward the visible gutter edge**.
+The bend is raised **8 mm** from the previous design. Its straight inlet is
+**16.4 mm diameter** to clear the hose over the rigid pump outlet, then tapers
+to the 14.4 mm guide. With the current holder top, the bend begins **13.5 mm
+above the rigid outlet tip**.
+
+Two M6 holes on **30 mm spacing** match the **inboard row** of the holder top’s captive nuts. The inlet now matches the inward-facing pump outlet; the cable opening is on the opposite side. The
+mounting feet are **4 mm thick**, with **16 mm diameter access openings**,
+open to the outer side for tightening the M6 screws. These clear the heads, driver
+and pump cable outlet. The existing pump-holder geometry is retained.
+
+Each split assembly is now **one catalogue part**: `3dpr.stl` contains both
+halves, spaced 10 mm apart. Individual `half_a.stl` and `half_b.stl` downloads
+are in the same folder. Print one combined set, or one of each half.
+
+Place their flat outer faces on the bed and the channels
+upward. Inspect supports for the transverse M6 bores and driver openings.
+Mount the feet to the pump top, lay the hose into the channel, then join the
+halves with three **M3×25 mm countersunk screws** and nuts. The heads and outer
+nut faces sit in **10 mm recesses**, leaving about 1 mm of screw beyond each nut.
+The access pockets open through the outside faces. Screw and nut cuts use
+OOBB print clearances and overhang geometry, including on both lifter types.
+The assembled clamp is 44 mm wide along
+the gutter; its two halves are each 22 mm thick. The 14.4 mm guide narrows to
+a 13.6 mm grip over the last 4 mm, matching the rear riser's trial squeeze.
+
+The new cradle shifts the holder **11 mm** toward the visible edge, putting
+the pump centre **26 mm** off the gutter centreline. The unchanged straight
+filament path has about **11.7 mm clearance to the printed bender**, **10.0 mm
+to the hose**, and **3.1 mm at the closest part of the holder**. The illustrated
+M6 heads have about **16.4 mm clearance**.
+The 4 mm foot keeps the attachment low while the R40 bend rises beside the
+filament. The hose route, cable-port clearance and M6 alignment pass digital
+checks; tube grip and the completed assembly still need a physical trial.
+
+## Level pump support cradle
+
+![Cradle rib and level holder support](preview/pump_cradle_overview.png)
+
+Print **two identical ribs** and place them **60 mm apart** along the gutter,
+under the holder’s four feet. Each rib is **18 mm thick**, follows the lower
+gutter contour, and has four **10 mm flow holes**. The **12.6 mm locating
+pockets** have 0.3 mm clearance per side around the nominal 12 mm feet; their
+floors are all **26 mm above the gutter’s outside bottom**. The 2 mm pocket
+walls locate the feet while the ribs support the holder level.
+
+Orient the pockets toward the visible edge so the holder centre sits **11 mm
+off the gutter centreline**. Check all four feet sit fully in their pockets.
+Print each rib with its broad cross-section on the bed; inspect bridging or
+support for the 12.6 mm pocket roofs. The original pump-holder meshes are unchanged.
+
+The raised pump body begins about **34.7 mm above the outside bottom**, above
+the illustrated half-full water surface at 30.4 mm. The render retains the
+requested half-full reservoir; operating water must be high enough for the
+actual pump’s intake and submersion requirements.
 
 ## Dimensions and verification
 

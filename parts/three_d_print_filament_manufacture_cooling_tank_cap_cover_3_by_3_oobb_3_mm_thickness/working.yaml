@@ -47,7 +47,7 @@ description: 44 x 44 x 3 mm cover, R5 outline corners, straight sides; four corn
 dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness supplied
     by user.
 directory: parts/three_d_print_filament_manufacture_cooling_tank_cap_cover_3_by_3_oobb_3_mm_thickness
-filter: lifter_pump_inlet
+filter: pump_support_cradle
 fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before sealing;
     drawing does not establish a perfect physical match.
 fit_photo_local: source_file/fit_trials/2026_11_16/printed_fit.jpg

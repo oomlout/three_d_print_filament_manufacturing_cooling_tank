@@ -9,18 +9,19 @@ from matplotlib.patches import Polygon, Circle
 
 from action_preview_lifter import render
 from working_oomp_populate import get_options, build_oomp_id
+from working_split_parts import halves, mesh_path
 from working_pump_lifter import get_layout
 from working_scad import get_gutter_sections
 
 
 def main():
-    options = [p for p in get_options() if p['oobb_type'] == 'lifter_pump_inlet']
+    options = halves(next(o for o in get_options() if o['oobb_type']=='lifter_pump_inlet'))
     assets = Path('preview/pump_lifter_assets')
     assets.mkdir(parents=True, exist_ok=True)
     images = []
     for option in options:
         side = option['pump_half']
-        shutil.copyfile(Path('parts') / build_oomp_id(option) / '3dpr.stl', assets / f'half_{side}.stl')
+        shutil.copyfile(mesh_path(option), assets / f'half_{side}.stl')
         scad = assets / f'half_{side}.scad'
         color = '[0.20,0.53,0.59]' if side == 'a' else '[0.85,0.57,0.26]'
         scad.write_text(f'color({color}) import("half_{side}.stl");\n', encoding='utf-8')

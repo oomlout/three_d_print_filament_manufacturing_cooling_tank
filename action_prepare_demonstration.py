@@ -7,6 +7,7 @@ import trimesh
 from shapely.geometry import box
 from working_oomp_populate import get_options, build_oomp_id
 from working_scad import get_gutter_sections
+from working_split_parts import halves, mesh_path
 
 
 def main():
@@ -15,18 +16,19 @@ def main():
     assets = destination / 'assets'
     assets.mkdir(parents=True, exist_ok=True)
     options = get_options()
+    riser_halves = halves(next(o for o in options if o['oobb_type']=='lifter_pump_inlet'))
     selected = {
         'solid_cap': next(o for o in options if o['oobb_type'] == 'cap_end_solide' and o['total_depth_mm'] == 15),
         'open_cap': next(o for o in options if o['oobb_type'] == 'cap_end_open' and o['total_depth_mm'] == 15),
         'cover': next(o for o in options if o['oobb_type'] == 'cap_cover'),
         'lifter_half': next(o for o in options if o['oobb_type'] == 'lifter'),
-        'pump_lifter_a': next(o for o in options if o['oobb_type'] == 'lifter_pump_inlet' and o['pump_half'] == 'a'),
-        'pump_lifter_b': next(o for o in options if o['oobb_type'] == 'lifter_pump_inlet' and o['pump_half'] == 'b'),
+        'pump_lifter_a': riser_halves[0],
+        'pump_lifter_b': riser_halves[1],
         'lower_gutter': next(o for o in options if o['oobb_type'] == 'gutter_square' and o['length_mm'] == 500),
     }
     sources = {}
     for name, option in selected.items():
-        source = root / 'parts' / build_oomp_id(option) / '3dpr.stl'
+        source = root / mesh_path(option)
         shutil.copyfile(source, assets / f'{name}.stl')
         sources[name] = source.relative_to(root).as_posix()
     profile = selected['lower_gutter']
@@ -58,7 +60,7 @@ def main():
             cutters.append(placed('lifter_half', y=height_shift, z=-125 + shift, flip=flip))
         cutters.extend([placed('pump_lifter_a', y=height_shift, z=110 + shift),
                         placed('pump_lifter_b', y=height_shift, z=140 + shift, flip=True)])
-        for asset in ('pump_holder_base', 'pump_holder_top', 'pump_reference', 'pump_hose'):
+        for asset in ('pump_holder_base', 'pump_holder_top', 'pump_holder_lid', 'pump_top_clamp_a', 'pump_top_clamp_b', 'pump_reference', 'pump_hose', 'pump_cradle_front', 'pump_cradle_rear'):
             cutters.append(placed(asset, y=height_shift, z=shift))
         cap_asset = 'open_cap' if is_upper else 'solid_cap'
         cutters.extend([placed(cap_asset, z=-3), placed(cap_asset, z=length + 3, flip=True)])

@@ -10,6 +10,8 @@ import yaml
 from shapely.geometry import Point
 
 from working_pump_lifter import get_layout
+from working_oomp_populate import get_options, build_oomp_id
+from working_split_parts import halves, mesh_path
 
 
 PUMP_PLACEMENT = {
@@ -17,8 +19,9 @@ PUMP_PLACEMENT = {
     'axial_position_mm': 285.0,
     'rear_riser_position_mm': 125.0,
     'hose_socket_above_body_mm': 8.0,
-    'hose_control_rise_mm': 120.0,
-    'hose_side_control_mm': -190.0,
+    'hose_side_control_mm': -175.0,
+    'pump_rotation_degrees': 180.0,
+    'pump_rotation_in_holder_degrees': 180.0,
 }
 
 
@@ -66,10 +69,9 @@ def prepare(root, assets, riser, sections):
     cache = root / 'source_file/pump_holder'
     cache.mkdir(parents=True, exist_ok=True)
     files = {
-        'base': 'parts/oobb_holder_motor_pump_submersible_jt_500_base/3dpr.stl',
-        'top': 'parts/oobb_holder_motor_pump_submersible_jt_500_top/3dpr.stl',
+        'print_set': 'parts/oobb_holder_motor_pump_submersible_jt_500/3dpr.stl',
         'pump': 'source_file/pump_reference.stl',
-        'parameters': 'parts/oobb_holder_motor_pump_submersible_jt_500_top/working.yaml',
+        'parameters': 'parts/oobb_holder_motor_pump_submersible_jt_500/working.yaml',
     }
     provenance = {}
     for key, relative in files.items():
@@ -86,40 +88,86 @@ def prepare(root, assets, riser, sections):
             'sha256': hashlib.sha256(target.read_bytes()).hexdigest(),
         }
     p = yaml.safe_load((cache / 'parameters.yaml').read_text())
+    # The current holder exports one plate containing base, top and nut-retaining lid.
+    pieces = trimesh.load_mesh(cache / 'print_set.stl').split()
+    assert len(pieces) == 3, 'Expected current offset holder with captive-nut lid'
+    offsets = {
+        'base': [-(p['width'] * 15 - 1)/2 - p['print_gap']/2, 0, 0],
+        'top': [max((p['top_width']*15-1)/2, p['tab_outer_x'], p.get('lid_ear_outer_x', 0)) + p['print_gap']/2,
+                (p['pump_body_length']+p['axial_clearance']+p['top_depth'])/2, 0],
+    }
+    offsets['lid'] = [offsets['top'][0], -offsets['top'][1]-p['print_gap']-22, 0]
+    for mesh in pieces:
+        name = 'base' if mesh.bounds[1, 0] < 0 else ('lid' if mesh.extents[2] < 4 else 'top')
+        mesh.apply_translation(-np.asarray(offsets[name]))
+        mesh.export(cache / f'{name}.stl')
+    # Current holder datum is its base plate plus feet, not the pump fin length.
+    base_top = p['depth'] + p['base_foot_height']
     base = trimesh.load_mesh(cache / 'base.stl')
     base.apply_transform(trimesh.transformations.rotation_matrix(np.pi, [1, 0, 0]))
-    base.apply_translation([0, 0, p['pump_fin_projection']])
+    base.apply_translation([0, 0, base_top])
     top = trimesh.load_mesh(cache / 'top.stl')
     top.apply_transform(trimesh.transformations.rotation_matrix(-np.pi / 2, [1, 0, 0]))
-    top.apply_translation([0, -(p['top_height'] * 15 - 1) / 2, p['pump_fin_projection']])
+    top.apply_translation([0, -(p['top_height'] * 15 - 1) / 2 + p['pump_offset_y'], base_top])
+    lid = trimesh.load_mesh(cache / 'lid.stl')
+    lid.apply_translation([0, p['pump_offset_y'], base_top+p['pump_body_length']+p['top_depth']])
     pump = trimesh.load_mesh(cache / 'pump.stl')
-    pump.apply_translation([0, 0, p['pump_fin_projection']])
-    # The wide feet settle slightly above the centre floor on its corner curves.
+    pump_rotation = PUMP_PLACEMENT['pump_rotation_in_holder_degrees']
+    pump.apply_transform(trimesh.transformations.rotation_matrix(np.radians(pump_rotation), [0, 0, 1]))
+    pump.apply_translation([0, p['pump_offset_y'], base_top])
+    # Two identical ribs support all four feet at a common height.
     floor = riser['gutter_wall_mm']
-    seat = None
-    for height in np.arange(floor, floor + 6, 0.05):
-        if all(sections['cavity'].buffer(1e-5).covers(Point(v[1], v[2] + height)) for v in base.vertices):
-            seat = float(height)
-            break
-    if seat is None:
-        raise ValueError('Pump holder feet do not fit the lower gutter')
-    origin = [PUMP_PLACEMENT['axial_position_mm'], 0, seat]
-    models = {'pump_holder_base': base, 'pump_holder_top': top, 'pump_reference': pump}
+    cradle = next(o for o in get_options() if o['oobb_type']=='pump_support_cradle')
+    seat = cradle['holder_seat_height_mm']
+    shift = cradle['holder_offset_toward_edge_mm']
+    assert p['foot_pitch'] == cradle['foot_pitch_mm'] and p['foot_size'] < cradle['foot_pocket_width_mm']
+    origin = [PUMP_PLACEMENT['axial_position_mm'], -shift, seat]
+    models = {'pump_holder_base': base, 'pump_holder_top': top, 'pump_holder_lid': lid, 'pump_reference': pump}
     for mesh in models.values():
+        mesh.apply_transform(trimesh.transformations.rotation_matrix(np.pi, [0, 0, 1]))
         mesh.apply_translation(origin)
-    outlet_xy = p['pump_outlet_xy']
-    socket = np.array([origin[0] + outlet_xy[0], outlet_xy[1],
-                       seat + p['pump_fin_projection'] + p['pump_body_length'] + PUMP_PLACEMENT['hose_socket_above_body_mm']])
+    # Holder metadata describes its own chosen pump rotation; the reference
+    # mesh stays canonical. Match the holder's current inward-facing outlet.
+    port_rotation = trimesh.transformations.rotation_matrix(
+        np.radians(pump_rotation - p.get('pump_rotation_z', 0)), [0, 0, 1])
+    outlet_xy = (port_rotation @ [*p['pump_outlet_xy'], 0, 1])[:2]
+    socket = np.array([origin[0] - outlet_xy[0], origin[1]-p['pump_offset_y']-outlet_xy[1],
+                       seat + base_top + p['pump_body_length'] + PUMP_PLACEMENT['hose_socket_above_body_mm']])
     tip = socket.copy()
     tip[2] += p['pump_outlet_projection'] - PUMP_PLACEMENT['hose_socket_above_body_mm']
-    # Start with a straight socket overlap, then a broad cubic route outside the rims.
-    start = tip + [0, 0, 5]
+    # Match the actual top clamp's R40 quarter bend before the free side loop.
+    from working_pump_top_clamp import get_layout as clamp_layout
+    clamp_options = halves(next(o for o in get_options() if o['oobb_type']=='pump_hose_clamp'))
+    clamp = clamp_options[0]
+    mount_height = seat + base_top + p['pump_body_length'] + p['top_depth'] + p['lid_depth']
+    assert np.allclose(outlet_xy, [0, clamp['outlet_offset_mm']]), 'Pump outlet must align with the bender inlet'
+    assert mount_height + clamp['bend_start_above_mount_mm'] - tip[2] >= 9, 'Leave straight hose beyond the rigid outlet'
+    assert tip[2]-mount_height <= clamp['rigid_outlet_above_mount_mm'], 'Rigid outlet exceeds the configured clearance height'
+    assert p['pump_offset_y'] == 15
+    assert {(-15, clamp['mount_row_offset_mm']), (15, clamp['mount_row_offset_mm'])} <= {(n['pos'][0], n['pos'][1]) for n in p['attachment_nuts'] if n['radius_name']=='m6'}
+    half = clamp['half_thickness_mm']
+    for option in clamp_options:
+        mesh = trimesh.load_mesh(root / mesh_path(option))
+        if option['clamp_half'] == 'a':
+            transform = [[0,0,-1,origin[0]+half],[-1,0,0,origin[1]-p['pump_offset_y']],[0,1,0,mount_height],[0,0,0,1]]
+        else:
+            transform = [[0,0,1,origin[0]-half],[1,0,0,origin[1]-p['pump_offset_y']],[0,1,0,mount_height],[0,0,0,1]]
+        mesh.apply_transform(transform)
+        models['pump_top_clamp_'+option['clamp_half']] = mesh
+    for side, offset in [('front', -cradle['foot_pitch_mm']/2), ('rear', cradle['foot_pitch_mm']/2)]:
+        rib = trimesh.load_mesh(root / mesh_path(cradle))
+        rib.apply_transform([[0,0,1,origin[0]+offset-cradle['support_thickness_mm']/2],
+                             [1,0,0,0],[0,1,0,0],[0,0,0,1]])
+        models['pump_cradle_'+side] = rib
+    bend_points = [[origin[0], origin[1]-p['pump_offset_y']-s, mount_height+h]
+                   for s,h in list(clamp_layout(**clamp)['path'].coords)[1:]]
+    start = np.asarray(bend_points[-1])
     layout = get_layout(**riser)
     end = np.array([PUMP_PLACEMENT['rear_riser_position_mm'], -70, layout['entry_y']])
-    controls = [start, start + [0, 0, PUMP_PLACEMENT['hose_control_rise_mm']],
+    controls = [start, [start[0], PUMP_PLACEMENT['hose_side_control_mm'], start[2]],
                 [end[0], PUMP_PLACEMENT['hose_side_control_mm'], end[2]], end]
     p0, p1, p2, p3 = map(np.asarray, controls)
-    points = [socket.tolist()]
+    points = [socket.tolist(), *bend_points[:-1]]
     points.extend(((1-t)**3*p0 + 3*(1-t)**2*t*p1 + 3*(1-t)*t*t*p2 + t**3*p3).tolist()
                   for t in np.linspace(0, 1, 161))
     points.extend([end[0], x, y] for x, y in list(layout['path'].coords)[1:])
@@ -142,8 +190,21 @@ def prepare(root, assets, riser, sections):
         'pump_outlet_tip_world_mm': tip.tolist(),
         'hose_socket_overlap_mm': p['pump_outlet_projection'] - PUMP_PLACEMENT['hose_socket_above_body_mm'],
         'rear_riser_position_mm': end[0],
+        'pump_offset_toward_edge_mm': p['pump_offset_y'] + shift,
+        'holder_offset_toward_edge_mm': shift,
+        'holder_foot_seat_height_mm': seat,
+        'cradle_part_id': build_oomp_id(cradle),
+        'cradle_count': 2,
+        'pump_rotation_degrees': PUMP_PLACEMENT['pump_rotation_degrees'],
+        'pump_rotation_in_holder_degrees': pump_rotation,
+        'holder_base_top_mm': base_top,
+        'top_clamp_mount_height_mm': mount_height,
+        'top_clamp_mount_holes_world_mm': [[origin[0]+x, origin[1]-p['pump_offset_y']-clamp['mount_row_offset_mm'], mount_height] for x in (-15,15)],
+        'top_clamp_bend_radius_mm': clamp['tube_bend_radius_mm'],
+        'bend_straight_above_rigid_tip_mm': mount_height + clamp['bend_start_above_mount_mm'] - tip[2],
         'outlet_above_inside_floor_mm': layout['outlet_y'] - floor,
         'notes': ['Holder meshes imported without shape changes; print transforms reversed for assembly.',
+                  'Pump matches the holder outlet orientation. Two locating cradle ribs keep the holder level, shifted 11 mm toward the visible edge.',
                   'Pump reference and its port positions are nominal, as supplied by the holder project.',
                   'Hose ends in the lower trough; this route does not supply the upper trough.',
                   'Half-full water is retained for illustration, not an operating submersion specification.'],

@@ -38,7 +38,12 @@ assert len([o for o in bpy.data.objects if o.name.startswith('Cover INSIDE upper
 assert bpy.data.objects['Lower gutter - 600 mm with rear pump bay'].data.materials[0].name == 'Black uPVC gutter'
 data = json.loads((root / 'demonstration/scene_data.json').read_text())
 for name, asset in [('JT-500 holder base in rear bay', 'pump_holder_base'),
+                    ('Pump support cradle front', 'pump_cradle_front'),
+                    ('Pump support cradle rear', 'pump_cradle_rear'),
                     ('JT-500 holder top in rear bay', 'pump_holder_top'),
+                    ('JT-500 captive-nut lid', 'pump_holder_lid'),
+                    ('Pump-top R40 hose clamp half A', 'pump_top_clamp_a'),
+                    ('Pump-top R40 hose clamp half B', 'pump_top_clamp_b'),
                     ('JT-500 nominal pump in holder', 'pump_reference'),
                     ('Hose from pump through rear riser - 12 ID 14 OD', 'pump_hose')]:
     actual = bounds_mm(name)

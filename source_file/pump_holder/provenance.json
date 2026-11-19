@@ -1,15 +1,9 @@
 {
-  "base": {
+  "print_set": {
     "source_project": "oomlout_oobb_holder_motor_pump_submersible_jt_500",
-    "source_file": "parts/oobb_holder_motor_pump_submersible_jt_500_base/3dpr.stl",
-    "cached_file": "source_file/pump_holder/base.stl",
-    "sha256": "1748d7fff6335141cc5dc980583ae462dbec24848c641581e25cd9b8ad56e5bd"
-  },
-  "top": {
-    "source_project": "oomlout_oobb_holder_motor_pump_submersible_jt_500",
-    "source_file": "parts/oobb_holder_motor_pump_submersible_jt_500_top/3dpr.stl",
-    "cached_file": "source_file/pump_holder/top.stl",
-    "sha256": "69050f3981d59dc49923bfc0854b39e3b9aba62b143cb5950ccc39a04f311e68"
+    "source_file": "parts/oobb_holder_motor_pump_submersible_jt_500/3dpr.stl",
+    "cached_file": "source_file/pump_holder/print_set.stl",
+    "sha256": "1435aa058da584dd7701f43bb13afd0da3820e3a9e01ba884ebce4cb5329a50e"
   },
   "pump": {
     "source_project": "oomlout_oobb_holder_motor_pump_submersible_jt_500",
@@ -19,8 +13,8 @@
   },
   "parameters": {
     "source_project": "oomlout_oobb_holder_motor_pump_submersible_jt_500",
-    "source_file": "parts/oobb_holder_motor_pump_submersible_jt_500_top/working.yaml",
+    "source_file": "parts/oobb_holder_motor_pump_submersible_jt_500/working.yaml",
     "cached_file": "source_file/pump_holder/parameters.yaml",
-    "sha256": "478b49e027c111ec8623295bca7fea848d0a10f9297e3314831920925cff40f0"
+    "sha256": "2706b06ac8913c3dd6e0a587510de9012efd448720af01073cba1eb66f5b4b14"
   }
 }

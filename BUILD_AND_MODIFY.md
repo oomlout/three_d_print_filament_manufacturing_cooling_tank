@@ -39,12 +39,13 @@ For example:
 - [Demonstration geometry preparation](action_prepare_demonstration.py)
 - [Blender scene and lighting script](action_render_demonstration.py)
 - [Pump-holder import, placement and hose route](working_demonstration_pump.py)
+- [Pump-top clamp geometry](working_pump_top_clamp.py)
 
 ## Persistent design and rebuild
 
 Edit the verbose parameter dictionaries in
 [working_oomp_populate.py](working_oomp_populate.py): `PROFILE`, `CAP_FIT`,
-`CAP_OPENING`, `CAP_SEAL`, `CAP_COVER`, `LIFTER_VARIANTS` and `PUMP_LIFTER`. Geometry lives in
+`CAP_OPENING`, `CAP_SEAL`, `CAP_COVER`, `LIFTER_VARIANTS`, `PUMP_LIFTER`, `PUMP_TOP_CLAMP` and `PUMP_CRADLE`. Geometry lives in
 [working_scad.py](working_scad.py), with the pump variant in
 [working_pump_lifter.py](working_pump_lifter.py). The populate → `parts_source` →
 `working_oomp` → `parts` → `working_scad` pipeline regenerates CAD and taxonomy
@@ -58,6 +59,7 @@ python action_preview_cooling_tank.py
 python action_preview_cap_seal.py
 python action_preview_lifter.py
 python action_preview_pump_lifter.py
+python action_preview_pump_top_clamp.py
 python action_prepare_demonstration.py
 python action_verify_pump_assembly.py
 blender --background --factory-startup --python action_render_demonstration.py
@@ -79,17 +81,21 @@ requested spelling. No version suffix is appended to any current part.
 
 ## Pump inlet parameters
 
-The demonstration imports the base, top and nominal pump from the sibling
+The demonstration imports the base, top, retaining lid and nominal pump from the sibling
 `oomlout_oobb_holder_motor_pump_submersible_jt_500` project. It reverses the
 print-orientation transforms and positions the assembled holder at axial
-X=285 mm. The wide feet seat at Z=3.2 mm against the lower gutter's corner
-curves. The original holder geometry is preserved.
+X=285 mm, Y=-11 mm. Two cradle ribs support all four feet at Z=26 mm.
+The pump and top retain the holder’s 15 mm local offset; the pump itself
+uses its current 180-degree orientation, and the whole holder rotates 180
+degrees in the tank. The base datum is 8.7 mm, the body 79 mm, the top 13 mm
+and the lid 3 mm, placing the clamp mounting surface at Z=129.7 mm.
+The original holder geometry is preserved.
 
 [working_demonstration_pump.py](working_demonstration_pump.py) owns the verbose
 `PUMP_PLACEMENT` dictionary, the imported assembly transforms and the hose sweep.
 The rear support is centred at X=125 mm, with A spanning X=110–125 and B spanning
 X=125–140. A smooth external hose route joins the riser's existing R40 channel.
-The illustrated hose has a 407 mm centreline, 12 mm open bore and 14 mm OD,
+The illustrated hose has approximately a 489 mm centreline, 12 mm open bore and 14 mm OD,
 with 13.2 mm nominal overlap on the pump outlet. This is a routing illustration,
 not a confirmed hose cut length or pump connection fit.
 
@@ -97,13 +103,15 @@ Preparation refreshes [cached source files](source_file/pump_holder) from that
 sibling project when available, and otherwise uses the included copies.
 [Provenance and SHA-256 hashes](source_file/pump_holder/provenance.json) retain
 their source identities. The pump holder remains a separately maintained
-project; its two copied STLs are additional assembly components, outside the
-cooling-tank catalogue of twelve parts. The source pump project is not modified.
+project; its three meshes are extracted from the combined print set, with their
+layout offsets removed. They are additional assembly components, outside the
+cooling-tank catalogue of thirteen parts. The source pump project is not modified.
 
 [Pump assembly verification](verification/pump_assembly.json) checks the real
 meshes for gutter and cap collisions, tube bore continuity, holder placement and
 source hashes. The nominal hose overlaps the two riser grips intentionally;
-the check confines this overlap to the grip and taper. Water volumes are cut
+the check confines this overlap to the grip and taper. It also verifies the new
+top clamp's M6 axes, cable clearance and filament clearance. Water volumes are cut
 around the new holder, pump, hose and rear support before rendering.
 
 `PUMP_LIFTER` declares the 75 mm lift, 30 mm assembled web/support thickness,
@@ -124,9 +132,17 @@ flat for printing. Changing the tube or lift may require moving the explicitly
 declared holes and fasteners. Physical tube fit remains a trial.
 
 Taxonomy includes `lifter_pump_inlet / 75_mm_lift_height / 30_mm_thickness /
-30_mm_support_thickness / 14_mm_tube_od / half_a` (or `half_b`). Exported SCAD
+30_mm_support_thickness / 14_mm_tube_od`. Each A/B assembly has one definition
+and one folder, without a half suffix in its taxonomy. Exported SCAD
 files inline their generated curved-channel module so each part's SCAD is
 self-contained, including copies in taxonomy navigation.
+
+[working_split_parts.py](working_split_parts.py) builds both halves from that
+single definition. The exporter writes `half_a.scad`, `half_b.scad` and their
+STLs beside the combined `3dpr.scad` / `3dpr.stl`. The combined layout places
+the flat-print halves 10 mm apart. Assembly preparation reads the individual
+files, never the translated print layout. The retired separate entries are
+outside the active catalogue, under `verification/superseded_half_entries*`.
 
 To rebuild just this variant through the persistent pipeline:
 
@@ -138,12 +154,79 @@ python action_verify_cooling_tank.py
 python -c "import scad_help; scad_help.generate_navigation(sort=scad_help.get_navigation_sort())"
 ```
 
+## Pump support cradle
+
+`PUMP_CRADLE` in [working_oomp_populate.py](working_oomp_populate.py) declares
+11 mm holder offset, 26 mm foot-seat height, 18 mm rib thickness, 60 mm foot
+pitch, 12.6 mm pockets and four 10 mm flow holes per rib. The dimensions enter
+the taxonomy. [working_pump_cradle.py](working_pump_cradle.py) builds a rib
+from the gutter cavity profile with relieved sides and a contacting flat floor.
+Its one catalogue entry has `print_quantity=2`; both installed ribs use the
+same mesh. Preview and demonstration preparation read the exported STL.
+
+```powershell
+python -c "import action_make_scad; action_make_scad.main(filter='pump')"
+python action_prepare_demonstration.py
+python action_preview_pump_cradle.py
+python action_preview_pump_top_clamp.py
+python -m unittest discover -s tests -q
+python action_verify_cooling_tank.py
+python action_verify_pump_assembly.py
+blender --background --factory-startup --python-exit-code 1 --python action_render_demonstration.py -- --gpu
+```
+
+`--gpu` selects OptiX on a supported NVIDIA GPU; omit it for CPU rendering.
+The render keeps the requested half-full water level, below the raised pump
+body. That is an illustration, not its operating fill level.
+
 ## Verification
+
+The pump-top clamp is defined by `PUMP_TOP_CLAMP`, including R40, the 18.7 mm
+bend-start height above its mounting surface, 4 mm feet, 22 mm half thickness,
+16.4 mm straight inlet relief, a taper to the 14.4 mm guide, 13.6 mm grip and
+M6 holes at ±15 mm along the gutter on `mount_row_offset_mm=-15`, the inboard row.
+`outlet_offset_mm=-9` and `wire_offset_mm=9` match the current holder orientation. The straight relief extends 12.7 mm above
+the flange; the R40 bend starts at 18.7 mm. The 16 mm driver bores open to the
+outer face above the 4 mm flange, preserving material beneath each screw head. Its two
+halves use OOBB M6 socket-head cuts, M3 countersinks and M3 nut pockets. Always use OOBB
+primitives for screw and nut cuts, with `overhang=True`, named hardware sizes
+and the appropriate mode-specific print allowances. Use `clearance='top'`
+in each primitive's local coordinates when head or nut access must extend to
+the outside; rotate the primitive to point that extension out of the part.
+For nuts, anchor `zz='bottom'` at the bearing face so the overhang steps remain
+at that face when the access pocket is extended.
+
+`joint_screw_length_mm=25` and `joint_tip_protrusion_mm=1` derive equal recesses:
+`(2 * half_thickness_mm - joint_screw_length_mm + joint_tip_protrusion_mm) / 2`.
+With 22 mm halves this is 10 mm on each side. Countersunk length includes the
+head; the 25 mm screw reaches through the nut pocket and protrudes 1 mm.
+The mesh checks probe the recessed seats, nut bearing faces, access tunnels
+and remaining boss walls. The two M6×12 mounting screws retain their existing
+16 mm driver access. The exact toroidal
+channel module is embedded in each exported SCAD. Changing the holder top/lid
+thickness requires checking the bend start against the pump outlet tip;
+preparation verifies at least 9 mm of straight hose beyond the rigid tip and
+checks that the configured rigid-outlet allowance covers the actual pump.
+Assembly placement uses the holder's base plate plus foot height as its rear
+face datum. `PUMP_PLACEMENT['pump_rotation_in_holder_degrees']=180` matches
+the sibling project’s current pump rotation. Port coordinates are converted from that default rotation before
+placing the hose. The assembly verifier checks the actual pump against base,
+top and lid as well as the hose and a 3 mm minimum filament surface clearance
+across the whole pump assembly. It probes the foot bearing rings on both sides
+of their M6 bores to confirm all four sit on real, equal-height pocket floors.
+
+```powershell
+python -c "import action_make_scad; action_make_scad.main(filter='pump_hose_clamp')"
+python action_preview_pump_top_clamp.py
+python action_prepare_demonstration.py
+python action_verify_cooling_tank.py
+python action_verify_pump_assembly.py
+```
 
 The automated suite checks cap fit, wall thickness, clearances, catalogue
 identity, lifter joints, seal compression and groove alignment. The
-[mesh report](verification/cooling_tank_meshes.json) checks all twelve current
-STLs for dimensions, positive volume, closure, consistent winding and connected bodies,
+[mesh report](verification/cooling_tank_meshes.json) checks all thirteen catalogue entries, their fifteen individual
+STLs and both combined print layouts for dimensions, positive volume, closure, consistent winding and connected bodies,
 and probes the real bores and mating grooves. It also checks that the inside
 cover clears the insertion ledge. The original ten meshes also have independent
 volume comparisons; pump halves have exported-mesh probes for the continuous

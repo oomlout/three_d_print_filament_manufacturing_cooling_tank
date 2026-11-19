@@ -39,7 +39,7 @@ description: Open cap, 15 mm total depth; 6 mm outer lip, 14 x 38 mm top opening
 dimension_basis: 114 x 58.5 mm external from drawing; 2.25 mm material thickness supplied
     by user.
 directory: parts/three_d_print_filament_manufacture_cooling_tank_cap_end_open_15_mm_depth
-filter: lifter_pump_inlet
+filter: pump_support_cradle
 fit_clearance_mm: 0.0
 fit_note: Nominal model fit only. Measure actual radii/lips and trial-fit before sealing;
     drawing does not establish a perfect physical match.

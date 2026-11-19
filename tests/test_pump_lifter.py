@@ -7,13 +7,14 @@ from unittest.mock import patch
 from shapely import affinity
 from shapely.geometry import Point
 from working_oomp_populate import get_options
+from working_split_parts import halves
 from working_scad import get_gutter_sections
 from working_pump_lifter import get_layout, build, make_scad_portable
 
 
 class PumpLifterTests(unittest.TestCase):
     def setUp(self):
-        self.options = [o for o in get_options() if o['oobb_type'] == 'lifter_pump_inlet']
+        self.options = halves(next(o for o in get_options() if o['oobb_type']=='lifter_pump_inlet'))
         self.a, self.b = self.options
 
     def test_two_distinct_halves_mate_after_half_turn(self):
@@ -43,7 +44,12 @@ class PumpLifterTests(unittest.TestCase):
             screws = [c for c in calls if c['shape'] == 'oobb_screw_countersunk']
             nuts = [c for c in calls if c['shape'] == 'oobb_nut']
             self.assertEqual((len(screws), len(nuts)), (4, 0) if option['pump_half'] == 'a' else (0, 4))
-            self.assertTrue(all(c['pos'][2] == 0 for c in screws + nuts))
+            self.assertTrue(all(c['pos'][2] == 0 for c in screws))
+            self.assertTrue(all(c['pos'][2] == c['depth'] for c in nuts))
+            for cut in screws + nuts:
+                self.assertTrue(cut['overhang'])
+                self.assertEqual(cut['clearance'], 'top')
+                self.assertEqual(cut['rot'], [180, 0, 0])
             self.assertEqual(len([c for c in calls if c['shape'] == 'raw_scad']), 1)
 
     def test_invalid_bend_clamp_and_entry_fail(self):

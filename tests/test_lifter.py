@@ -71,8 +71,14 @@ class LifterTests(unittest.TestCase):
         self.assertEqual(len(nuts), 2)
         for request in screws + nuts:
             self.assertEqual(request['radius_name'], 'm3')
+            self.assertTrue(request['overhang'])
+            self.assertEqual(request['clearance'], 'top')
+        for request in screws:
             self.assertEqual(request['pos'][2], 4.5)
             self.assertEqual(request['zz'], 'top')
+        for request in nuts:
+            self.assertEqual(request['pos'][2] + request['depth'], 4.5)
+            self.assertEqual(request['zz'], 'bottom')
         solids = [r for r in requests if r['type'] == 'positive']
         self.assertEqual([r['height'] for r in solids], [15])
         relief = next(r for r in requests if r['shape'] == 'cube')

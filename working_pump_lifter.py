@@ -16,7 +16,7 @@ def make_scad_portable(folder):
         def inline(match):
             helper = folder.parent / 'scad_reference' / match.group(1)
             return helper.read_text(encoding='utf-8')
-        source = re.sub(r'use <\.\./scad_reference/(pump_tube_channel_half_[ab]\.scad)>;', inline, source)
+        source = re.sub(r'use <\.\./scad_reference/(pump_(?:tube|top)_channel_half_[ab]\.scad)>;', inline, source)
         scad.write_text(source, encoding='utf-8')
 
 
@@ -136,8 +136,8 @@ def build(thing, **p):
                 'zz': 'top',
                 'hole': True,
                 'nut_include': False,
-                'overhang': False,
-                'clearance': '',
+                'overhang': True,
+                'clearance': 'top',
                 'rot': [180, 0, 0],
                 'pos': point,
             })
@@ -158,7 +158,8 @@ def build(thing, **p):
                     'depth': oobb.gv('nut_depth_m3', mode),
                     'zz': 'bottom',
                     'hole': False,
-                    'overhang': False,
-                    'clearance': '',
-                    'pos': point,
+                    'overhang': True,
+                    'clearance': 'top',
+                    'rot': [180, 0, 0],
+                    'pos': [point[0], point[1], point[2] + oobb.gv('nut_depth_m3', mode)],
                 })
